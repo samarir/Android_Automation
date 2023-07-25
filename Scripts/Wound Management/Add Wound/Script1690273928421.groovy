@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.setText(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'), 
     '78ui', 0)
 
@@ -35,4 +33,8 @@ Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.
 Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.TextView - Save'), 0)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Add Wound/android.view.ViewGroup (2)'), 0)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.ImageView - x'), 0)
 
