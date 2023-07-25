@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Filter Patient/android.widget.ImageView - filter'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Filter Patient/android.widget.ImageView - filter'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Filter Patient/android.widget.Switch - ON'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Filter Patient/android.widget.Switch - ON'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Filter Patient/android.widget.TextView - Apply'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Filter Patient/android.widget.TextView - Apply'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Filter Patient/android.widget.TextView - Patient Inactive'), 
     'Patient Inactive')

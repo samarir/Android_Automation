@@ -17,31 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.delay(30)
 Mobile.setText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.EditText - Search by Name, MRN'), 
-    '6768', 0)
+    '6768', 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Current site'), 
-    0)
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Current site (1)'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - UnFreeze patient'), 
-    0)
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Change patient status to Active'), 
     'Change patient status to Active ?')
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent'), 
     'No Consent')
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (2)'), 30)
 

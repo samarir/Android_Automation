@@ -17,26 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.TextView - add patient'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.TextView - add patient'), 30)
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.EditText - First name'), 
-    'Test', 0)
+    'Test', 30)
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.EditText - Last name'), 'lite', 
-    0)
+    30)
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy) (1)'), 
-    '09/12/2001', 0)
+    '09/12/2001', 30)
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.EditText - MRN'), '6766', 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.TextView - Save'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.TextView - Save'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.TextView - Patient created successfully'), 
     'Patient created successfully')
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.Button - OK'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Add Patient/android.widget.TextView - lite, Test'), 
     'lite, Test')

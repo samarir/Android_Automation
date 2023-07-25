@@ -20,16 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication('C:\\Users\\Amarir\\Downloads\\APK\\IS\\app-release.apk', true)
 
 Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - username'), GlobalVariable.LoginCreds.get(
-	'username'), 0)
+        'username'), 30)
 
 Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - password'), GlobalVariable.LoginCreds.get(
-        'password'), 0)
+        'password'), 30)
 
-Mobile.tap(findTestObject('User Management/Login/android.view.ViewGroup - sign in'), 0)
+Mobile.tap(findTestObject('User Management/Login/android.view.ViewGroup - sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/User Management/Login/android.widget.TextView - Katalon'), 0)
+Mobile.tap(findTestObject('Object Repository/User Management/Login/android.widget.TextView - Katalon'), 30)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/User Management/Login/android.widget.TextView - Patient Directory'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/User Management/Login/android.widget.TextView - Patient Directory'), 
+    30)
 

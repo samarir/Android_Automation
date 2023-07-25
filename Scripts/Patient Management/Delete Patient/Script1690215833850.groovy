@@ -18,25 +18,25 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN'), 
-    '6766', 0)
+    '6766', 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.view.ViewGroup'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.TextView - Current site'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.view.ViewGroup (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.ImageView'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.TextView - Delete patient'), 
-    0)
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.TextView - Delete the selected patient The patient will be removed from the directory if deleted'), 
     'Delete the selected patient? The patient will be removed from the directory if deleted')
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.Button - CONFIRM'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.Button - CONFIRM'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.TextView - No content found'), 
-    0)
+    30)
 

@@ -18,27 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN'), 
-    '6767', 0)
+    '6767', 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.view.ViewGroup'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Current site'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.view.ViewGroup (1)'), 30)
 
-Mobile.tap(findTestObject('Patient Management/Freeze Patient/android.widget.ImageView - menu'), 0)
+Mobile.tap(findTestObject('Patient Management/Freeze Patient/android.widget.ImageView - menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Freeze patient'), 
-    0)
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Change patient status to Inactive'), 
     'Change patient status to Inactive ?')
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Confirm'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Confirm'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Patient Inactive'), 
     'Patient Inactive')
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.ImageView (1)'), 30)
 

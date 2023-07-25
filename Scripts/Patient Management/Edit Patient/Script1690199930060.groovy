@@ -17,32 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.view.ViewGroup (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.view.ViewGroup (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.ImageView'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.TextView - Edit patient'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.TextView - Edit patient'), 30)
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.EditText - First Name'), 
-    'Editt', 0)
+    'Editt', 30)
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.EditText - Last Name'), 
-    'Litee', 0)
+    'Litee', 30)
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.EditText - DOB'), '09/07/2001', 
-    0)
+    30)
 
 Mobile.verifyElementAttributeValue(findTestObject('Patient Management/Edit Patient/android.widget.EditText - MRN'), 'enabled', 
-    'false', 0, FailureHandling.STOP_ON_FAILURE)
+    'false', 30, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.TextView - Save'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.TextView - Save'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.TextView - Patient updated successfully'), 
     'Patient updated successfully.')
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.Button - OK'), 30)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.ImageView - x'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Edit Patient/android.widget.ImageView - x'), 30)
 

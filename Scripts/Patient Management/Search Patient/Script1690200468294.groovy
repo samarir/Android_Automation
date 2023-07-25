@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.setText(findTestObject('Object Repository/Patient Management/Search Patient/android.widget.EditText - Search by Name, MRN'), 
-    '987', 0)
+    '987', 30)
 
-Mobile.tap(findTestObject('Object Repository/Patient Management/Search Patient/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Patient Management/Search Patient/android.view.ViewGroup'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Search Patient/android.widget.TextView - Current site'), 
-    0)
+    30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Patient Management/Search Patient/android.view.ViewGroup (1)'), 
-    0)
+    30)
 
