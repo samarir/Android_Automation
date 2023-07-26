@@ -17,22 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'), 
-    '78ui', 30)
+Mobile.setText(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.EditText - Search by Name, MRN'), 
+    '89ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.TextView - Current site'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.TextView - Current site (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.TextView - Current site (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.view.ViewGroup'), 30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - Patient'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.ImageView - add wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - Patient'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.TextView - Next'), 30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - wound'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.TextView - Save'), 30)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - wound'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Add Wound/android.view.ViewGroup (2)'), 30)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.ImageView - menu'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.TextView - Lock wound'), 30)
+
+Mobile.pressBack()
+
+Mobile.delay(5)
 
 Mobile.pressBack()
 

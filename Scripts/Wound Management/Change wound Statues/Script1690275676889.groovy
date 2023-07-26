@@ -18,28 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.setText(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.EditText - Search by Name, MRN'), 
-    '87ui', 0)
+    '87ui', 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.TextView - Current site'), 
-    0)
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.TextView - Current site (1)'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - wound'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - wound statues'), 
-    0)
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.TextView - Healed'), 
     'Healed')
 
-Mobile.tap(findTestObject('Wound Management/Change wound statues/android.widget.TextView - Healed'), 0)
+Mobile.tap(findTestObject('Wound Management/Change wound statues/android.widget.TextView - Healed'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.TextView - Healed (1)'), 
     'Healed')
@@ -48,5 +48,5 @@ Mobile.pressBack()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.ImageView'), 30)
 

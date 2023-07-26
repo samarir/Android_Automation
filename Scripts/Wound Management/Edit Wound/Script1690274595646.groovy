@@ -18,42 +18,42 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.setText(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.EditText - Search by Name, MRN'), 
-    '86ui', 0)
+    '86ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Current site'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Current site'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Current site (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Current site (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup - wound'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup - wound'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup - wound'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.ImageView - menu'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.ImageView - menu'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Edit wound'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Edit wound'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup - secondary wound type'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Stage III'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Stage III'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup - facility acquired wound'), 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Next'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Next'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Additional description (Optional)'), 
-    0)
+    30)
 
 Mobile.setText(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.EditText - description'), 'Test Description', 
-    0)
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - OK'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Save'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Save'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Test Description'), 
     'Test Description')
@@ -62,5 +62,5 @@ Mobile.pressBack()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.ImageView - x'), 0)
+Mobile.tap(findTestObject('Object Repository/Wound Management/Lock Wound/android.widget.ImageView - x'), 30)
 
