@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Treatement and WCP" time="182.096" tests="3" failures="0" errors="0">
+   <testsuite name="Treatement and WCP" tests="3" failures="0" errors="0" time="182.096" skipped="0" timestamp="2023-08-01 09:54:23" hostname="Amarir - DESKTOP-EE3F8H4" id="Test Suites/Treatement and WCP">
+      <properties>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Amarir\\git\\IS_Katalon_Lite_Version\\Reports\\20230801_095412\\Treatement and WCP\\20230801_095412"/>
+         <property name="logFiles" value="C:\\Users\\Amarir\\git\\IS_Katalon_Lite_Version\\Reports\\20230801_095412\\Treatement and WCP\\20230801_095412\\appium.log, C:\\Users\\Amarir\\git\\IS_Katalon_Lite_Version\\Reports\\20230801_095412\\Treatement and WCP\\20230801_095412\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Amarir - DESKTOP-EE3F8H4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-N975F"/>
+         <property name="hostAddress" value="192.168.234.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8N307NKZV"/>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/User Managemenet/Login" time="57.795" classname="Test Cases/User Managemenet/Login" status="PASSED">
+         <system-out><![CDATA[2023-08-01 09:54:24 - [TEST_CASE][PASSED] - Test Cases/User Managemenet/Login: Test Cases/User Managemenet/Login
+
+2023-08-01 09:54:25 - [TEST_STEP][PASSED] - startApplication(LoginCreds.get("APK"), true): Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_69.apk'
+
+2023-08-01 09:54:27 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-01 09:54:30 - [MESSAGE][INFO] - Appium server started on port 55,159
+
+2023-08-01 09:55:06 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_69.apk'
+
+2023-08-01 09:55:06 - [TEST_STEP][PASSED] - setText(findTestObject("User Management/Login/android.widget.EditText - username"), LoginCreds.get("username"), 30): Text 'Katalon' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - username'
+
+2023-08-01 09:55:13 - [MESSAGE][PASSED] - Text 'Katalon' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - username'
+
+2023-08-01 09:55:13 - [TEST_STEP][PASSED] - setText(findTestObject("User Management/Login/android.widget.EditText - password"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - password'
+
+2023-08-01 09:55:14 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - password'
+
+2023-08-01 09:55:14 - [TEST_STEP][PASSED] - tap(findTestObject("User Management/Login/android.view.ViewGroup - sign in"), 30): Tapped on element 'Object Repository/User Management/Login/android.view.ViewGroup - sign in'
+
+2023-08-01 09:55:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login/android.view.ViewGroup - sign in'
+
+2023-08-01 09:55:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/User Management/Login/android.widget.TextView - Katalon'
+
+2023-08-01 09:55:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login/android.widget.TextView - Katalon'
+
+2023-08-01 09:55:17 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-08-01 09:55:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-01 09:55:19 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Login/android.widget.TextView - Patient Directory"), 30): Element 'Object Repository/User Management/Login/android.widget.TextView - Patient Directory' is exist
+
+2023-08-01 09:55:22 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login/android.widget.TextView - Patient Directory' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Treatment and WCP/Add Treatement" time="77.345" classname="Test Cases/Treatment and WCP/Add Treatement" status="PASSED">
+         <system-out><![CDATA[2023-08-01 09:55:22 - [TEST_CASE][PASSED] - Test Cases/Treatment and WCP/Add Treatement: Test Cases/Treatment and WCP/Add Treatement
+
+2023-08-01 09:55:22 - [TEST_STEP][PASSED] - scrollToText("MRN: 24ui"): Scrolling to text 'MRN: 24ui' successfully
+
+2023-08-01 09:55:23 - [MESSAGE][PASSED] - Scrolling to text 'MRN: 24ui' successfully
+
+2023-08-01 09:55:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - MRN 24ui"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - MRN 24ui'
+
+2023-08-01 09:55:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - MRN 24ui'
+
+2023-08-01 09:55:24 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound"), 30): Element 'Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound' is exist
+
+2023-08-01 09:55:26 - [MESSAGE][PASSED] - Element 'Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound' is exist
+
+2023-08-01 09:55:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound'
+
+2023-08-01 09:55:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound'
+
+2023-08-01 09:55:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Treatment"), "Treatment"): Actual text and expected text of test object 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Treatment' are matched.
+
+2023-08-01 09:55:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Treatment' are matched.
+
+2023-08-01 09:55:57 - [TEST_STEP][PASSED] - tap(findTestObject("Treatment and WCP/Add Treatement/android.widget.TextView - Treatment"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Treatment'
+
+2023-08-01 09:56:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Treatment'
+
+2023-08-01 09:56:27 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement"), 30): Element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement' is exist
+
+2023-08-01 09:56:29 - [MESSAGE][PASSED] - Element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement' is exist
+
+2023-08-01 09:56:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement'
+
+2023-08-01 09:56:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement'
+
+2023-08-01 09:56:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Next"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Next'
+
+2023-08-01 09:56:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Next'
+
+2023-08-01 09:56:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - CLEANSING"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - CLEANSING'
+
+2023-08-01 09:56:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - CLEANSING'
+
+2023-08-01 09:56:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid'
+
+2023-08-01 09:56:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid'
+
+2023-08-01 09:56:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - OINTMENTS"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - OINTMENTS'
+
+2023-08-01 09:56:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - OINTMENTS'
+
+2023-08-01 09:56:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide'
+
+2023-08-01 09:56:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide'
+
+2023-08-01 09:56:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Save"), 30): Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Save'
+
+2023-08-01 09:56:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Save'
+
+2023-08-01 09:56:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid (1)"), "Acetic Acid"): Actual text and expected text of test object 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid (1)' are matched.
+
+2023-08-01 09:56:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid (1)' are matched.
+
+2023-08-01 09:56:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide (1)"), "Zinc Oxide"): Actual text and expected text of test object 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide (1)' are matched.
+
+2023-08-01 09:56:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide (1)' are matched.
+
+2023-08-01 09:56:38 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-01 09:56:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-08-01 09:56:38 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-01 09:56:38 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-08-01 09:56:38 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-01 09:56:39 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Treatment and WCP/Edit Treatement" time="46.103" classname="Test Cases/Treatment and WCP/Edit Treatement" status="PASSED">
+         <system-out><![CDATA[2023-08-01 09:56:39 - [TEST_CASE][PASSED] - Test Cases/Treatment and WCP/Edit Treatement: Test Cases/Treatment and WCP/Edit Treatement
+
+2023-08-01 09:56:40 - [TEST_STEP][PASSED] - scrollToText("MRN: 09ui", STOP_ON_FAILURE): Scrolling to text 'MRN: 09ui' successfully
+
+2023-08-01 09:56:41 - [MESSAGE][PASSED] - Scrolling to text 'MRN: 09ui' successfully
+
+2023-08-01 09:56:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - MRN 09ui"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - MRN 09ui'
+
+2023-08-01 09:56:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:56:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - MRN 09ui'
+
+2023-08-01 09:56:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.view.ViewGroup - Wound"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.view.ViewGroup - Wound'
+
+2023-08-01 09:56:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:56:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.view.ViewGroup - Wound'
+
+2023-08-01 09:56:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Treatment"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Treatment'
+
+2023-08-01 09:56:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:57:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Treatment'
+
+2023-08-01 09:57:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.ImageView - Edit Treatement"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.ImageView - Edit Treatement'
+
+2023-08-01 09:57:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:57:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.ImageView - Edit Treatement'
+
+2023-08-01 09:57:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Next"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Next'
+
+2023-08-01 09:57:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:57:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Next'
+
+2023-08-01 09:57:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING'
+
+2023-08-01 09:57:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:57:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING'
+
+2023-08-01 09:57:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal (1)"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal (1)'
+
+2023-08-01 09:57:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:57:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal (1)'
+
+2023-08-01 09:57:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Save"), 0): Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Save'
+
+2023-08-01 09:57:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-01 09:57:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Save'
+
+2023-08-01 09:57:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal"), "Activated Charcoal"): Actual text and expected text of test object 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal' are matched.
+
+2023-08-01 09:57:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal' are matched.
+
+2023-08-01 09:57:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING (1)"), "DRESSING"): Actual text and expected text of test object 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING (1)' are matched.
+
+2023-08-01 09:57:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING (1)' are matched.
+
+2023-08-01 09:57:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-01 09:57:23 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-08-01 09:57:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-01 09:57:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-08-01 09:57:24 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-01 09:57:25 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-01 09:54:23 - [TEST_SUITE][PASSED] - Treatement and WCP: Test Cases/Treatment and WCP/Edit Treatement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

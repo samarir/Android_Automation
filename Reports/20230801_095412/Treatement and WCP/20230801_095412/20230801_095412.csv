@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Treatement and WCP,,,,2023-08-01 09:54:23,2023-08-01 09:57:25,3m - 2.096s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-01 09:54:24,2023-08-01 09:55:22,57.795s,PASSED
+"startApplication(LoginCreds.get(""APK""), true)",,,,2023-08-01 09:54:25,2023-08-01 09:55:06,41.122s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-01 09:55:06,2023-08-01 09:55:13,6.721s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-01 09:55:13,2023-08-01 09:55:14,1.201s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-01 09:55:14,2023-08-01 09:55:15,0.803s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-01 09:55:15,2023-08-01 09:55:17,1.765s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-01 09:55:17,2023-08-01 09:55:19,2.097s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-01 09:55:19,2023-08-01 09:55:22,3.101s,PASSED
+,,,,,,,
+Test Cases/Treatment and WCP/Add Treatement,,,,2023-08-01 09:55:22,2023-08-01 09:56:39,1m - 17.345s,PASSED
+"scrollToText(""MRN: 24ui"")",,,,2023-08-01 09:55:22,2023-08-01 09:55:23,0.870s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - MRN 24ui""), 30)",,,,2023-08-01 09:55:23,2023-08-01 09:55:24,0.421s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound""), 30)",,,,2023-08-01 09:55:24,2023-08-01 09:55:26,1.943s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.view.ViewGroup - Wound""), 30)",,,,2023-08-01 09:55:26,2023-08-01 09:55:26,0.476s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Treatment""), ""Treatment"")",,,,2023-08-01 09:55:26,2023-08-01 09:55:57,30.341s,PASSED
+"tap(findTestObject(""Treatment and WCP/Add Treatement/android.widget.TextView - Treatment""), 30)",,,,2023-08-01 09:55:57,2023-08-01 09:56:27,30.273s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement""), 30)",,,,2023-08-01 09:56:27,2023-08-01 09:56:29,1.691s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.ImageView - Add Treatement""), 30)",,,,2023-08-01 09:56:29,2023-08-01 09:56:29,0.428s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Next""), 30)",,,,2023-08-01 09:56:29,2023-08-01 09:56:30,1.101s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - CLEANSING""), 30)",,,,2023-08-01 09:56:30,2023-08-01 09:56:31,1.101s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid""), 30)",,,,2023-08-01 09:56:31,2023-08-01 09:56:32,1.035s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - OINTMENTS""), 30)",,,,2023-08-01 09:56:32,2023-08-01 09:56:33,0.681s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide""), 30)",,,,2023-08-01 09:56:33,2023-08-01 09:56:34,0.947s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Save""), 30)",,,,2023-08-01 09:56:34,2023-08-01 09:56:34,0.593s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Acetic Acid (1)""), ""Acetic Acid"")",,,,2023-08-01 09:56:34,2023-08-01 09:56:37,2.334s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Treatment and WCP/Add Treatement/android.widget.TextView - Zinc Oxide (1)""), ""Zinc Oxide"")",,,,2023-08-01 09:56:37,2023-08-01 09:56:38,0.780s,PASSED
+pressBack(),,,,2023-08-01 09:56:38,2023-08-01 09:56:38,0.241s,PASSED
+pressBack(),,,,2023-08-01 09:56:38,2023-08-01 09:56:38,0.681s,PASSED
+pressBack(),,,,2023-08-01 09:56:38,2023-08-01 09:56:39,0.696s,PASSED
+,,,,,,,
+Test Cases/Treatment and WCP/Edit Treatement,,,,2023-08-01 09:56:39,2023-08-01 09:57:25,46.103s,PASSED
+"scrollToText(""MRN: 09ui"", STOP_ON_FAILURE)",,,,2023-08-01 09:56:40,2023-08-01 09:56:41,0.714s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - MRN 09ui""), 0)",,,,2023-08-01 09:56:41,2023-08-01 09:56:41,0.743s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.view.ViewGroup - Wound""), 0)",,,,2023-08-01 09:56:41,2023-08-01 09:56:44,2.469s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Treatment""), 0)",,,,2023-08-01 09:56:44,2023-08-01 09:57:14,30.283s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.ImageView - Edit Treatement""), 0)",,,,2023-08-01 09:57:14,2023-08-01 09:57:16,2.031s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Next""), 0)",,,,2023-08-01 09:57:16,2023-08-01 09:57:17,1.036s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING""), 0)",,,,2023-08-01 09:57:17,2023-08-01 09:57:18,1.081s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal (1)""), 0)",,,,2023-08-01 09:57:18,2023-08-01 09:57:20,1.255s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Save""), 0)",,,,2023-08-01 09:57:20,2023-08-01 09:57:20,0.664s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - Activated Charcoal""), ""Activated Charcoal"")",,,,2023-08-01 09:57:20,2023-08-01 09:57:23,2.539s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Treatment and WCP/Edit Treatement/android.widget.TextView - DRESSING (1)""), ""DRESSING"")",,,,2023-08-01 09:57:23,2023-08-01 09:57:23,0.475s,PASSED
+pressBack(),,,,2023-08-01 09:57:23,2023-08-01 09:57:23,0.187s,PASSED
+pressBack(),,,,2023-08-01 09:57:23,2023-08-01 09:57:24,0.693s,PASSED
+pressBack(),,,,2023-08-01 09:57:24,2023-08-01 09:57:25,1.089s,PASSED

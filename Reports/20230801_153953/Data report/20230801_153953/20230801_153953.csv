@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data report,,,,2023-08-01 15:40:04,2023-08-01 15:41:54,1m - 49.792s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-01 15:40:05,2023-08-01 15:41:00,55.671s,PASSED
+"startApplication(LoginCreds.get(""APK""), true)",,,,2023-08-01 15:40:06,2023-08-01 15:40:46,40.693s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-01 15:40:46,2023-08-01 15:40:51,4.373s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-01 15:40:51,2023-08-01 15:40:52,1.276s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-01 15:40:52,2023-08-01 15:40:53,0.801s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-01 15:40:53,2023-08-01 15:40:54,1.543s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-01 15:40:54,2023-08-01 15:40:56,2.065s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-01 15:40:56,2023-08-01 15:41:00,3.863s,PASSED
+,,,,,,,
+Test Cases/Data Report/Pateint (PDF) Report,,,,2023-08-01 15:41:00,2023-08-01 15:41:19,19.022s,PASSED
+"scrollToText(""MRN: 11ui"")",,,,2023-08-01 15:41:01,2023-08-01 15:41:02,0.908s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - MRN 11ui""), 30)",,,,2023-08-01 15:41:02,2023-08-01 15:41:02,0.448s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.ImageView - Menu""), 30)",,,,2023-08-01 15:41:02,2023-08-01 15:41:05,2.240s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report""), ""Generate Report"")",,,,2023-08-01 15:41:05,2023-08-01 15:41:06,1.016s,PASSED
+"tap(findTestObject(""Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report""), 30)",,,,2023-08-01 15:41:06,2023-08-01 15:41:06,0.387s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Generate""), ""Generate"")",,,,2023-08-01 15:41:06,2023-08-01 15:41:07,1.385s,PASSED
+"tap(findTestObject(""Data Report/Patient (PDF) Report/android.widget.TextView - Generate""), 30)",,,,2023-08-01 15:41:07,2023-08-01 15:41:08,0.543s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-01 15:41:08,2023-08-01 15:41:13,5.006s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.RelativeLayout""), 30)",,,,2023-08-01 15:41:13,2023-08-01 15:41:18,4.675s,PASSED
+pressBack(),,,,2023-08-01 15:41:18,2023-08-01 15:41:18,0.698s,PASSED
+pressBack(),,,,2023-08-01 15:41:18,2023-08-01 15:41:19,0.264s,PASSED
+pressBack(),,,,2023-08-01 15:41:19,2023-08-01 15:41:19,0.707s,PASSED
+,,,,,,,
+Test Cases/Data Report/PDF report logo customization,,,,2023-08-01 15:41:19,2023-08-01 15:41:38,18.422s,PASSED
+"scrollToText(""MRN: 11ui"")",,,,2023-08-01 15:41:21,2023-08-01 15:41:21,0.740s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - MRN 11ui""), 30)",,,,2023-08-01 15:41:21,2023-08-01 15:41:22,0.405s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.ImageView - Menu""), 30)",,,,2023-08-01 15:41:22,2023-08-01 15:41:24,2.220s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report""), ""Generate Report"")",,,,2023-08-01 15:41:24,2023-08-01 15:41:25,0.990s,PASSED
+"tap(findTestObject(""Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report""), 30)",,,,2023-08-01 15:41:25,2023-08-01 15:41:25,0.438s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Default logo (eKare)""), 30)",,,,2023-08-01 15:41:25,2023-08-01 15:41:27,1.374s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Custom logo On the web, go to Menu  Settings""), 30)",,,,2023-08-01 15:41:27,2023-08-01 15:41:28,0.946s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Generate""), ""Generate"")",,,,2023-08-01 15:41:28,2023-08-01 15:41:29,1.121s,PASSED
+"tap(findTestObject(""Data Report/Patient (PDF) Report/android.widget.TextView - Generate""), 30)",,,,2023-08-01 15:41:29,2023-08-01 15:41:29,0.524s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-01 15:41:29,2023-08-01 15:41:34,5.018s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.RelativeLayout""), 30)",,,,2023-08-01 15:41:34,2023-08-01 15:41:36,1.339s,PASSED
+pressBack(),,,,2023-08-01 15:41:36,2023-08-01 15:41:36,0.639s,PASSED
+pressBack(),,,,2023-08-01 15:41:36,2023-08-01 15:41:37,0.617s,PASSED
+pressBack(),,,,2023-08-01 15:41:37,2023-08-01 15:41:38,0.686s,PASSED
+,,,,,,,
+Test Cases/Data Report/Patient (PDF) report with date range,,,,2023-08-01 15:41:38,2023-08-01 15:41:54,15.935s,PASSED
+"scrollToText(""MRN: 11ui"")",,,,2023-08-01 15:41:38,2023-08-01 15:41:39,0.753s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - MRN 11ui""), 30)",,,,2023-08-01 15:41:39,2023-08-01 15:41:39,0.346s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.ImageView - Menu""), 30)",,,,2023-08-01 15:41:39,2023-08-01 15:41:41,1.913s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report""), ""Generate Report"")",,,,2023-08-01 15:41:41,2023-08-01 15:41:42,0.993s,PASSED
+"tap(findTestObject(""Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report""), 30)",,,,2023-08-01 15:41:42,2023-08-01 15:41:43,0.278s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Date Range""), 0)",,,,2023-08-01 15:41:43,2023-08-01 15:41:44,1.418s,PASSED
+"tap(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Wounds""), 0)",,,,2023-08-01 15:41:44,2023-08-01 15:41:45,0.970s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Generate""), ""Generate"")",,,,2023-08-01 15:41:45,2023-08-01 15:41:46,1.121s,PASSED
+"tap(findTestObject(""Data Report/Patient (PDF) Report/android.widget.TextView - Generate""), 30)",,,,2023-08-01 15:41:46,2023-08-01 15:41:47,0.426s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-01 15:41:47,2023-08-01 15:41:52,5.019s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Data Report/Patient (PDF) Report/android.widget.RelativeLayout""), 30)",,,,2023-08-01 15:41:52,2023-08-01 15:41:52,0.330s,PASSED
+pressBack(),,,,2023-08-01 15:41:52,2023-08-01 15:41:53,0.641s,PASSED
+pressBack(),,,,2023-08-01 15:41:53,2023-08-01 15:41:53,0.399s,PASSED
+pressBack(),,,,2023-08-01 15:41:53,2023-08-01 15:41:54,0.656s,PASSED

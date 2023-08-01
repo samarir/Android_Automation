@@ -28,6 +28,10 @@ Mobile.verifyElementText(findTestObject('Object Repository/Data Report/Patient (
 
 Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report'), 30)
 
+Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Date Range'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Wounds'), 0)
+
 Mobile.verifyElementText(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 
     'Generate')
 
