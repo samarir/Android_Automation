@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.LoginCreds.get('APK'), true)
 
+Mobile.startApplication(GlobalVariable.APK, false)
+
 Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - username'), 'samarir+patient@masaratapp.com', 
     30)
 

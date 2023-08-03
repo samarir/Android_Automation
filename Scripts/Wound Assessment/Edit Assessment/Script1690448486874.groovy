@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.setText(findTestObject('Object Repository/Wound Assessment/Edit Assessment/android.widget.EditText - Search by Name, MRN'), 
     '23ui', 30)
 
@@ -59,8 +57,7 @@ Mobile.tap(findTestObject('Object Repository/Wound Assessment/Edit Assessment/an
 Mobile.tap(findTestObject('Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - PERI WOUND SKIN'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - Peri Wound Skin (1)'), 
-    30)
+Mobile.tap(findTestObject('Wound Assessment/Edit Assessment/android.widget.TextView - Oedema'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - PERI WOUND SKIN (2)'), 
     30)
