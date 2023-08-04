@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.toggleWifi('off', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup - add patient'), 30)
