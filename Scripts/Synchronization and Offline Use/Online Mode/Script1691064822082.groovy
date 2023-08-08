@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Online mode/android.widget.ImageView - Menu'), 
@@ -142,6 +140,10 @@ Mobile.pressBack()
 Mobile.pressBack()
 
 Mobile.pressBack()
+
+Mobile.toggleWifi('on', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
 

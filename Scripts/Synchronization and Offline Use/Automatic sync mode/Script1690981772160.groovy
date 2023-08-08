@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.toggleWifi('off', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup - add patient'), 30)
@@ -136,4 +138,48 @@ Mobile.verifyElementText(findTestObject('Object Repository/Treatment and WCP/Add
 
 Mobile.verifyElementText(findTestObject('Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Zinc Oxide (1)'), 
     'Zinc Oxide')
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.toggleWifi('on', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.scrollToText('00ui')
+
+Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - MRN 00ui (1)'), 
+    30)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup'), 
+    30)
+
+Mobile.tap(findTestObject('Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Assessment'), 
+    30)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup (1)'), 
+    30)
+
+Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Treatment'), 
+    30)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup (2)'), 
+    30)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
 

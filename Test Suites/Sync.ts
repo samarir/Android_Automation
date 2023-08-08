@@ -25,4 +25,11 @@
       <testCaseId>Test Cases/Synchronization and Offline Use/Automatic sync mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d7ff82ca-ac8f-4679-b02e-bdd88a47a7e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Synchronization and Offline Use/Online Mode</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
