@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sync,,,,2023-08-08 08:52:29,2023-08-08 08:56:55,4m - 25.967s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-08 08:52:30,2023-08-08 08:53:34,1m - 4.344s,PASSED
+"startApplication(APK, true)",,,,2023-08-08 08:52:31,2023-08-08 08:53:18,46.254s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-08 08:53:18,2023-08-08 08:53:24,6.878s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-08 08:53:24,2023-08-08 08:53:26,1.446s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-08 08:53:26,2023-08-08 08:53:27,1.027s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-08 08:53:27,2023-08-08 08:53:29,1.835s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-08 08:53:29,2023-08-08 08:53:31,2.103s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-08 08:53:31,2023-08-08 08:53:34,3.574s,PASSED
+,,,,,,,
+Test Cases/Synchronization and Offline Use/Automatic sync mode,,,,2023-08-08 08:53:34,2023-08-08 08:56:55,3m - 20.859s,PASSED
+"delay(60, STOP_ON_FAILURE)",,,,2023-08-08 08:53:36,2023-08-08 08:54:36,1m - 0.019s,PASSED
+"toggleWifi(""off"", STOP_ON_FAILURE)",,,,2023-08-08 08:54:36,2023-08-08 08:54:38,1.731s,PASSED
+"tap(findTestObject(""Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup - add patient""), 30)",,,,2023-08-08 08:54:38,2023-08-08 08:54:39,1.051s,PASSED
+"setText(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - First name""), ""Test"", 30)",,,,2023-08-08 08:54:39,2023-08-08 08:54:41,2.079s,PASSED
+"setText(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - Last name""), ""Sync"", 30)",,,,2023-08-08 08:54:41,2023-08-08 08:54:42,1.340s,PASSED
+"setText(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - Date of birth (ddmmyyyy)""), ""01/09/1990"", 30)",,,,2023-08-08 08:54:42,2023-08-08 08:54:44,1.800s,PASSED
+"setText(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - MRN""), ""00ui"", 30)",,,,2023-08-08 08:54:44,2023-08-08 08:54:45,1.275s,PASSED
+"tap(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Save""), 30)",,,,2023-08-08 08:54:45,2023-08-08 08:54:46,0.785s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Patient created successfully""), ""Patient created successfully"")",,,,2023-08-08 08:54:46,2023-08-08 08:54:47,1.156s,PASSED
+"tap(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.Button - OK""), 30)",,,,2023-08-08 08:54:47,2023-08-08 08:54:48,0.469s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Sync, Test""), ""Sync, Test"")",,,,2023-08-08 08:54:48,2023-08-08 08:54:49,0.870s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - MRN 00ui""), ""MRN: 00ui"")",,,,2023-08-08 08:54:49,2023-08-08 08:54:49,0.407s,PASSED
+"tap(findTestObject(""Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - MRN 00ui""), 30)",,,,2023-08-08 08:54:49,2023-08-08 08:54:50,0.479s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.ImageView - add wound""), 30)",,,,2023-08-08 08:54:50,2023-08-08 08:54:50,0.898s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.TextView - Next""), 30)",,,,2023-08-08 08:54:50,2023-08-08 08:54:51,1.051s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.TextView - Save""), 30)",,,,2023-08-08 08:54:51,2023-08-08 08:54:52,0.949s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Add Wound/android.view.ViewGroup (2)""), 30)",,,,2023-08-08 08:54:52,2023-08-08 08:54:54,1.127s,PASSED
+"tap(findTestObject(""Wound Management/Add Wound/android.view.ViewGroup (2)""), 30)",,,,2023-08-08 08:54:54,2023-08-08 08:54:54,0.523s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Assessment""), ""Assessment"")",,,,2023-08-08 08:54:54,2023-08-08 08:55:24,30.326s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - Assessment""), 30)",,,,2023-08-08 08:55:24,2023-08-08 08:55:55,30.374s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.ImageView - add Assessement""), 30)",,,,2023-08-08 08:55:55,2023-08-08 08:55:56,1.083s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.ImageView - add Assessement""), 30)",,,,2023-08-08 08:55:56,2023-08-08 08:55:56,0.564s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - WOUND EDGE""), 30)",,,,2023-08-08 08:55:56,2023-08-08 08:55:58,1.484s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Rolled""), 30)",,,,2023-08-08 08:55:58,2023-08-08 08:55:59,1.017s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN""), 30)",,,,2023-08-08 08:55:59,2023-08-08 08:56:00,0.724s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Oedema""), 30)",,,,2023-08-08 08:56:00,2023-08-08 08:56:01,1.195s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN (1)""), 30)",,,,2023-08-08 08:56:01,2023-08-08 08:56:01,0.573s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PAIN""), 30)",,,,2023-08-08 08:56:01,2023-08-08 08:56:02,1.020s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.SeekBar - 0.0""), 30)",,,,2023-08-08 08:56:02,2023-08-08 08:56:04,1.207s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - PAIN""), 30)",,,,2023-08-08 08:56:04,2023-08-08 08:56:05,1.086s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - DRAINAGE""), 30)",,,,2023-08-08 08:56:05,2023-08-08 08:56:06,0.983s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Minimum""), 30)",,,,2023-08-08 08:56:06,2023-08-08 08:56:07,1.131s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - DRAINAGE""), 30)",,,,2023-08-08 08:56:07,2023-08-08 08:56:08,1.151s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING""), 30)",,,,2023-08-08 08:56:08,2023-08-08 08:56:09,1.075s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - stage II""), 30)",,,,2023-08-08 08:56:09,2023-08-08 08:56:10,1.029s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING""), 30)",,,,2023-08-08 08:56:10,2023-08-08 08:56:11,0.732s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - ODOR""), 30)",,,,2023-08-08 08:56:11,2023-08-08 08:56:12,0.987s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - None""), 30)",,,,2023-08-08 08:56:12,2023-08-08 08:56:13,1.030s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - Save""), 30)",,,,2023-08-08 08:56:13,2023-08-08 08:56:14,0.632s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup (1)""), 30)",,,,2023-08-08 08:56:14,2023-08-08 08:56:15,1.154s,PASSED
+"tap(findTestObject(""Treatment and WCP/Add Treatment/android.widget.TextView - Treatment""), 30)",,,,2023-08-08 08:56:15,2023-08-08 08:56:45,30.315s,PASSED
+"verifyElementExist(findTestObject(""Synchronization and Offline Use/Automatic sync mode/android.widget.ImageView - add treatment""), 30)",,,,2023-08-08 08:56:45,2023-08-08 08:56:46,1.291s,PASSED
+"tap(findTestObject(""Synchronization and Offline Use/Automatic sync mode/android.widget.ImageView - add treatment""), 30)",,,,2023-08-08 08:56:46,2023-08-08 08:56:47,0.557s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Next""), 30)",,,,2023-08-08 08:56:47,2023-08-08 08:56:48,1.198s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - CLEANSING""), 30)",,,,2023-08-08 08:56:48,2023-08-08 08:56:49,1.424s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Acetic Acid""), 30)",,,,2023-08-08 08:56:49,2023-08-08 08:56:51,1.269s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - OINTMENTS""), 30)",,,,2023-08-08 08:56:51,2023-08-08 08:56:51,0.761s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Zinc Oxide""), 30)",,,,2023-08-08 08:56:51,2023-08-08 08:56:53,1.202s,PASSED
+"tap(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Save""), 30)",,,,2023-08-08 08:56:53,2023-08-08 08:56:53,0.702s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Acetic Acid (1)""), ""Acetic Acid"")",,,,2023-08-08 08:56:53,2023-08-08 08:56:55,1.353s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Zinc Oxide (1)""), ""Zinc Oxide"")",,,,2023-08-08 08:56:55,2023-08-08 08:56:55,0.545s,PASSED

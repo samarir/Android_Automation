@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Patient Management,,,,2023-08-16 22:52:02,2023-08-16 22:54:26,2m - 23.485s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-16 22:52:03,2023-08-16 22:52:41,37.896s,PASSED
+"startApplication(APK, false)",,,,2023-08-16 22:52:04,2023-08-16 22:52:27,22.762s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-16 22:52:27,2023-08-16 22:52:32,5.292s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-16 22:52:32,2023-08-16 22:52:33,1.252s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-16 22:52:33,2023-08-16 22:52:34,0.819s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-16 22:52:34,2023-08-16 22:52:36,1.748s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-16 22:52:36,2023-08-16 22:52:38,2.093s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-16 22:52:38,2023-08-16 22:52:41,2.973s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Add Patient,,,,2023-08-16 22:52:41,2023-08-16 22:52:53,12.345s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.TextView - add patient""), 30)",,,,2023-08-16 22:52:42,2023-08-16 22:52:42,0.474s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.EditText - First name""), ""Test"", 30)",,,,2023-08-16 22:52:42,2023-08-16 22:52:44,1.774s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.EditText - Last name""), ""lite"", 30)",,,,2023-08-16 22:52:44,2023-08-16 22:52:46,1.796s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy) (1)""), ""09/12/2001"", 30)",,,,2023-08-16 22:52:46,2023-08-16 22:52:47,1.813s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.EditText - MRN""), ""6766"", 30)",,,,2023-08-16 22:52:47,2023-08-16 22:52:49,1.316s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.TextView - Save""), 30)",,,,2023-08-16 22:52:49,2023-08-16 22:52:49,0.767s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.TextView - Patient created successfully""), ""Patient created successfully"")",,,,2023-08-16 22:52:49,2023-08-16 22:52:51,1.487s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.Button - OK""), 30)",,,,2023-08-16 22:52:51,2023-08-16 22:52:51,0.310s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Add Patient/android.widget.TextView - lite, Test""), ""lite, Test"")",,,,2023-08-16 22:52:51,2023-08-16 22:52:53,1.849s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Search Patient,,,,2023-08-16 22:52:53,2023-08-16 22:52:58,5.253s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Search Patient/android.widget.EditText - Search by Name, MRN""), ""987"", 30)",,,,2023-08-16 22:52:54,2023-08-16 22:52:55,1.411s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Search Patient/android.view.ViewGroup""), 30)",,,,2023-08-16 22:52:55,2023-08-16 22:52:56,1.027s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Search Patient/android.widget.TextView - Current site""), 30)",,,,2023-08-16 22:52:56,2023-08-16 22:52:57,0.937s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Patient Management/Search Patient/android.view.ViewGroup (1)""), 30)",,,,2023-08-16 22:52:57,2023-08-16 22:52:58,1.062s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Edit Patient,,,,2023-08-16 22:52:58,2023-08-16 22:53:12,13.934s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Edit Patient/android.view.ViewGroup (1)""), 30)",,,,2023-08-16 22:52:59,2023-08-16 22:53:00,0.907s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.ImageView""), 30)",,,,2023-08-16 22:53:00,2023-08-16 22:53:02,1.841s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.TextView - Edit patient""), 30)",,,,2023-08-16 22:53:02,2023-08-16 22:53:03,1.103s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.EditText - First Name""), ""Editt"", 30)",,,,2023-08-16 22:53:03,2023-08-16 22:53:05,2.288s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.EditText - Last Name""), ""Litee"", 30)",,,,2023-08-16 22:53:05,2023-08-16 22:53:07,1.354s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.EditText - DOB""), ""09/07/2001"", 30)",,,,2023-08-16 22:53:07,2023-08-16 22:53:08,1.381s,PASSED
+"verifyElementAttributeValue(findTestObject(""Patient Management/Edit Patient/android.widget.EditText - MRN""), ""enabled"", ""false"", 30, STOP_ON_FAILURE)",,,,2023-08-16 22:53:08,2023-08-16 22:53:09,0.710s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.TextView - Save""), 30)",,,,2023-08-16 22:53:09,2023-08-16 22:53:09,0.411s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.TextView - Patient updated successfully""), ""Patient updated successfully."")",,,,2023-08-16 22:53:09,2023-08-16 22:53:10,1.275s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.Button - OK""), 30)",,,,2023-08-16 22:53:10,2023-08-16 22:53:11,0.308s,PASSED
+pressBack(),,,,2023-08-16 22:53:11,2023-08-16 22:53:12,0.790s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Edit Patient/android.widget.ImageView - x""), 30)",,,,2023-08-16 22:53:12,2023-08-16 22:53:12,0.818s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Freeze Patient,,,,2023-08-16 22:53:12,2023-08-16 22:53:25,12.574s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN""), ""6767"", 30)",,,,2023-08-16 22:53:13,2023-08-16 22:53:14,1.348s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.view.ViewGroup""), 30)",,,,2023-08-16 22:53:14,2023-08-16 22:53:16,1.103s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Current site""), 30)",,,,2023-08-16 22:53:16,2023-08-16 22:53:17,1.740s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.view.ViewGroup (1)""), 30)",,,,2023-08-16 22:53:17,2023-08-16 22:53:18,0.862s,PASSED
+"tap(findTestObject(""Patient Management/Freeze Patient/android.widget.ImageView - menu""), 30)",,,,2023-08-16 22:53:18,2023-08-16 22:53:20,1.701s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Freeze patient""), 30)",,,,2023-08-16 22:53:20,2023-08-16 22:53:21,1.032s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Change patient status to Inactive""), ""Change patient status to Inactive ?"")",,,,2023-08-16 22:53:21,2023-08-16 22:53:22,1.245s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Confirm""), 30)",,,,2023-08-16 22:53:22,2023-08-16 22:53:22,0.322s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Patient Inactive""), ""Patient Inactive"")",,,,2023-08-16 22:53:22,2023-08-16 22:53:25,2.117s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Freeze Patient/android.widget.ImageView (1)""), 30)",,,,2023-08-16 22:53:25,2023-08-16 22:53:25,0.345s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Filter Patient,,,,2023-08-16 22:53:25,2023-08-16 22:53:31,5.644s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Filter Patient/android.widget.ImageView - filter""), 30)",,,,2023-08-16 22:53:26,2023-08-16 22:53:26,0.318s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Filter Patient/android.widget.Switch - ON""), 30)",,,,2023-08-16 22:53:26,2023-08-16 22:53:27,0.958s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Filter Patient/android.widget.TextView - Apply""), 30)",,,,2023-08-16 22:53:27,2023-08-16 22:53:28,1.397s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Filter Patient/android.widget.TextView - Patient Inactive""), ""Patient Inactive"")",,,,2023-08-16 22:53:28,2023-08-16 22:53:31,2.261s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Unfreeze Patient,,,,2023-08-16 22:53:31,2023-08-16 22:54:15,44.324s,PASSED
+delay(30),,,,2023-08-16 22:53:31,2023-08-16 22:54:01,30.011s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.EditText - Search by Name, MRN""), ""6768"", 30)",,,,2023-08-16 22:54:01,2023-08-16 22:54:03,1.380s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Current site""), 30)",,,,2023-08-16 22:54:03,2023-08-16 22:54:04,0.801s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-16 22:54:04,2023-08-16 22:54:04,0.858s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.view.ViewGroup""), 30)",,,,2023-08-16 22:54:04,2023-08-16 22:54:06,1.266s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView""), 30)",,,,2023-08-16 22:54:06,2023-08-16 22:54:08,1.858s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - UnFreeze patient""), 30)",,,,2023-08-16 22:54:08,2023-08-16 22:54:09,1.008s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Change patient status to Active""), ""Change patient status to Active ?"")",,,,2023-08-16 22:54:09,2023-08-16 22:54:10,1.238s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm""), 30)",,,,2023-08-16 22:54:10,2023-08-16 22:54:10,0.328s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent""), ""No Consent"")",,,,2023-08-16 22:54:10,2023-08-16 22:54:12,2.285s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (1)""), 30)",,,,2023-08-16 22:54:12,2023-08-16 22:54:13,0.361s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (2)""), 30)",,,,2023-08-16 22:54:13,2023-08-16 22:54:15,2.133s,PASSED
+,,,,,,,
+Test Cases/Patient Management/Delete Patient,,,,2023-08-16 22:54:15,2023-08-16 22:54:26,10.762s,PASSED
+"setText(findTestObject(""Object Repository/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN""), ""6766"", 30)",,,,2023-08-16 22:54:16,2023-08-16 22:54:17,1.340s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Delete Patient/android.view.ViewGroup""), 30)",,,,2023-08-16 22:54:17,2023-08-16 22:54:18,1.168s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Delete Patient/android.widget.TextView - Current site""), 30)",,,,2023-08-16 22:54:18,2023-08-16 22:54:20,1.676s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Delete Patient/android.view.ViewGroup (1)""), 30)",,,,2023-08-16 22:54:20,2023-08-16 22:54:20,0.363s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Delete Patient/android.widget.ImageView""), 30)",,,,2023-08-16 22:54:20,2023-08-16 22:54:22,1.731s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Delete Patient/android.widget.TextView - Delete patient""), 30)",,,,2023-08-16 22:54:22,2023-08-16 22:54:23,1.020s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Patient Management/Delete Patient/android.widget.TextView - Delete the selected patient The patient will be removed from the directory if deleted""), ""Delete the selected patient? The patient will be removed from the directory if deleted"")",,,,2023-08-16 22:54:23,2023-08-16 22:54:24,1.138s,PASSED
+"tap(findTestObject(""Object Repository/Patient Management/Delete Patient/android.widget.Button - CONFIRM""), 30)",,,,2023-08-16 22:54:24,2023-08-16 22:54:24,0.329s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Patient Management/Delete Patient/android.widget.TextView - No content found""), 30)",,,,2023-08-16 22:54:24,2023-08-16 22:54:26,1.266s,PASSED

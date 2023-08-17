@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Wound Assessment,,,,2023-08-13 18:57:23,2023-08-13 19:01:31,4m - 7.390s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-13 18:57:24,2023-08-13 18:58:24,59.855s,PASSED
+"startApplication(APK, false)",,,,2023-08-13 18:57:26,2023-08-13 18:58:01,35.555s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-13 18:58:01,2023-08-13 18:58:13,11.801s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-13 18:58:13,2023-08-13 18:58:14,1.242s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-13 18:58:14,2023-08-13 18:58:15,0.775s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-13 18:58:15,2023-08-13 18:58:18,2.753s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-13 18:58:18,2023-08-13 18:58:20,2.223s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-13 18:58:20,2023-08-13 18:58:24,4.071s,PASSED
+,,,,,,,
+Test Cases/Wound Assessment/Add Assessment,,,,2023-08-13 18:58:24,2023-08-13 18:59:03,38.967s,PASSED
+"setText(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.EditText - Search by Name, MRN""), ""21ui"", 30)",,,,2023-08-13 18:58:25,2023-08-13 18:58:27,1.630s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Current site""), 30)",,,,2023-08-13 18:58:27,2023-08-13 18:58:28,1.327s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-13 18:58:28,2023-08-13 18:58:29,1.133s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - Patient""), 30)",,,,2023-08-13 18:58:29,2023-08-13 18:58:31,1.317s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - Patient""), 30)",,,,2023-08-13 18:58:31,2023-08-13 18:58:31,0.371s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - Wound""), 30)",,,,2023-08-13 18:58:31,2023-08-13 18:58:33,2.156s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - Wound""), 30)",,,,2023-08-13 18:58:33,2023-08-13 18:58:34,0.464s,PASSED
+"tap(findTestObject(""Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment""), 30)",,,,2023-08-13 18:58:34,2023-08-13 18:58:37,3.420s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.ImageView - add Assessement""), 30)",,,,2023-08-13 18:58:37,2023-08-13 18:58:39,2.023s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.ImageView - add Assessement""), 30)",,,,2023-08-13 18:58:39,2023-08-13 18:58:40,0.565s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - WOUND EDGE""), 30)",,,,2023-08-13 18:58:40,2023-08-13 18:58:41,1.158s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Rolled""), 30)",,,,2023-08-13 18:58:41,2023-08-13 18:58:42,1.503s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN""), 30)",,,,2023-08-13 18:58:42,2023-08-13 18:58:43,0.671s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Oedema""), 30)",,,,2023-08-13 18:58:43,2023-08-13 18:58:44,1.161s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN (1)""), 30)",,,,2023-08-13 18:58:44,2023-08-13 18:58:45,0.650s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PAIN""), 30)",,,,2023-08-13 18:58:45,2023-08-13 18:58:46,1.051s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.SeekBar - 0.0""), 30)",,,,2023-08-13 18:58:46,2023-08-13 18:58:47,1.168s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - PAIN""), 30)",,,,2023-08-13 18:58:47,2023-08-13 18:58:48,0.984s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - DRAINAGE""), 30)",,,,2023-08-13 18:58:48,2023-08-13 18:58:49,0.991s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Minimum""), 30)",,,,2023-08-13 18:58:49,2023-08-13 18:58:50,1.069s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - DRAINAGE""), 30)",,,,2023-08-13 18:58:50,2023-08-13 18:58:51,1.046s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING""), 30)",,,,2023-08-13 18:58:51,2023-08-13 18:58:52,1.381s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - stage II""), 30)",,,,2023-08-13 18:58:52,2023-08-13 18:58:54,1.175s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING""), 30)",,,,2023-08-13 18:58:54,2023-08-13 18:58:54,0.659s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - ODOR""), 30)",,,,2023-08-13 18:58:54,2023-08-13 18:58:55,1.040s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - None""), 30)",,,,2023-08-13 18:58:55,2023-08-13 18:58:56,1.042s,PASSED
+"tap(findTestObject(""Wound Assessment/Add Assessment/android.widget.TextView - Save""), 30)",,,,2023-08-13 18:58:56,2023-08-13 18:58:57,1.036s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup (1)""), 30)",,,,2023-08-13 18:58:57,2023-08-13 18:59:00,2.847s,PASSED
+pressBack(),,,,2023-08-13 18:59:00,2023-08-13 18:59:01,0.434s,PASSED
+pressBack(),,,,2023-08-13 18:59:01,2023-08-13 18:59:01,0.702s,PASSED
+pressBack(),,,,2023-08-13 18:59:01,2023-08-13 18:59:02,0.923s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Add Assessment/android.widget.ImageView - x""), 30)",,,,2023-08-13 18:59:02,2023-08-13 18:59:03,0.801s,PASSED
+,,,,,,,
+Test Cases/Wound Assessment/Edit Assessment,,,,2023-08-13 18:59:03,2023-08-13 18:59:32,29.029s,PASSED
+"setText(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.EditText - Search by Name, MRN""), ""23ui"", 30)",,,,2023-08-13 18:59:04,2023-08-13 18:59:06,1.694s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - Current site""), 30)",,,,2023-08-13 18:59:06,2023-08-13 18:59:08,1.759s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-13 18:59:08,2023-08-13 18:59:09,1.601s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.view.ViewGroup - Patient""), 30)",,,,2023-08-13 18:59:09,2023-08-13 18:59:10,1.320s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.view.ViewGroup - Patient""), 30)",,,,2023-08-13 18:59:10,2023-08-13 18:59:11,0.366s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.view.ViewGroup - wound""), 30)",,,,2023-08-13 18:59:11,2023-08-13 18:59:13,2.436s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.view.ViewGroup - wound""), 30)",,,,2023-08-13 18:59:13,2023-08-13 18:59:14,0.405s,PASSED
+"tap(findTestObject(""Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment""), 30)",,,,2023-08-13 18:59:14,2023-08-13 18:59:17,3.528s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.view.ViewGroup - assessment summary""), 30)",,,,2023-08-13 18:59:17,2023-08-13 18:59:20,2.358s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.ImageView - edit assessment""), 30)",,,,2023-08-13 18:59:20,2023-08-13 18:59:20,0.557s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.ImageView - edit assessment""), 30)",,,,2023-08-13 18:59:20,2023-08-13 18:59:21,0.663s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - WOUND EDGE""), 30)",,,,2023-08-13 18:59:21,2023-08-13 18:59:22,1.271s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - Attached""), 30)",,,,2023-08-13 18:59:22,2023-08-13 18:59:23,1.104s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - PERI WOUND SKIN""), 30)",,,,2023-08-13 18:59:23,2023-08-13 18:59:24,0.684s,PASSED
+"tap(findTestObject(""Wound Assessment/Edit Assessment/android.widget.TextView - Oedema""), 30)",,,,2023-08-13 18:59:24,2023-08-13 18:59:25,1.135s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - PERI WOUND SKIN (2)""), 30)",,,,2023-08-13 18:59:25,2023-08-13 18:59:26,0.781s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - Save""), 30)",,,,2023-08-13 18:59:26,2023-08-13 18:59:27,1.117s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - Attached, Rolled""), ""Attached, Rolled"")",,,,2023-08-13 18:59:27,2023-08-13 18:59:29,1.990s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.TextView - Oedema, Dry""), ""Oedema, Dry"")",,,,2023-08-13 18:59:29,2023-08-13 18:59:29,0.602s,PASSED
+pressBack(),,,,2023-08-13 18:59:29,2023-08-13 18:59:30,0.336s,PASSED
+pressBack(),,,,2023-08-13 18:59:30,2023-08-13 18:59:31,0.809s,PASSED
+pressBack(),,,,2023-08-13 18:59:31,2023-08-13 18:59:31,0.696s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Edit Assessment/android.widget.ImageView - x""), 30)",,,,2023-08-13 18:59:31,2023-08-13 18:59:32,0.805s,PASSED
+,,,,,,,
+Test Cases/Wound Assessment/Assessment History,,,,2023-08-13 18:59:32,2023-08-13 19:00:55,1m - 22.395s,PASSED
+"scrollToText(""MRN: 97ui"")",,,,2023-08-13 18:59:33,2023-08-13 18:59:43,10.061s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Assessment History/android.widget.TextView - MRN 97ui""), 30)",,,,2023-08-13 18:59:43,2023-08-13 18:59:44,0.487s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Assessment History/android.view.ViewGroup""), 30)",,,,2023-08-13 18:59:44,2023-08-13 18:59:46,2.623s,PASSED
+"tap(findTestObject(""Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment""), 30)",,,,2023-08-13 18:59:46,2023-08-13 18:59:50,3.777s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Assessment History/android.view.ViewGroup (1)""), 30)",,,,2023-08-13 18:59:50,2023-08-13 18:59:53,3.269s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Assessment History/android.widget.ImageView""), 30)",,,,2023-08-13 18:59:53,2023-08-13 18:59:54,0.726s,PASSED
+"tap(findTestObject(""Wound Assessment/Assessment History/android.view.ViewGroup (2)""), 30)",,,,2023-08-13 18:59:54,2023-08-13 19:00:46,52.126s,PASSED
+"verifyElementExist(findTestObject(""Wound Assessment/Assessment History/android.view.ViewGroup (1)""), 30)",,,,2023-08-13 19:00:46,2023-08-13 19:00:47,0.579s,PASSED
+pressBack(),,,,2023-08-13 19:00:47,2023-08-13 19:00:47,0.373s,PASSED
+pressBack(),,,,2023-08-13 19:00:47,2023-08-13 19:00:48,0.812s,PASSED
+pressBack(),,,,2023-08-13 19:00:48,2023-08-13 19:00:49,0.804s,PASSED
+"callTestCase(findTestCase(""User Managemenet/Logout""), [:], STOP_ON_FAILURE)",,,,2023-08-13 19:00:49,2023-08-13 19:00:55,5.925s,PASSED
+,,,,,,,
+Test Cases/Wound Assessment/Patient assessment questionnaire,,,,2023-08-13 19:00:55,2023-08-13 19:01:31,36.176s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), ""samarir+katalonpatient@masaratapp.com"", 30)",,,,2023-08-13 19:00:56,2023-08-13 19:00:57,1.504s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-13 19:00:57,2023-08-13 19:00:58,1.254s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-13 19:00:58,2023-08-13 19:00:59,0.749s,PASSED
+delay(5),,,,2023-08-13 19:00:59,2023-08-13 19:01:04,5.015s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.view.ViewGroup - wound""), 30)",,,,2023-08-13 19:01:04,2023-08-13 19:01:05,0.675s,PASSED
+"tap(findTestObject(""Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment""), 30)",,,,2023-08-13 19:01:05,2023-08-13 19:01:09,4.581s,PASSED
+"tap(findTestObject(""Wound Assessment/Patient assessment questionnaire/android.widget.ImageView - add assessment""), 30)",,,,2023-08-13 19:01:09,2023-08-13 19:01:11,2.179s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound""), ""Do you have any new or increased drainage, odor, or redness around the wound?"")",,,,2023-08-13 19:01:11,2023-08-13 19:01:13,1.053s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No""), 30)",,,,2023-08-13 19:01:13,2023-08-13 19:01:13,0.524s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.view.ViewGroup""), 30)",,,,2023-08-13 19:01:13,2023-08-13 19:01:14,0.497s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have new or increased wound pain""), ""Do you have new or increased wound pain?"")",,,,2023-08-13 19:01:14,2023-08-13 19:01:15,1.024s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes""), 30)",,,,2023-08-13 19:01:15,2023-08-13 19:01:15,0.563s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have a fever (temp above 100.4F38C)""), ""Do you have a fever (temp above 100.4F/38C)?"")",,,,2023-08-13 19:01:15,2023-08-13 19:01:16,1.020s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (1)""), 30)",,,,2023-08-13 19:01:16,2023-08-13 19:01:17,0.486s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (1)""), 30)",,,,2023-08-13 19:01:17,2023-08-13 19:01:17,0.519s,PASSED
+"tap(findTestObject(""Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (1)""), 30)",,,,2023-08-13 19:01:17,2023-08-13 19:01:18,0.573s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Save""), 30)",,,,2023-08-13 19:01:18,2023-08-13 19:01:19,0.982s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound (1)""), ""Do you have any new or increased drainage, odor, or redness around the wound?"")",,,,2023-08-13 19:01:19,2023-08-13 19:01:23,4.179s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (2)""), ""No"")",,,,2023-08-13 19:01:23,2023-08-13 19:01:23,0.576s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have new or increased wound pain (1)""), ""Do you have new or increased wound pain?"")",,,,2023-08-13 19:01:23,2023-08-13 19:01:24,0.603s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (2)""), ""Yes"")",,,,2023-08-13 19:01:24,2023-08-13 19:01:25,0.924s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have a fever (temp above 100.4F38C) (1)""), ""Do you have a fever (temp above 100.4F/38C)?"")",,,,2023-08-13 19:01:25,2023-08-13 19:01:26,0.546s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (3)""), ""Yes"")",,,,2023-08-13 19:01:26,2023-08-13 19:01:26,0.464s,PASSED
+pressBack(),,,,2023-08-13 19:01:26,2023-08-13 19:01:26,0.377s,PASSED
+pressBack(),,,,2023-08-13 19:01:26,2023-08-13 19:01:27,0.810s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.ImageView - Menu""), 30)",,,,2023-08-13 19:01:27,2023-08-13 19:01:28,0.954s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Logout""), 30)",,,,2023-08-13 19:01:28,2023-08-13 19:01:30,1.749s,PASSED
+"tap(findTestObject(""Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.Button - CONFIRM""), 30)",,,,2023-08-13 19:01:30,2023-08-13 19:01:31,0.796s,PASSED

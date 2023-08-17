@@ -1,0 +1,97 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Menu and other services,,,,2023-08-14 15:21:47,2023-08-14 15:24:44,2m - 57.397s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-14 15:21:47,2023-08-14 15:22:34,46.294s,PASSED
+"startApplication(APK, false)",,,,2023-08-14 15:21:49,2023-08-14 15:22:19,30.505s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-14 15:22:19,2023-08-14 15:22:23,4.323s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-14 15:22:23,2023-08-14 15:22:25,1.304s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-14 15:22:25,2023-08-14 15:22:26,0.846s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-14 15:22:26,2023-08-14 15:22:28,1.993s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-14 15:22:28,2023-08-14 15:22:30,2.118s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-14 15:22:30,2023-08-14 15:22:34,3.901s,PASSED
+,,,,,,,
+Test Cases/Menu and other services/Switch between sites,,,,2023-08-14 15:22:34,2023-08-14 15:23:02,28.039s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Switch between sites/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:22:35,2023-08-14 15:22:35,0.546s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Switch between sites/android.widget.TextView - Site""), 30)",,,,2023-08-14 15:22:35,2023-08-14 15:22:37,1.795s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Switch between sites/android.widget.TextView - Test1""), 30)",,,,2023-08-14 15:22:37,2023-08-14 15:22:38,1.046s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Switch between sites/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:22:38,2023-08-14 15:22:46,8.304s,PASSED
+"tap(findTestObject(""Menu and other services/Switch between sites/android.widget.TextView - Site""), 30)",,,,2023-08-14 15:22:46,2023-08-14 15:22:48,1.685s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Switch between sites/android.widget.TextView - site user""), 30)",,,,2023-08-14 15:22:48,2023-08-14 15:22:49,1.320s,PASSED
+"tap(findTestObject(""Menu and other services/Switch between sites/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:22:49,2023-08-14 15:22:59,9.759s,PASSED
+"tap(findTestObject(""Menu and other services/Switch between sites/android.widget.TextView - Site""), 30)",,,,2023-08-14 15:22:59,2023-08-14 15:23:01,1.732s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Switch between sites/android.widget.TextView - Katalon""), 30)",,,,2023-08-14 15:23:01,2023-08-14 15:23:02,0.845s,PASSED
+,,,,,,,
+Test Cases/Menu and other services/About,,,,2023-08-14 15:23:02,2023-08-14 15:23:22,20.390s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/About/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:23:03,2023-08-14 15:23:14,11.540s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/About/android.widget.TextView - About""), 30)",,,,2023-08-14 15:23:14,2023-08-14 15:23:16,1.753s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/About/android.widget.TextView - Katalon""), ""Katalon"")",,,,2023-08-14 15:23:16,2023-08-14 15:23:17,1.235s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/About/android.widget.TextView - Katalon (1)""), ""Katalon"")",,,,2023-08-14 15:23:17,2023-08-14 15:23:18,0.336s,PASSED
+"scrollToText(""UDI"")",,,,2023-08-14 15:23:18,2023-08-14 15:23:21,3.664s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/About/android.widget.TextView - 2.1""), ""2.1"")",,,,2023-08-14 15:23:21,2023-08-14 15:23:22,0.397s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/About/android.widget.ImageView - close""), 30)",,,,2023-08-14 15:23:22,2023-08-14 15:23:22,0.384s,PASSED
+,,,,,,,
+Test Cases/Menu and other services/Automatic adjustment of Date format,,,,2023-08-14 15:23:22,2023-08-14 15:23:37,14.832s,PASSED
+"date = getText(findTestObject(""Object Repository/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - 27072023""), 30, STOP_ON_FAILURE)",,,,2023-08-14 15:23:23,2023-08-14 15:23:23,0.405s,PASSED
+"verifyMatch(date, ""[0-9]{2}/[0-9]{2}/[0-9]{4}"", true, STOP_ON_FAILURE)",,,,2023-08-14 15:23:23,2023-08-14 15:23:24,0.028s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Automatic adjustment of Date format/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:23:24,2023-08-14 15:23:24,0.491s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site""), 30)",,,,2023-08-14 15:23:24,2023-08-14 15:23:26,1.734s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - site user""), 30)",,,,2023-08-14 15:23:26,2023-08-14 15:23:27,0.921s,PASSED
+"date1 = getText(findTestObject(""Menu and other services/Automatic adjustment of Date format/android.widget.TextView - 20230814""), 30)",,,,2023-08-14 15:23:27,2023-08-14 15:23:34,7.083s,PASSED
+"verifyMatch(date1, ""[0-9]{4}/[0-9]{2}/[0-9]{2}"", true, STOP_ON_FAILURE)",,,,2023-08-14 15:23:34,2023-08-14 15:23:34,0.032s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Automatic adjustment of Date format/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:23:34,2023-08-14 15:23:34,0.403s,PASSED
+"tap(findTestObject(""Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site""), 30)",,,,2023-08-14 15:23:34,2023-08-14 15:23:36,1.758s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Katalon""), 30)",,,,2023-08-14 15:23:36,2023-08-14 15:23:37,0.945s,PASSED
+,,,,,,,
+Test Cases/Menu and other services/Phone general tuto,,,,2023-08-14 15:23:37,2023-08-14 15:23:53,15.599s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:23:38,2023-08-14 15:23:45,6.746s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.widget.TextView - Help""), 30)",,,,2023-08-14 15:23:45,2023-08-14 15:23:47,1.857s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.widget.TextView - App Intro""), 30)",,,,2023-08-14 15:23:47,2023-08-14 15:23:48,0.929s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.view.ViewGroup - Tuto""), 30)",,,,2023-08-14 15:23:48,2023-08-14 15:23:49,1.730s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.widget.TextView - Welcome to inSight""), 30)",,,,2023-08-14 15:23:49,2023-08-14 15:23:50,0.355s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.widget.TextView - Skip""), 30)",,,,2023-08-14 15:23:50,2023-08-14 15:23:50,0.373s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.widget.TextView - next""), 30)",,,,2023-08-14 15:23:50,2023-08-14 15:23:50,0.460s,PASSED
+"tap(findTestObject(""Menu and other services/Phone General Tuto/android.widget.TextView - next""), 30)",,,,2023-08-14 15:23:50,2023-08-14 15:23:51,0.493s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Phone General Tuto/android.widget.TextView - Add a wound""), ""Add a wound"")",,,,2023-08-14 15:23:51,2023-08-14 15:23:52,1.001s,PASSED
+"tap(findTestObject(""Menu and other services/Phone General Tuto/android.widget.TextView - Skip""), 30)",,,,2023-08-14 15:23:52,2023-08-14 15:23:53,0.538s,PASSED
+,,,,,,,
+Test Cases/Menu and other services/Language,,,,2023-08-14 15:23:53,2023-08-14 15:24:20,27.406s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:23:54,2023-08-14 15:23:54,0.411s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Settings""), 30)",,,,2023-08-14 15:23:54,2023-08-14 15:23:56,2.301s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - English""), 30)",,,,2023-08-14 15:23:56,2023-08-14 15:23:58,1.757s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Deutsch""), 30)",,,,2023-08-14 15:23:58,2023-08-14 15:23:59,0.982s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.view.ViewGroup""), 30)",,,,2023-08-14 15:23:59,2023-08-14 15:24:07,7.958s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Geschlecht""), ""Geschlecht"")",,,,2023-08-14 15:24:07,2023-08-14 15:24:10,2.853s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Geburtstag""), ""Geburtstag"")",,,,2023-08-14 15:24:10,2023-08-14 15:24:10,0.586s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Alter""), ""Alter"")",,,,2023-08-14 15:24:10,2023-08-14 15:24:11,0.438s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Zustimmung""), ""Zustimmung"")",,,,2023-08-14 15:24:11,2023-08-14 15:24:11,0.446s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.ImageView - Back""), 30)",,,,2023-08-14 15:24:11,2023-08-14 15:24:12,0.458s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.ImageView - Menu (1)""), 30)",,,,2023-08-14 15:24:12,2023-08-14 15:24:13,0.897s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Seite""), ""Seite"")",,,,2023-08-14 15:24:13,2023-08-14 15:24:14,1.689s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Offene Telegesundheit""), ""Offene Telegesundheit"")",,,,2023-08-14 15:24:14,2023-08-14 15:24:15,0.455s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Hilfe""), ""Hilfe"")",,,,2023-08-14 15:24:15,2023-08-14 15:24:15,0.452s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - ber uns""), ""Über uns"")",,,,2023-08-14 15:24:15,2023-08-14 15:24:16,0.434s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Einstellungen""), ""Einstellungen"")",,,,2023-08-14 15:24:16,2023-08-14 15:24:16,0.490s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Ausloggen""), ""Ausloggen"")",,,,2023-08-14 15:24:16,2023-08-14 15:24:17,0.469s,PASSED
+"tap(findTestObject(""Menu and other services/Language/android.widget.TextView - Einstellungen""), 30)",,,,2023-08-14 15:24:17,2023-08-14 15:24:17,0.492s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - Deutsch (1)""), 30)",,,,2023-08-14 15:24:17,2023-08-14 15:24:19,1.803s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Language/android.widget.TextView - English (1)""), 30)",,,,2023-08-14 15:24:19,2023-08-14 15:24:20,0.987s,PASSED
+,,,,,,,
+Test Cases/Menu and other services/Help,,,,2023-08-14 15:24:20,2023-08-14 15:24:44,23.966s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Help/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:24:21,2023-08-14 15:24:28,7.185s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Help""), 30)",,,,2023-08-14 15:24:28,2023-08-14 15:24:30,1.705s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Help Center""), 30)",,,,2023-08-14 15:24:30,2023-08-14 15:24:31,0.944s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Support""), ""Support"")",,,,2023-08-14 15:24:31,2023-08-14 15:24:32,0.978s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Critical Notifications""), ""Critical Notifications"")",,,,2023-08-14 15:24:32,2023-08-14 15:24:33,1.181s,PASSED
+pressBack(),,,,2023-08-14 15:24:33,2023-08-14 15:24:34,0.851s,PASSED
+"tap(findTestObject(""Menu and other services/Help/android.widget.TextView - Help""), 30)",,,,2023-08-14 15:24:34,2023-08-14 15:24:35,0.788s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Send device info""), 30)",,,,2023-08-14 15:24:35,2023-08-14 15:24:36,0.904s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Device hardware and software information will be sent to eKare for troubleshooting""), ""Device hardware and software information will be sent to eKare for troubleshooting"")",,,,2023-08-14 15:24:36,2023-08-14 15:24:36,0.817s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Menu and other services/Help/android.widget.Button - CANCEL""), 30)",,,,2023-08-14 15:24:36,2023-08-14 15:24:37,0.286s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Menu and other services/Help/android.widget.Button - PROCEED""), 30)",,,,2023-08-14 15:24:37,2023-08-14 15:24:37,0.281s,PASSED
+"tap(findTestObject(""Menu and other services/Help/android.widget.Button - PROCEED""), 30)",,,,2023-08-14 15:24:37,2023-08-14 15:24:37,0.365s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Information sent successfully""), ""Information sent successfully"")",,,,2023-08-14 15:24:37,2023-08-14 15:24:40,2.452s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Help/android.widget.Button - OK""), 30)",,,,2023-08-14 15:24:40,2023-08-14 15:24:40,0.348s,PASSED
+"tap(findTestObject(""Menu and other services/Help/android.widget.ImageView - Menu""), 30)",,,,2023-08-14 15:24:40,2023-08-14 15:24:41,0.822s,PASSED
+"tap(findTestObject(""Menu and other services/Help/android.widget.TextView - Help""), 30)",,,,2023-08-14 15:24:41,2023-08-14 15:24:43,1.753s,PASSED
+"verifyElementExist(findTestObject(""Menu and other services/Help/android.widget.TextView - Send back up""), 30)",,,,2023-08-14 15:24:43,2023-08-14 15:24:43,0.806s,PASSED
+"tap(findTestObject(""Object Repository/Menu and other services/Help/android.widget.TextView - Send back up""), 30)",,,,2023-08-14 15:24:43,2023-08-14 15:24:44,0.442s,PASSED

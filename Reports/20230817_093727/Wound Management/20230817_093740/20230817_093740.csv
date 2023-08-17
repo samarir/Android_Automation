@@ -1,0 +1,142 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Wound Management,,,,2023-08-17 09:51:55,2023-08-17 09:58:11,6m - 16.508s,FAILED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-17 09:51:55,2023-08-17 09:52:46,50.511s,PASSED
+"startApplication(APK, false)",,,,2023-08-17 09:51:56,2023-08-17 09:52:20,23.183s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-17 09:52:20,2023-08-17 09:52:35,15.522s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-17 09:52:35,2023-08-17 09:52:36,1.243s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-17 09:52:36,2023-08-17 09:52:37,0.778s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-17 09:52:37,2023-08-17 09:52:39,1.709s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-17 09:52:39,2023-08-17 09:52:41,2.081s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-17 09:52:41,2023-08-17 09:52:46,4.923s,PASSED
+,,,,,,,
+Test Cases/Wound Management/Add Wound,,,,2023-08-17 09:52:46,2023-08-17 09:52:59,13.180s,PASSED
+"setText(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN""), ""78ui"", 30)",,,,2023-08-17 09:52:47,2023-08-17 09:52:48,0.895s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.TextView - Current site""), 30)",,,,2023-08-17 09:52:48,2023-08-17 09:52:49,1.080s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-17 09:52:49,2023-08-17 09:52:50,0.926s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.view.ViewGroup""), 30)",,,,2023-08-17 09:52:50,2023-08-17 09:52:51,1.231s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.ImageView - add wound""), 30)",,,,2023-08-17 09:52:51,2023-08-17 09:52:53,1.828s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.TextView - Next""), 30)",,,,2023-08-17 09:52:53,2023-08-17 09:52:54,1.093s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Add Wound/android.widget.TextView - Save""), 30)",,,,2023-08-17 09:52:54,2023-08-17 09:52:55,0.938s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Add Wound/android.view.ViewGroup (2)""), 30)",,,,2023-08-17 09:52:55,2023-08-17 09:52:58,2.869s,PASSED
+pressBack(),,,,2023-08-17 09:52:58,2023-08-17 09:52:58,0.777s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.widget.ImageView - x""), 30)",,,,2023-08-17 09:52:58,2023-08-17 09:52:59,0.813s,PASSED
+,,,,,,,
+Test Cases/Wound Management/Edit Wound,,,,2023-08-17 09:54:37,2023-08-17 09:55:08,31.065s,FAILED
+"setText(findTestObject(""Object Repository/Wound Management/Edit Wound/android.widget.EditText - Search by Name, MRN""), ""86ui"", 30)",,,,2023-08-17 09:54:37,2023-08-17 09:55:08,31.045s,FAILED
+,,,,,,,
+Test Cases/Wound Management/Change wound Statues,,,,2023-08-17 09:55:56,2023-08-17 09:56:12,15.590s,PASSED
+"setText(findTestObject(""Object Repository/Wound Management/Change wound statues/android.widget.EditText - Search by Name, MRN""), ""87ui"", 30)",,,,2023-08-17 09:55:56,2023-08-17 09:55:59,2.669s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Change wound statues/android.widget.TextView - Current site""), 30)",,,,2023-08-17 09:55:59,2023-08-17 09:56:00,1.206s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Change wound statues/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-17 09:56:00,2023-08-17 09:56:01,0.927s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:56:01,2023-08-17 09:56:02,1.346s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - wound""), 30)",,,,2023-08-17 09:56:02,2023-08-17 09:56:04,2.011s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:56:04,2023-08-17 09:56:05,0.318s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - wound statues""), 30)",,,,2023-08-17 09:56:05,2023-08-17 09:56:07,2.424s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Change wound statues/android.widget.TextView - Healed""), ""Healed"")",,,,2023-08-17 09:56:07,2023-08-17 09:56:08,1.190s,PASSED
+"tap(findTestObject(""Wound Management/Change wound statues/android.widget.TextView - Healed""), 30)",,,,2023-08-17 09:56:08,2023-08-17 09:56:09,0.307s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Change wound statues/android.widget.TextView - Healed (1)""), ""Healed"")",,,,2023-08-17 09:56:09,2023-08-17 09:56:10,1.322s,PASSED
+pressBack(),,,,2023-08-17 09:56:10,2023-08-17 09:56:10,0.398s,PASSED
+pressBack(),,,,2023-08-17 09:56:10,2023-08-17 09:56:11,0.702s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Change wound statues/android.widget.ImageView""), 30)",,,,2023-08-17 09:56:11,2023-08-17 09:56:12,0.747s,PASSED
+,,,,,,,
+Test Cases/Wound Management/Lock Wound,,,,2023-08-17 09:56:12,2023-08-17 09:56:31,19.461s,PASSED
+"setText(findTestObject(""Object Repository/Wound Management/Lock Wound/android.widget.EditText - Search by Name, MRN""), ""89ui"", 30)",,,,2023-08-17 09:56:13,2023-08-17 09:56:14,1.266s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.widget.TextView - Current site""), 30)",,,,2023-08-17 09:56:14,2023-08-17 09:56:15,1.354s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-17 09:56:15,2023-08-17 09:56:16,1.004s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:56:16,2023-08-17 09:56:17,0.848s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:56:17,2023-08-17 09:56:18,0.335s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - wound""), 30)",,,,2023-08-17 09:56:18,2023-08-17 09:56:19,1.798s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.view.ViewGroup - wound""), 30)",,,,2023-08-17 09:56:19,2023-08-17 09:56:20,0.360s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.widget.ImageView - menu""), 30)",,,,2023-08-17 09:56:20,2023-08-17 09:56:22,2.217s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.widget.TextView - Lock wound""), 30)",,,,2023-08-17 09:56:22,2023-08-17 09:56:24,1.699s,PASSED
+pressBack(),,,,2023-08-17 09:56:24,2023-08-17 09:56:25,1.584s,PASSED
+delay(5),,,,2023-08-17 09:56:25,2023-08-17 09:56:30,5.021s,PASSED
+pressBack(),,,,2023-08-17 09:56:30,2023-08-17 09:56:31,0.345s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Lock Wound/android.widget.ImageView - x""), 30)",,,,2023-08-17 09:56:31,2023-08-17 09:56:31,0.786s,PASSED
+,,,,,,,
+Test Cases/Wound Management/Unlock Wound,,,,2023-08-17 09:56:31,2023-08-17 09:56:47,16.124s,PASSED
+"setText(findTestObject(""Object Repository/Wound Management/Unlock wound/android.widget.EditText - Search by Name, MRN""), ""90ui"", 30)",,,,2023-08-17 09:56:32,2023-08-17 09:56:34,1.307s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Unlock wound/android.widget.TextView - Current site""), 30)",,,,2023-08-17 09:56:34,2023-08-17 09:56:35,1.393s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Unlock wound/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-17 09:56:35,2023-08-17 09:56:37,1.688s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Unlock wound/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:56:37,2023-08-17 09:56:37,0.329s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Unlock wound/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:56:37,2023-08-17 09:56:37,0.398s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Unlock wound/android.view.ViewGroup - wound""), 30)",,,,2023-08-17 09:56:37,2023-08-17 09:56:39,1.884s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Unlock wound/android.view.ViewGroup - wound""), 30)",,,,2023-08-17 09:56:39,2023-08-17 09:56:40,0.467s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Unlock wound/android.widget.ImageView - menu""), 30)",,,,2023-08-17 09:56:40,2023-08-17 09:56:42,2.378s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Unlock wound/android.widget.TextView - Unlock wound""), ""Unlock wound"")",,,,2023-08-17 09:56:42,2023-08-17 09:56:43,1.177s,PASSED
+"tap(findTestObject(""Wound Management/Unlock wound/android.widget.TextView - Unlock wound""), 30)",,,,2023-08-17 09:56:43,2023-08-17 09:56:44,0.442s,PASSED
+pressBack(),,,,2023-08-17 09:56:44,2023-08-17 09:56:46,1.814s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Unlock wound/android.view.ViewGroup - wound""), 30)",,,,2023-08-17 09:56:46,2023-08-17 09:56:46,0.715s,PASSED
+pressBack(),,,,2023-08-17 09:56:46,2023-08-17 09:56:47,0.434s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Unlock wound/android.widget.ImageView - x""), 30)",,,,2023-08-17 09:56:47,2023-08-17 09:56:47,0.775s,PASSED
+,,,,,,,
+Test Cases/Wound Management/Wound List,,,,2023-08-17 09:56:47,2023-08-17 09:57:34,46.999s,PASSED
+"setText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.EditText - Search by Name, MRN""), ""92ui"", 30)",,,,2023-08-17 09:56:49,2023-08-17 09:56:51,2.305s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Current site""), 30)",,,,2023-08-17 09:56:51,2023-08-17 09:56:52,0.960s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-17 09:56:52,2023-08-17 09:56:53,0.883s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Wound List/android.view.ViewGroup - patient""), 30)",,,,2023-08-17 09:56:53,2023-08-17 09:56:54,1.218s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - 92ui""), ""92ui"")",,,,2023-08-17 09:56:54,2023-08-17 09:56:56,1.871s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Male""), ""Male"")",,,,2023-08-17 09:56:56,2023-08-17 09:56:56,0.339s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - 09091990""), ""09/09/1990"")",,,,2023-08-17 09:56:56,2023-08-17 09:56:57,0.377s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - 32""), ""32"")",,,,2023-08-17 09:56:57,2023-08-17 09:56:57,0.337s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Active""), ""Active"")",,,,2023-08-17 09:56:57,2023-08-17 09:56:57,0.313s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - No""), ""No"")",,,,2023-08-17 09:56:57,2023-08-17 09:56:58,0.893s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Wound, List""), ""Wound, List"")",,,,2023-08-17 09:56:58,2023-08-17 09:56:59,0.330s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Wound List/android.view.ViewGroup - wound2""), 30)",,,,2023-08-17 09:56:59,2023-08-17 09:56:59,0.347s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Wound 2 Pressure Injury""), ""Wound 2: Pressure Injury"")",,,,2023-08-17 09:56:59,2023-08-17 09:56:59,0.304s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - General""), ""General"")",,,,2023-08-17 09:56:59,2023-08-17 09:57:00,0.309s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Wound List/android.view.ViewGroup - wound1""), 30)",,,,2023-08-17 09:57:00,2023-08-17 09:57:00,0.292s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Wound 1 Trauma""), ""Wound 1: Trauma"")",,,,2023-08-17 09:57:00,2023-08-17 09:57:00,0.379s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - HeadNeck, Front""), ""Head/Neck, Front"")",,,,2023-08-17 09:57:00,2023-08-17 09:57:01,0.374s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Test description""), ""Test description"")",,,,2023-08-17 09:57:01,2023-08-17 09:57:01,0.387s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Wound List/android.view.ViewGroup - wound3 (1)""), 30)",,,,2023-08-17 09:57:01,2023-08-17 09:57:01,0.330s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Wound 3 Pressure Injury (1)""), ""Wound 3: Pressure Injury"")",,,,2023-08-17 09:57:01,2023-08-17 09:57:32,30.207s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.ImageView - menu""), 30)",,,,2023-08-17 09:57:32,2023-08-17 09:57:32,0.368s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Generate Report""), ""Generate Report"")",,,,2023-08-17 09:57:32,2023-08-17 09:57:33,1.062s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Edit patient""), ""Edit patient"")",,,,2023-08-17 09:57:33,2023-08-17 09:57:33,0.308s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Freeze patient""), ""Freeze patient"")",,,,2023-08-17 09:57:33,2023-08-17 09:57:34,0.262s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Delete patient""), ""Delete patient"")",,,,2023-08-17 09:57:34,2023-08-17 09:57:34,0.267s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound List/android.widget.TextView - Cancel""), ""Cancel"")",,,,2023-08-17 09:57:34,2023-08-17 09:57:34,0.269s,PASSED
+"tap(findTestObject(""Wound Management/Wound List/android.widget.TextView - Cancel""), 30)",,,,2023-08-17 09:57:34,2023-08-17 09:57:34,0.335s,PASSED
+,,,,,,,
+Test Cases/Wound Management/Wound Summary,,,,2023-08-17 09:57:34,2023-08-17 09:57:51,16.064s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Wound Summary/android.view.ViewGroup - wound1""), 30)",,,,2023-08-17 09:57:35,2023-08-17 09:57:36,0.444s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - Wound, List""), ""Wound, List"")",,,,2023-08-17 09:57:36,2023-08-17 09:57:38,2.662s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - Wound 1 Trauma""), ""Wound 1: Trauma"")",,,,2023-08-17 09:57:38,2023-08-17 09:57:39,0.569s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - Active""), ""Active"")",,,,2023-08-17 09:57:39,2023-08-17 09:57:39,0.499s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - 14082023""), ""14/08/2023"")",,,,2023-08-17 09:57:39,2023-08-17 09:57:40,0.463s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - HeadNeck, Front""), ""Head/Neck, Front"")",,,,2023-08-17 09:57:40,2023-08-17 09:57:40,0.451s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - Test description""), ""Test description"")",,,,2023-08-17 09:57:40,2023-08-17 09:57:41,0.884s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - 3D""), ""3D"")",,,,2023-08-17 09:57:41,2023-08-17 09:57:42,0.945s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Wound Summary/android.view.ViewGroup""), 30)",,,,2023-08-17 09:57:42,2023-08-17 09:57:43,0.701s,PASSED
+"verifyElementExist(findTestObject(""Wound Management/Wound Summary/android.widget.ImageView""), 30)",,,,2023-08-17 09:57:43,2023-08-17 09:57:44,1.000s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - 3D (1)""), ""3D"")",,,,2023-08-17 09:57:44,2023-08-17 09:57:45,1.181s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - WOUND SIZE""), ""WOUND SIZE"")",,,,2023-08-17 09:57:45,2023-08-17 09:57:46,0.720s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Wound Summary/android.widget.TextView - COLOR COMPOSITION""), ""COLOR COMPOSITION"")",,,,2023-08-17 09:57:46,2023-08-17 09:57:46,0.663s,PASSED
+"verifyElementExist(findTestObject(""Hard to find elements/android.view.ViewGroup - Assessment""), 30)",,,,2023-08-17 09:57:46,2023-08-17 09:57:47,0.925s,PASSED
+"verifyElementExist(findTestObject(""Hard to find elements/android.view.ViewGroup - Treatement""), 30)",,,,2023-08-17 09:57:47,2023-08-17 09:57:48,0.454s,PASSED
+"verifyElementExist(findTestObject(""Hard to find elements/android.view.ViewGroup - Messaging""), 30)",,,,2023-08-17 09:57:48,2023-08-17 09:57:48,0.486s,PASSED
+pressBack(),,,,2023-08-17 09:57:48,2023-08-17 09:57:49,0.602s,PASSED
+pressBack(),,,,2023-08-17 09:57:49,2023-08-17 09:57:50,0.700s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Unlock wound/android.widget.ImageView - x""), 30)",,,,2023-08-17 09:57:50,2023-08-17 09:57:51,0.984s,PASSED
+,,,,,,,
+Test Cases/Wound Management/Delete Wound,,,,2023-08-17 09:57:51,2023-08-17 09:58:11,20.741s,PASSED
+"setText(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.EditText - Search by Name, MRN""), ""91ui"", 30)",,,,2023-08-17 09:57:52,2023-08-17 09:57:55,2.461s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.TextView - Current site""), 30)",,,,2023-08-17 09:57:55,2023-08-17 09:57:56,1.017s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.TextView - Current site (1)""), 30)",,,,2023-08-17 09:57:56,2023-08-17 09:57:57,0.988s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Delete Wound/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:57:57,2023-08-17 09:57:58,1.057s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Delete Wound/android.view.ViewGroup - Patient""), 30)",,,,2023-08-17 09:57:58,2023-08-17 09:57:58,0.828s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Delete Wound/android.view.ViewGroup - wound""), 30)",,,,2023-08-17 09:57:58,2023-08-17 09:58:01,2.179s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Delete Wound/android.view.ViewGroup - wound (1)""), 30)",,,,2023-08-17 09:58:01,2023-08-17 09:58:01,0.621s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.ImageView - menu""), 30)",,,,2023-08-17 09:58:01,2023-08-17 09:58:04,2.358s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.ImageView - menu""), 30)",,,,2023-08-17 09:58:04,2023-08-17 09:58:04,0.444s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.TextView - Delete wound""), ""Delete wound"")",,,,2023-08-17 09:58:04,2023-08-17 09:58:05,1.216s,PASSED
+"tap(findTestObject(""Wound Management/Delete Wound/android.widget.TextView - Delete wound""), 30)",,,,2023-08-17 09:58:05,2023-08-17 09:58:06,0.463s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.TextView - Delete the selected wound All data, including all images and measurements, will be erased""), ""Delete the selected wound? All data, including all images and measurements, will be erased."")",,,,2023-08-17 09:58:06,2023-08-17 09:58:07,1.169s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.Button - CANCEL""), ""CANCEL"")",,,,2023-08-17 09:58:07,2023-08-17 09:58:07,0.527s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.Button - CONFIRM""), 30)",,,,2023-08-17 09:58:07,2023-08-17 09:58:08,0.471s,PASSED
+"tap(findTestObject(""Wound Management/Delete Wound/android.widget.Button - CONFIRM""), 30)",,,,2023-08-17 09:58:08,2023-08-17 09:58:09,0.656s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.TextView - Click  above to add a wound""), ""Click ""+"" above to add a wound"")",,,,2023-08-17 09:58:09,2023-08-17 09:58:10,1.367s,PASSED
+pressBack(),,,,2023-08-17 09:58:10,2023-08-17 09:58:11,0.601s,PASSED
+"tap(findTestObject(""Object Repository/Wound Management/Delete Wound/android.widget.ImageView - x""), 30)",,,,2023-08-17 09:58:11,2023-08-17 09:58:11,0.783s,PASSED

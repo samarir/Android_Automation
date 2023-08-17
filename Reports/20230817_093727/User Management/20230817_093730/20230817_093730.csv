@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Management,,,,2023-08-17 09:37:55,2023-08-17 09:45:55,8m - 0.185s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Privacy Terms and Conditions,,,,2023-08-17 09:37:56,2023-08-17 09:41:20,3m - 23.242s,PASSED
+"startApplication(APK, true)",,,,2023-08-17 09:37:59,2023-08-17 09:38:59,1m - 0.735s,PASSED
+"verifyElementText(findTestObject(""Object Repository/User Management/Privacy Terms and conditions/android.widget.TextView - Terms  Conditions""), ""Terms & Conditions"")",,,,2023-08-17 09:38:59,2023-08-17 09:39:30,30.597s,PASSED
+"verifyElementText(findTestObject(""Object Repository/User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy""), ""Privacy Policy"")",,,,2023-08-17 09:39:30,2023-08-17 09:40:00,30.252s,PASSED
+"tap(findTestObject(""User Management/Privacy Terms and conditions/android.widget.TextView - Terms  Conditions""), 30)",,,,2023-08-17 09:40:00,2023-08-17 09:40:30,30.287s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-17 09:40:30,2023-08-17 09:40:36,5.168s,PASSED
+"verifyElementText(findTestObject(""User Management/Privacy Terms and conditions/android.widget.TextView - Terms and Conditions""), ""Terms and Conditions"")",,,,2023-08-17 09:40:36,2023-08-17 09:40:42,6.015s,PASSED
+pressBack(),,,,2023-08-17 09:40:42,2023-08-17 09:40:43,1.013s,PASSED
+"tap(findTestObject(""User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy""), 30)",,,,2023-08-17 09:40:43,2023-08-17 09:41:13,30.346s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-17 09:41:13,2023-08-17 09:41:18,5.018s,PASSED
+"verifyElementText(findTestObject(""Object Repository/User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy (1)""), ""Privacy Policy"")",,,,2023-08-17 09:41:18,2023-08-17 09:41:19,0.698s,PASSED
+pressBack(),,,,2023-08-17 09:41:19,2023-08-17 09:41:20,0.878s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Restore Password,,,,2023-08-17 09:41:20,2023-08-17 09:41:25,5.515s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Restore Password/android.widget.TextView - Forgot your password""), 30)",,,,2023-08-17 09:41:21,2023-08-17 09:41:21,0.415s,PASSED
+"setText(findTestObject(""Object Repository/User Management/Restore Password/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-17 09:41:21,2023-08-17 09:41:22,1.383s,PASSED
+"setText(findTestObject(""Object Repository/User Management/Restore Password/android.widget.EditText - email""), LoginCreds.get(""email""), 30)",,,,2023-08-17 09:41:22,2023-08-17 09:41:24,1.295s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Restore Password/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:24,2023-08-17 09:41:24,0.812s,PASSED
+pressBack(),,,,2023-08-17 09:41:24,2023-08-17 09:41:25,0.704s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/10loginTestAttempts,,,,2023-08-17 09:41:25,2023-08-17 09:41:52,27.089s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), ""Test10times"", 30)",,,,2023-08-17 09:41:26,2023-08-17 09:41:27,0.915s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), ""123"", 30)",,,,2023-08-17 09:41:27,2023-08-17 09:41:28,1.233s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:28,2023-08-17 09:41:29,0.759s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:29,2023-08-17 09:41:31,1.446s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:31,2023-08-17 09:41:31,0.421s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:31,2023-08-17 09:41:32,0.986s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:32,2023-08-17 09:41:33,1.205s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:33,2023-08-17 09:41:34,0.379s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:34,2023-08-17 09:41:34,0.716s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:34,2023-08-17 09:41:35,1.119s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:35,2023-08-17 09:41:36,0.400s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:36,2023-08-17 09:41:37,0.766s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:37,2023-08-17 09:41:38,1.417s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:38,2023-08-17 09:41:38,0.381s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:38,2023-08-17 09:41:39,0.756s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:39,2023-08-17 09:41:40,1.129s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:40,2023-08-17 09:41:41,0.385s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:41,2023-08-17 09:41:41,0.787s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:41,2023-08-17 09:41:43,1.240s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:43,2023-08-17 09:41:43,0.374s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:43,2023-08-17 09:41:44,0.741s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:44,2023-08-17 09:41:45,1.211s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:45,2023-08-17 09:41:45,0.416s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:45,2023-08-17 09:41:46,0.718s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:46,2023-08-17 09:41:47,1.151s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:47,2023-08-17 09:41:48,0.380s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:48,2023-08-17 09:41:48,0.720s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials""), ""Login failed. Incorrect credentials !"")",,,,2023-08-17 09:41:48,2023-08-17 09:41:49,1.133s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK""), 30)",,,,2023-08-17 09:41:49,2023-08-17 09:41:50,0.396s,PASSED
+"tap(findTestObject(""User Management/10loginAttempts/android.view.ViewGroup""), 30)",,,,2023-08-17 09:41:50,2023-08-17 09:41:51,0.742s,PASSED
+"verifyElementText(findTestObject(""User Management/10loginAttempts/android.widget.TextView - Your account has been temporarily disabled due to repeated login failures. Please contact your administrator qcekareinc.com""), ""Your account has been temporarily disabled due to repeated login failures. Please contact your administrator: qc@ekareinc.com"")",,,,2023-08-17 09:41:51,2023-08-17 09:41:52,1.167s,PASSED
+"tap(findTestObject(""Object Repository/User Management/10loginAttempts/android.widget.Button - OK (1)""), 30)",,,,2023-08-17 09:41:52,2023-08-17 09:41:52,0.462s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login,,,,2023-08-17 09:41:52,2023-08-17 09:42:27,34.996s,PASSED
+"startApplication(APK, false)",,,,2023-08-17 09:41:53,2023-08-17 09:42:10,16.761s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - username""), LoginCreds.get(""username""), 30)",,,,2023-08-17 09:42:10,2023-08-17 09:42:16,6.241s,PASSED
+"setText(findTestObject(""User Management/Login/android.widget.EditText - password""), LoginCreds.get(""password""), 30)",,,,2023-08-17 09:42:16,2023-08-17 09:42:18,1.537s,PASSED
+"tap(findTestObject(""User Management/Login/android.view.ViewGroup - sign in""), 30)",,,,2023-08-17 09:42:18,2023-08-17 09:42:19,0.830s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Katalon""), 30)",,,,2023-08-17 09:42:19,2023-08-17 09:42:21,1.931s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-17 09:42:21,2023-08-17 09:42:23,2.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login/android.widget.TextView - Patient Directory""), 30)",,,,2023-08-17 09:42:23,2023-08-17 09:42:27,4.704s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Logout,,,,2023-08-17 09:42:27,2023-08-17 09:42:33,5.770s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Logout/android.widget.ImageView - menu""), 0)",,,,2023-08-17 09:42:28,2023-08-17 09:42:29,0.495s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Logout/android.widget.TextView - Logout""), 0)",,,,2023-08-17 09:42:29,2023-08-17 09:42:31,1.803s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Logout/android.widget.Button - CONFIRM""), 0)",,,,2023-08-17 09:42:31,2023-08-17 09:42:32,0.827s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Logout/android.widget.ImageView""), 0)",,,,2023-08-17 09:42:32,2023-08-17 09:42:33,1.405s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Login as user with multiple sites,,,,2023-08-17 09:42:33,2023-08-17 09:44:38,2m - 5.450s,PASSED
+"setText(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.EditText - username""), ""KatalonSite"", 30)",,,,2023-08-17 09:42:34,2023-08-17 09:42:35,1.028s,PASSED
+"setText(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.EditText""), ""eKare123@"", 30)",,,,2023-08-17 09:42:35,2023-08-17 09:42:37,1.644s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - SIGN IN""), 30)",,,,2023-08-17 09:42:37,2023-08-17 09:42:38,0.735s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Katalon""), 30)",,,,2023-08-17 09:42:38,2023-08-17 09:42:39,1.806s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - add new patient""), 30)",,,,2023-08-17 09:42:39,2023-08-17 09:42:44,4.784s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup - patient""), 30)",,,,2023-08-17 09:42:44,2023-08-17 09:42:45,0.503s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu""), 30)",,,,2023-08-17 09:42:45,2023-08-17 09:42:47,2.052s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient""), 30)",,,,2023-08-17 09:42:47,2023-08-17 09:42:48,0.969s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient""), 30)",,,,2023-08-17 09:42:48,2023-08-17 09:42:48,0.264s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Cancel""), 30)",,,,2023-08-17 09:42:48,2023-08-17 09:42:48,0.334s,PASSED
+pressBack(),,,,2023-08-17 09:42:48,2023-08-17 09:42:49,0.995s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)""), 30)",,,,2023-08-17 09:42:49,2023-08-17 09:42:50,0.861s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Site""), 30)",,,,2023-08-17 09:42:50,2023-08-17 09:42:52,1.693s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - site user""), 30)",,,,2023-08-17 09:42:52,2023-08-17 09:42:53,1.024s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup""), 30)",,,,2023-08-17 09:42:53,2023-08-17 09:43:00,6.674s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu""), 30)",,,,2023-08-17 09:43:00,2023-08-17 09:43:02,2.514s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Edit patient""), 30)",,,,2023-08-17 09:43:02,2023-08-17 09:43:03,0.943s,PASSED
+"verifyElementNotExist(findTestObject(""User Management/Login as user with multiple sites/android.widget.TextView - Delete patient""), 30)",,,,2023-08-17 09:43:03,2023-08-17 09:43:33,30.215s,PASSED
+"verifyElementNotExist(findTestObject(""User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient""), 30)",,,,2023-08-17 09:43:33,2023-08-17 09:44:03,30.149s,PASSED
+"tap(findTestObject(""User Management/Login as user with multiple sites/android.widget.TextView - Cancel""), 30)",,,,2023-08-17 09:44:03,2023-08-17 09:44:04,0.422s,PASSED
+pressBack(),,,,2023-08-17 09:44:04,2023-08-17 09:44:05,1.001s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)""), 30)",,,,2023-08-17 09:44:05,2023-08-17 09:44:06,0.788s,PASSED
+"tap(findTestObject(""User Management/Login as user with multiple sites/android.widget.TextView - Site""), 30)",,,,2023-08-17 09:44:06,2023-08-17 09:44:07,1.598s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Test1""), 30)",,,,2023-08-17 09:44:07,2023-08-17 09:44:08,0.871s,PASSED
+"verifyElementNotExist(findTestObject(""User Management/Login as user with multiple sites/android.widget.TextView - add new patient""), 30)",,,,2023-08-17 09:44:08,2023-08-17 09:44:38,30.322s,PASSED
+,,,,,,,
+Test Cases/User Managemenet/Auto-logout,,,,2023-08-17 09:44:38,2023-08-17 09:45:55,1m - 16.935s,PASSED
+"tap(findTestObject(""User Management/Auto-Logout/android.widget.ImageView - Menu (1)""), 30)",,,,2023-08-17 09:44:39,2023-08-17 09:44:40,0.360s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Auto-Logout/android.widget.TextView - Settings""), 30)",,,,2023-08-17 09:44:40,2023-08-17 09:44:41,1.676s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Auto-Logout/android.widget.TextView - Logout time""), 30)",,,,2023-08-17 09:44:41,2023-08-17 09:44:43,1.637s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Auto-Logout/android.widget.TextView - 1 minutes""), 30)",,,,2023-08-17 09:44:43,2023-08-17 09:44:44,0.850s,PASSED
+"tap(findTestObject(""Object Repository/User Management/Auto-Logout/android.widget.ImageView (1)""), 30)",,,,2023-08-17 09:44:44,2023-08-17 09:44:45,0.974s,PASSED
+"delay(65, STOP_ON_FAILURE)",,,,2023-08-17 09:44:45,2023-08-17 09:45:50,1m - 5.018s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/User Management/Auto-Logout/android.widget.ImageView (2)""), 30)",,,,2023-08-17 09:45:50,2023-08-17 09:45:55,5.577s,PASSED
