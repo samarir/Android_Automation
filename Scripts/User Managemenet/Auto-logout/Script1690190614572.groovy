@@ -17,20 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('User Management/Auto-Logout/android.widget.ImageView - Menu (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.ImageView - menu'), 0)
+Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.TextView - Settings'), 30)
 
-Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.TextView - Settings'), 0)
+Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.TextView - Logout time'), 30)
 
-Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.TextView - Logout time'), 0)
+Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.TextView - 1 minutes'), 30)
 
-Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.TextView - 1 minutes'), 0)
-
-Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.ImageView (1)'), 30)
 
 Mobile.delay(65, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/User Management/Auto-Logout/android.widget.ImageView (2)'), 
-    0)
+    30)
 

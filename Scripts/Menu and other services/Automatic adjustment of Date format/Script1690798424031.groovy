@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/Menu and other services/Automatic a
 Mobile.tap(findTestObject('Object Repository/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - site user'), 
     30)
 
-String date1 = Mobile.getText(findTestObject('Menu and other services/Automatic adjustment of Date format/android.widget.TextView - 20230727'), 
+String date1 = Mobile.getText(findTestObject('Menu and other services/Automatic adjustment of Date format/android.widget.TextView - 20230814'), 
     30)
 
 Mobile.verifyMatch(date1, '[0-9]{4}/[0-9]{2}/[0-9]{2}', true, FailureHandling.STOP_ON_FAILURE)

@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.LoginCreds.get('APK'), true)
-
-Mobile.startApplication(GlobalVariable.APK, false)
-
-Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - username'), 'samarir+patient@masaratapp.com', 
+Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - username'), 'samarir+katalonpatient@masaratapp.com', 
     30)
 
 Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - password'), GlobalVariable.LoginCreds.get(
@@ -34,10 +30,9 @@ WebUI.delay(5)
 Mobile.tap(findTestObject('Object Repository/Wound Assessment/Patient assessment questionnaire/android.view.ViewGroup - wound'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Assessment'), 
-    30)
+Mobile.tap(findTestObject('Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.ImageView - New assessment'), 
+Mobile.tap(findTestObject('Wound Assessment/Patient assessment questionnaire/android.widget.ImageView - add assessment'), 
     30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound'), 

@@ -31,7 +31,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Edi
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.view.ViewGroup - wound'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.ImageView - menu'), 30)
+Mobile.tap(findTestObject('Wound Management/Edit Wound/android.widget.ImageView - MENU (1)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Edit Wound/android.widget.TextView - Edit wound'), 30)
 

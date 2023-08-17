@@ -35,10 +35,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Wound Assessment/Add
 
 Mobile.tap(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - Wound'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Assessment'), 
-    'Assessment')
-
-Mobile.tap(findTestObject('Wound Assessment/Add Assessment/android.widget.TextView - Assessment'), 30)
+Mobile.tap(findTestObject('Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.widget.ImageView - add Assessement'), 
     30)

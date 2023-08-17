@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Amarir\\Downloads\\APK\\IS\\app-release.apk', true)
+Mobile.startApplication(GlobalVariable.APK, true)
 
 Mobile.verifyElementText(findTestObject('Object Repository/User Management/Privacy Terms and conditions/android.widget.TextView - Terms  Conditions'), 
     'Terms & Conditions')
@@ -25,7 +25,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/User Management/Priva
 Mobile.verifyElementText(findTestObject('Object Repository/User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy'), 
     'Privacy Policy')
 
-Mobile.tap(findTestObject('User Management/Privacy Terms and conditions/android.widget.TextView - Terms  Conditions'), 0)
+Mobile.tap(findTestObject('User Management/Privacy Terms and conditions/android.widget.TextView - Terms  Conditions'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -34,7 +34,7 @@ Mobile.verifyElementText(findTestObject('User Management/Privacy Terms and condi
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy'), 0)
+Mobile.tap(findTestObject('User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

@@ -26,10 +26,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Treatment and WCP/Ad
 
 Mobile.tap(findTestObject('Object Repository/Treatment and WCP/Add Treatment/android.view.ViewGroup - Wound'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Treatment and WCP/Add Treatment/android.widget.TextView - Treatment'), 
-    'Treatment')
-
-Mobile.tap(findTestObject('Treatment and WCP/Add Treatment/android.widget.TextView - Treatment'), 30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Treatement'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Treatment and WCP/Add Treatment/android.widget.ImageView - Add Treatement'), 
     30)

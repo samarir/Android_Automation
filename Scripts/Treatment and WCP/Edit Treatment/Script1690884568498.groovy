@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Treatment and WCP/Edit Treatment/an
 
 Mobile.tap(findTestObject('Object Repository/Treatment and WCP/Edit Treatment/android.view.ViewGroup - Wound'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Treatment and WCP/Edit Treatment/android.widget.TextView - Treatment'), 30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Treatement'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Treatment and WCP/Edit Treatment/android.widget.ImageView - Edit Treatement'), 
     30)

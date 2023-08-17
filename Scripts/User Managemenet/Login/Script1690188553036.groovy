@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APK, true)
+Mobile.startApplication(GlobalVariable.APK, false)
 
 Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - username'), GlobalVariable.LoginCreds.get(
         'username'), 30)

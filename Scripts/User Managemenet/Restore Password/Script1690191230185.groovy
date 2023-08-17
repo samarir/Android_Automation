@@ -17,16 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Amarir\\Downloads\\APK\\IS\\app-release.apk', true)
-
 Mobile.tap(findTestObject('Object Repository/User Management/Restore Password/android.widget.TextView - Forgot your password'), 
-    0)
+    30)
 
 Mobile.setText(findTestObject('Object Repository/User Management/Restore Password/android.widget.EditText - username'), 
-    GlobalVariable.LoginCreds.get('username'), 0)
+    GlobalVariable.LoginCreds.get('username'), 30)
 
-Mobile.setText(findTestObject('Object Repository/User Management/Restore Password/android.widget.EditText - email'), 
-	GlobalVariable.LoginCreds.get('email'), 0)
+Mobile.setText(findTestObject('Object Repository/User Management/Restore Password/android.widget.EditText - email'), GlobalVariable.LoginCreds.get(
+        'email'), 30)
 
-Mobile.tap(findTestObject('Object Repository/User Management/Restore Password/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/User Management/Restore Password/android.view.ViewGroup'), 30)
+
+Mobile.pressBack()
 

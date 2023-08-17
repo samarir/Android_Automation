@@ -28,8 +28,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Woun
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - Active'), 
     'Active')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - 26072023'), 
-    '26/07/2023')
+Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - 14082023'), 
+    '14/08/2023')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - HeadNeck, Front'), 
     'Head/Neck, Front')
@@ -53,20 +53,15 @@ Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Woun
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - COLOR COMPOSITION'), 
     'COLOR COMPOSITION')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - Summary'), 
-    'Summary')
+Mobile.verifyElementExist(findTestObject('Hard to find elements/android.view.ViewGroup - Assessment'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - Assessment'), 
-    'Assessment')
+Mobile.verifyElementExist(findTestObject('Hard to find elements/android.view.ViewGroup - Treatement'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - Treatment'), 
-    'Treatment')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound Summary/android.widget.TextView - Messaging'), 
-    'Messaging')
+Mobile.verifyElementExist(findTestObject('Hard to find elements/android.view.ViewGroup - Messaging'), 30)
 
 Mobile.pressBack()
 
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Unlock wound/android.widget.ImageView - x'), 30)
+

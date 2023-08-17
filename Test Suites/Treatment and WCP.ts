@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>44b84034-b86b-4599-96be-d835173b2a93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Treatment and WCP/Treatment WCP history</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

@@ -62,10 +62,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Add
 
 Mobile.tap(findTestObject('Wound Management/Add Wound/android.view.ViewGroup (2)'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Assessment'), 
-    'Assessment')
-
-Mobile.tap(findTestObject('Wound Assessment/Add Assessment/android.widget.TextView - Assessment'), 30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Assessment'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.widget.ImageView - add Assessement'), 
     30)
@@ -113,7 +110,7 @@ Mobile.tap(findTestObject('Wound Assessment/Add Assessment/android.widget.TextVi
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup (1)'), 
     30)
 
-Mobile.tap(findTestObject('Treatment and WCP/Add Treatment/android.widget.TextView - Treatment'), 30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Treatement'), 30)
 
 Mobile.verifyElementExist(findTestObject('Synchronization and Offline Use/Automatic sync mode/android.widget.ImageView - add treatment'), 
     30)
@@ -163,14 +160,12 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Synchronization and 
 
 Mobile.tap(findTestObject('Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Assessment'), 
-    30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Assessment'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup (1)'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Treatment'), 
-    30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Treatement'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup (2)'), 
     30)

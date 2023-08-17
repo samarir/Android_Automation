@@ -23,8 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Wound Assessment/Assessment History
 
 Mobile.tap(findTestObject('Object Repository/Wound Assessment/Assessment History/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Wound Assessment/Assessment History/android.widget.TextView - Assessment'), 
-    30)
+Mobile.tap(findTestObject('Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Assessment/Assessment History/android.view.ViewGroup (1)'), 
     30)
@@ -40,4 +39,6 @@ Mobile.pressBack()
 Mobile.pressBack()
 
 Mobile.pressBack()
+
+WebUI.callTestCase(findTestCase('User Managemenet/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 
