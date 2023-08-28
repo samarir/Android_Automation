@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>d81ea3f4-1d2b-4565-8493-a3d3697d71aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Wound Assessment/Assessment History</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

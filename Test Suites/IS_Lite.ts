@@ -10,7 +10,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>IS_Prod</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -30,7 +30,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>IS_Prod</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -50,7 +50,27 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>IS_Prod</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-N975F (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>RF8N307NKZV</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Data report</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>IS_Prod</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -70,7 +90,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Mobile</groupName>
-            <profileName>default</profileName>
+            <profileName>IS_Prod</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>

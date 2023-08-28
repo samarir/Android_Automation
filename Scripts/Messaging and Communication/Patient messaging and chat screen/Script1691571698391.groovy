@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.APK, true)
 
-Mobile.setText(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.EditText'), 'samarir+katalonpatient@masaratapp.com', 
-    30)
+Mobile.setText(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.EditText'), GlobalVariable.LoginCreds.get(
+        'patient'), 30)
 
 Mobile.setText(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.EditText (1)'), 
-    'eKare123@', 30)
+    GlobalVariable.LoginCreds.get('password'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.TextView - SIGN IN'), 
     30)

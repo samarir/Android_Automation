@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - username'), 'samarir+katalonpatient@masaratapp.com', 
-    30)
+Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - username'), GlobalVariable.LoginCreds.get(
+        'patient'), 30)
 
 Mobile.setText(findTestObject('User Management/Login/android.widget.EditText - password'), GlobalVariable.LoginCreds.get(
         'password'), 30)
