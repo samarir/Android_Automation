@@ -28,8 +28,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Data Report/Patient (
 
 Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Default logo (eKare)'), 
-    30)
+Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.view.ViewGroup - logo'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Custom logo On the web, go to Menu  Settings'), 
     30)

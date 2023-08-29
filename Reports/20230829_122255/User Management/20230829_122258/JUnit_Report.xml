@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Management" time="293.259" tests="7" failures="2" errors="1">
+   <testsuite name="User Management" tests="7" failures="2" errors="1" time="293.259" skipped="0" timestamp="2023-08-29 12:23:26" hostname="Amarir - DESKTOP-EE3F8H4" id="Test Suites/User Management">
+      <properties>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Amarir\\git\\IS_Katalon_Lite_Version\\Reports\\20230829_122255\\User Management\\20230829_122258"/>
+         <property name="logFiles" value="C:\\Users\\Amarir\\git\\IS_Katalon_Lite_Version\\Reports\\20230829_122255\\User Management\\20230829_122258\\appium.log, C:\\Users\\Amarir\\git\\IS_Katalon_Lite_Version\\Reports\\20230829_122255\\User Management\\20230829_122258\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Amarir - DESKTOP-EE3F8H4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-N975F"/>
+         <property name="hostAddress" value="192.168.234.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8N307NKZV"/>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/User Managemenet/Privacy Terms and Conditions" time="0.26" classname="Test Cases/User Managemenet/Privacy Terms and Conditions" status="ERROR">
+         <error type="ERROR" message="Test Cases/User Managemenet/Privacy Terms and Conditions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1690195614634
+	at Privacy Terms and Conditions.run(Privacy Terms and Conditions:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-29 12:23:30 - [TEST_CASE][ERROR] - Test Cases/User Managemenet/Privacy Terms and Conditions: Test Cases/User Managemenet/Privacy Terms and Conditions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1690195614634
+	at Privacy Terms and Conditions.run(Privacy Terms and Conditions:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)
+
+
+2023-08-29 12:23:30 - [TEST_STEP][ERROR] - startApplication(APK, true): Test Cases/User Managemenet/Privacy Terms and Conditions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1690195614634
+	at Privacy Terms and Conditions.run(Privacy Terms and Conditions:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)
+
+
+2023-08-29 12:23:30 - [MESSAGE][ERROR] - Test Cases/User Managemenet/Privacy Terms and Conditions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1690195614634
+	at Privacy Terms and Conditions.run(Privacy Terms and Conditions:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-08-29 12:23:30 - [TEST_CASE][ERROR] - Test Cases/User Managemenet/Privacy Terms and Conditions: Test Cases/User Managemenet/Privacy Terms and Conditions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1690195614634
+	at Privacy Terms and Conditions.run(Privacy Terms and Conditions:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Managemenet/Restore Password" time="0.366" classname="Test Cases/User Managemenet/Restore Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/User Managemenet/Restore Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap.call(Unknown Source)
+	at Restore Password.run(Restore Password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-29 12:23:36 - [TEST_CASE][FAILED] - Test Cases/User Managemenet/Restore Password: Test Cases/User Managemenet/Restore Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap.call(Unknown Source)
+	at Restore Password.run(Restore Password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)
+
+
+2023-08-29 12:23:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Restore Password/android.widget.TextView - Forgot your password"), 30): null]]></system-out>
+         <system-err><![CDATA[2023-08-29 12:23:36 - [TEST_CASE][FAILED] - Test Cases/User Managemenet/Restore Password: Test Cases/User Managemenet/Restore Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap.call(Unknown Source)
+	at Restore Password.run(Restore Password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Managemenet/10loginTestAttempts" time="0.526" classname="Test Cases/User Managemenet/10loginTestAttempts" status="FAILED">
+         <failure type="FAILED" message="Test Cases/User Managemenet/10loginTestAttempts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at 10loginTestAttempts.run(10loginTestAttempts:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-29 12:23:39 - [TEST_CASE][FAILED] - Test Cases/User Managemenet/10loginTestAttempts: Test Cases/User Managemenet/10loginTestAttempts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at 10loginTestAttempts.run(10loginTestAttempts:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)
+
+
+2023-08-29 12:23:39 - [TEST_STEP][PASSED] - setText(findTestObject("User Management/Login/android.widget.EditText - username"), "Test10times", 30): null]]></system-out>
+         <system-err><![CDATA[2023-08-29 12:23:39 - [TEST_CASE][FAILED] - Test Cases/User Managemenet/10loginTestAttempts: Test Cases/User Managemenet/10loginTestAttempts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$0.call(Unknown Source)
+	at 10loginTestAttempts.run(10loginTestAttempts:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Managemenet/Login" time="62.809" classname="Test Cases/User Managemenet/Login" status="PASSED">
+         <system-out><![CDATA[2023-08-29 12:23:40 - [TEST_CASE][PASSED] - Test Cases/User Managemenet/Login: Test Cases/User Managemenet/Login
+
+2023-08-29 12:23:41 - [TEST_STEP][PASSED] - startApplication(APK, false): Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Prod_2.1.apk'
+
+2023-08-29 12:23:43 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-08-29 12:23:47 - [MESSAGE][INFO] - Appium server started on port 60,923
+
+2023-08-29 12:24:17 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Prod_2.1.apk'
+
+2023-08-29 12:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("User Management/Login/android.widget.EditText - password"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - password'
+
+2023-08-29 12:24:24 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - password'
+
+2023-08-29 12:24:24 - [TEST_STEP][PASSED] - setText(findTestObject("User Management/Login/android.widget.EditText - username"), LoginCreds.get("username"), 30): Text 'safakata' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - username'
+
+2023-08-29 12:24:25 - [MESSAGE][PASSED] - Text 'safakata' has been set to element 'Object Repository/User Management/Login/android.widget.EditText - username'
+
+2023-08-29 12:24:25 - [TEST_STEP][PASSED] - tap(findTestObject("User Management/Login/android.view.ViewGroup - sign in"), 30): Tapped on element 'Object Repository/User Management/Login/android.view.ViewGroup - sign in'
+
+2023-08-29 12:24:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login/android.view.ViewGroup - sign in'
+
+2023-08-29 12:24:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/User Management/Login/android.widget.TextView - Katalon'
+
+2023-08-29 12:24:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login/android.widget.TextView - Katalon'
+
+2023-08-29 12:24:30 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-08-29 12:24:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-29 12:24:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Login/android.widget.TextView - Patient Directory"), 30): Element 'Object Repository/User Management/Login/android.widget.TextView - Patient Directory' is exist
+
+2023-08-29 12:24:43 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login/android.widget.TextView - Patient Directory' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Managemenet/Logout" time="9.154" classname="Test Cases/User Managemenet/Logout" status="PASSED">
+         <system-out><![CDATA[2023-08-29 12:24:43 - [TEST_CASE][PASSED] - Test Cases/User Managemenet/Logout: Test Cases/User Managemenet/Logout
+
+2023-08-29 12:24:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Logout/android.widget.ImageView - menu"), 0): Tapped on element 'Object Repository/User Management/Logout/android.widget.ImageView - menu'
+
+2023-08-29 12:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 12:24:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Logout/android.widget.ImageView - menu'
+
+2023-08-29 12:24:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Logout/android.widget.TextView - Logout"), 0): Tapped on element 'Object Repository/User Management/Logout/android.widget.TextView - Logout'
+
+2023-08-29 12:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 12:24:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Logout/android.widget.TextView - Logout'
+
+2023-08-29 12:24:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Logout/android.widget.Button - CONFIRM"), 0): Tapped on element 'Object Repository/User Management/Logout/android.widget.Button - CONFIRM'
+
+2023-08-29 12:24:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 12:24:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Logout/android.widget.Button - CONFIRM'
+
+2023-08-29 12:24:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Logout/android.widget.ImageView"), 0): Element 'Object Repository/User Management/Logout/android.widget.ImageView' is exist
+
+2023-08-29 12:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-29 12:24:52 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Logout/android.widget.ImageView' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Managemenet/Login as user with multiple sites" time="129.876" classname="Test Cases/User Managemenet/Login as user with multiple sites" status="PASSED">
+         <system-out><![CDATA[2023-08-29 12:24:52 - [TEST_CASE][PASSED] - Test Cases/User Managemenet/Login as user with multiple sites: Test Cases/User Managemenet/Login as user with multiple sites
+
+2023-08-29 12:24:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.EditText - username"), "KatalonSite", 30): Text 'KatalonSite' has been set to element 'Object Repository/User Management/Login as user with multiple sites/android.widget.EditText - username'
+
+2023-08-29 12:24:56 - [MESSAGE][PASSED] - Text 'KatalonSite' has been set to element 'Object Repository/User Management/Login as user with multiple sites/android.widget.EditText - username'
+
+2023-08-29 12:24:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.EditText"), "eKare123@", 30): Text 'eKare123@' has been set to element 'Object Repository/User Management/Login as user with multiple sites/android.widget.EditText'
+
+2023-08-29 12:24:57 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/User Management/Login as user with multiple sites/android.widget.EditText'
+
+2023-08-29 12:24:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - SIGN IN"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - SIGN IN'
+
+2023-08-29 12:24:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - SIGN IN'
+
+2023-08-29 12:24:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Katalon'
+
+2023-08-29 12:25:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Katalon'
+
+2023-08-29 12:25:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - add new patient"), 30): Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - add new patient' is exist
+
+2023-08-29 12:25:06 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - add new patient' is exist
+
+2023-08-29 12:25:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup - patient"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup - patient'
+
+2023-08-29 12:25:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup - patient'
+
+2023-08-29 12:25:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu'
+
+2023-08-29 12:25:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu'
+
+2023-08-29 12:25:09 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient"), 30): Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient' is exist
+
+2023-08-29 12:25:11 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient' is exist
+
+2023-08-29 12:25:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient"), 30): Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient' is exist
+
+2023-08-29 12:25:11 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient' is exist
+
+2023-08-29 12:25:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Cancel"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Cancel'
+
+2023-08-29 12:25:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Cancel'
+
+2023-08-29 12:25:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-29 12:25:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-08-29 12:25:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)'
+
+2023-08-29 12:25:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)'
+
+2023-08-29 12:25:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Site"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Site'
+
+2023-08-29 12:25:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Site'
+
+2023-08-29 12:25:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - site user"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - site user'
+
+2023-08-29 12:25:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - site user'
+
+2023-08-29 12:25:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup'
+
+2023-08-29 12:25:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.view.ViewGroup'
+
+2023-08-29 12:25:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu'
+
+2023-08-29 12:25:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - menu'
+
+2023-08-29 12:25:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Edit patient"), 30): Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Edit patient' is exist
+
+2023-08-29 12:25:26 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Edit patient' is exist
+
+2023-08-29 12:25:26 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("User Management/Login as user with multiple sites/android.widget.TextView - Delete patient"), 30): Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient' not found
+
+2023-08-29 12:25:57 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient' not found
+
+2023-08-29 12:25:57 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient"), 30): Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient' not found
+
+2023-08-29 12:26:27 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient' not found
+
+2023-08-29 12:26:27 - [TEST_STEP][PASSED] - tap(findTestObject("User Management/Login as user with multiple sites/android.widget.TextView - Cancel"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Cancel'
+
+2023-08-29 12:26:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Cancel'
+
+2023-08-29 12:26:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-08-29 12:26:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-08-29 12:26:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)'
+
+2023-08-29 12:26:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)'
+
+2023-08-29 12:26:29 - [TEST_STEP][PASSED] - tap(findTestObject("User Management/Login as user with multiple sites/android.widget.TextView - Site"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Site'
+
+2023-08-29 12:26:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Site'
+
+2023-08-29 12:26:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Test1"), 30): Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Test1'
+
+2023-08-29 12:26:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - Test1'
+
+2023-08-29 12:26:32 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("User Management/Login as user with multiple sites/android.widget.TextView - add new patient"), 30): Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - add new patient' not found
+
+2023-08-29 12:27:02 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Login as user with multiple sites/android.widget.TextView - add new patient' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Managemenet/Auto-logout" time="77.507" classname="Test Cases/User Managemenet/Auto-logout" status="PASSED">
+         <system-out><![CDATA[2023-08-29 12:27:02 - [TEST_CASE][PASSED] - Test Cases/User Managemenet/Auto-logout: Test Cases/User Managemenet/Auto-logout
+
+2023-08-29 12:27:03 - [TEST_STEP][PASSED] - tap(findTestObject("User Management/Auto-Logout/android.widget.ImageView - Menu (1)"), 30): Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.ImageView - Menu (1)'
+
+2023-08-29 12:27:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.ImageView - Menu (1)'
+
+2023-08-29 12:27:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Auto-Logout/android.widget.TextView - Settings"), 30): Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.TextView - Settings'
+
+2023-08-29 12:27:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.TextView - Settings'
+
+2023-08-29 12:27:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Auto-Logout/android.widget.TextView - Logout time"), 30): Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.TextView - Logout time'
+
+2023-08-29 12:27:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.TextView - Logout time'
+
+2023-08-29 12:27:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Auto-Logout/android.widget.TextView - 1 minutes"), 30): Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.TextView - 1 minutes'
+
+2023-08-29 12:27:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.TextView - 1 minutes'
+
+2023-08-29 12:27:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/User Management/Auto-Logout/android.widget.ImageView (1)"), 30): Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.ImageView (1)'
+
+2023-08-29 12:27:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/User Management/Auto-Logout/android.widget.ImageView (1)'
+
+2023-08-29 12:27:09 - [TEST_STEP][PASSED] - delay(65, STOP_ON_FAILURE): Delayed 65 second(s)
+
+2023-08-29 12:28:14 - [MESSAGE][PASSED] - Delayed 65 second(s)
+
+2023-08-29 12:28:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/User Management/Auto-Logout/android.widget.ImageView (2)"), 30): Element 'Object Repository/User Management/Auto-Logout/android.widget.ImageView (2)' is exist
+
+2023-08-29 12:28:19 - [MESSAGE][PASSED] - Element 'Object Repository/User Management/Auto-Logout/android.widget.ImageView (2)' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-29 12:23:26 - [TEST_SUITE][ERROR] - User Management: Test Cases/User Managemenet/Privacy Terms and Conditions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1690195614634
+	at Privacy Terms and Conditions.run(Privacy Terms and Conditions:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-08-29 12:23:26 - [TEST_SUITE][ERROR] - User Management: Test Cases/User Managemenet/Privacy Terms and Conditions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1690195614634
+	at Privacy Terms and Conditions.run(Privacy Terms and Conditions:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693311778342.run(TempTestSuite1693311778342.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
