@@ -35,8 +35,9 @@ Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.widget.TextV
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.verifyElementExist(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.RelativeLayout'), 30)
+Mobile.takeScreenshot('C:\\Users\\Amarir\\AppData\\Local\\Temp\\screenshot4274692841801287132.png', FailureHandling.STOP_ON_FAILURE)
 
+//Mobile.verifyElementExist(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.RelativeLayout'), 30)
 Mobile.pressBack()
 
 Mobile.pressBack()
