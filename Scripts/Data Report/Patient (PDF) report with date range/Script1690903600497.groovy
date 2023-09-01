@@ -26,8 +26,6 @@ Mobile.verifyElementText(findTestObject('Object Repository/Data Report/Patient (
 
 Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.Button - Allow'), 30)
-
 Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.widget.TextView - PDF reader'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
