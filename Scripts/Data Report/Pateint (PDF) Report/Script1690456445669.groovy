@@ -37,8 +37,6 @@ Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/an
 
 Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.widget.TextView - PDF reader'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.Button - Just once'), 0)
-
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
