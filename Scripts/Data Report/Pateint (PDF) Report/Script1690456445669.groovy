@@ -43,7 +43,6 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.verifyElementExist(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.RelativeLayout'), 30)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
