@@ -35,7 +35,10 @@ Mobile.tap(findTestObject('Data Report/Patient (PDF) Report/android.widget.TextV
 
 Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.Button - Allow'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.Button - Always'), 30)
+Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.TextView - Write on PDF'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/Data Report/Patient (PDF) Report/android.widget.Button - Just once'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
