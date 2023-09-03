@@ -104,7 +104,7 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Wound Management</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>

@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.delay(30)
+
 Mobile.setText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.EditText - Search by Name, MRN'), 
     '6768', 30)
 
@@ -39,8 +40,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Un
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent'), 
-    'No Consent')
+Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent'),
+	'No Consent')
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (1)'), 30)
 
