@@ -32,99 +32,101 @@ Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/a
 
 Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.Button - CONFIRM'), 30)
 
-if(Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Click  above to add a wound'), 
-    30,FailureHandling.CONTINUE_ON_FAILURE) == true) {
+if (Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Click  above to add a wound'), 
+    30, FailureHandling.CONTINUE_ON_FAILURE) == true) {
+    Mobile.pressBack()
 
-	Mobile.pressBack()
-	Mobile.scrollToText('MRN: 86ui')
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 86ui'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.TextView - Delete wound'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.Button - CONFIRM'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.ImageView - add wound'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.TextView - Next'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.TextView - Save'), 30)
-	
-	Mobile.verifyElementExist(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
-	
-	Mobile.pressBack()
-	
-	Mobile.scrollToText('MRN: 87ui')
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 87ui'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView (1)'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Active'), 30)
-	
-	Mobile.verifyElementText(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Active (1)'),
-		'Active')
-	
-	Mobile.pressBack()
-	
-	Mobile.pressBack()
-	
-	Mobile.scrollToText('MRN: 89ui')
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 89ui'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Unlock wound'),
-		30)
-	
-	Mobile.pressBack()
-	
-	Mobile.pressBack()
-	
-	Mobile.scrollToText('MRN: 90ui')
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 90ui'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
-	
-	Mobile.tap(findTestObject('Wound Management/Edit Wound/android.widget.ImageView - MENU (1)'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Lock wound'), 30)
-	
-	Mobile.pressBack()
-	
-	Mobile.pressBack()
-	
-	Mobile.scrollToText('MRN: 91ui')
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 91ui'), 30)
-	
-	Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.ImageView - add wound'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Next'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Save'), 30)
-	
-	Mobile.verifyElementExist(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
-	
-	Mobile.pressBack()
+    Mobile.scrollToText('MRN: 86ui')
 
-}else if(Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Click  above to add a wound'), 
-    30,FailureHandling.CONTINUE_ON_FAILURE) == false) {
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Delete wound'),
-		30)
-	
-	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.Button - CONFIRM'), 30)
+    Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 86ui'), 
+        30)
+
+    Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
+
+    Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
+
+    Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.TextView - Delete wound'), 30)
+
+    Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.Button - CONFIRM'), 30)
+
+    Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.ImageView - add wound'), 30)
+
+    Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.TextView - Next'), 30)
+
+    Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.TextView - Save'), 30)
+
+    Mobile.verifyElementExist(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
+
+    Mobile.pressBack()
+} else if (Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Click  above to add a wound'), 
+    30, FailureHandling.CONTINUE_ON_FAILURE) == false) {
+    Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
+
+    Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Delete wound'), 
+        30)
+
+    Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.Button - CONFIRM'), 30)
+
+    Mobile.pressBack()
 }
+
+Mobile.scrollToText('MRN: 87ui')
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 87ui'), 30)
+
+Mobile.tap(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView (1)'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Active'), 30)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Active (1)'), 
+    'Active')
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.scrollToText('MRN: 89ui')
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 89ui'), 30)
+
+Mobile.tap(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
+
+Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Unlock wound'), 
+    30)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.scrollToText('MRN: 90ui')
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 90ui'), 30)
+
+Mobile.tap(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
+
+Mobile.tap(findTestObject('Wound Management/Edit Wound/android.widget.ImageView - MENU (1)'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Lock wound'), 30)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.scrollToText('MRN: 91ui')
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - MRN 91ui'), 30)
+
+Mobile.tap(findTestObject('Data Preparation/Wound Management/android.widget.ImageView - add wound'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Next'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Save'), 30)
+
+Mobile.verifyElementExist(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
+
+Mobile.pressBack()
 
