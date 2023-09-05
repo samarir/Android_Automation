@@ -118,7 +118,13 @@ if(Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation/
 	
 	Mobile.pressBack()
 
-}else {
+}else if(Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Click  above to add a wound'), 
+    30,FailureHandling.CONTINUE_ON_FAILURE) == false) {
+	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
 	
+	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Delete wound'),
+		30)
+	
+	Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.Button - CONFIRM'), 30)
 }
 
