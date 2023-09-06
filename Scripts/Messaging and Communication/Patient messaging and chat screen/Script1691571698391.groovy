@@ -47,8 +47,7 @@ Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notific
 
 Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notifications/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.TextView - Messaging'), 
-    30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Messaging'), 30)
 
 Mobile.setText(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.EditText - Type your message here'), 
     'hello clinician', 30)
@@ -60,7 +59,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Messaging and Communi
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Messaging and Communication/Notifications/android.widget.TextView - Messaging'), 30)
+Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Messaging'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.TextView - hello clinician'), 
     'hello clinician')

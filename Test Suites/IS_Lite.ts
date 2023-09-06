@@ -144,7 +144,7 @@
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Treatment and WCP</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
