@@ -24,6 +24,8 @@ Mobile.tap(findTestObject('Object Repository/Wound Management/Wound List/android
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Wound List/android.widget.TextView - Current site (1)'), 30)
 
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Wound Management/Wound List/android.view.ViewGroup - patient'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound List/android.widget.TextView - 92ui'), 
@@ -90,5 +92,4 @@ Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Woun
     'Cancel')
 
 Mobile.tap(findTestObject('Wound Management/Wound List/android.widget.TextView - Cancel'), 30)
-
 
