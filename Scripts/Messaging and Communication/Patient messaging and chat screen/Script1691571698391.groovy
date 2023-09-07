@@ -45,6 +45,8 @@ Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notific
 Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.TextView - Save'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notifications/android.view.ViewGroup'), 30)
 
 Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Messaging'), 30)
@@ -57,9 +59,13 @@ Mobile.tap(findTestObject('Object Repository/Messaging and Communication/Notific
 Mobile.verifyElementText(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.TextView - hello clinician'), 
     'hello clinician')
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Messaging'), 30)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Messaging and Communication/Notifications/android.widget.TextView - hello clinician'), 
     'hello clinician')

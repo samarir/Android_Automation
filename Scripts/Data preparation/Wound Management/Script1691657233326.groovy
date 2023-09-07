@@ -58,8 +58,8 @@ if (Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation
     Mobile.verifyElementExist(findTestObject('Data Preparation/Wound Management/android.view.ViewGroup - wound'), 30)
 
     Mobile.pressBack()
-} else if (Mobile.verifyElementExist(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Click  above to add a wound'), 
-    30, FailureHandling.CONTINUE_ON_FAILURE) == false) {
+} else if (Mobile.verifyElementNotExist(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Click  above to add a wound'), 
+    30, FailureHandling.CONTINUE_ON_FAILURE) == true) {
     Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.ImageView - menu'), 30)
 
     Mobile.tap(findTestObject('Object Repository/Data Preparation/Wound Management/android.widget.TextView - Delete wound'), 
