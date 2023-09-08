@@ -26,6 +26,8 @@ Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statu
 Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.widget.TextView - Current site (1)'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Change wound statues/android.view.ViewGroup - wound'), 

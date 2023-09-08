@@ -28,3 +28,5 @@ Mobile.tap(findTestObject('Object Repository/Patient Management/Search Patient/a
 Mobile.verifyElementExist(findTestObject('Object Repository/Patient Management/Search Patient/android.view.ViewGroup (1)'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+

@@ -25,6 +25,8 @@ Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/a
 Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.TextView - Current site'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.view.ViewGroup (1)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Delete Patient/android.widget.ImageView'), 30)

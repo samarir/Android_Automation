@@ -25,6 +25,8 @@ Mobile.tap(findTestObject('Object Repository/Wound Management/Delete Wound/andro
 Mobile.tap(findTestObject('Object Repository/Wound Management/Delete Wound/android.widget.TextView - Current site (1)'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 
     30)
 

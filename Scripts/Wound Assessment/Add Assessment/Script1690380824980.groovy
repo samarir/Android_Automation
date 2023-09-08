@@ -25,6 +25,8 @@ Mobile.tap(findTestObject('Object Repository/Wound Assessment/Add Assessment/and
 Mobile.tap(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.widget.TextView - Current site (1)'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Assessment/Add Assessment/android.view.ViewGroup - Patient'), 
     30)
 

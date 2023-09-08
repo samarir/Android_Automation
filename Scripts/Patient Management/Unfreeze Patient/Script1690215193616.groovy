@@ -28,6 +28,8 @@ Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Current site (1)'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.view.ViewGroup'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView'), 30)
@@ -40,8 +42,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Un
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent'),
-	'No Consent')
+Mobile.verifyElementText(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent'), 
+    'No Consent')
 
 Mobile.tap(findTestObject('Object Repository/Patient Management/Unfreeze Patient/android.widget.ImageView (1)'), 30)
 

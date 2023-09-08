@@ -25,6 +25,8 @@ Mobile.tap(findTestObject('Object Repository/Wound Management/Unlock wound/andro
 Mobile.tap(findTestObject('Object Repository/Wound Management/Unlock wound/android.widget.TextView - Current site (1)'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementExist(findTestObject('Object Repository/Wound Management/Unlock wound/android.view.ViewGroup - Patient'), 
     30)
 

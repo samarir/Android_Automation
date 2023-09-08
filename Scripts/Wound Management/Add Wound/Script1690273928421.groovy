@@ -24,6 +24,8 @@ Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.TextView - Current site (1)'), 30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.view.ViewGroup'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Wound Management/Add Wound/android.widget.ImageView - add wound'), 30)

@@ -25,6 +25,8 @@ Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/a
 Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.widget.TextView - Current site'), 
     30)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Patient Management/Freeze Patient/android.view.ViewGroup (1)'), 30)
 
 Mobile.tap(findTestObject('Patient Management/Freeze Patient/android.widget.ImageView - menu'), 30)
