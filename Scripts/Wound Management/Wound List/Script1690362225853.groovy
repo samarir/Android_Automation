@@ -37,7 +37,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Woun
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound List/android.widget.TextView - 09091990'), 
     '09/09/1990')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound List/android.widget.TextView - 32'), '32')
+Mobile.verifyElementText(findTestObject('Wound Management/Wound List/android.widget.TextView - 33'), '33')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Wound Management/Wound List/android.widget.TextView - Active'), 
     'Active')
