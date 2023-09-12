@@ -26,7 +26,7 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/input_Sign in_username'), 
     GlobalVariable.LoginCreds.get('username'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/input_Sign in_password'), 
+WebUI.setText(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/input_Sign in_password'), 
     GlobalVariable.LoginCreds.get('password'))
 
 WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/button_Sign in'))
