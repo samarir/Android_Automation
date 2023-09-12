@@ -58,6 +58,8 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Online mode/android.view.ViewGroup'), 30)
 
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Assessment'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Online mode/android.widget.ImageView (1)'), 
@@ -114,7 +116,7 @@ Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Onl
 
 Mobile.pressBack()
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Hard to find elements/android.view.ViewGroup - Treatement'), 30)
 
