@@ -38,6 +38,8 @@ Mobile.tap(findTestObject('Object Repository/Data Preparation/Patient Management
 
 Mobile.tap(findTestObject('Object Repository/Data Preparation/Patient Management/android.widget.Button - OK'), 30)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.scrollToText('6768')

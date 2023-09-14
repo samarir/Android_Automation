@@ -42,7 +42,7 @@ Mobile.scrollToText('MRN: 12ui')
 Mobile.tap(findTestObject('Object Repository/Synchronization and Offline Use/Online mode/android.widget.TextView - MRN 12ui'), 
     30)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.toggleWifi('off', FailureHandling.STOP_ON_FAILURE)
 
