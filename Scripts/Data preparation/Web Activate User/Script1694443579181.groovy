@@ -37,9 +37,17 @@ WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/
 
 WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/li_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/input_Clinical role_status'))
+if (WebUI.verifyElementNotChecked(findTestObject('Data Preparation/Web_activateUser/Page_eKare inSight 2.1/input_Clinical role_status'), 
+    30,FailureHandling.CONTINUE_ON_FAILURE) == true) {
+    WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/input_Clinical role_status'))
 
-WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/button_Save'))
+    WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/button_Done'))
+    WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/button_Done'))
+}else {
+	WebUI.click(findTestObject('Object Repository/Data Preparation/Web_activateUser/Page_eKare inSight 2.1/button_Cancel'))
+}
+
+
+
 
