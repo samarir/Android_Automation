@@ -31,13 +31,3 @@ Mobile.tap(findTestObject('Data Preparation/Sync/android.widget.Button - CONFIRM
 
 Mobile.verifyElementNotExist(findTestObject('Data Preparation/Sync/android.widget.TextView - MRN 00ui'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Data Preparation/Sync/android.widget.ImageView'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Data Preparation/Sync/android.widget.TextView - Settings'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Data Preparation/Sync/android.widget.TextView - Sync Mode'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Data Preparation/Sync/android.widget.TextView - Automatic'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Data Preparation/Sync/android.widget.Button - CONFIRM (1)'), 0)
-
