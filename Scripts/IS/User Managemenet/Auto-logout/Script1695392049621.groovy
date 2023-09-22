@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Patient Directory/android.widget.ImageView - Left Menu'), 30)
+Mobile.tap(findTestObject('Patient Directory/android.widget.ImageView - Menu Left'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/User Management/Auto-Logout/android.widget.TextView - Settings'), 30)
 
