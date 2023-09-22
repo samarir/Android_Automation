@@ -15,14 +15,14 @@
       <guid>e8fa7d2d-8794-4016-98dd-01157bf8effe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Messaging and Communication/Patient messaging and chat screen</testCaseId>
+      <testCaseId>Test Cases/IS/Messaging and Communication/Patient messaging and chat screen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>bc06817f-3ebe-497c-ac11-541c20d99fbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Messaging and Communication/Notifications</testCaseId>
+      <testCaseId>Test Cases/IS/Messaging and Communication/Notifications</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

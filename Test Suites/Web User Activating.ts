@@ -15,7 +15,7 @@
       <guid>81103386-3f26-42f9-b7e3-46278798f7ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Data preparation/Web Activate User</testCaseId>
+      <testCaseId>Test Cases/IS/Data preparation/Web Activate User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

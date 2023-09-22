@@ -15,28 +15,28 @@
       <guid>09c81240-cde5-4274-8444-ba82f91b7d5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User Managemenet/Login</testCaseId>
+      <testCaseId>Test Cases/IS/User Managemenet/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cb4a482b-fa6c-4ce7-b5bd-e3a9d94be714</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Data Report/Pateint (PDF) Report</testCaseId>
+      <testCaseId>Test Cases/IS/Data Report/Pateint (PDF) Report</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e23ed90b-4698-4429-a288-dae8066f032a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Data Report/PDF report logo customization</testCaseId>
+      <testCaseId>Test Cases/IS/Data Report/PDF report logo customization</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dd2fddb3-ee3e-467b-96e8-a044b396c934</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Data Report/Patient (PDF) report with date range</testCaseId>
+      <testCaseId>Test Cases/IS/Data Report/Patient (PDF) report with date range</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
