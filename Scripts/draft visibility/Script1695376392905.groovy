@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('IS/User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Draft/android.widget.ImageView - filter test'), 30)
+Mobile.verifyElementVisible(findTestObject('Patient Directory/android.widget.ImageView - Left Menu'), 30)
+
+Mobile.tap(findTestObject('Patient Directory/android.widget.ImageView - Left Menu'), 0)
 
