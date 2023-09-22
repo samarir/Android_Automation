@@ -54,7 +54,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9889d509-2f07-4622-a154-9e7c2ef54867</guid>
+      <guid>41096717-2077-43b6-a3dd-725140a489ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IS/User Managemenet/Auto-logout</testCaseId>
