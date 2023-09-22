@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('Object Repository/IS/Wound Management/Delete Wound/android.widget.EditText - Search by Name, MRN'), 
-    '91ui', 30)
+Mobile.setText(findTestObject('Patient Directory/android.widget.EditText - Search Bar'), '91ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Wound Management/Delete Wound/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/IS/Wound Management/Delete Wound/android.widget.TextView - Current site'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Wound Management/Delete Wound/android.widget.TextView - Current site (1)'), 
     30)
