@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://portal.ekareinc.com/#/login')
+WebUI.navigateToUrl(GlobalVariable.LoginCreds.get('url'))
 
 WebUI.maximizeWindow()
 
