@@ -64,7 +64,7 @@ Mobile.tap(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/
 Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Save'), 
     30)
 
-Mobile.verifyElementText(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound (1)'), 
+Mobile.verifyElementText(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound'), 
     'Do you have any new or increased drainage, odor, or redness around the wound?')
 
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (2)'), 
