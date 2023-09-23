@@ -6,6 +6,14 @@
    <elementGuidId>28cf68ac-c008-4310-a324-52ccf2ef7e8f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#/users' and (text() = '
+                     User Management
+                ' or . = '
+                     User Management
+                ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
@@ -13,7 +21,7 @@
          <value>//ul[@id='menu-content']/li[6]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>94e937b0-3b80-45e7-bab0-cbe3f5498fd2</webElementGuid>
+      <webElementGuid>9a99074a-333f-412a-9535-b5e8fa11e296</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#/users</value>
-      <webElementGuid>105cdce1-e817-4752-a304-942fb30e4d03</webElementGuid>
+      <webElementGuid>b74ffe4f-6a6f-4f84-b81f-8d8016fcb386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +45,7 @@
       <name>ng-click</name>
       <type>Main</type>
       <value>$root.PAGE='USERS'</value>
-      <webElementGuid>408b439e-9144-447a-8e95-1e0ec06635bf</webElementGuid>
+      <webElementGuid>58b081d5-c36a-4b5d-888a-c6af20a6df6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-binding</value>
-      <webElementGuid>b63035b0-88d1-4941-b5b7-8a3270e493e5</webElementGuid>
+      <webElementGuid>ee3e7461-cd21-4292-bd34-96611f624540</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +63,7 @@
       <value>
                      User Management
                 </value>
-      <webElementGuid>90fb4f33-0b26-4f3f-8849-10cb361851ae</webElementGuid>
+      <webElementGuid>936fd8df-bd6d-40c8-a0df-07fde5f84fae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu-content&quot;)/li[@class=&quot;clickHref&quot;]/a[@class=&quot;ng-binding&quot;]</value>
-      <webElementGuid>543c0298-5417-4b13-b09f-41a65d13d521</webElementGuid>
+      <webElementGuid>916fd9be-53fa-44f5-8d8f-1cf6c4fc6a80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='menu-content']/li[6]/a</value>
-      <webElementGuid>9e584f12-851c-4bd5-8aa7-ba580b025f94</webElementGuid>
+      <webElementGuid>2023b35a-ff72-4122-a97c-a9e5908c1a2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>7632fa96-350a-4c55-b278-44f7fcf435c9</webElementGuid>
+      <webElementGuid>db5d40f0-2a5b-42c5-8870-4badeabae66d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Export Data (CSV)'])[1]/preceding::a[2]</value>
-      <webElementGuid>1533a6d0-2fd5-41fa-9828-0b1a50c550be</webElementGuid>
+      <webElementGuid>eb84ca0c-fae2-4571-a782-c62b4a67cd2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='User Management']/parent::*</value>
-      <webElementGuid>dc9de5d5-097d-4f72-81a4-946d4e5eced9</webElementGuid>
+      <webElementGuid>ecbefe71-615d-4a1e-af78-37c532139063</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +111,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#/users')]</value>
-      <webElementGuid>08b2f2f4-155c-44ca-831a-b239d2defde0</webElementGuid>
+      <webElementGuid>815dadf4-5293-42bc-b563-1f75a6548c05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a</value>
-      <webElementGuid>f5f7965d-0731-4d45-a016-bd30ea9147dc</webElementGuid>
+      <webElementGuid>e0520024-cc4b-4009-a585-f713091f2604</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +131,6 @@
                 ' or . = '
                      User Management
                 ')]</value>
-      <webElementGuid>7b34d29a-e3a3-43f4-bdd9-7635ef003a77</webElementGuid>
+      <webElementGuid>887309fe-ae6d-49ab-bc4b-25c29ef7b6d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
