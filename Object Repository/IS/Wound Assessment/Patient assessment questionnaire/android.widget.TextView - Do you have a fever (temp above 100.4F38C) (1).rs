@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>5bcdab81-a7b6-4b83-8d68-b4152ea929c2</webElementGuid>
+      <webElementGuid>647dfa0f-9b84-4b27-b126-53c9837ae284</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>6</value>
-      <webElementGuid>a1da94d0-f3e1-402e-bfdc-7b2edbad6fc8</webElementGuid>
+      <webElementGuid>edf9d837-601d-41ec-9de6-b84f05960dae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do you have a fever (temp above 100.4F/38C)?</value>
-      <webElementGuid>902486e5-696b-4a77-9cda-065976a5dbbe</webElementGuid>
+      <webElementGuid>3d5fb3b2-0bc1-4cfd-b6cc-614ccb98121a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.ekareinc.insight.standard</value>
-      <webElementGuid>9c65d150-99e1-4f27-81b2-c8d86b5d979d</webElementGuid>
+      <webElementGuid>fb7b1e91-02ac-4338-a45c-eefe4ed5b86c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>93e478bf-3075-49d9-bf82-f22fa14e8d4a</webElementGuid>
+      <webElementGuid>166d9ecf-c86f-4ff2-aac1-29e54c7e71a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>25238a4b-2ac4-4344-9146-936aa5f21d2c</webElementGuid>
+      <webElementGuid>50f816b7-8c5b-489e-9a0b-2d85a2193ae5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>554cc7f2-b242-4b88-86bb-aa1a883ce231</webElementGuid>
+      <webElementGuid>4f2beff4-7aa7-404a-8d1a-6c4591ed9689</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>33262f1d-5379-4daf-8da6-c1b5277f26a3</webElementGuid>
+      <webElementGuid>bfe7a46b-bf2f-4141-81bd-a1a5259934c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0a7054da-d4f4-4143-9bff-dd186da36cbd</webElementGuid>
+      <webElementGuid>38e85628-dd0a-498a-9937-ba4be6b16d19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d7876b8b-1585-4d88-97c6-0722ec3a4d35</webElementGuid>
+      <webElementGuid>3dbf0698-d0ec-492f-8f14-252a00574f7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>74eccb34-9417-4a66-935e-905d9cc4100e</webElementGuid>
+      <webElementGuid>05512bca-ed34-460a-8bab-e298516d66c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>dc836323-ab3a-47f4-9563-b066d3f92def</webElementGuid>
+      <webElementGuid>869ccfe4-6193-4dc8-a3e4-4c8b9e704fa2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f747cf20-db34-4ab4-9cad-97e862fd378d</webElementGuid>
+      <webElementGuid>3180aad8-92f9-4905-890f-a339999cde1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3106b9cc-1d99-43b1-abee-bafff8b3d938</webElementGuid>
+      <webElementGuid>44529aa2-6d20-4fe9-bbf8-19e89f376275</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>x</name>
       <type>Main</type>
       <value>39</value>
-      <webElementGuid>fb5623b1-0d96-458f-b57b-322b3c1076f3</webElementGuid>
+      <webElementGuid>01bb1c63-393c-4b55-bffc-b5f72801da61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1102</value>
-      <webElementGuid>45117e8b-3870-4391-ad7a-5e95b7dd8ead</webElementGuid>
+      <webElementGuid>8c7918f6-32aa-451d-b281-ea8ee04b22f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1002</value>
-      <webElementGuid>2535e592-b23a-43b6-b427-45ffa0a2d783</webElementGuid>
+      <webElementGuid>88c51f4d-b491-4a51-a9c2-3a5cd230bd1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>height</name>
       <type>Main</type>
       <value>53</value>
-      <webElementGuid>96b338ce-3328-4dbf-bb86-e5fa4e321cab</webElementGuid>
+      <webElementGuid>a84b07e4-efe0-4789-8061-633e6132fc45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[39,1102][1041,1155]</value>
-      <webElementGuid>b405ecaa-28be-457a-85b7-3cd5e696a833</webElementGuid>
+      <webElementGuid>e8bfa630-f6f9-4b4a-a75d-58918085e7da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ab638763-f85f-4789-b961-de9d0776fd21</webElementGuid>
+      <webElementGuid>650c5991-e2e5-4b8f-967b-926ae5351355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,7 +172,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[4]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[5]</value>
-      <webElementGuid>d97fdc2d-ca10-4468-92c1-7814150ceafd</webElementGuid>
+      <webElementGuid>6013d9e0-c4b6-4392-b7d4-23d09ede9995</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.widget.TextView' and (@text = 'Do you have a fever (temp above 100.4F/38C)?' or . = 'Do you have a fever (temp above 100.4F/38C)?')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

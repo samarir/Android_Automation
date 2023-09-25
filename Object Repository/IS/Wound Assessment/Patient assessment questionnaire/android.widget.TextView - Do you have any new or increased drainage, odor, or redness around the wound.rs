@@ -12,15 +12,15 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>b8bff4b5-b308-4df3-a5c3-cb76fabe4cba</webElementGuid>
+      <webElementGuid>4b6de14a-6971-46c1-a239-9b7ca4082c48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>33ef40ed-dc07-4a4f-8611-4db6ed6c62c4</webElementGuid>
+      <webElementGuid>d0f4aa38-c6d4-430d-ac94-3cb76f245d1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,152 +28,152 @@
       <name>text</name>
       <type>Main</type>
       <value>Do you have any new or increased drainage, odor, or redness around the wound?</value>
-      <webElementGuid>0c06cebc-bac9-48b8-a0b3-0eb5030b84f7</webElementGuid>
+      <webElementGuid>53acbcf3-8d88-4e5b-abeb-0d047fb7e43c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
       <value>com.ekareinc.insight.standard</value>
-      <webElementGuid>8c4b5fb1-59da-450b-a85f-0641a272e03b</webElementGuid>
+      <webElementGuid>fe0ef9e2-521f-408a-a223-e9694b874e18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7be2e9d9-fb7c-4c2e-89d6-0b2488d995d7</webElementGuid>
+      <webElementGuid>f3950779-1adc-4225-9b2b-227b81984e8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7104a9d5-0f0a-4b30-964a-45c01209e7aa</webElementGuid>
+      <webElementGuid>cb362135-7600-4df3-95f5-2651106d33e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>520038a0-13b8-4ca2-9eba-264dd1148b4c</webElementGuid>
+      <webElementGuid>dd7692e8-9477-42f8-afc5-c63a3bf9ac63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e1eaa510-8686-4c6c-b747-14296c238350</webElementGuid>
+      <webElementGuid>33a833ba-d79a-461c-9863-569969eb309b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>15470d94-c85a-4b0d-b661-439200107bec</webElementGuid>
+      <webElementGuid>0cd08962-823c-49c4-a011-2c897dc7252a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5f904557-4a2f-4620-8888-731055b16179</webElementGuid>
+      <webElementGuid>8be727d1-ab58-44f2-a17d-bcb23cf90785</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>55d78686-c2d7-4cb0-994f-1304d5e1234b</webElementGuid>
+      <webElementGuid>81f90ccf-7673-4614-853c-87d1fcce644a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>648e0fc9-63d0-4803-8fdd-0a82613a391d</webElementGuid>
+      <webElementGuid>217bb7fe-ea86-4c61-84b4-e20ce0750724</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5b6cd38c-a5a1-4c8a-8b59-10c21d6e9ab7</webElementGuid>
+      <webElementGuid>85476fa5-1a54-4a41-88e1-d5342e9bacb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bbf8d90a-602e-4c3d-a69d-cf0a4bc745eb</webElementGuid>
+      <webElementGuid>e107f647-0a8d-4e61-8b4c-29b2879fa263</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
       <value>39</value>
-      <webElementGuid>a275557b-c450-4407-8b5f-4742f5d25cf7</webElementGuid>
+      <webElementGuid>ceb9fbc2-01c4-4d91-ac2e-c6229a5e0c28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
       <value>267</value>
-      <webElementGuid>535d5b01-bb84-4560-8acb-2c743b6b4e80</webElementGuid>
+      <webElementGuid>e3d2cc4d-3724-43b1-8eaf-e52ab218e7b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
       <value>1002</value>
-      <webElementGuid>55992c61-2b27-4f98-858b-e1f52ea7b5e5</webElementGuid>
+      <webElementGuid>045b82c6-9638-4544-9151-27b8da0ee263</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
       <value>108</value>
-      <webElementGuid>61696b42-d89d-4f7a-b1e5-ddbbcc55f550</webElementGuid>
+      <webElementGuid>8fececca-ff2e-46ab-9369-c8729cd89392</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
       <value>[39,267][1041,375]</value>
-      <webElementGuid>f9808a26-691c-4868-ab3b-1408dc94889e</webElementGuid>
+      <webElementGuid>e8217dba-fc9f-44ca-9862-9edfd7fdb088</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d455f4a5-30ed-4708-ab9f-0da67408556d</webElementGuid>
+      <webElementGuid>cf8f19da-a7ed-4750-b01b-55833d301292</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[5]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[1]</value>
-      <webElementGuid>4d8eaf17-2ad6-4cb1-9835-fa5b3dee1da3</webElementGuid>
+      <webElementGuid>3d269e3a-a6d5-4bfc-ae43-a2541af4f631</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Do you have any new or increased drainage, odor, or redness around the wound?' or . = 'Do you have any new or increased drainage, odor, or redness around the wound?')]</locator>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[5]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[1]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication(GlobalVariable.APK, false)
+
 Mobile.setText(findTestObject('IS/User Management/Login/android.widget.EditText - username'), GlobalVariable.LoginCreds.get(
         'patient'), 30)
 
@@ -39,51 +41,64 @@ Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/P
     'Do you have any new or increased drainage, odor, or redness around the wound?')
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No'), 
-    30)
+    0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.view.ViewGroup'), 
-    30)
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes'), 
+    0)
+
+Mobile.tap(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have new or increased wound pain'), 
     'Do you have new or increased wound pain?')
 
-Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes'), 
-    30)
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (1)'), 
+    0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (1)'), 
+    0)
+
+Mobile.tap(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (1)'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have a fever (temp above 100.4F38C)'), 
     'Do you have a fever (temp above 100.4F/38C)?')
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (1)'), 
-    30)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (1)'), 
-    30)
-
-Mobile.tap(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (1)'), 30)
-
-Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Save'), 
-    30)
-
-Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.Button - OK'), 
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (2)'), 
     0)
 
-Mobile.verifyElementText(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound (1)'), 
-    'Do you have any new or increased drainage, odor, or redness around the wound?')
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (2)'), 
+    0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (2)'), 
-    'No')
+Mobile.tap(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (2)'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have new or increased wound pain (1)'), 
-    'Do you have new or increased wound pain?')
+Mobile.setText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.EditText'), 
+    'Test note', 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (2)'), 
-    'Yes')
+Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Save (1)'), 
+    0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have a fever (temp above 100.4F38C) (1)'), 
-    'Do you have a fever (temp above 100.4F/38C)?')
+Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.Button - OK (1)'), 
+    0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (3)'), 
-    'Yes')
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound (1)'), 
+    0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Yes (3)'), 
+    0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have new or increased wound pain (1)'), 
+    0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.view.ViewGroup (1)'), 
+    0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have a fever (temp above 100.4F38C) (1)'), 
+    0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - No (3)'), 
+    0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Test note'), 
+    'Test note')
 
 Mobile.pressBack()
 

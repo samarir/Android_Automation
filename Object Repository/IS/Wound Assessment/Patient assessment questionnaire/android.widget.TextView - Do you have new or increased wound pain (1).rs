@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>c4e6f3c1-b7df-45a1-ad01-88fbef79335f</webElementGuid>
+      <webElementGuid>35090229-663b-4c77-a079-61e1a120c873</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>e55b8381-7359-4111-8cbf-728d25420a68</webElementGuid>
+      <webElementGuid>0e4f5eec-5899-4261-9756-329ad8a9d6e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do you have new or increased wound pain?</value>
-      <webElementGuid>952ff0d6-daf1-4a95-b648-3b6b143345c0</webElementGuid>
+      <webElementGuid>769cf3bf-642b-40a7-944d-821fafed4ecd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.ekareinc.insight.standard</value>
-      <webElementGuid>f3856641-f773-4a1c-accc-b53aaba6d578</webElementGuid>
+      <webElementGuid>907ffd27-cc5a-42b7-8523-c27a4f8f574e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e4fb45ba-af1e-4aad-80f4-721e1b8cd7fa</webElementGuid>
+      <webElementGuid>0f22699e-174b-4985-af7a-fb3e4d46b3df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>57f1f92b-d622-413d-bb42-c2ffcd175bd2</webElementGuid>
+      <webElementGuid>fcd9a82b-8b02-46e6-8d12-526127812c44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e89de41f-4f31-4777-b225-8a9df7945dbf</webElementGuid>
+      <webElementGuid>0d0d20c9-9c32-493b-bcb9-5fbf41821848</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>feaf4ffd-261b-47f7-9df6-01645c746e1c</webElementGuid>
+      <webElementGuid>30b3f68a-aa7a-4238-8f2b-cc47a9275a02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8d58d7f4-4275-4288-bb75-7e7c47189f61</webElementGuid>
+      <webElementGuid>5a3756cd-da44-4fe4-9b9a-6e7081451382</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>921166b8-223c-478f-9e76-7e4ee97d2635</webElementGuid>
+      <webElementGuid>5d3ceed6-ecd6-4af4-beb2-69201cc26bcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f6f8529d-9dbf-4cef-a8e6-4d7bb7e9d7c0</webElementGuid>
+      <webElementGuid>795780a2-fdcd-4a8d-8bff-f328fe4b9785</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d2fe2261-80bb-4208-8165-7f209361988a</webElementGuid>
+      <webElementGuid>6650fca7-1a86-4077-bac2-bcfe501206fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>25799787-8155-476b-b78c-e36b7be55fb8</webElementGuid>
+      <webElementGuid>3c7777fe-da05-42b8-a855-e56d04adf9ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a9af491d-073b-4ece-9c8e-64f4c918c04d</webElementGuid>
+      <webElementGuid>8ffa0871-9ad8-4c34-8e7f-412706c70d34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>x</name>
       <type>Main</type>
       <value>39</value>
-      <webElementGuid>578a3186-9ace-44d2-88be-303cba23e8b1</webElementGuid>
+      <webElementGuid>8c57ae4c-3da4-46be-9159-ce963e49b8e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>y</name>
       <type>Main</type>
       <value>836</value>
-      <webElementGuid>fd66eee3-a674-4e7d-8054-440dcb0b673f</webElementGuid>
+      <webElementGuid>e686ca26-4258-4047-8540-e8fd44cc19e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1002</value>
-      <webElementGuid>4fac3c0d-336f-4087-9997-b5e5dbc72828</webElementGuid>
+      <webElementGuid>7ee61640-de73-426c-ae3f-b680d7d9a879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>height</name>
       <type>Main</type>
       <value>53</value>
-      <webElementGuid>60020555-dd47-48cb-947e-df315f541eaf</webElementGuid>
+      <webElementGuid>06982278-df9d-465c-9d02-bb447320b226</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[39,836][1041,889]</value>
-      <webElementGuid>58b461b1-181c-4039-8f1b-048cdb89195c</webElementGuid>
+      <webElementGuid>e205dd07-73b6-4d64-aa4d-bc2367ad40db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a0d9cd6d-09be-4797-8158-9f151743f4ef</webElementGuid>
+      <webElementGuid>36e70755-974a-419b-b66c-ca4c1bb0104d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,7 +172,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[4]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.HorizontalScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[3]</value>
-      <webElementGuid>50b45a8b-ad79-43a2-80ec-e5eba0a3b951</webElementGuid>
+      <webElementGuid>5131a5d1-6b30-4024-bf15-e0ae3fdc0b72</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.widget.TextView' and (@text = 'Do you have new or increased wound pain?' or . = 'Do you have new or increased wound pain?')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
