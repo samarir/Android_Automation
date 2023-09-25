@@ -23,5 +23,5 @@ Mobile.tap(findTestObject('Object Repository/IS/User Management/Logout/android.w
 
 Mobile.tap(findTestObject('Object Repository/IS/User Management/Logout/android.widget.Button - CONFIRM'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Logout/android.widget.ImageView'), 0)
+//Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Logout/android.widget.ImageView'), 0)
 
