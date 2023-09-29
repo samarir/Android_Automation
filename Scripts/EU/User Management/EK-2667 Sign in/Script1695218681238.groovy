@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.APK, false)
 
-Mobile.setText(findTestObject('Login Page/android.widget.EditText- Username'), GlobalVariable.LoginCreds.get('username'), 
+Mobile.setText(findTestObject('null'), GlobalVariable.LoginCreds.get('username'), 
     30)
 
-Mobile.setText(findTestObject('Login Page/android.widget.EditText - Password'), GlobalVariable.LoginCreds.get('password'), 
+Mobile.setText(findTestObject('null'), GlobalVariable.LoginCreds.get('password'), 
     30)
 
-Mobile.tap(findTestObject('Login Page/android.widget.TextView - SIGN IN'), 30)
+Mobile.tap(findTestObject('null'), 30)
 
 Mobile.tap(findTestObject('Login Page/Sites/android.widget.TextView - Katalon'), 30)
 

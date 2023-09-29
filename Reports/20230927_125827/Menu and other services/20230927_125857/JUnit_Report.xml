@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Menu and other services" time="295.339" tests="7" failures="0" errors="0">
+   <testsuite name="Menu and other services" tests="7" failures="0" errors="0" time="295.339" skipped="0" timestamp="2023-09-27 13:02:50" hostname="Amarir - DESKTOP-EE3F8H4" id="Test Suites/Menu and other services">
+      <properties>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Amarir\\git\\Android Automation\\Reports\\20230927_125827\\Menu and other services\\20230927_125857"/>
+         <property name="logFiles" value="C:\\Users\\Amarir\\git\\Android Automation\\Reports\\20230927_125827\\Menu and other services\\20230927_125857\\appium.log, C:\\Users\\Amarir\\git\\Android Automation\\Reports\\20230927_125827\\Menu and other services\\20230927_125857\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Amarir - DESKTOP-EE3F8H4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-N975F"/>
+         <property name="hostAddress" value="192.168.234.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8N307NKZV"/>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/IS/User Managemenet/Login" time="99.522" classname="Test Cases/IS/User Managemenet/Login" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:02:56 - [TEST_CASE][PASSED] - Test Cases/IS/User Managemenet/Login: Test Cases/IS/User Managemenet/Login
+
+2023-09-27 13:03:01 - [TEST_STEP][PASSED] - startApplication(APK, false): Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Preprod_2.1.1_160.apk'
+
+2023-09-27 13:03:08 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-09-27 13:03:19 - [MESSAGE][INFO] - Appium server started on port 56,129
+
+2023-09-27 13:04:19 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Preprod_2.1.1_160.apk'
+
+2023-09-27 13:04:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/android.widget.EditText - Username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/Login Page/android.widget.EditText - Username'
+
+2023-09-27 13:04:23 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/Login Page/android.widget.EditText - Username'
+
+2023-09-27 13:04:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/android.widget.EditText - Password"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/Login Page/android.widget.EditText - Password'
+
+2023-09-27 13:04:24 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/Login Page/android.widget.EditText - Password'
+
+2023-09-27 13:04:24 - [TEST_STEP][PASSED] - tap(findTestObject("Login Page/android.widget.TextView - SIGN IN (1)"), 30): Tapped on element 'Object Repository/Login Page/android.widget.TextView - SIGN IN (1)'
+
+2023-09-27 13:04:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Page/android.widget.TextView - SIGN IN (1)'
+
+2023-09-27 13:04:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/User Management/Login/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/IS/User Management/Login/android.widget.TextView - Katalon'
+
+2023-09-27 13:04:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/User Management/Login/android.widget.TextView - Katalon'
+
+2023-09-27 13:04:27 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-09-27 13:04:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-27 13:04:30 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory"), 30): Element 'Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory' is exist
+
+2023-09-27 13:04:35 - [MESSAGE][PASSED] - Element 'Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Menu and other services/Switch between sites" time="27.064" classname="Test Cases/IS/Menu and other services/Switch between sites" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:04:35 - [TEST_CASE][PASSED] - Test Cases/IS/Menu and other services/Switch between sites: Test Cases/IS/Menu and other services/Switch between sites
+
+2023-09-27 13:04:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu'
+
+2023-09-27 13:04:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu'
+
+2023-09-27 13:04:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Site"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Site'
+
+2023-09-27 13:04:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Site'
+
+2023-09-27 13:04:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Test1"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Test1'
+
+2023-09-27 13:04:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Test1'
+
+2023-09-27 13:04:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu'
+
+2023-09-27 13:04:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu'
+
+2023-09-27 13:04:50 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Switch between sites/android.widget.TextView - Site"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Site'
+
+2023-09-27 13:04:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Site'
+
+2023-09-27 13:04:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - site user"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - site user'
+
+2023-09-27 13:04:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - site user'
+
+2023-09-27 13:04:53 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu'
+
+2023-09-27 13:05:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.ImageView - Menu'
+
+2023-09-27 13:05:00 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Switch between sites/android.widget.TextView - Site"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Site'
+
+2023-09-27 13:05:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Site'
+
+2023-09-27 13:05:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Katalon'
+
+2023-09-27 13:05:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Switch between sites/android.widget.TextView - Katalon']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Menu and other services/About" time="19.853" classname="Test Cases/IS/Menu and other services/About" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:05:02 - [TEST_CASE][PASSED] - Test Cases/IS/Menu and other services/About: Test Cases/IS/Menu and other services/About
+
+2023-09-27 13:05:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/About/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/About/android.widget.ImageView - Menu'
+
+2023-09-27 13:05:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/About/android.widget.ImageView - Menu'
+
+2023-09-27 13:05:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/About/android.widget.TextView - About"), 30): Tapped on element 'Object Repository/IS/Menu and other services/About/android.widget.TextView - About'
+
+2023-09-27 13:05:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/About/android.widget.TextView - About'
+
+2023-09-27 13:05:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/About/android.widget.TextView - Katalon"), "Katalon"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/About/android.widget.TextView - Katalon' are matched.
+
+2023-09-27 13:05:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/About/android.widget.TextView - Katalon' are matched.
+
+2023-09-27 13:05:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/About/android.widget.TextView - Katalon (1)"), "Katalon"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/About/android.widget.TextView - Katalon (1)' are matched.
+
+2023-09-27 13:05:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/About/android.widget.TextView - Katalon (1)' are matched.
+
+2023-09-27 13:05:14 - [TEST_STEP][PASSED] - scrollToText("UDI"): Scrolling to text 'UDI' successfully
+
+2023-09-27 13:05:19 - [MESSAGE][PASSED] - Scrolling to text 'UDI' successfully
+
+2023-09-27 13:05:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/About/android.widget.TextView - 2.1.1"), "2.1.1"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/About/android.widget.TextView - 2.1.1' are matched.
+
+2023-09-27 13:05:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/About/android.widget.TextView - 2.1.1' are matched.
+
+2023-09-27 13:05:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/About/android.widget.ImageView - close"), 30): Tapped on element 'Object Repository/IS/Menu and other services/About/android.widget.ImageView - close'
+
+2023-09-27 13:05:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/About/android.widget.ImageView - close']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Menu and other services/Automatic adjustment of Date format" time="58.955" classname="Test Cases/IS/Menu and other services/Automatic adjustment of Date format" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:05:22 - [TEST_CASE][PASSED] - Test Cases/IS/Menu and other services/Automatic adjustment of Date format: Test Cases/IS/Menu and other services/Automatic adjustment of Date format
+
+2023-09-27 13:05:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IS/User Managemenet/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IS/User Managemenet/Login' successfully
+
+2023-09-27 13:05:26 - [TEST_CASE][PASSED] - Test Cases/IS/User Managemenet/Login: Test Cases/IS/User Managemenet/Login
+
+2023-09-27 13:05:26 - [TEST_STEP][PASSED] - startApplication(APK, false): Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Preprod_2.1.1_160.apk'
+
+2023-09-27 13:05:52 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Preprod_2.1.1_160.apk'
+
+2023-09-27 13:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/android.widget.EditText - Username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/Login Page/android.widget.EditText - Username'
+
+2023-09-27 13:05:54 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/Login Page/android.widget.EditText - Username'
+
+2023-09-27 13:05:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/android.widget.EditText - Password"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/Login Page/android.widget.EditText - Password'
+
+2023-09-27 13:05:55 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/Login Page/android.widget.EditText - Password'
+
+2023-09-27 13:05:55 - [TEST_STEP][PASSED] - tap(findTestObject("Login Page/android.widget.TextView - SIGN IN (1)"), 30): Tapped on element 'Object Repository/Login Page/android.widget.TextView - SIGN IN (1)'
+
+2023-09-27 13:05:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Page/android.widget.TextView - SIGN IN (1)'
+
+2023-09-27 13:05:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/User Management/Login/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/IS/User Management/Login/android.widget.TextView - Katalon'
+
+2023-09-27 13:05:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/User Management/Login/android.widget.TextView - Katalon'
+
+2023-09-27 13:05:58 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-09-27 13:06:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-27 13:06:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory"), 30): Element 'Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory' is exist
+
+2023-09-27 13:06:06 - [MESSAGE][PASSED] - Element 'Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory' is exist
+
+2023-09-27 13:06:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IS/User Managemenet/Login' successfully
+
+2023-09-27 13:06:06 - [TEST_STEP][PASSED] - tap(findTestObject("Patient Directory/android.widget.ImageView - Left Menu"), 30): Tapped on element 'Object Repository/Patient Directory/android.widget.ImageView - Left Menu'
+
+2023-09-27 13:06:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Patient Directory/android.widget.ImageView - Left Menu'
+
+2023-09-27 13:06:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site'
+
+2023-09-27 13:06:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site'
+
+2023-09-27 13:06:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - site user"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - site user'
+
+2023-09-27 13:06:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - site user'
+
+2023-09-27 13:06:11 - [TEST_STEP][PASSED] - date1 = getText(findTestObject("Patient Directory/android.widget.TextView - Patient Last Modified Date"), 30): Text of element 'Object Repository/Patient Directory/android.widget.TextView - Patient Last Modified Date' is: '2023/07/27'
+
+2023-09-27 13:06:17 - [MESSAGE][PASSED] - Text of element 'Object Repository/Patient Directory/android.widget.TextView - Patient Last Modified Date' is: '2023/07/27'
+
+2023-09-27 13:06:17 - [TEST_STEP][PASSED] - verifyMatch(date1, "[0-9]{4}/[0-9]{2}/[0-9]{2}", true, STOP_ON_FAILURE): Actual text '2023/07/27' and expected text '[0-9]{4}/[0-9]{2}/[0-9]{2}' are matched  using regular expression
+
+2023-09-27 13:06:18 - [MESSAGE][PASSED] - Actual text '2023/07/27' and expected text '[0-9]{4}/[0-9]{2}/[0-9]{2}' are matched  using regular expression
+
+2023-09-27 13:06:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.ImageView - Menu'
+
+2023-09-27 13:06:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.ImageView - Menu'
+
+2023-09-27 13:06:19 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site'
+
+2023-09-27 13:06:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site'
+
+2023-09-27 13:06:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Katalon'
+
+2023-09-27 13:06:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Katalon']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Menu and other services/Phone general tuto" time="18.635" classname="Test Cases/IS/Menu and other services/Phone general tuto" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:06:21 - [TEST_CASE][PASSED] - Test Cases/IS/Menu and other services/Phone general tuto: Test Cases/IS/Menu and other services/Phone general tuto
+
+2023-09-27 13:06:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.ImageView - Menu'
+
+2023-09-27 13:06:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.ImageView - Menu'
+
+2023-09-27 13:06:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Help"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Help'
+
+2023-09-27 13:06:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Help'
+
+2023-09-27 13:06:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - App Intro"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - App Intro'
+
+2023-09-27 13:06:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - App Intro'
+
+2023-09-27 13:06:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.view.ViewGroup - Tuto"), 30): Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.view.ViewGroup - Tuto' is exist
+
+2023-09-27 13:06:33 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.view.ViewGroup - Tuto' is exist
+
+2023-09-27 13:06:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Welcome to inSight"), 30): Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Welcome to inSight' is exist
+
+2023-09-27 13:06:35 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Welcome to inSight' is exist
+
+2023-09-27 13:06:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Skip"), 30): Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Skip' is exist
+
+2023-09-27 13:06:35 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Skip' is exist
+
+2023-09-27 13:06:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - next"), 30): Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - next' is exist
+
+2023-09-27 13:06:36 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - next' is exist
+
+2023-09-27 13:06:36 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Phone General Tuto/android.widget.TextView - next"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - next'
+
+2023-09-27 13:06:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - next'
+
+2023-09-27 13:06:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Add a wound"), "Add a wound"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Add a wound' are matched.
+
+2023-09-27 13:06:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Add a wound' are matched.
+
+2023-09-27 13:06:39 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Phone General Tuto/android.widget.TextView - Skip"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Skip'
+
+2023-09-27 13:06:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Skip']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Menu and other services/Language" time="37.08" classname="Test Cases/IS/Menu and other services/Language" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:06:40 - [TEST_CASE][PASSED] - Test Cases/IS/Menu and other services/Language: Test Cases/IS/Menu and other services/Language
+
+2023-09-27 13:06:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Menu'
+
+2023-09-27 13:06:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Menu'
+
+2023-09-27 13:06:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Settings"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Settings'
+
+2023-09-27 13:06:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Settings'
+
+2023-09-27 13:06:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - English"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - English'
+
+2023-09-27 13:06:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - English'
+
+2023-09-27 13:06:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Deutsch"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Deutsch'
+
+2023-09-27 13:06:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Deutsch'
+
+2023-09-27 13:06:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.view.ViewGroup"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.view.ViewGroup'
+
+2023-09-27 13:06:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.view.ViewGroup'
+
+2023-09-27 13:06:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Geschlecht"), "Geschlecht"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Geschlecht' are matched.
+
+2023-09-27 13:07:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Geschlecht' are matched.
+
+2023-09-27 13:07:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Geburtstag"), "Geburtstag"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Geburtstag' are matched.
+
+2023-09-27 13:07:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Geburtstag' are matched.
+
+2023-09-27 13:07:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Alter"), "Alter"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Alter' are matched.
+
+2023-09-27 13:07:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Alter' are matched.
+
+2023-09-27 13:07:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Zustimmung"), "Zustimmung"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Zustimmung' are matched.
+
+2023-09-27 13:07:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Zustimmung' are matched.
+
+2023-09-27 13:07:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Back"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Back'
+
+2023-09-27 13:07:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Back'
+
+2023-09-27 13:07:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Menu (1)"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Menu (1)'
+
+2023-09-27 13:07:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.ImageView - Menu (1)'
+
+2023-09-27 13:07:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Seite"), "Seite"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Seite' are matched.
+
+2023-09-27 13:07:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Seite' are matched.
+
+2023-09-27 13:07:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Offene Telegesundheit"), "Offene Telegesundheit"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Offene Telegesundheit' are matched.
+
+2023-09-27 13:07:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Offene Telegesundheit' are matched.
+
+2023-09-27 13:07:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Hilfe"), "Hilfe"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Hilfe' are matched.
+
+2023-09-27 13:07:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Hilfe' are matched.
+
+2023-09-27 13:07:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - ber uns"), "Über uns"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - ber uns' are matched.
+
+2023-09-27 13:07:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - ber uns' are matched.
+
+2023-09-27 13:07:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Einstellungen"), "Einstellungen"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Einstellungen' are matched.
+
+2023-09-27 13:07:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Einstellungen' are matched.
+
+2023-09-27 13:07:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Ausloggen"), "Ausloggen"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Ausloggen' are matched.
+
+2023-09-27 13:07:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Ausloggen' are matched.
+
+2023-09-27 13:07:13 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Language/android.widget.TextView - Einstellungen"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'
+
+2023-09-27 13:07:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'
+
+2023-09-27 13:07:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - Deutsch (1)"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Deutsch (1)'
+
+2023-09-27 13:07:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - Deutsch (1)'
+
+2023-09-27 13:07:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Language/android.widget.TextView - English (1)"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - English (1)'
+
+2023-09-27 13:07:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Language/android.widget.TextView - English (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Menu and other services/Help" time="28.48" classname="Test Cases/IS/Menu and other services/Help" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:07:17 - [TEST_CASE][PASSED] - Test Cases/IS/Menu and other services/Help: Test Cases/IS/Menu and other services/Help
+
+2023-09-27 13:07:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.ImageView - Menu'
+
+2023-09-27 13:07:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.ImageView - Menu'
+
+2023-09-27 13:07:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help'
+
+2023-09-27 13:07:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help'
+
+2023-09-27 13:07:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help Center"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help Center'
+
+2023-09-27 13:07:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help Center'
+
+2023-09-27 13:07:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.TextView - Support"), "Support"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Support' are matched.
+
+2023-09-27 13:07:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Support' are matched.
+
+2023-09-27 13:07:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IS/Menu and other services/Help/android.widget.TextView - Critical Notifications (2)"), "Critical Notifications"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Critical Notifications (2)' are matched.
+
+2023-09-27 13:07:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Critical Notifications (2)' are matched.
+
+2023-09-27 13:07:30 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-09-27 13:07:32 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-09-27 13:07:32 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Help/android.widget.TextView - Help"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help'
+
+2023-09-27 13:07:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help'
+
+2023-09-27 13:07:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send device info"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send device info'
+
+2023-09-27 13:07:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send device info'
+
+2023-09-27 13:07:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.TextView - Device hardware and software information will be sent to eKare for troubleshooting"), "Device hardware and software information will be sent to eKare for troubleshooting"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Device hardware and software information will be sent to eKare for troubleshooting' are matched.
+
+2023-09-27 13:07:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Device hardware and software information will be sent to eKare for troubleshooting' are matched.
+
+2023-09-27 13:07:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.Button - CANCEL"), 30): Element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - CANCEL' is exist
+
+2023-09-27 13:07:36 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - CANCEL' is exist
+
+2023-09-27 13:07:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.Button - PROCEED"), 30): Element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - PROCEED' is exist
+
+2023-09-27 13:07:37 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - PROCEED' is exist
+
+2023-09-27 13:07:37 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Help/android.widget.Button - PROCEED"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - PROCEED'
+
+2023-09-27 13:07:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - PROCEED'
+
+2023-09-27 13:07:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.TextView - Information sent successfully"), "Information sent successfully"): Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Information sent successfully' are matched.
+
+2023-09-27 13:07:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Information sent successfully' are matched.
+
+2023-09-27 13:07:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.Button - OK"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - OK'
+
+2023-09-27 13:07:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.Button - OK'
+
+2023-09-27 13:07:41 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Help/android.widget.ImageView - Menu"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.ImageView - Menu'
+
+2023-09-27 13:07:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.ImageView - Menu'
+
+2023-09-27 13:07:42 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Menu and other services/Help/android.widget.TextView - Help"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help'
+
+2023-09-27 13:07:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help'
+
+2023-09-27 13:07:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("IS/Menu and other services/Help/android.widget.TextView - Send back up"), 30): Element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send back up' is exist
+
+2023-09-27 13:07:45 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send back up' is exist
+
+2023-09-27 13:07:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send back up"), 30): Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send back up'
+
+2023-09-27 13:07:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Menu and other services/Help/android.widget.TextView - Send back up']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-27 13:02:50 - [TEST_SUITE][PASSED] - Menu and other services: Test Cases/IS/Menu and other services/Help]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

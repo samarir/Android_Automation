@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Filter Patient/android.widget.ImageView - filter'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Filter Patient/android.widget.Switch - ON'), 30)
+Mobile.tap(findTestObject('IS/Patient Management/Filter Patient/android.widget.Switch - Active Patient switch'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Filter Patient/android.widget.TextView - Apply'), 30)
 

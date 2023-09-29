@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.APK, false)
 
-Mobile.setText(findTestObject('IS/User Management/Login/android.widget.EditText - username'), GlobalVariable.LoginCreds.get(
-        'patient'), 30)
+Mobile.setText(findTestObject('Login Page/android.widget.EditText - Username'), GlobalVariable.LoginCreds.get('patient'), 
+    30)
 
-Mobile.setText(findTestObject('IS/User Management/Login/android.widget.EditText - password'), GlobalVariable.LoginCreds.get(
-        'password'), 30)
+Mobile.setText(findTestObject('Login Page/android.widget.EditText - Password'), GlobalVariable.LoginCreds.get('password'), 
+    30)
 
-Mobile.tap(findTestObject('IS/User Management/Login/android.view.ViewGroup - sign in'), 30)
+Mobile.tap(findTestObject('Login Page/android.widget.TextView - SIGN IN (1)'), 30)
 
 WebUI.delay(5)
 

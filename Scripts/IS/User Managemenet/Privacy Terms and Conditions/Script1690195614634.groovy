@@ -19,27 +19,23 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.APK, true)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/User Management/Privacy Terms and conditions/android.widget.TextView - Terms  Conditions'), 
-    'Terms & Conditions')
+Mobile.verifyElementText(findTestObject('Login Page/Terms  Conditions'), 'Terms & Conditions')
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy'), 
-    'Privacy Policy')
+Mobile.verifyElementText(findTestObject('Login Page/Privacy Policy'), 'Privacy Policy')
 
-Mobile.tap(findTestObject('IS/User Management/Privacy Terms and conditions/android.widget.TextView - Terms  Conditions'), 30)
+Mobile.tap(findTestObject('Login Page/Terms  Conditions'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/Privacy Terms and conditions/android.widget.TextView - Terms and Conditions'), 
-    'Terms and Conditions')
+Mobile.verifyElementText(findTestObject('Login Page/Terms and Conditions Page'), 'Terms and Conditions')
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('IS/User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy'), 30)
+Mobile.tap(findTestObject('Login Page/Privacy Policy'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/User Management/Privacy Terms and conditions/android.widget.TextView - Privacy Policy (1)'), 
-    'Privacy Policy')
+Mobile.verifyElementText(findTestObject('Login Page/Privacy Policy Page'), 'Privacy Policy')
 
 Mobile.pressBack()
 

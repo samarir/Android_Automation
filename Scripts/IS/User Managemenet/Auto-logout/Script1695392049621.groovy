@@ -17,18 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Patient Directory/android.widget.ImageView - Menu Left'), 30)
+Mobile.tap(findTestObject('Patient Directory/Left menu'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Auto-Logout/android.widget.TextView - Settings'), 30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Setting'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Auto-Logout/android.widget.TextView - Logout time'), 30)
+Mobile.tap(findTestObject('Patient Directory/Settings/Logout tile'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Auto-Logout/android.widget.TextView - 1 minutes'), 30)
+Mobile.tap(findTestObject('Patient Directory/Settings/1 minutes'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Auto-Logout/android.widget.ImageView (1)'), 30)
+Mobile.pressBack()
 
 Mobile.delay(65, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Auto-Logout/android.widget.ImageView (2)'), 
-    30)
+Mobile.verifyElementExist(findTestObject('Login Page/Insight Logo'), 30)
 

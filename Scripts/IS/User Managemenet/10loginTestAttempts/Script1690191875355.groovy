@@ -17,77 +17,69 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('IS/User Management/Login/android.widget.EditText - username'), 'Test10times', 30)
+Mobile.startApplication(GlobalVariable.APK, false)
 
-Mobile.setText(findTestObject('IS/User Management/Login/android.widget.EditText - password'), '123', 30)
+Mobile.setText(findTestObject('Login Page/Username input'), 'Test10times', 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.setText(findTestObject('Login Page/Password input'), '123', 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('IS/User Management/10loginAttempts/android.widget.TextView - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Failed Login message'), 'Login failed. Incorrect credentials !')
 
-Mobile.tap(findTestObject('IS/User Management/10loginAttempts/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Login Page/Login failed OK'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.TextView - Your account has been temporarily disabled due to repeated login failures. Please contact your administrator samarirmasaratapp.com'), 
-    'Your account has been temporarily disabled due to repeated login failures. Please contact your administrator: samarir@masaratapp.com')
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/10loginAttempts/android.widget.Button - OK (1)'), 30)
+Mobile.verifyElementText(findTestObject('Login Page/Account Disabled'), 'Your account has been temporarily disabled due to repeated login failures. Please contact your administrator: samarir@masaratapp.com')
+
+Mobile.tap(findTestObject('Login Page/Account disabled OK'), 30)
 

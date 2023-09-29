@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('IS/User Management/Login/android.widget.EditText - username'), GlobalVariable.LoginCreds.get(
-	'siteuser'), 30)
-Mobile.setText(findTestObject('IS/User Management/Login/android.widget.EditText - password'), GlobalVariable.LoginCreds.get(
-        'password'), 30)
-
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - SIGN IN'), 
+Mobile.setText(findTestObject('Login Page/android.widget.EditText - Username'), GlobalVariable.LoginCreds.get('siteuser'), 
     30)
+
+Mobile.setText(findTestObject('Login Page/android.widget.EditText - Password'), GlobalVariable.LoginCreds.get('password'), 
+    30)
+
+Mobile.tap(findTestObject('Login Page/android.widget.TextView - SIGN IN (1)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Katalon'), 
     30)

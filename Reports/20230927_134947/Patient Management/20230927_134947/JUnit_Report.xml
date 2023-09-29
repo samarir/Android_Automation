@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Patient Management" time="178.906" tests="8" failures="0" errors="0">
+   <testsuite name="Patient Management" tests="8" failures="0" errors="0" time="178.906" skipped="0" timestamp="2023-09-27 13:50:04" hostname="Amarir - DESKTOP-EE3F8H4" id="Test Suites/Patient Management">
+      <properties>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Amarir\\git\\Android Automation\\Reports\\20230927_134947\\Patient Management\\20230927_134947"/>
+         <property name="logFiles" value="C:\\Users\\Amarir\\git\\Android Automation\\Reports\\20230927_134947\\Patient Management\\20230927_134947\\appium.log, C:\\Users\\Amarir\\git\\Android Automation\\Reports\\20230927_134947\\Patient Management\\20230927_134947\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Amarir - DESKTOP-EE3F8H4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="SM-N975F"/>
+         <property name="hostAddress" value="192.168.234.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RF8N307NKZV"/>
+         <property name="deviceName" value="samsung SM-N975F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/IS/User Managemenet/Login" time="46.015" classname="Test Cases/IS/User Managemenet/Login" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:50:05 - [TEST_CASE][PASSED] - Test Cases/IS/User Managemenet/Login: Test Cases/IS/User Managemenet/Login
+
+2023-09-27 13:50:07 - [TEST_STEP][PASSED] - startApplication(APK, false): Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Preprod_2.1.1_160.apk'
+
+2023-09-27 13:50:09 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-09-27 13:50:12 - [MESSAGE][INFO] - Appium server started on port 62,153
+
+2023-09-27 13:50:36 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Amarir\Downloads\APK\IS\IS_Preprod_2.1.1_160.apk'
+
+2023-09-27 13:50:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/android.widget.EditText - Username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/Login Page/android.widget.EditText - Username'
+
+2023-09-27 13:50:39 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/Login Page/android.widget.EditText - Username'
+
+2023-09-27 13:50:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/android.widget.EditText - Password"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/Login Page/android.widget.EditText - Password'
+
+2023-09-27 13:50:40 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/Login Page/android.widget.EditText - Password'
+
+2023-09-27 13:50:40 - [TEST_STEP][PASSED] - tap(findTestObject("Login Page/android.widget.TextView - SIGN IN (1)"), 30): Tapped on element 'Object Repository/Login Page/android.widget.TextView - SIGN IN (1)'
+
+2023-09-27 13:50:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Page/android.widget.TextView - SIGN IN (1)'
+
+2023-09-27 13:50:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/User Management/Login/android.widget.TextView - Katalon"), 30): Tapped on element 'Object Repository/IS/User Management/Login/android.widget.TextView - Katalon'
+
+2023-09-27 13:50:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/User Management/Login/android.widget.TextView - Katalon'
+
+2023-09-27 13:50:43 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-09-27 13:50:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-09-27 13:50:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory"), 30): Element 'Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory' is exist
+
+2023-09-27 13:50:51 - [MESSAGE][PASSED] - Element 'Object Repository/IS/User Management/Login/android.widget.TextView - Patient Directory' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Patient Management/Add Patient" time="14.823" classname="Test Cases/IS/Patient Management/Add Patient" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:50:51 - [TEST_CASE][PASSED] - Test Cases/IS/Patient Management/Add Patient: Test Cases/IS/Patient Management/Add Patient
+
+2023-09-27 13:50:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - add patient"), 30): Tapped on element 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - add patient'
+
+2023-09-27 13:50:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - add patient'
+
+2023-09-27 13:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - First name"), "Test", 30): Text 'Test' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - First name'
+
+2023-09-27 13:50:56 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - First name'
+
+2023-09-27 13:50:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - Last name"), "lite", 30): Text 'lite' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - Last name'
+
+2023-09-27 13:50:58 - [MESSAGE][PASSED] - Text 'lite' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - Last name'
+
+2023-09-27 13:50:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy) (1)"), "09/12/2001", 30): Text '09/12/2001' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy) (1)'
+
+2023-09-27 13:51:00 - [MESSAGE][PASSED] - Text '09/12/2001' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy) (1)'
+
+2023-09-27 13:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - MRN"), "6766", 30): Text '6766' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - MRN'
+
+2023-09-27 13:51:01 - [MESSAGE][PASSED] - Text '6766' has been set to element 'Object Repository/IS/Patient Management/Add Patient/android.widget.EditText - MRN'
+
+2023-09-27 13:51:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - Save"), 30): Tapped on element 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - Save'
+
+2023-09-27 13:51:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - Save'
+
+2023-09-27 13:51:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - Patient created successfully"), "Patient created successfully"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - Patient created successfully' are matched.
+
+2023-09-27 13:51:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - Patient created successfully' are matched.
+
+2023-09-27 13:51:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.Button - OK"), 30): Tapped on element 'Object Repository/IS/Patient Management/Add Patient/android.widget.Button - OK'
+
+2023-09-27 13:51:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Add Patient/android.widget.Button - OK'
+
+2023-09-27 13:51:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - lite, Test"), "lite, Test"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - lite, Test' are matched.
+
+2023-09-27 13:51:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - lite, Test' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Patient Management/Search Patient" time="11.791" classname="Test Cases/IS/Patient Management/Search Patient" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:51:06 - [TEST_CASE][PASSED] - Test Cases/IS/Patient Management/Search Patient: Test Cases/IS/Patient Management/Search Patient
+
+2023-09-27 13:51:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Search Patient/android.widget.EditText - Search by Name, MRN"), "987", 30): Text '987' has been set to element 'Object Repository/IS/Patient Management/Search Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:51:09 - [MESSAGE][PASSED] - Text '987' has been set to element 'Object Repository/IS/Patient Management/Search Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:51:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Search Patient/android.view.ViewGroup"), 30): Tapped on element 'Object Repository/IS/Patient Management/Search Patient/android.view.ViewGroup'
+
+2023-09-27 13:51:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Search Patient/android.view.ViewGroup'
+
+2023-09-27 13:51:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Search Patient/android.widget.TextView - Current site"), 30): Tapped on element 'Object Repository/IS/Patient Management/Search Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:51:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Search Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:51:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Patient Management/Search Patient/android.view.ViewGroup (1)"), 30): Element 'Object Repository/IS/Patient Management/Search Patient/android.view.ViewGroup (1)' is exist
+
+2023-09-27 13:51:13 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Patient Management/Search Patient/android.view.ViewGroup (1)' is exist
+
+2023-09-27 13:51:13 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-09-27 13:51:18 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Patient Management/Edit Patient" time="15.162" classname="Test Cases/IS/Patient Management/Edit Patient" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:51:18 - [TEST_CASE][PASSED] - Test Cases/IS/Patient Management/Edit Patient: Test Cases/IS/Patient Management/Edit Patient
+
+2023-09-27 13:51:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.view.ViewGroup (1)"), 30): Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.view.ViewGroup (1)'
+
+2023-09-27 13:51:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.view.ViewGroup (1)'
+
+2023-09-27 13:51:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.ImageView"), 30): Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.ImageView'
+
+2023-09-27 13:51:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.ImageView'
+
+2023-09-27 13:51:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Edit patient"), 30): Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Edit patient'
+
+2023-09-27 13:51:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Edit patient'
+
+2023-09-27 13:51:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - First Name"), "Editt", 30): Text 'Editt' has been set to element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - First Name'
+
+2023-09-27 13:51:25 - [MESSAGE][PASSED] - Text 'Editt' has been set to element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - First Name'
+
+2023-09-27 13:51:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - Last Name"), "Litee", 30): Text 'Litee' has been set to element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - Last Name'
+
+2023-09-27 13:51:26 - [MESSAGE][PASSED] - Text 'Litee' has been set to element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - Last Name'
+
+2023-09-27 13:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - DOB"), "09/07/2001", 30): Text '09/07/2001' has been set to element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - DOB'
+
+2023-09-27 13:51:28 - [MESSAGE][PASSED] - Text '09/07/2001' has been set to element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - DOB'
+
+2023-09-27 13:51:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("IS/Patient Management/Edit Patient/android.widget.EditText - MRN"), "enabled", "false", 30, STOP_ON_FAILURE): Object 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - MRN' has attribute 'enabled' with value 'false'
+
+2023-09-27 13:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/IS/Patient Management/Edit Patient/android.widget.EditText - MRN' has attribute 'enabled' with value 'false'
+
+2023-09-27 13:51:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Save"), 30): Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Save'
+
+2023-09-27 13:51:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Save'
+
+2023-09-27 13:51:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Patient updated successfully"), "Patient updated successfully."): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Patient updated successfully' are matched.
+
+2023-09-27 13:51:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Patient updated successfully' are matched.
+
+2023-09-27 13:51:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.Button - OK"), 30): Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.Button - OK'
+
+2023-09-27 13:51:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.Button - OK'
+
+2023-09-27 13:51:31 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-09-27 13:51:32 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-09-27 13:51:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Edit Patient/android.widget.ImageView - x"), 30): Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.ImageView - x'
+
+2023-09-27 13:51:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Edit Patient/android.widget.ImageView - x']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Patient Management/Freeze Patient" time="17.611" classname="Test Cases/IS/Patient Management/Freeze Patient" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:51:33 - [TEST_CASE][PASSED] - Test Cases/IS/Patient Management/Freeze Patient: Test Cases/IS/Patient Management/Freeze Patient
+
+2023-09-27 13:51:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN"), "6767", 30): Text '6767' has been set to element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:51:36 - [MESSAGE][PASSED] - Text '6767' has been set to element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:51:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.view.ViewGroup"), 30): Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.view.ViewGroup'
+
+2023-09-27 13:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.view.ViewGroup'
+
+2023-09-27 13:51:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Current site"), 30): Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:51:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:51:38 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-09-27 13:51:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-27 13:51:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.view.ViewGroup (1)"), 30): Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.view.ViewGroup (1)'
+
+2023-09-27 13:51:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.view.ViewGroup (1)'
+
+2023-09-27 13:51:43 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Patient Management/Freeze Patient/android.widget.ImageView - menu"), 30): Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.ImageView - menu'
+
+2023-09-27 13:51:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.ImageView - menu'
+
+2023-09-27 13:51:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Freeze patient"), 30): Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Freeze patient'
+
+2023-09-27 13:51:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Freeze patient'
+
+2023-09-27 13:51:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Change patient status to Inactive"), "Change patient status to Inactive ?"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Change patient status to Inactive' are matched.
+
+2023-09-27 13:51:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Change patient status to Inactive' are matched.
+
+2023-09-27 13:51:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Confirm"), 30): Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Confirm'
+
+2023-09-27 13:51:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Confirm'
+
+2023-09-27 13:51:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Patient Inactive"), "Patient Inactive"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Patient Inactive' are matched.
+
+2023-09-27 13:51:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.TextView - Patient Inactive' are matched.
+
+2023-09-27 13:51:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Freeze Patient/android.widget.ImageView (1)"), 30): Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.ImageView (1)'
+
+2023-09-27 13:51:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Freeze Patient/android.widget.ImageView (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Patient Management/Filter Patient" time="6.159" classname="Test Cases/IS/Patient Management/Filter Patient" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:51:50 - [TEST_CASE][PASSED] - Test Cases/IS/Patient Management/Filter Patient: Test Cases/IS/Patient Management/Filter Patient
+
+2023-09-27 13:51:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Filter Patient/android.widget.ImageView - filter"), 30): Tapped on element 'Object Repository/IS/Patient Management/Filter Patient/android.widget.ImageView - filter'
+
+2023-09-27 13:51:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Filter Patient/android.widget.ImageView - filter'
+
+2023-09-27 13:51:52 - [TEST_STEP][PASSED] - tap(findTestObject("IS/Patient Management/Filter Patient/android.widget.Switch - Active Patient switch"), 30): Tapped on element 'Object Repository/IS/Patient Management/Filter Patient/android.widget.Switch - Active Patient switch'
+
+2023-09-27 13:51:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Filter Patient/android.widget.Switch - Active Patient switch'
+
+2023-09-27 13:51:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Filter Patient/android.widget.TextView - Apply"), 30): Tapped on element 'Object Repository/IS/Patient Management/Filter Patient/android.widget.TextView - Apply'
+
+2023-09-27 13:51:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Filter Patient/android.widget.TextView - Apply'
+
+2023-09-27 13:51:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Filter Patient/android.widget.TextView - Patient Inactive"), "Patient Inactive"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Filter Patient/android.widget.TextView - Patient Inactive' are matched.
+
+2023-09-27 13:51:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Filter Patient/android.widget.TextView - Patient Inactive' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Patient Management/Unfreeze Patient" time="50.086" classname="Test Cases/IS/Patient Management/Unfreeze Patient" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:51:57 - [TEST_CASE][PASSED] - Test Cases/IS/Patient Management/Unfreeze Patient: Test Cases/IS/Patient Management/Unfreeze Patient
+
+2023-09-27 13:51:58 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-09-27 13:52:28 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-09-27 13:52:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.EditText - Search by Name, MRN"), "6768", 30): Text '6768' has been set to element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:52:29 - [MESSAGE][PASSED] - Text '6768' has been set to element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:52:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Current site"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:52:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:52:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Current site (1)"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Current site (1)'
+
+2023-09-27 13:52:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Current site (1)'
+
+2023-09-27 13:52:31 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-09-27 13:52:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-27 13:52:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.view.ViewGroup"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.view.ViewGroup'
+
+2023-09-27 13:52:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.view.ViewGroup'
+
+2023-09-27 13:52:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView'
+
+2023-09-27 13:52:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView'
+
+2023-09-27 13:52:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - UnFreeze patient"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - UnFreeze patient'
+
+2023-09-27 13:52:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - UnFreeze patient'
+
+2023-09-27 13:52:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Change patient status to Active"), "Change patient status to Active ?"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Change patient status to Active' are matched.
+
+2023-09-27 13:52:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Change patient status to Active' are matched.
+
+2023-09-27 13:52:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm'
+
+2023-09-27 13:52:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Confirm'
+
+2023-09-27 13:52:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent"), "No Consent"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent' are matched.
+
+2023-09-27 13:52:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.TextView - No Consent' are matched.
+
+2023-09-27 13:52:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView (1)"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView (1)'
+
+2023-09-27 13:52:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView (1)'
+
+2023-09-27 13:52:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView (2)"), 30): Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView (2)'
+
+2023-09-27 13:52:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Unfreeze Patient/android.widget.ImageView (2)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IS/Patient Management/Delete Patient" time="16.323" classname="Test Cases/IS/Patient Management/Delete Patient" status="PASSED">
+         <system-out><![CDATA[2023-09-27 13:52:47 - [TEST_CASE][PASSED] - Test Cases/IS/Patient Management/Delete Patient: Test Cases/IS/Patient Management/Delete Patient
+
+2023-09-27 13:52:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN"), "6766", 30): Text '6766' has been set to element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:52:50 - [MESSAGE][PASSED] - Text '6766' has been set to element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN'
+
+2023-09-27 13:52:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.view.ViewGroup"), 30): Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.view.ViewGroup'
+
+2023-09-27 13:52:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.view.ViewGroup'
+
+2023-09-27 13:52:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Current site"), 30): Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:52:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Current site'
+
+2023-09-27 13:52:52 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-09-27 13:52:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-09-27 13:52:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.view.ViewGroup (1)"), 30): Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.view.ViewGroup (1)'
+
+2023-09-27 13:52:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.view.ViewGroup (1)'
+
+2023-09-27 13:52:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.widget.ImageView"), 30): Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.ImageView'
+
+2023-09-27 13:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.ImageView'
+
+2023-09-27 13:52:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete patient"), 30): Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete patient'
+
+2023-09-27 13:53:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete patient'
+
+2023-09-27 13:53:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete the selected patient The patient will be removed from the directory if deleted"), "Delete the selected patient? The patient will be removed from the directory if deleted"): Actual text and expected text of test object 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete the selected patient The patient will be removed from the directory if deleted' are matched.
+
+2023-09-27 13:53:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete the selected patient The patient will be removed from the directory if deleted' are matched.
+
+2023-09-27 13:53:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.widget.Button - CONFIRM"), 30): Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.Button - CONFIRM'
+
+2023-09-27 13:53:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.Button - CONFIRM'
+
+2023-09-27 13:53:02 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - No content found"), 30): Element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - No content found' is exist
+
+2023-09-27 13:53:03 - [MESSAGE][PASSED] - Element 'Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - No content found' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-27 13:50:04 - [TEST_SUITE][PASSED] - Patient Management: Test Cases/IS/Patient Management/Delete Patient]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
