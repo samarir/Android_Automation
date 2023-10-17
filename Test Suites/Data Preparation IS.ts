@@ -12,6 +12,16 @@
             <groupName>Mobile</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-N975F (Android 12)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>RF8N307NKZV</value>
+               </entry>
+            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

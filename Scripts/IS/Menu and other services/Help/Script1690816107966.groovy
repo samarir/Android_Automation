@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Help/android.widget.ImageView - Menu'), 30)
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Help/android.widget.TextView - Help'), 30)
 

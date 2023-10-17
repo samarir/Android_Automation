@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Patient Directory/Left menu'), 30)
+Mobile.tap(findTestObject('Patient Directory/Left Menu (Auto-logout)'), 30)
 
 Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Setting'), 30)
 

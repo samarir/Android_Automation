@@ -21,24 +21,19 @@ import org.openqa.selenium.Keys as Keys
 //Mobile.verifyMatch(date, '[0-9]{2}/[0-9]{2}/[0-9]{4}', true, FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('IS/User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Patient Directory/android.widget.ImageView - Left Menu'), 30)
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - site user'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites ( from menu)/site user'), 30)
 
-String date1 = Mobile.getText(findTestObject('Patient Directory/android.widget.TextView - Patient Last Modified Date'), 
-    30)
+String date1 = Mobile.getText(findTestObject('Patient Directory/Last Modified date ( Patient)'), 30)
 
 Mobile.verifyMatch(date1, '[0-9]{4}/[0-9]{2}/[0-9]{2}', true, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.ImageView - Menu'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
-Mobile.tap(findTestObject('IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Site'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Katalon'), 
     30)

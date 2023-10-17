@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.ImageView - Menu'), 30)
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.TextView - About'), 30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/About'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.TextView - Katalon'), 
     'Katalon')
@@ -29,8 +29,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/IS/Menu and other ser
 
 Mobile.scrollToText('UDI')
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.TextView - 2.1.1'), 
+Mobile.verifyElementText(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.TextView - Version 2.1.1'), 
     '2.1.1')
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.ImageView - close'), 30)
+Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.ImageView - Close x'), 30)
 

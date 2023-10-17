@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>febd10fb-e0d2-4ce8-84d0-02c38c764729</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IS/User Managemenet/Privacy Terms and Conditions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8344d2e0-b27a-4c1c-95a6-eb4240e2bb9c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IS/User Managemenet/Restore Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

@@ -17,73 +17,58 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('Login Page/android.widget.EditText - Username'), GlobalVariable.LoginCreds.get('siteuser'), 
-    30)
+Mobile.startApplication(GlobalVariable.APK, false)
 
-Mobile.setText(findTestObject('Login Page/android.widget.EditText - Password'), GlobalVariable.LoginCreds.get('password'), 
-    30)
+Mobile.setText(findTestObject('Login Page/Username input'), GlobalVariable.LoginCreds.get('siteuser'), 30)
 
-Mobile.tap(findTestObject('Login Page/android.widget.TextView - SIGN IN (1)'), 30)
+Mobile.setText(findTestObject('Login Page/Password input'), GlobalVariable.LoginCreds.get('password'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Katalon'), 
-    30)
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - add new patient'), 
-    30)
+Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.view.ViewGroup - patient'), 
-    30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.ImageView - menu'), 
-    30)
+Mobile.tap(findTestObject('Login Page/Sites/Katalon'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient'), 
-    30)
+Mobile.verifyElementExist(findTestObject('Patient Directory/Add New Patient'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Patient'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Cancel'), 
-    30)
+Mobile.tap(findTestObject('Wound Summary/Right Menu ( Wound Summary)'), 30)
+
+Mobile.verifyElementExist(findTestObject('Wound Summary/Patient Menu/Freeze patient'), 30)
+
+Mobile.verifyElementExist(findTestObject('Wound Summary/Patient Menu/Delete patient'), 30)
+
+Mobile.tap(findTestObject('Wound Summary/Patient Menu/Cancel'), 30)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Site'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - site user'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites ( from menu)/site user'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.view.ViewGroup'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Patient'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.ImageView - menu'), 
-    30)
+Mobile.tap(findTestObject('Wound Summary/Right Menu ( Wound Summary)'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Edit patient'), 
-    30)
+Mobile.verifyElementExist(findTestObject('Wound Summary/Patient Menu/Edit patient'), 30)
 
-Mobile.verifyElementNotExist(findTestObject('IS/User Management/Login as user with multiple sites/android.widget.TextView - Delete patient'), 
-    30)
+Mobile.verifyElementNotExist(findTestObject('Wound Summary/Patient Menu/Delete patient'), 30)
 
-Mobile.verifyElementNotExist(findTestObject('IS/User Management/Login as user with multiple sites/android.widget.TextView - Freeze patient'), 
-    30)
+Mobile.verifyElementNotExist(findTestObject('Wound Summary/Patient Menu/Freeze patient'), 30)
 
-Mobile.tap(findTestObject('IS/User Management/Login as user with multiple sites/android.widget.TextView - Cancel'), 30)
+Mobile.tap(findTestObject('Wound Summary/Patient Menu/Cancel'), 30)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.ImageView - Menu (1)'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
-Mobile.tap(findTestObject('IS/User Management/Login as user with multiple sites/android.widget.TextView - Site'), 30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Login as user with multiple sites/android.widget.TextView - Test1'), 
-    30)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites ( from menu)/Test1'), 30)
 
-Mobile.verifyElementNotExist(findTestObject('IS/User Management/Login as user with multiple sites/android.widget.TextView - add new patient'), 
-    30)
+Mobile.verifyElementNotExist(findTestObject('Patient Directory/Add New Patient'), 30)
 

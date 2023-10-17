@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Patient Directory/android.widget.ImageView - Left Menu'), 0)
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Logout/android.widget.TextView - Logout'), 0)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Logout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/IS/User Management/Logout/android.widget.Button - CONFIRM'), 0)
-
-//Mobile.verifyElementExist(findTestObject('Object Repository/IS/User Management/Logout/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Logout ( from menu)/CONFIRM logout'), 0)
 

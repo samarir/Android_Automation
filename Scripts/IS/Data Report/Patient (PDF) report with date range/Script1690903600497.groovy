@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Date Range'), 0)
+Mobile.tap(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Date Range'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Wounds'), 0)
 
@@ -26,7 +27,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/IS/Data Report/Patien
 
 Mobile.tap(findTestObject('IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 30)
 
-Mobile.tap(findTestObject('IS/Data Report/Patient (PDF) Report/android.widget.TextView - PDF reader'), 30)
+Mobile.tap(findTestObject('IS/Data Report/Patient (PDF) Report/Write on PDF'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

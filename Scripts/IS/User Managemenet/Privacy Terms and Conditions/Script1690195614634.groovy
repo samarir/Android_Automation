@@ -23,7 +23,7 @@ Mobile.verifyElementText(findTestObject('Login Page/Terms  Conditions'), 'Terms 
 
 Mobile.verifyElementText(findTestObject('Login Page/Privacy Policy'), 'Privacy Policy')
 
-Mobile.tap(findTestObject('Login Page/Terms  Conditions'), 30)
+Mobile.tap(findTestObject('Login Page/Terms  Conditions'), 60)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -31,7 +31,7 @@ Mobile.verifyElementText(findTestObject('Login Page/Terms and Conditions Page'),
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Login Page/Privacy Policy'), 30)
+Mobile.tap(findTestObject('Login Page/Privacy Policy'), 60)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
