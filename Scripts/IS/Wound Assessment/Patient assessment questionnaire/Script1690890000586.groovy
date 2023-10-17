@@ -25,7 +25,9 @@ Mobile.setText(findTestObject('Login Page/android.widget.EditText - Username'), 
 Mobile.setText(findTestObject('Login Page/android.widget.EditText - Password'), GlobalVariable.LoginCreds.get('password'), 
     30)
 
-Mobile.tap(findTestObject('Login Page/android.widget.TextView - SIGN IN (1)'), 30)
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
+
+Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
 
 WebUI.delay(5)
 
