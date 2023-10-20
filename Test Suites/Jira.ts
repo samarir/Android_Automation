@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>6b665ed6-ed2d-4304-8873-47b07c799103</testSuiteGuid>
    <testCaseLink>
-      <guid>27428d3b-4ce0-463d-b8e0-f80423911daf</guid>
+      <guid>d5f1696c-7a3b-4ca8-8b45-5aec612cc0cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IS/User Managemenet/EK-8058 Katalon - login (integration test)</testCaseId>
