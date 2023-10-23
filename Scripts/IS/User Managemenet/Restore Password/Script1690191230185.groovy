@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Login Page/Forgot your password'), 30)
+Mobile.startApplication(GlobalVariable.APK, false)
+
+Mobile.tap(findTestObject('IS/User Management/Restore Password/android.widget.TextView - Forgot your password'), 30)
 
 Mobile.setText(findTestObject('Login Page/Restore Password/Username input'), GlobalVariable.LoginCreds.get('username'), 
     30)

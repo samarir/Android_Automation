@@ -25,7 +25,7 @@ Mobile.setText(findTestObject('Login Page/Password input'), GlobalVariable.Login
 
 Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
+//Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
 
 
 Mobile.tap(findTestObject('Login Page/Sites/Katalon'), 30)
