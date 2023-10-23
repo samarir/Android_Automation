@@ -29,8 +29,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/IS/Menu and other ser
 
 Mobile.scrollToText('UDI')
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.TextView - Version 2.1.1'), 
-    '2.1.1')
+Mobile.verifyElementText(findTestObject('IS/Menu and other services/About/android.widget.TextView - 2.1.3'), '2.1.3')
 
 Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/About/android.widget.ImageView - Close x'), 30)
 
