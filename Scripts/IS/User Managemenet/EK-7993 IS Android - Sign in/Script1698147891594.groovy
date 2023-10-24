@@ -17,28 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.scrollToText('MRN: 11ui')
+CucumberKW.runFeatureFile('Include/features/EK-7993 IS Android - Sign in.feature')
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.TextView - MRN 11ui'), 30)
+Mobile.startApplication(GlobalVariable.APK, false)
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.ImageView - Menu'), 30)
+Mobile.setText(findTestObject('Login Page/Username input'), GlobalVariable.LoginCreds.get('username'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report'), 
-    'Generate Report')
+Mobile.setText(findTestObject('Login Page/Password input'), GlobalVariable.LoginCreds.get('password'), 30)
 
-Mobile.tap(findTestObject('IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report'), 30)
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 
-    'Generate')
+//Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
+Mobile.tap(findTestObject('IS/User Management/Login/android.widget.TextView - Katalon'), 30)
 
-Mobile.tap(findTestObject('IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 30)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Report/Patient (PDF) Report/android.widget.Button - Allow'), 30)
-Mobile.tap(findTestObject('IS/Data Report/Patient (PDF) Report/Write on PDF'), 30)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.pressBack()
-
+Mobile.verifyElementExist(findTestObject('IS/User Management/Login/android.widget.TextView - Patient Directory'), 30)
