@@ -28,7 +28,6 @@ Mobile.setText(findTestObject('Login Page/android.widget.EditText - Password'), 
 Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
 //Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
-
 WebUI.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.view.ViewGroup - wound'), 
@@ -36,7 +35,7 @@ Mobile.tap(findTestObject('Object Repository/IS/Wound Assessment/Patient assessm
 
 Mobile.tap(findTestObject('IS/Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment'), 30)
 
-Mobile.tap(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.ImageView - new assessment (1)'), 
+Mobile.tap(findTestObject('IS/Wound Assessment/Patient assessment questionnaire/android.widget.ImageView - Add Assessment'), 
     30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Do you have any new or increased drainage, odor, or redness around the wound'), 
