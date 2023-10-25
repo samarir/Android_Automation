@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>b86c9e76-fa19-43fa-b7ec-bd50afcc8f98</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IS/User Managemenet/EK-7998 IS Android- Disable after 10 login attempts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -49,14 +49,14 @@
    <testCaseLink>
       <guid>5256675d-35a4-4a6f-bbb2-e1108ca92753</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IS/User Managemenet/EK-7999 IS Android- Login as a user with multiple sites</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>41096717-2077-43b6-a3dd-725140a489ad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IS/User Managemenet/EK-7995 IS Android - Auto Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
