@@ -21,7 +21,8 @@ WebUI.callTestCase(findTestCase('IS/User Managemenet/Login'), [:], FailureHandli
 
 Mobile.scrollToText('MRN: 987')
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - MRN 987'), 30)
+Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - MRN 987'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.ImageView'), 30)
 
@@ -44,18 +45,20 @@ Mobile.pressBack()
 
 Mobile.scrollToText('6768')
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - MRN 6768'), 30)
+Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - MRN 6768'), 
+    30)
 
 Mobile.tap(findTestObject('IS/Data Preparation/Patient Management/android.widget.ImageView - menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - Freeze patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - Confirm'), 30)
+Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - Confirm'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.ImageView (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.Switch - ON'), 30)
+Mobile.tap(findTestObject('IS/Patient Management/Filter Patient/android.widget.Switch - ON'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - Apply'), 30)
 
