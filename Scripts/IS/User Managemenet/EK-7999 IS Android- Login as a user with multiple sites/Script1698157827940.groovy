@@ -18,3 +18,59 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7999 IS Android- Login as a user with multiple sites.feature')
+
+Mobile.startApplication(GlobalVariable.APK, false)
+
+Mobile.setText(findTestObject('Login Page/Username input'), GlobalVariable.LoginCreds.get('siteuser'), 30)
+
+Mobile.setText(findTestObject('Login Page/Password input'), GlobalVariable.LoginCreds.get('password'), 30)
+
+Mobile.tap(findTestObject('Login Page/Sign in'), 30)
+
+//Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
+
+
+Mobile.tap(findTestObject('Login Page/Sites/Katalon'), 30)
+
+Mobile.verifyElementExist(findTestObject('Patient Directory/Add New Patient'), 30)
+
+Mobile.tap(findTestObject('Patient Directory/Patient'), 30)
+
+Mobile.tap(findTestObject('Wound Summary/Right Menu ( Wound Summary)'), 30)
+
+Mobile.verifyElementExist(findTestObject('Wound Summary/Patient Menu/Freeze patient'), 30)
+
+Mobile.verifyElementExist(findTestObject('Wound Summary/Patient Menu/Delete patient'), 30)
+
+Mobile.tap(findTestObject('Wound Summary/Patient Menu/Cancel'), 30)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
+
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites'), 30)
+
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites ( from menu)/site user'), 30)
+
+Mobile.tap(findTestObject('Patient Directory/Patient'), 30)
+
+Mobile.tap(findTestObject('Wound Summary/Right Menu ( Wound Summary)'), 30)
+
+Mobile.verifyElementExist(findTestObject('Wound Summary/Patient Menu/Edit patient'), 30)
+
+Mobile.verifyElementNotExist(findTestObject('Wound Summary/Patient Menu/Delete patient'), 30)
+
+Mobile.verifyElementNotExist(findTestObject('Wound Summary/Patient Menu/Freeze patient'), 30)
+
+Mobile.tap(findTestObject('Wound Summary/Patient Menu/Cancel'), 30)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
+
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites'), 30)
+
+Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites ( from menu)/Test1'), 30)
+
+Mobile.verifyElementNotExist(findTestObject('Patient Directory/Add New Patient'), 30)
+
