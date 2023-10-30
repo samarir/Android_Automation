@@ -58,7 +58,7 @@ Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Managem
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.ImageView (1)'), 30)
 
-Mobile.tap(findTestObject('IS/Patient Management/Filter Patient/android.widget.Switch - ON'), 30)
+Mobile.tap(findTestObject('IS/Data Preparation/Patient Management/android.widget.Switch - Active Patients Only'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Patient Management/android.widget.TextView - Apply'), 30)
 
