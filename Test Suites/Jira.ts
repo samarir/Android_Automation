@@ -15,7 +15,7 @@
       <guid>d5f1696c-7a3b-4ca8-8b45-5aec612cc0cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IS/User Managemenet/EK-8058 Katalon - login (integration test)</testCaseId>
+      <testCaseId>Test Cases/IS/User Managemenet/EK-8058 IS Android - login (integration test)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

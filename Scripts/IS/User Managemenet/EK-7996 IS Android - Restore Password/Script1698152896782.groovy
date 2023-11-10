@@ -18,3 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7996 IS Android - Restore Password.feature')
+
+Mobile.startApplication(GlobalVariable.APK, false)
+
+Mobile.tap(findTestObject('IS/User Management/Restore Password/android.widget.TextView - Forgot your password'), 30)
+
+Mobile.setText(findTestObject('Login Page/Restore Password/Username input'), GlobalVariable.LoginCreds.get('username'),
+	30)
+
+//Mobile.setText(findTestObject('Object Repository/IS/User Management/Restore Password/android.widget.EditText - username'), GlobalVariable.LoginCreds.get('username'), 30)
+Mobile.setText(findTestObject('Login Page/Restore Password/Email input'), GlobalVariable.LoginCreds.get('email'), 30)
+
+Mobile.tap(findTestObject('Login Page/Restore Password/Restore Password'), 30)
+
+Mobile.pressBack()
