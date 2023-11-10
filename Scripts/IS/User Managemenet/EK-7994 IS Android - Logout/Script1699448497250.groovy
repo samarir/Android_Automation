@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/EK-7994 Katalon - Logout.feature')
+CucumberKW.runFeatureFile('Include/features/EK-7994 IS Android - Logout.feature')
 
 Mobile.tap(findTestObject('Patient Directory/Left Menu'), 0)
 
 Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Logout'), 0)
 
 Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Logout ( from menu)/CONFIRM logout'), 0)
+
