@@ -18,9 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8260 IS Android - Automatic adjustment of Date format.feature')
+
 //String date = Mobile.getText(findTestObject('Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - 27072023'), 30, FailureHandling.STOP_ON_FAILURE)
 //Mobile.verifyMatch(date, '[0-9]{2}/[0-9]{2}/[0-9]{4}', true, FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('IS/User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('IS/User Managemenet/EK-7993 IS Android - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
@@ -36,5 +37,6 @@ Mobile.tap(findTestObject('Patient Directory/Left Menu'), 30)
 
 Mobile.tap(findTestObject('Patient Directory/Account Menu (left menu)/Sites'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Katalon'),
-	30)
+Mobile.tap(findTestObject('Object Repository/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - Katalon'), 
+    30)
+
