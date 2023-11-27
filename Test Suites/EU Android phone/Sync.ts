@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>35673084-42ad-4697-bd62-520aa2113ee3</testSuiteGuid>
+   <testSuiteGuid>bdc55612-da10-413c-b752-01eb5c349519</testSuiteGuid>
    <testCaseLink>
-      <guid>e06853ff-7bae-4ba8-9d35-a761614ea0d7</guid>
+      <guid>cbd4e61a-51c9-4737-b1b6-6de436e587f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IS/User Managemenet/EK-7993 IS Android - Sign in</testCaseId>
+      <testCaseId>Test Cases/EU/User Management/EK-8286 EU Android - Sign-in</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b0dac444-a073-40a5-b0eb-0768e8a71bc2</guid>
+      <guid>50f1ccc6-74e0-4797-978d-e4e2f14fdcca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IS/Synchronization and Offline Use/Automatic sync mode</testCaseId>
+      <testCaseId>Test Cases/EU/Synchronization and Offline Use/EK-8398 EU Android - Automatic Sync Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7ff82ca-ac8f-4679-b02e-bdd88a47a7e6</guid>
+      <guid>e46ea8aa-2cdf-4f98-9134-5725806bf455</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IS/Synchronization and Offline Use/Online Mode</testCaseId>
+      <testCaseId>Test Cases/EU/Synchronization and Offline Use/EK-8283 IS Android - Online Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
