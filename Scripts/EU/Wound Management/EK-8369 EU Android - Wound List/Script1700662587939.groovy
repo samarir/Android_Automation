@@ -74,6 +74,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Management/W
 Mobile.verifyElementExist(findTestObject('Object Repository/IS/Wound Management/Wound List/android.view.ViewGroup - wound3 (1)'), 
     30)
 
+Mobile.scrollToText('Upper Leg, Back, Left', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Wound Management/Wound List/android.widget.TextView - Wound 3 Pressure Injury (1)'), 
     'Wound 3: Pressure Injury')
 

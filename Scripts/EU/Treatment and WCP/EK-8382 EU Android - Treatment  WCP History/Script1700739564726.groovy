@@ -25,8 +25,7 @@ Mobile.tap(findTestObject('EU/Wound Assessment/android.widget.TextView - Patient
 
 Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Treatment WCP history/android.widget.TextView - Treatment'), 
-    30)
+Mobile.tap(findTestObject('IS/Hard to find elements/android.view.ViewGroup - Treatement'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (1)'), 
     30)
