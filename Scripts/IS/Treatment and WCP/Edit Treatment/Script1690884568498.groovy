@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.scrollToText('MRN: 09ui', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Patient ID: 09ui', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.widget.TextView - MRN 09ui'), 30)
+Mobile.tap(findTestObject('EU/Treatment Management/android.widget.TextView - Patient ID 09ui'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.view.ViewGroup - Wound'), 30)
 
@@ -30,18 +30,19 @@ Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment
 
 Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.widget.TextView - Next'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.widget.TextView - DRESSING'), 30)
+Mobile.tap(findTestObject('EU/Treatment Management/android.widget.TextView - OINTMENTS (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.widget.TextView - Activated Charcoal (1)'), 
-    30)
+Mobile.tap(findTestObject('EU/Treatment Management/android.widget.TextView - Zinc Oxide'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.widget.TextView - Save'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.widget.TextView - Activated Charcoal'), 
-    'Activated Charcoal')
+Mobile.verifyElementExist(findTestObject('EU/Treatment Management/android.widget.TextView - OINTMENTS'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Treatment and WCP/Edit Treatment/android.widget.TextView - DRESSING (1)'), 
-    'DRESSING')
+Mobile.verifyElementExist(findTestObject('EU/Treatment Management/android.widget.TextView - Zinc Oxide (1)'), 30)
+
+Mobile.verifyElementExist(findTestObject('EU/Treatment Management/android.widget.TextView - DRESSING'), 30)
+
+Mobile.verifyElementExist(findTestObject('EU/Treatment Management/android.widget.TextView - Activated Charcoal'), 30)
 
 Mobile.pressBack()
 
