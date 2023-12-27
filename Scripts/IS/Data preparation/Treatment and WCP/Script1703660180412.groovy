@@ -34,8 +34,6 @@ Mobile.tap(findTestObject('Object Repository/Patient Directory/Account Menu (lef
 
 Mobile.tap(findTestObject('Object Repository/IS/Wound Management/Add Wound/android.widget.ImageView - add wound'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Save'), 30)
-
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/android.view.ViewGroup - save (1)'), 30)
 
 Mobile.pressBack()
