@@ -38,7 +38,7 @@ Mobile.setText(findTestObject('Object Repository/IS/Patient Management/Edit Pati
 Mobile.verifyElementAttributeValue(findTestObject('IS/Patient Management/Edit Patient/android.widget.EditText - MRN'), 'enabled', 
     'false', 30, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Save'), 30)
+Mobile.tap(findTestObject('Draft/android.widget.TextView - Save'), 30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Patient updated successfully'), 
     'Patient updated successfully.')
