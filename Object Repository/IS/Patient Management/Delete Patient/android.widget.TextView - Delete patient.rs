@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>f7aafa52-fefc-4dfa-a68e-b0377afd82c4</webElementGuid>
+      <webElementGuid>17732a2e-be9b-4460-b4a0-79fdb9c0e5a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,15 +20,15 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>99edff32-d59b-4c1f-93d9-1f33f54d1143</webElementGuid>
+      <webElementGuid>e5d5e9f7-9334-486a-9063-d596186c13bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delete wound</value>
-      <webElementGuid>9644115f-eb4c-4004-8852-bf0b27dd28a3</webElementGuid>
+      <value>Delete patient</value>
+      <webElementGuid>9cccc73a-5825-4ebd-bea0-40ada7771ab8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.ekareinc.insight.standard</value>
-      <webElementGuid>a36b00ec-5150-4ed4-b355-5ecac331a54d</webElementGuid>
+      <webElementGuid>fd45ee19-b0a4-4507-882f-ea58d262069b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>486d0d6f-adee-4229-bd81-972881075c51</webElementGuid>
+      <webElementGuid>4f2ba6bd-563a-464c-ad64-6997e4a7f4c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>738fe3bc-15ca-4bf4-bd32-fdcecdc27ee3</webElementGuid>
+      <webElementGuid>14547cd0-c4bc-4fcc-ab6d-1cb973e6aa16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>561a12b1-b464-4ef8-b352-ec644c727150</webElementGuid>
+      <webElementGuid>35d9ebf0-f620-4f14-87c1-f736e9f148d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>6e676fec-f505-4614-b5de-dff9c5ca32a6</webElementGuid>
+      <webElementGuid>ed30da86-37a2-4607-b554-f0607d1c0381</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>60df64e5-904f-4ecf-9956-e88973a3b4c6</webElementGuid>
+      <webElementGuid>f0b6e5ab-4a60-49ad-87c3-631d120c929b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6c1a8e8e-0792-41f4-ab8e-f6e8bd84800c</webElementGuid>
+      <webElementGuid>91b22bbf-c64a-4451-856a-577197191fd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3fd550be-5ea5-48e3-ac9e-1cd2bb003aba</webElementGuid>
+      <webElementGuid>f314de67-3ab8-4175-8bc1-4b1fe8e8834e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>65862c3f-1f10-42f7-9b8f-bcb3b84823c5</webElementGuid>
+      <webElementGuid>d2156692-7c59-43c4-ad56-5b1175a43338</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0ff3f42e-c231-4286-8e77-c2dc10f15e64</webElementGuid>
+      <webElementGuid>483ef3ff-8c10-44fd-a7a4-33d79ce6f79e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,15 +116,15 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8ebef89c-a24e-4cf2-aa97-aab202da841e</webElementGuid>
+      <webElementGuid>51f5325d-a2a8-4a7a-847a-350522343b73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>399</value>
-      <webElementGuid>488f635d-ac15-43ae-a96c-41c0dd6dce68</webElementGuid>
+      <value>395</value>
+      <webElementGuid>2b28a3f6-8356-4c6d-a2db-bc8ec88ae7c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,15 +132,15 @@
       <name>y</name>
       <type>Main</type>
       <value>1811</value>
-      <webElementGuid>b9e1dc01-9c3b-4df9-9ca5-5d506311beb2</webElementGuid>
+      <webElementGuid>6da771fc-bb94-4431-9e79-444ad7c64662</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>283</value>
-      <webElementGuid>0c425e5b-99d1-4fbb-91f1-d271b6dce75f</webElementGuid>
+      <value>290</value>
+      <webElementGuid>f8dd0908-5146-45b3-9416-e566bc5727ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,15 +148,15 @@
       <name>height</name>
       <type>Main</type>
       <value>57</value>
-      <webElementGuid>8b8430af-5d93-4fa0-8804-72b2d9c1aa54</webElementGuid>
+      <webElementGuid>c86fa3bc-a309-44ea-82d7-add54b0856f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[399,1811][682,1868]</value>
-      <webElementGuid>95b1b0c8-c5b4-418c-9bc9-ce228b236dfb</webElementGuid>
+      <value>[395,1811][685,1868]</value>
+      <webElementGuid>0878062b-6583-4e1e-8bcf-e34e63e6dae8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3c6e74e8-49f7-47aa-9c51-b30927b70a01</webElementGuid>
+      <webElementGuid>67dbd075-48c9-49db-b7a5-b1554767215a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,8 +172,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[6]/android.widget.TextView[1]</value>
-      <webElementGuid>4657899b-82df-4125-9a22-a7e9bfa8a213</webElementGuid>
+      <webElementGuid>83c6a9f2-db98-4425-8968-9dc6dee5e49c</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Delete wound' or . = 'Delete wound')]</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Delete patient' or . = 'Delete patient')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

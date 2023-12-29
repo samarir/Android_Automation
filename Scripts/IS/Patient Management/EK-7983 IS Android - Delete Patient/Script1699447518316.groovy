@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7983 IS Android - Delete Patient.feature')
 
-Mobile.setText(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN'),
-	'6766', 30)
+Mobile.setText(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN'), 
+    '6766', 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Current site'),
-	30)
+Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Current site'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -33,14 +33,13 @@ Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Delete Patien
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.ImageView'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete patient'),
-	30)
+Mobile.tap(findTestObject('IS/Patient Management/Delete Patient/android.widget.TextView - Delete patient'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete the selected patient The patient will be removed from the directory if deleted'),
-	'Delete the selected patient? The patient will be removed from the directory if deleted')
+Mobile.verifyElementText(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - Delete the selected patient The patient will be removed from the directory if deleted'), 
+    'Delete the selected patient? The patient will be removed from the directory if deleted')
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.Button - CONFIRM'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - No content found'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/IS/Patient Management/Delete Patient/android.widget.TextView - No content found'), 
+    30)
 
