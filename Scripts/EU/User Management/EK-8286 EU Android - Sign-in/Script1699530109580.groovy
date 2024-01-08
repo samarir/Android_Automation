@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8286 EU Android - Sign-in.feature')
 
-Mobile.startApplication(GlobalVariable.LoginCreds.get('APK'), false)
+Mobile.startApplication(GlobalVariable.APK, false)
 
 Mobile.setText(findTestObject('Login Page/Username input'), GlobalVariable.LoginCreds.get('username'), 30)
 
@@ -27,8 +27,9 @@ Mobile.setText(findTestObject('Login Page/Password input'), GlobalVariable.Login
 
 Mobile.tap(findTestObject('Login Page/Sign in'), 30)
 
-Mobile.tap(findTestObject('Login Page/Sites/android.widget.TextView - Katalon'), 30)
+//Mobile.tap(findTestObject('Object Repository/Draft/android.widget.TextView - OK'), 30)
+Mobile.tap(findTestObject('IS/User Management/Login/android.widget.TextView - Katalon'), 30)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Patient Directory/android.widget.TextView - Patient Directory'), 30)
+Mobile.verifyElementExist(findTestObject('IS/User Management/Login/android.widget.TextView - Patient Directory'), 30)
