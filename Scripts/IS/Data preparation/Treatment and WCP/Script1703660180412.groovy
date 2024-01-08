@@ -17,10 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.scrollToText('MRN: 21ui', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('MRN: 24ui', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/Wound Assessment/android.widget.TextView - MRN 21ui'), 
-    30)
+Mobile.tap(findTestObject('IS/Treatment and WCP/Add Treatment/android.widget.TextView - MRN 24ui'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Data Preparation/android.view.ViewGroup'), 30)
 

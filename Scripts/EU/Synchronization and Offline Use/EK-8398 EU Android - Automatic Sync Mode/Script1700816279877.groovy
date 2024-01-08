@@ -47,8 +47,7 @@ Mobile.tap(findTestObject('Object Repository/IS/Synchronization and Offline Use/
 Mobile.verifyElementText(findTestObject('Object Repository/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Sync, Test'), 
     'Sync, Test')
 
-Mobile.verifyElementText(findTestObject('EU/Sync/android.widget.TextView - Patient ID 00ui'), 
-    'Patient ID: 00ui')
+Mobile.verifyElementText(findTestObject('EU/Sync/android.widget.TextView - Patient ID 00ui'), 'Patient ID: 00ui')
 
 Mobile.tap(findTestObject('EU/Sync/android.widget.TextView - Patient ID 00ui'), 30)
 

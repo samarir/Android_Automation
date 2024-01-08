@@ -21,18 +21,18 @@ CucumberKW.runFeatureFile('Include/features/EK-8350 EU Android - Edit Patient.fe
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Edit Patient/android.view.ViewGroup (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Edit Patient/android.widget.ImageView'), 30)
+Mobile.tap(findTestObject('IS/Patient Management/Freeze Patient/android.widget.ImageView - menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Edit patient'), 
     30)
 
-Mobile.setText(findTestObject('EU/Patient Management/Add Patient/android.widget.EditText - First Name (1)'), 'Editt', 30)
+Mobile.setText(findTestObject('null'), 'Editt', 30)
 
-Mobile.setText(findTestObject('EU/Patient Management/Add Patient/android.widget.EditText - Last Name (1)'), 'Litee', 30)
+Mobile.setText(findTestObject('null'), 'Litee', 30)
 
 Mobile.setText(findTestObject('EU/Patient Management/Add Patient/android.widget.EditText - DOB'), '09/07/2001', 30)
 
-Mobile.verifyElementAttributeValue(findTestObject('EU/Patient Management/Add Patient/android.widget.EditText - Patient ID (1)'), 
+Mobile.verifyElementAttributeValue(findTestObject('null'), 
     'enabled', 'false', 30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Edit Patient/android.widget.TextView - Save'), 30)

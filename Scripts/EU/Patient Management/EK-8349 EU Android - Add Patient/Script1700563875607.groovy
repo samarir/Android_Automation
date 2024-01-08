@@ -22,17 +22,14 @@ CucumberKW.runFeatureFile('Include/features/EK-8349 EU Android - Add Patient.fea
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - add patient'), 
     30)
 
-Mobile.setText(findTestObject('Object Repository/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 
-    'Test', 30)
+Mobile.setText(findTestObject('EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 30)
 
-Mobile.setText(findTestObject('Object Repository/EU/Patient Management/Add Patient/android.widget.EditText - last name'), 
-    'Lite', 30)
+Mobile.setText(findTestObject('EU/Patient Management/Add Patient/android.widget.EditText - last name'), 'Lite', 30)
 
 Mobile.setText(findTestObject('Object Repository/EU/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy)'), 
     '09/12/2001', 30)
 
-Mobile.setText(findTestObject('Object Repository/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), 
-    '6766', 30)
+Mobile.setText(findTestObject('EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '6766', 30)
 
 Mobile.tap(findTestObject('Object Repository/IS/Patient Management/Add Patient/android.widget.TextView - Save'), 30)
 
