@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:00,015
+1. addDefaultPackages()
+
+2
+00:00:00,015 --> 00:00:00,022
+1. runFeatureFile("Include/features/EK-8291 EU Android - Restore Password.feature")
+
+3
+00:00:00,022 --> 00:00:05,126
+5. startApplication(APK, false)
+
+4
+00:00:05,127 --> 00:00:05,522
+9. tap(findTestObject("IS/User Management/Restore Password/android.widget.TextView - Forgot your password"), 30)
+
+5
+00:00:05,522 --> 00:00:07,585
+13. setText(findTestObject("Login Page/Restore Password/Username input"), LoginCreds.get("username"), 30)
+
+6
+00:00:07,585 --> 00:00:09,593
+17. setText(findTestObject("Login Page/Restore Password/Email input"), LoginCreds.get("email"), 30)
+
+7
+00:00:09,593 --> 00:00:10,985
+21. tap(findTestObject("Login Page/Restore Password/Restore Password"), 30)
+
+8
+00:00:10,985 --> 00:00:11,661
+25. pressBack()
+

@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,014
+1. addDefaultPackages()
+
+2
+00:00:00,014 --> 00:00:00,019
+1. runFeatureFile("Include/features/EK-8290 EU Android - Auto Logout.feature")
+
+3
+00:00:00,019 --> 00:00:00,170
+5. tap(findTestObject("Patient Directory/Left Menu (Auto-logout)"), 30)
+
+4
+00:00:00,170 --> 00:00:01,755
+9. tap(findTestObject("Patient Directory/Account Menu (left menu)/Setting"), 30)
+
+5
+00:00:01,756 --> 00:00:03,376
+13. tap(findTestObject("Patient Directory/Settings/Logout tile"), 30)
+
+6
+00:00:03,376 --> 00:00:04,249
+17. tap(findTestObject("Patient Directory/Settings/1 minutes"), 30)
+
+7
+00:00:04,249 --> 00:00:05,056
+21. pressBack()
+
+8
+00:00:05,056 --> 00:01:10,062
+25. delay(65, STOP_ON_FAILURE)
+
+9
+00:01:10,062 --> 00:01:10,353
+29. verifyElementExist(findTestObject("Login Page/Insight Logo"), 30)
+

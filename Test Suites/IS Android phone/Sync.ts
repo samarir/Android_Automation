@@ -15,21 +15,21 @@
       <guid>e06853ff-7bae-4ba8-9d35-a761614ea0d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IS/User Managemenet/EK-7993 IS Android - Sign in</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/User Managemenet/EK-7993 IS Android - Sign in</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b0dac444-a073-40a5-b0eb-0768e8a71bc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IS/Synchronization and Offline Use/Automatic sync mode</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Synchronization and Offline Use/Automatic sync mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d7ff82ca-ac8f-4679-b02e-bdd88a47a7e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IS/Synchronization and Offline Use/Online Mode</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Synchronization and Offline Use/Online Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
