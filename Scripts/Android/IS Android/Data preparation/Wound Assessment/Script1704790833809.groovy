@@ -19,8 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.scrollToText('MRN: 21ui')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Data Preparation/Wound Assessment/android.widget.TextView - MRN 21ui'), 
-    30)
+Mobile.tap(findTestObject('Android/IS/Data Preparation/Wound Assessment/android.widget.TextView - MRN 21ui'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Data Preparation/Wound Assessment/android.view.ViewGroup - wound'), 
     30)
