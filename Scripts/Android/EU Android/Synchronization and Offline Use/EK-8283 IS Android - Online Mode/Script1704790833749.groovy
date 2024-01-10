@@ -126,7 +126,7 @@ Mobile.pressBack()
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatement'), 30)
+Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatment'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.ImageView (2)'), 
     30)

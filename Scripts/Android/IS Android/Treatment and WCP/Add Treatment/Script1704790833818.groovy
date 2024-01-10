@@ -26,7 +26,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Treatment
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.view.ViewGroup - Wound'), 30)
 
-Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatement'), 30)
+Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatment'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.ImageView - Add Treatement'), 
     30)

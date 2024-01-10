@@ -117,7 +117,7 @@ Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.wi
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup (1)'), 
     30)
 
-Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatement'), 30)
+Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatment'), 30)
 
 Mobile.verifyElementExist(findTestObject('Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.ImageView - add treatment'), 
     30)
@@ -173,7 +173,7 @@ Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGro
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup (1)'), 
     30)
 
-Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatement'), 30)
+Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatment'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup (2)'), 
     30)

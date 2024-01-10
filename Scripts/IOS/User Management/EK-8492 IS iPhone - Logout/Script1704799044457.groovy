@@ -17,15 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.LoginCreds.get('IPA'), true)
+CucumberKW.runFeatureFile('Include/features/EK-8492 IS iPhone - Logout.feature')
 
-Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'), GlobalVariable.LoginCreds.get('username'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/Logout/XCUIElementTypeOther'), 30)
 
-Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'), GlobalVariable.LoginCreds.get('password'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/Logout/XCUIElementTypeOther - Logout'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/Logout/XCUIElementTypeStaticText - You want to logout'), 
+    'You want to logout ?')
 
-Mobile.tap(findTestObject('IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'), 30)
+Mobile.verifyElementExist(findTestObject('Object Repository/IOS/User Management/Logout/XCUIElementTypeButton - Cancel'), 30)
 
-WebUI.delay(10)
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/Logout/XCUIElementTypeButton - Confirm'), 30)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IOS/User Management/Logout/XCUIElementTypeOther (1)'), 30)
 

@@ -17,15 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CucumberKW.runFeatureFile('Include/features/EK-8493 IS iPhone - Restore Password.feature')
+
 Mobile.startApplication(GlobalVariable.LoginCreds.get('IPA'), true)
 
-Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'), GlobalVariable.LoginCreds.get('username'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeOther - Forgot your password'), 
+    30)
 
-Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'), GlobalVariable.LoginCreds.get('password'), 0)
+Mobile.setText(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeTextField - Username'), 
+    GlobalVariable.LoginCreds.get('username'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'), 0)
+Mobile.setText(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeTextField - Email'), 
+    GlobalVariable.LoginCreds.get('email'), 30)
 
-Mobile.tap(findTestObject('IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'), 30)
-
-WebUI.delay(10)
+Mobile.tap(findTestObject('IOS/Draft/XCUIElementTypeOther - Restore Password'), 30)
 

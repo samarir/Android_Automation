@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Android/IS Android/User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.scrollToText('MRN: 00ui')
 
 Mobile.tap(findTestObject('Android/IS/Data Preparation/Sync/android.widget.TextView - MRN 00ui'), 30)
