@@ -26,14 +26,19 @@ Mobile.toggleWifi('off', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup - add patient'), 
     30)
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 30)
-
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - last name'), 'Sync', 30)
-
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy)'), '01/09/1990', 
+Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 
     30)
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '00ui', 30)
+Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - last name'), 'Sync', 
+    30)
+
+Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy)'), 
+    '01/09/1990', 30)
+
+WebUI.scrollToElement(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.TextView - Gender'), 30)
+
+Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '00ui', 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Save'), 
     30)
@@ -51,7 +56,8 @@ Mobile.verifyElementText(findTestObject('Android/EU/Sync/android.widget.TextView
 
 Mobile.tap(findTestObject('Android/EU/Sync/android.widget.TextView - Patient ID 00ui'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.ImageView - add wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.ImageView - add wound'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Next'), 30)
 
@@ -79,38 +85,46 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Ass
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - WOUND EDGE'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Rolled'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Rolled'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Oedema'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Oedema'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN (1)'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PAIN'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PAIN'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.SeekBar - 0.0'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.SeekBar - 0.0'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PAIN'), 30)
 
 Mobile.tap(findTestObject('Android/EU/Wound Assessment/android.widget.TextView - EXUDATE'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Minimum'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Minimum'), 
+    30)
 
 Mobile.tap(findTestObject('Android/EU/Wound Assessment/android.widget.TextView - EXUDATE'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - stage II'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - stage II'), 
+    30)
 
-Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING'), 30)
+Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING'), 
+    30)
 
 Mobile.tap(findTestObject('Android/EU/Wound Assessment/android.widget.TextView - ODOUR'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - None'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - None'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Save'), 30)
 
@@ -125,19 +139,23 @@ Mobile.verifyElementExist(findTestObject('Android/IS/Synchronization and Offline
 Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.ImageView - add treatment'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - Next'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - Next'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - CLEANSING'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - CLEANSING'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - Acetic Acid'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - OINTMENTS'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - OINTMENTS'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - Zinc Oxide'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - Save'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - Save'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.TextView - Acetic Acid (1)'), 
     'Acetic Acid')

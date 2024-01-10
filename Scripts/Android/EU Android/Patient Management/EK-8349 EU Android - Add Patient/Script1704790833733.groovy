@@ -22,21 +22,28 @@ CucumberKW.runFeatureFile('Include/features/EK-8349 EU Android - Add Patient.fea
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - add patient'), 
     30)
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 30)
+Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 
+    30)
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - last name'), 'Lite', 30)
+Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - last name'), 'Lite', 
+    30)
 
 Mobile.setText(findTestObject('Object Repository/Android/EU/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy)'), 
     '09/12/2001', 30)
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '6766', 30)
+WebUI.scrollToElement(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.TextView - Gender'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Save'), 30)
+Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '6766', 
+    30)
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Save'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Patient created successfully'), 
     'Patient created successfully')
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.Button - OK'), 30)
 
-Mobile.verifyElementText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.TextView - Lite, Test'), 'Lite, Test')
+Mobile.verifyElementText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.TextView - Lite, Test'), 
+    'Lite, Test')
 
