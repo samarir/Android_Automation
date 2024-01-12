@@ -1,0 +1,195 @@
+[38;5;160m[Xcode][0m 2024-01-12 09:11:09.979364+0100 WebDriverAguncaughtException: Could not find a connected Android device in 20000ms
+Error: Could not find a connected Android device in 20000ms
+    at ADB.getDevicesWithRetry (/Users/safaamarir/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:332:13)
+    at execFunc (/Users/safaamarir/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:519:9)
+    at ADB.adbExec (/Users/safaamarir/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:556:12)
+    at ADB.shell (/Users/safaamarir/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/system-calls.js:594:10)
+    at ADB.setDefaultHiddenApiPolicy (/Users/safaamarir/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/adb-commands.js:596:5)
+    at AndroidUiautomator2Driver.deleteSession (/Users/safaamarir/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:822:9)
+    at AndroidUiautomator2Driver.startUnexpectedShutdown (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:155:9)
+    at Timeout._onTimeout (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:179:7)
+
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.108332+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.123650+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.140061+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.153638+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.163976+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.169949+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.175604+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.181320+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.186950+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.193154+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.193793+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.194489+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.195614+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.197080+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.198584+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.199241+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.210690+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.216088+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.221992+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.222551+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.223216+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.223771+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.224348+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.225039+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.225531+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.237095+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:11:10.242486+0100 WebDriverAgentRunner-Runner[3404:1866723] Cannot retrieve element attribute(s) (
+[38;5;160m[Xcode][0m     "XC_kAXXCAttributeIsElement"
+[38;5;160m[Xcode][0m ). Original error: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.338441+0100 WebDriverAgentRunner-Runner[3409:1869028] [Default] Running tests...
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m Restarting after unexpected exit, crash, or test timeout in -[UITestingUITests testRunner]; summary will include totals from previous launches.
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m Test Suite 'Selected tests' started at 2024-01-12 09:14:58.855.
+[38;5;160m[Xcode][0m Test Suite 'WebDriverAgentRunner.xctest' started at 2024-01-12 09:14:58.857.
+[38;5;160m[Xcode][0m Test Suite 'UITestingUITests' started at 2024-01-12 09:14:58.857.
+[38;5;160m[Xcode][0m     t =      nans Suite Set Up
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.879279+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     KeyboardAutocorrection
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.879325+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.879938+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     "KeyboardAutocorrection_changedAt"
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.879967+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.880229+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     "KeyboardAutocorrection_buildAtChange"
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.880253+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.880484+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     "KeyboardAutocorrection_previousValue"
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.880511+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.880737+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     "KeyboardAutocorrection_analyzedAt"
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.880761+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.890937+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     KeyboardPrediction
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.890967+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.891232+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     KeyboardShowPredictionBar
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.891256+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.891493+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Couldn't write values for keys (
+[38;5;160m[Xcode][0m     DidShowGestureKeyboardIntroduction
+[38;5;160m[Xcode][0m ) in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): setting preferences outside an application's container requires user-preference-write or file-write-data sandbox access
+[38;5;160m[Xcode][0m 2024-01-12 09:14:58.891514+0100 WebDriverAgentRunner-Runner[3409:1869028] [User Defaults] Not updating lastKnownShmemState in CFPrefsPlistSource<0x2810b3720> (Domain: com.apple.keyboard.preferences, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No): 139 -> 139
+[38;5;160m[Xcode][0m Test Suite 'UITestingUITests' failed at 2024-01-12 09:14:58.895.
+[38;5;160m[Xcode][0m 	 Executed 1 test, with 1 failure (0 unexpected) in 0.000 (0.038) seconds
+[38;5;160m[Xcode][0m Test Suite 'WebDriverAgentRunner.xctest' failed at 2024-01-12 09:14:58.895.
+[38;5;160m[Xcode][0m 	 Executed 1 test, with 1 failure (0 unexpected) in 0.000 (0.038) seconds
+[38;5;160m[Xcode][0m Test Suite 'Selected tests' failed at 2024-01-12 09:14:58.895.
+[38;5;160m[Xcode][0m 	 Executed 1 test, with 1 failure (0 unexpected) in 0.000 (0.040) seconds
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:15:05.513 xcodebuild[41892:1657841] [MT] IDETestOperationsObserverDebug: 280.691 elapsed -- Testing started completed.
+[38;5;160m[Xcode][0m 2024-01-12 09:15:05.513 xcodebuild[41892:1657841] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 2024-01-12 09:15:05.513 xcodebuild[41892:1657841] [MT] IDETestOperationsObserverDebug: 280.691 sec, +280.691 sec -- end
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m Test session results, code coverage, and logs:
+[38;5;160m[Xcode][0m 	/Users/safaamarir/Library/Developer/Xcode/DerivedData/WebDriverAgent-crwnbegrosjorcexwushcopiqllk/Logs/Test/Test-WebDriverAgentRunner-2024.01.12_09-10-00-+0100.xcresult
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m Failing tests:
+[38;5;160m[Xcode][0m 	-[UITestingUITests testRunner]
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m ** TEST EXECUTE FAILED **
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m Testing started
+[38;5;160m[Xcode][0m 
+[38;5;160m[Xcode][0m xcodebuild exited with code '65' and signal 'null'

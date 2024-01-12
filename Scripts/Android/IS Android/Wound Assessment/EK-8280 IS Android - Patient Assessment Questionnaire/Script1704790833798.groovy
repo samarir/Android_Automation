@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8280 IS Android - Patient Assessment Questionnaire.feature')
 
-Mobile.startApplication(GlobalVariable.APK, false)
+Mobile.startApplication(GlobalVariable.LoginCreds, false)
 
 Mobile.setText(findTestObject('Android/Login Page/android.widget.EditText - Username'), GlobalVariable.LoginCreds.get('patient'),
 	30)

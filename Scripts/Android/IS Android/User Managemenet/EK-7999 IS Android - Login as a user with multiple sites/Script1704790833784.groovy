@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7999 IS Android - Login as a user with multiple sites.feature')
 
-Mobile.startApplication(GlobalVariable.APK, false)
+Mobile.startApplication(GlobalVariable.LoginCreds, false)
 
 Mobile.setText(findTestObject('Android/Login Page/Username input'), GlobalVariable.LoginCreds.get('siteuser'), 30)
 

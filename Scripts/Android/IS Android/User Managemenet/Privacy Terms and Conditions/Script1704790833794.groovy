@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import org.openqa.selenium.Keys as Keys
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication(GlobalVariable.APK, true)
+Mobile.startApplication(GlobalVariable.LoginCreds, true)
 
 Mobile.verifyElementText(findTestObject('Android/Login Page/Terms  Conditions'), 'Terms & Conditions')
 

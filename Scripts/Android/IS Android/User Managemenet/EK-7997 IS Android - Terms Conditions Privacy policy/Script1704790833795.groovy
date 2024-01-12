@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7997 IS Android - Terms  Conditions  Privacy policy.feature')
 
-Mobile.startApplication(GlobalVariable.APK, true)
+Mobile.startApplication(GlobalVariable.LoginCreds, true)
 
 Mobile.verifyElementText(findTestObject('Android/Login Page/Terms  Conditions'), 'Terms & Conditions')
 

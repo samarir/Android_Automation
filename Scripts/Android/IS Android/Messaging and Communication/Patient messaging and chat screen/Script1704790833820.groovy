@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.APK, true)
+Mobile.startApplication(GlobalVariable.LoginCreds, true)
 
 Mobile.setText(findTestObject('Android/Login Page/Username input'), GlobalVariable.LoginCreds.get('patient'), 30)
 

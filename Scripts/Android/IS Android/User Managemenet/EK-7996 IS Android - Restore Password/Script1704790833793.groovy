@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7996 IS Android - Restore Password.feature')
 
-Mobile.startApplication(GlobalVariable.APK, false)
+Mobile.startApplication(GlobalVariable.LoginCreds, false)
 
 Mobile.tap(findTestObject('Android/IS/User Management/Restore Password/android.widget.TextView - Forgot your password'), 30)
 
