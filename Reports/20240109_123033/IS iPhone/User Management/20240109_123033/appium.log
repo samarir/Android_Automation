@@ -1,0 +1,409 @@
+[35m[Appium][39m Welcome to Appium v2.4.1 (REV 705d2564ddfb9c915ee9425dd9ed408bfac61005)
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m65285[39m }
+[35m[Appium][39m Attempting to load driver xcuitest...
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[Appium] Appium REST http interface listener started on http://0.0.0.0:65285/wd/hub
+[Appium] You can provide the following URLs in your client code to connect to this server:
+[Appium] 	http://127.0.0.1:65285/wd/hub (only accessible from the same host)
+[Appium] 	http://192.168.1.113:65285/wd/hub
+[Appium] 	http://169.254.231.29:65285/wd/hub
+[Appium] Available drivers:
+[Appium]   - xcuitest@5.12.2 (automationName 'XCUITest')
+[Appium]   - uiautomator2@2.40.0 (automationName 'UiAutomator2')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 199
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:automationName":"XCUITest","appium:fullReset":true,"appium:platformVersion":"17.3","appium:deviceId":"00008110-00112D590CD0201E","appium:noReset":false,"appium:udid":"00008110-00112D590CD0201E","appium:wdaLocalPort":65248,"appium:deviceName":"Safa’s iPhone","platformName":"iOS","appium:app":"/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1_192.ipa"},"capabilities":{"firstMatch":[{"appium:app":"/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1_192.ipa","appium:automationName":"XCUITest","appium:deviceId":"00008110-00112D590CD0201E","appium:deviceName":"Safa’s iPhone","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformVersion":"17.3","appium:udid":"00008110-00112D590CD0201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":65248,"platformName":"ios"}]}}
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/safaamarir/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@c30c][0m Appium v2.4.1 creating new XCUITestDriver (v5.12.2) session
+[38;5;16m[AppiumDriver@c30c][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@c30c][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@c30c][0m XCUITestDriver's BaseDriver version is 9.5.0
+[38;5;32m[XCUITestDriver@12ac][0m The following provided capabilities were not recognized by this driver:
+[38;5;32m[XCUITestDriver@12ac][0m   deviceId
+[38;5;32m[XCUITestDriver@12ac][0m   waitForAppScript
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Session created with session id: cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Determining device to run tests on: udid: '00008110-00112D590CD0201E', real device: true
+[38;5;64m[BaseDriver][0m Using local app '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1_192.ipa'
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m 'Payload/eKareApp.app' is the resulting application bundle selected from '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1_192.ipa'
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Using WDA path: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Using WDA agent: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Setting up real device
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m App 'com.ekareinc.insight.healthcare' is not installed yet or it has an offload and cannot be detected, which might keep the local data.
+[38;5;48m[XCUITest][0m App installation succeeded after 10774ms
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-00112D590CD0201E on local port 65248, device port 65248
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-00112D590CD0201E:65248
+[38;5;112m[WD Proxy][0m socket hang up
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m socket hang up
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m socket hang up
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m socket hang up
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m socket hang up
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m socket hang up
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m socket hang up
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Determined the downstream protocol as 'W3C'
+[38;5;16m[AppiumDriver@c30c][0m New XCUITestDriver session created successfully, session cad00793-1f0e-43b9-8787-571ceb133ba7 added to master session list
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 25695 ms - 620
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7 200 1 ms - 356
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7 200 0 ms - 356
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 199
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/execute/sync[39m
+[38;5;0m[HTTP][0m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/execute/sync 200 205 ms - 63
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/execute/sync[39m
+[38;5;0m[HTTP][0m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/execute/sync 200 3 ms - 63
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 92 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 225 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/location 200 45 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/clear[39m
+[38;5;0m[HTTP][0m {"id":"2E000000-0000-0000-500B-000000000000"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/clear 200 50 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"2E000000-0000-0000-500B-000000000000"}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/click 200 447 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/value[39m
+[38;5;0m[HTTP][0m {"id":"2E000000-0000-0000-500B-000000000000","text":"katalon","value":["k","a","t","a","l","o","n"]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2E000000-0000-0000-500B-000000000000/value 200 384 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 107 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeSecureTextField']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 386 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/location 200 77 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/clear[39m
+[38;5;0m[HTTP][0m {"id":"2F000000-0000-0000-500B-000000000000"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/clear 200 71 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"2F000000-0000-0000-500B-000000000000"}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/click 200 476 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/value[39m
+[38;5;0m[HTTP][0m {"id":"2F000000-0000-0000-500B-000000000000","text":"eKare123@","value":["e","K","a","r","e","1","2","3","@"]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/2F000000-0000-0000-500B-000000000000/value 200 486 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 109 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'SIGN IN' and @name = 'SIGN IN']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 666 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/1A000000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/1A000000-0000-0000-500B-000000000000/location 200 71 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/1A000000-0000-0000-500B-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"1A000000-0000-0000-500B-000000000000"}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/1A000000-0000-0000-500B-000000000000/click 200 825 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 49 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 71 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 232 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 149 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 144 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 152 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 163 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 164 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 174 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 90 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 124 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 145 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 221 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 66 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 65 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 121 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/98000000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/98000000-0000-0000-500B-000000000000/location 200 29 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/98000000-0000-0000-500B-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"98000000-0000-0000-500B-000000000000"}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/98000000-0000-0000-500B-000000000000/click 200 398 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 151 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 559 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/DA000000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/DA000000-0000-0000-500B-000000000000/location 200 107 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/DA000000-0000-0000-500B-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"DA000000-0000-0000-500B-000000000000"}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/DA000000-0000-0000-500B-000000000000/click 200 536 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 129 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'Logout' and @name = 'Logout']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 1069 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/B8000000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/B8000000-0000-0000-500B-000000000000/location 200 110 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/B8000000-0000-0000-500B-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"B8000000-0000-0000-500B-000000000000"}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/B8000000-0000-0000-500B-000000000000/click 200 776 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 155 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'You want to logout ?' and @name = 'You want to logout ?' and @value = 'You want to logout ?']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 1337 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/58010000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/58010000-0000-0000-500B-000000000000/location 200 110 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/58010000-0000-0000-500B-000000000000/text[39m
+[38;5;0m[HTTP][0m {}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/58010000-0000-0000-500B-000000000000/text 200 97 ms - 83
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 106 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Cancel' and @name = 'Cancel']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 1124 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/5E010000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/5E010000-0000-0000-500B-000000000000/location 200 113 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 113 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Confirm' and @name = 'Confirm']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 1116 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/60010000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/60010000-0000-0000-500B-000000000000/location 200 110 ms - 27
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/60010000-0000-0000-500B-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"60010000-0000-0000-500B-000000000000"}
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@12ac (cad00793)][0m Replacing sessionId 0BECB995-1E9E-491A-A8A2-F2825A349661 with cad00793-1f0e-43b9-8787-571ceb133ba7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/60010000-0000-0000-500B-000000000000/click 200 880 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/window/rect 200 86 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/elements 200 1778 ms - 5003
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/06000000-0000-0000-500B-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/element/06000000-0000-0000-500B-000000000000/location 200 45 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7[39m
+[38;5;0m[HTTP][0m {}
+[38;5;16m[AppiumDriver@c30c][0m Removing session cad00793-1f0e-43b9-8787-571ceb133ba7 from our master session list
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008110-00112D590CD0201E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:65248"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:65248'
+[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/cad00793-1f0e-43b9-8787-571ceb133ba7 200 1126 ms - 14
+[38;5;0m[HTTP][0m 
+[Appium] Received SIGTERM - shutting down
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event

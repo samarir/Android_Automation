@@ -1,0 +1,12 @@
+1
+00:00:00,025 --> 00:00:00,183
+1. runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature")
+
+2
+00:00:00,186 --> 00:01:06,841
+5. startApplication(LoginCreds.get("IPA"), true)
+
+3
+00:01:06,842 --> 00:01:47,239
+9. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 0)
+

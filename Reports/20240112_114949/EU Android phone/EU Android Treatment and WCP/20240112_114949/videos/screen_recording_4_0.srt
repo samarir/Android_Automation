@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:00,012
+1. addDefaultPackages()
+
+2
+00:00:00,012 --> 00:00:00,017
+1. runFeatureFile("Include/features/EK-8382 EU Android - Treatment  WCP History.feature")
+
+3
+00:00:00,017 --> 00:00:09,580
+5. scrollToText("Patient ID: 97ui")
+
+4
+00:00:09,580 --> 00:00:09,849
+9. tap(findTestObject("Android/EU/Wound Assessment/android.widget.TextView - Patient ID 97ui"), 30)
+
+5
+00:00:09,850 --> 00:00:11,431
+13. tap(findTestObject("Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup"), 30)
+
+6
+00:00:11,431 --> 00:00:13,502
+17. tap(findTestObject("Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.widget.TextView - Treatment"), 30)
+
+7
+00:00:13,502 --> 00:00:15,192
+21. verifyElementExist(findTestObject("Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (1)"), 30)
+
+8
+00:00:15,192 --> 00:00:15,484
+25. tap(findTestObject("Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.widget.ImageView"), 30)
+
+9
+00:00:15,484 --> 00:01:07,441
+29. tap(findTestObject("Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (2)"), 30)
+
+10
+00:01:07,441 --> 00:01:07,773
+33. verifyElementExist(findTestObject("Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (1)"), 30)
+
+11
+00:01:07,773 --> 00:01:08,686
+37. pressBack()
+
+12
+00:01:08,686 --> 00:01:09,372
+41. pressBack()
+
+13
+00:01:09,372 --> 00:01:10,056
+45. pressBack()
+

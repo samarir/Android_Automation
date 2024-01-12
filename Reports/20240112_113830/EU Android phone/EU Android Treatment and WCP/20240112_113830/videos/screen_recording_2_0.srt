@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,017
+1. addDefaultPackages()
+
+2
+00:00:00,018 --> 00:00:00,025
+1. runFeatureFile("Include/features/EK-8380 EU Android - Add Treatment.feature")
+
+3
+00:00:00,025 --> 00:00:06,872
+5. scrollToText("Patient ID: 24ui")
+
+4
+00:00:06,872 --> 00:00:07,137
+9. tap(findTestObject("Android/EU/Treatment Management/android.widget.TextView - Patient ID 24ui"), 30)
+
+5
+00:00:07,137 --> 00:00:08,699
+13. verifyElementExist(findTestObject("Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.view.ViewGroup - Wound"), 30)
+
+6
+00:00:08,699 --> 00:00:08,984
+17. tap(findTestObject("Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.view.ViewGroup - Wound"), 30)
+
+7
+00:00:08,984 --> 00:00:11,014
+21. tap(findTestObject("Android/IS/Hard to find elements/android.view.ViewGroup - Treatment"), 30)
+
+8
+00:00:11,014 --> 00:00:12,670
+25. verifyElementExist(findTestObject("Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.ImageView - Add Treatement"), 30)
+
+9
+00:00:12,670 --> 00:00:13,069
+29. tap(findTestObject("Object Repository/Android/IS/Treatment and WCP/Add Treatment/android.widget.ImageView - Add Treatement"), 30)
+

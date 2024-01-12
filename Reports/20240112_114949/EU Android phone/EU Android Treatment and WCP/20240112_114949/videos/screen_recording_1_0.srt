@@ -1,0 +1,12 @@
+1
+00:00:00,027 --> 00:00:00,166
+1. runFeatureFile("Include/features/EK-8286 EU Android - Sign-in.feature")
+
+2
+00:00:00,169 --> 00:00:08,085
+5. startApplication(LoginCreds.get("APK"), false)
+
+3
+00:00:08,085 --> 00:00:39,574
+9. setText(findTestObject("Android/Login Page/Username input"), LoginCreds.get("username"), 30)
+
