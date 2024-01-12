@@ -15,28 +15,28 @@
       <guid>db5a85e5-8e0e-4524-8c3b-5c5a8c111ee6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU Android/User Management/EK-8286 EU Android - Sign-in</testCaseId>
+      <testCaseId>Test Cases/Android/EU Android/User Management/EK-8286 EU Android - Sign-in</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0656fb63-1d8e-4255-9b27-539e384053e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU Android/Treatment and WCP/EK-8380 EU Android - Add Treatment</testCaseId>
+      <testCaseId>Test Cases/Android/EU Android/Treatment and WCP/EK-8380 EU Android - Add Treatment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7645a797-2196-4a4e-976d-1d1d1a3798d7</guid>
+      <guid>1586f05e-fe75-4cb4-b1da-c9967f27e45b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU Android/Treatment and WCP/EK-8381 EU Android - Edit Treatment</testCaseId>
+      <testCaseId>Test Cases/Android/EU Android/Treatment and WCP/EK-8381 EU Android - Edit Treatment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>82659467-438d-4d3a-8d8f-f591b6f633be</guid>
+      <guid>a01cc7f5-c681-4366-a3d3-92a20e38066c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU Android/Treatment and WCP/EK-8382 EU Android - Treatment  WCP History</testCaseId>
+      <testCaseId>Test Cases/Android/EU Android/Treatment and WCP/EK-8382 EU Android - Treatment  WCP History</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

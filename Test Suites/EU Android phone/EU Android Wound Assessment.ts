@@ -15,7 +15,7 @@
       <guid>b22eb3a8-43df-43b8-969c-5bba68845672</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU Android/User Management/EK-8286 EU Android - Sign-in</testCaseId>
+      <testCaseId>Test Cases/Android/EU Android/User Management/EK-8286 EU Android - Sign-in</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

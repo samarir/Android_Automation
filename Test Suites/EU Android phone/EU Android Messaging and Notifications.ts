@@ -22,7 +22,7 @@
       <guid>75ecac18-c036-4497-b857-b73860f09e4e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU Android/Messaging and notifications/EK-8387 EU Android - Notification Center</testCaseId>
+      <testCaseId>Test Cases/Android/EU Android/Messaging and notifications/EK-8387 EU Android - Notification Center</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
