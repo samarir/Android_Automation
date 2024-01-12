@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8286 EU Android - Sign-in.feature')
-
 Mobile.startApplication(GlobalVariable.LoginCreds.get('APK'), false)
 
 Mobile.setText(findTestObject('Android/Login Page/Username input'), GlobalVariable.LoginCreds.get('username'), 30)
@@ -32,6 +31,4 @@ Mobile.tap(findTestObject('Android/IS/User Management/Login/android.widget.TextV
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Android/IS/User Management/Login/android.widget.TextView - Patient Directory'), 
-    30)
-
+Mobile.verifyElementExist(findTestObject('Android/IS/User Management/Login/android.widget.TextView - Patient Directory'), 30)

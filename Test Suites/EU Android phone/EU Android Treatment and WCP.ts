@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>cffe8c0a-d9f7-4bca-8fa9-1efdb13936f5</testSuiteGuid>
    <testCaseLink>
-      <guid>db5a85e5-8e0e-4524-8c3b-5c5a8c111ee6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/EU Android/User Management/EK-8286 EU Android - Sign-in</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>0656fb63-1d8e-4255-9b27-539e384053e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

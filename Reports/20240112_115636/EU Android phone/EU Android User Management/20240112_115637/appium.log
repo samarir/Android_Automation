@@ -1316,3 +1316,10 @@
 [38;5;48m[AndroidUiautomator2Driver@a004 (a3704f0e)][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/safaamarir/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s RF8N307NKZV forward --remove tcp\:56657' exited with code 1'; Command output: adb: error: listener 'tcp:56657' not found
 [38;5;48m[AndroidUiautomator2Driver@a004 (a3704f0e)][0m 
 [38;5;48m[AndroidUiautomator2Driver@a004 (a3704f0e)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@e9bc (7c121747)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@7d32][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@7d32][0m Removing session '7c121747-6d7c-42e4-94c9-4611fd67829f' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@e9bc (7c121747)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;48m[AndroidUiautomator2Driver@e9bc (7c121747)][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/safaamarir/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s RF8N307NKZV forward --remove tcp\:56833' exited with code 1'; Command output: adb: error: listener 'tcp:56833' not found
+[38;5;48m[AndroidUiautomator2Driver@e9bc (7c121747)][0m 
+[38;5;48m[AndroidUiautomator2Driver@e9bc (7c121747)][0m Restoring hidden api policy to the device default configuration

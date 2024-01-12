@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8387 EU Android - Notification Center .feature')
 
-WebUI.callTestCase(findTestCase('Android/EU Android/User Management/EK-8286 EU Android - Sign-in'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Android/IS/Messaging and Communication/Notifications/android.widget.ImageView - notification center'), 
     0)
