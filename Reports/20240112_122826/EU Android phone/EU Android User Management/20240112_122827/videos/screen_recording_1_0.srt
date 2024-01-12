@@ -1,0 +1,48 @@
+1
+00:00:00,034 --> 00:00:00,186
+1. runFeatureFile("Include/features/EK-8292 EU Android - Terms  Condition  Privacy  Policy.feature")
+
+2
+00:00:00,188 --> 00:00:24,506
+5. startApplication(LoginCreds.get("APK"), true)
+
+3
+00:00:24,506 --> 00:00:28,042
+9. verifyElementText(findTestObject("Android/Login Page/Terms  Conditions"), "Terms & Conditions")
+
+4
+00:00:28,042 --> 00:00:28,188
+13. verifyElementText(findTestObject("Android/Login Page/Privacy Policy"), "Privacy Policy")
+
+5
+00:00:28,189 --> 00:00:28,348
+17. tap(findTestObject("Android/Login Page/Terms  Conditions"), 60)
+
+6
+00:00:28,348 --> 00:00:33,362
+21. delay(5, STOP_ON_FAILURE)
+
+7
+00:00:33,362 --> 00:00:34,892
+25. verifyElementText(findTestObject("Android/Login Page/Terms and Conditions Page"), "Terms and Conditions")
+
+8
+00:00:34,892 --> 00:00:35,978
+29. pressBack()
+
+9
+00:00:35,978 --> 00:00:36,343
+33. tap(findTestObject("Android/Login Page/Privacy Policy"), 60)
+
+10
+00:00:36,343 --> 00:00:41,350
+37. delay(5, STOP_ON_FAILURE)
+
+11
+00:00:41,350 --> 00:00:41,814
+41. verifyElementText(findTestObject("Android/Login Page/Privacy Policy Page"), "Privacy Policy")
+
+12
+00:00:41,814 --> 00:00:42,485
+45. pressBack()
+

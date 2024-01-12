@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:00,001
+1. addDefaultPackages()
+
+2
+00:00:00,001 --> 00:00:00,005
+1. runFeatureFile("Include/features/EK-8293 EU Android - Disable after 10 login attempts.feature")
+
+3
+00:00:00,005 --> 00:00:21,115
+5. setText(findTestObject("Android/Login Page/Username input"), "Test10times", 30)
+
