@@ -30,5 +30,5 @@ Mobile.setText(findTestObject('Object Repository/IOS/User Management/Restore Pas
 Mobile.setText(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeTextField - Email'), 
     GlobalVariable.LoginCreds.get('email'), 30)
 
-Mobile.tap(findTestObject('IOS/Draft/XCUIElementTypeOther - Restore Password'), 30)
+Mobile.tap(findTestObject('IOS/Draft/XCUIElementTypeOther - Restore Password'), 30, FailureHandling.STOP_ON_FAILURE)
 

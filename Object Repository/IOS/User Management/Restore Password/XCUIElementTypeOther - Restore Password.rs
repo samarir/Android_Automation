@@ -3,7 +3,7 @@
    <description></description>
    <name>XCUIElementTypeOther - Restore Password</name>
    <tag></tag>
-   <elementGuidId>2fb18230-8a7e-4476-9757-1b125a554949</elementGuidId>
+   <elementGuidId>d5a3b9d1-09b8-483c-acf2-cb5da06949a0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,39 +12,39 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeOther</value>
-      <webElementGuid>5e3ba61a-8f2d-4db5-81ea-5c31abfa97aa</webElementGuid>
+      <webElementGuid>3dc64d51-5900-48cc-846c-bad6d64363a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1df3353a-e73a-4e9b-9298-6df689ce9e5f</webElementGuid>
+      <webElementGuid>ee377801-98a1-4efe-acd6-84eabc12e38e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d3d55492-fd46-4e76-bcd7-fee59d7e78ba</webElementGuid>
+      <webElementGuid>adcf0608-8f47-48c9-b359-15597e24efd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
       <value>90.0</value>
-      <webElementGuid>10422f46-a4a8-472e-a572-2bfcc94756d7</webElementGuid>
+      <webElementGuid>12bf675a-e00b-4b73-9cf4-a888bcc14a88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>04cb5ad8-2789-4c3d-a63f-bca83a8f31f1</webElementGuid>
+      <webElementGuid>b0e3f76b-04c2-4729-b989-877a7247c307</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Restore Password</value>
-      <webElementGuid>9a17672b-233f-4cb7-b669-f72b67278ed7</webElementGuid>
+      <webElementGuid>32d4ad9c-4b48-4f66-aa3b-aa42b1eccb56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,39 +60,39 @@
       <name>name</name>
       <type>Main</type>
       <value>Restore Password</value>
-      <webElementGuid>572bdeb6-a490-4b07-b2e1-a6a24eb5e014</webElementGuid>
+      <webElementGuid>5c5b947f-07be-4a96-a654-5d34cddb0281</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
       <value>576.0</value>
-      <webElementGuid>33d446ab-7636-4a2c-8bab-5be9a983ed95</webElementGuid>
+      <webElementGuid>27601321-a123-4fd0-813a-731095c6c5ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
       <value>102.0</value>
-      <webElementGuid>297af379-119a-41d2-ad8a-924f465026ec</webElementGuid>
+      <webElementGuid>fe7dfda2-01b8-45bf-9ed1-4a682372f115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
       <value>756.0</value>
-      <webElementGuid>0715ccdb-85d1-4bbd-b010-ed22849e1ab0</webElementGuid>
+      <webElementGuid>edd3ec84-4c4f-423d-aa3b-22452de9ad58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]</value>
-      <webElementGuid>38f295c6-0b62-497b-9833-377e2c97a89f</webElementGuid>
+      <webElementGuid>e7fb9834-b938-4c56-8aa5-b2ef5fa37a36</webElementGuid>
    </webElementProperties>
    <locator>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]</locator>
    <locatorStrategy>XPATH</locatorStrategy>

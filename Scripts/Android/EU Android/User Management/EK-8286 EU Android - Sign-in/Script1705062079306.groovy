@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8286 EU Android - Sign-in.feature')
-Mobile.startApplication(GlobalVariable.LoginCreds.get('APK'), false)
+
+Mobile.startApplication(GlobalVariable.LoginCreds.APK, true)
 
 Mobile.setText(findTestObject('Android/Login Page/Username input'), GlobalVariable.LoginCreds.get('username'), 30)
 
