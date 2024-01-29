@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7993 IS Android - Sign in.feature')
 
-Mobile.startApplication(GlobalVariable.LoginCreds.get('APK'), false)
+Mobile.startApplication(GlobalVariable.LoginCreds.APK, false)
 
 Mobile.setText(findTestObject('Android/Login Page/Username input'), GlobalVariable.LoginCreds.get('username'), 30)
 
