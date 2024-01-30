@@ -21,7 +21,7 @@ CucumberKW.runFeatureFile('Include/features/EK-8336 EU Android - Automatic adjus
 
 //String date = Mobile.getText(findTestObject('Object Repository/Android/IS/Menu and other services/Automatic adjustment of Date format/android.widget.TextView - 27072023'), 30, FailureHandling.STOP_ON_FAILURE)
 //Mobile.verifyMatch(date, '[0-9]{2}/[0-9]{2}/[0-9]{4}', true, FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('EU Android/User Management/EK-8286 EU Android - Sign-in'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Android/EU Android/User Management/EK-8286 EU Android - Sign-in'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Android/Patient Directory/Left Menu'), 30)
 
