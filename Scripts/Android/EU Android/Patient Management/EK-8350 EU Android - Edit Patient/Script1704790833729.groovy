@@ -26,16 +26,26 @@ Mobile.tap(findTestObject('Android/IS/Patient Management/Freeze Patient/android.
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.TextView - Edit patient'), 
     30)
 
-Mobile.setText(findTestObject('null'), 'Editt', 30)
+Mobile.setText(findTestObject('Android/EU/Patient Management/Edit Patient/android.widget.EditText - First Name'), 'Editt', 
+    30)
 
-Mobile.setText(findTestObject('null'), 'Litee', 30)
+Mobile.pressBack()
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - DOB'), '09/07/2001', 30)
+Mobile.setText(findTestObject('Android/EU/Patient Management/Edit Patient/android.widget.EditText - Last Name'), 'Litee', 
+    30)
 
-Mobile.verifyElementAttributeValue(findTestObject('null'), 
-    'enabled', 'false', 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.TextView - Save'), 30)
+Mobile.setText(findTestObject('Android/EU/Patient Management/Edit Patient/android.widget.EditText - DOB'), '09/07/2001', 
+    30)
+
+Mobile.pressBack()
+
+/*Mobile.verifyElementAttributeValue(findTestObject('Android/EU/Patient Management/Edit Patient/android.widget.EditText - 987 (1)'), 
+    'enabled', 'false', 30, FailureHandling.STOP_ON_FAILURE)*/
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.TextView - Save'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.TextView - Patient updated successfully'), 
     'Patient updated successfully.')
@@ -44,5 +54,6 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit 
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.ImageView - x'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.ImageView - x'), 
+    30)
 

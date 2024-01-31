@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,017
+1. addDefaultPackages()
+
+2
+00:00:00,017 --> 00:00:00,023
+1. runFeatureFile("Include/features/EK-8350 EU Android - Edit Patient.feature")
+
+3
+00:00:00,024 --> 00:00:00,245
+5. tap(findTestObject("Object Repository/Android/IS/Patient Management/Edit Patient/android.view.ViewGroup (1)"), 30)
+
+4
+00:00:00,245 --> 00:00:01,709
+9. tap(findTestObject("Android/IS/Patient Management/Freeze Patient/android.widget.ImageView - menu"), 30)
+
+5
+00:00:01,709 --> 00:00:02,710
+13. tap(findTestObject("Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.TextView - Edit patient"), 30)
+
+6
+00:00:02,711 --> 00:00:34,129
+17. setText(findTestObject("Android/EU/Patient Management/Add Patient/android.widget.EditText - First name"), "Editt", 30)
+

@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,016
+1. addDefaultPackages()
+
+2
+00:00:00,016 --> 00:00:00,023
+1. runFeatureFile("Include/features/EK-8350 EU Android - Edit Patient.feature")
+
+3
+00:00:00,023 --> 00:00:00,252
+5. tap(findTestObject("Object Repository/Android/IS/Patient Management/Edit Patient/android.view.ViewGroup (1)"), 30)
+
+4
+00:00:00,253 --> 00:00:01,847
+9. tap(findTestObject("Android/IS/Patient Management/Freeze Patient/android.widget.ImageView - menu"), 30)
+
+5
+00:00:01,847 --> 00:00:02,897
+13. tap(findTestObject("Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.TextView - Edit patient"), 30)
+
+6
+00:00:02,897 --> 00:00:06,372
+17. setText(findTestObject("Android/EU/Patient Management/Edit Patient/android.widget.EditText - First Name"), "Editt", 30)
+
+7
+00:00:06,372 --> 00:00:07,048
+21. pressBack()
+
+8
+00:00:07,048 --> 00:00:10,302
+25. setText(findTestObject("Android/EU/Patient Management/Edit Patient/android.widget.EditText - Last Name"), "Litee", 30)
+
+9
+00:00:10,302 --> 00:00:10,988
+29. pressBack()
+
+10
+00:00:10,988 --> 00:00:14,407
+33. setText(findTestObject("Android/EU/Patient Management/Edit Patient/android.widget.EditText - DOB"), "09/07/2001", 30)
+
+11
+00:00:14,407 --> 00:00:15,073
+37. pressBack()
+
+12
+00:00:15,073 --> 00:00:17,451
+41. verifyElementAttributeValue(findTestObject("Android/EU/Patient Management/Edit Patient/android.widget.EditText - 987 (1)"), "enabled", "false", 30, STOP_ON_FAILURE)
+

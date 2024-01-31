@@ -1,0 +1,32 @@
+1
+00:00:00,027 --> 00:00:00,183
+1. runFeatureFile("Include/features/EK-8286 EU Android - Sign-in.feature")
+
+2
+00:00:00,185 --> 00:00:28,484
+5. startApplication(APK, true)
+
+3
+00:00:28,484 --> 00:00:30,321
+9. setText(findTestObject("Android/Login Page/Username input"), LoginCreds.get("username"), 30)
+
+4
+00:00:30,321 --> 00:00:32,311
+13. setText(findTestObject("Android/Login Page/Password input"), LoginCreds.get("password"), 30)
+
+5
+00:00:32,311 --> 00:00:33,095
+17. tap(findTestObject("Android/Login Page/Sign in"), 30)
+
+6
+00:00:33,095 --> 00:00:34,914
+21. tap(findTestObject("Android/IS/User Management/Login/android.widget.TextView - Katalon"), 30)
+
+7
+00:00:34,915 --> 00:00:36,926
+25. delay(2, STOP_ON_FAILURE)
+
+8
+00:00:36,926 --> 00:00:40,977
+29. verifyElementExist(findTestObject("Android/IS/User Management/Login/android.widget.TextView - Patient Directory"), 30)
+

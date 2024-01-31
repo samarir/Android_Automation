@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,014
+1. addDefaultPackages()
+
+2
+00:00:00,014 --> 00:00:00,022
+1. runFeatureFile("Include/features/EK-8351 EU Android - Search Patient.feature")
+
+3
+00:00:00,022 --> 00:00:02,292
+5. setText(findTestObject("Android/EU/Patient Management/Add Patient/android.widget.EditText - Search by Name, Patient ID"), "987", 30)
+
+4
+00:00:02,292 --> 00:00:03,309
+9. tap(findTestObject("Object Repository/Android/IS/Patient Management/Search Patient/android.view.ViewGroup"), 30)
+
+5
+00:00:03,309 --> 00:00:04,883
+13. tap(findTestObject("Object Repository/Android/IS/Patient Management/Search Patient/android.widget.TextView - Current site"), 30)
+
+6
+00:00:04,883 --> 00:00:05,653
+17. verifyElementExist(findTestObject("Object Repository/Android/IS/Patient Management/Search Patient/android.view.ViewGroup (1)"), 30)
+
+7
+00:00:05,654 --> 00:00:10,661
+21. delay(5, STOP_ON_FAILURE)
+
