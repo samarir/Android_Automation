@@ -29,16 +29,24 @@ Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Automatic 
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 
     30)
 
+Mobile.pressBack()
+
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - last name'), 'Sync', 
     30)
 
+Mobile.pressBack()
+
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy)'), 
     '01/09/1990', 30)
+
+Mobile.pressBack()
 
 WebUI.scrollToElement(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.TextView - Gender'), 30)
 
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '00ui', 
     30)
+
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Save'), 
     30)
