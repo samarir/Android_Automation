@@ -517,3 +517,15 @@
 [38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
 [38;5;48m[AndroidUiautomator2Driver@78ae (13d75d8c)][0m Starting 'com.ekareinc.insight.europe/com.ekareinc.insight.standard.MainActivity and waiting for 'com.ekareinc.insight.europe/*'
 [38;5;16m[AppiumDriver@3457][0m New AndroidUiautomator2Driver session created successfully, session 13d75d8c-ff79-4e38-a9df-38879ecf9aac added to master session list
+[38;5;48m[AndroidUiautomator2Driver@b3df (887e32bb)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@3457][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@3457][0m Removing session '887e32bb-2785-4da0-a07f-998bd4d6c380' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@b3df (887e32bb)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.ekareinc.insight.europe was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@b3df (887e32bb)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[AndroidUiautomator2Driver@78ae (13d75d8c)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@3457][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@3457][0m Removing session '13d75d8c-ff79-4e38-a9df-38879ecf9aac' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@78ae (13d75d8c)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.ekareinc.insight.europe was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@78ae (13d75d8c)][0m Restoring hidden api policy to the device default configuration
