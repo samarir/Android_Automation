@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>171c2057-5491-46d7-a02d-1e9a4559518d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Android/EU Android/Patient Management/EK-8349 EU Android - Add Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -42,28 +42,28 @@
    <testCaseLink>
       <guid>4b28e696-3e47-4eee-a7a5-e27280a2bae0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Android/EU Android/Patient Management/EK-8353 EU Android - Freeze Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a64144f4-ba7b-4fb1-bae2-60e6702768ea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Android/EU Android/Patient Management/EK-8352 EU Android - Filter Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>06eb5136-e41b-4455-9cfe-35137a9f0a95</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Android/EU Android/Patient Management/EK-8354 EU Android - Unfreeze Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fd12e4ee-9c7d-486a-9125-05913f615dc1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Android/EU Android/Patient Management/EK-8355 EU Android - Delete Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

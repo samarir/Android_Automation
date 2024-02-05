@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8349 EU Android - Add Patient.feature')
 
+WebUI.callTestCase(findTestCase('Android/EU Android/User Management/EK-8286 EU Android - Sign-in'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - add patient'), 
     30)
 
@@ -37,7 +39,7 @@ Mobile.setText(findTestObject('Object Repository/Android/EU/Patient Management/A
 
 Mobile.pressBack()
 
-Mobile.scrollToText('Patient ID*', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Gender*', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '6766', 
     30)

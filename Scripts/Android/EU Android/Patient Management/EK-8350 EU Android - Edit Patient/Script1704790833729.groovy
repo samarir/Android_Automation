@@ -41,8 +41,8 @@ Mobile.setText(findTestObject('Android/EU/Patient Management/Edit Patient/androi
 
 Mobile.pressBack()
 
-/*Mobile.verifyElementAttributeValue(findTestObject('Android/EU/Patient Management/Edit Patient/android.widget.EditText - 987 (1)'), 
-    'enabled', 'false', 30, FailureHandling.STOP_ON_FAILURE)*/
+Mobile.verifyElementAttributeValue(findTestObject('Android/EU/Patient Management/Edit Patient/android.widget.EditText - Patient ID'), 
+    'enabled', 'false', 30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.TextView - Save'), 
     30)
