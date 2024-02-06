@@ -41,7 +41,7 @@ Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android
 
 Mobile.pressBack()
 
-WebUI.scrollToElement(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.TextView - Gender'), 30)
+Mobile.scrollToText('Gender*', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Patient ID'), '00ui', 
     30)

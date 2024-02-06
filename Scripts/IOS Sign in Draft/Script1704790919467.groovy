@@ -19,13 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.LoginCreds.get('IPA'), true)
 
-Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'), GlobalVariable.LoginCreds.get('username'), 0)
-
-Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'), GlobalVariable.LoginCreds.get('password'), 0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'), 0)
-
-Mobile.tap(findTestObject('IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'), 30)
+Mobile.checkElement(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions'), 
+    30)
 
 WebUI.delay(10)
+
+Mobile.tapAtPosition(84, 82)
 
