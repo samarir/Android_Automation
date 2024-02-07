@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8493 IS iPhone - Restore Password.feature')
 
-Mobile.startApplication(GlobalVariable.LoginCreds.get('IPA'), true)
-
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeOther - Forgot your password'), 
     30)
 
@@ -30,7 +28,7 @@ Mobile.setText(findTestObject('Object Repository/IOS/User Management/Restore Pas
 Mobile.setText(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeTextField - Email'), 
     GlobalVariable.LoginCreds.get('email'), 30)
 
-Mobile.tap(findTestObject('IOS/User Management/Restore Password/XCUIElementTypeOther - Restore Password'), 0)
+Mobile.tap(findTestObject('IOS/User Management/Restore Password/XCUIElementTypeOther - Restore Password'), 30)
 
 Mobile.tap(findTestObject('IOS/Draft/XCUIElementTypeOther - Restore Password'), 30, FailureHandling.STOP_ON_FAILURE)
 

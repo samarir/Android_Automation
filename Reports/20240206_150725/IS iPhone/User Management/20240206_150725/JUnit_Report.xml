@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Management" time="171.413" tests="2" failures="0" errors="0">
+   <testsuite name="User Management" tests="2" failures="0" errors="0" time="171.413" skipped="0" timestamp="06-02-2024T15:07:28" hostname="safaamarir - 192.168.1.113" id="Test Suites/IS iPhone/User Management">
+      <properties>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725"/>
+         <property name="logFiles" value="/Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/execution0.log, /Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/appium_error.log, /Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/appium.log, /Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="safaamarir - 192.168.1.113"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;,&quot;git-sha&quot;:&quot;b3751bca8c4a3c76107d5aa3b75b81db93cf4bb6&quot;,&quot;built&quot;:&quot;2024-01-07 16:04:51 -0800&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="2.4.1"/>
+         <property name="deviceModel" value="iPhone14,5"/>
+         <property name="hostAddress" value="192.168.1.113"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="00008110-00112D590CD0201E"/>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="deviceOSVersion" value="17.3"/>
+      </properties>
+      <testcase name="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" time="97.004" classname="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" status="PASSED">
+         <system-out><![CDATA[06-02-2024T15:07:28 - [TEST_CASE][PASSED] - Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in: Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in
+
+06-02-2024T15:07:28 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+06-02-2024T15:07:28 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+06-02-2024T15:07:29 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature"): Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+06-02-2024T15:07:29 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8491 IS iPhone - Sign in.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/cucumber_report/1707228449781'...
+
+06-02-2024T15:07:29 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+06-02-2024T15:07:29 - [TEST_STEP][PASSED] - startApplication(LoginCreds.get("IPA"), true): Started app at: '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1_192.ipa'
+
+06-02-2024T15:07:30 - [MESSAGE][INFO] - User set preference: ['automationName', 'XCUITest']
+
+06-02-2024T15:07:30 - [MESSAGE][INFO] - User set preference: ['deviceId', '00008110-00112D590CD0201E']
+
+06-02-2024T15:07:40 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+06-02-2024T15:07:40 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/21.5.0/bin/node"
+
+06-02-2024T15:07:40 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/21.5.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+06-02-2024T15:07:40 - [MESSAGE][INFO] - APPIUM_HOME: /Users/safaamarir/.appium
+
+06-02-2024T15:07:40 - [MESSAGE][INFO] - appium outlog: /Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/appium.log
+
+06-02-2024T15:07:40 - [MESSAGE][INFO] - appium errlog: /Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/appium_error.log
+
+06-02-2024T15:07:41 - [MESSAGE][INFO] - Appium server started on port 62,349
+
+06-02-2024T15:08:16 - [MESSAGE][PASSED] - Started app at: '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1_192.ipa'
+
+06-02-2024T15:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+06-02-2024T15:08:46 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+06-02-2024T15:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+06-02-2024T15:08:48 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+06-02-2024T15:08:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+06-02-2024T15:08:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+06-02-2024T15:08:50 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+06-02-2024T15:08:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+06-02-2024T15:08:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+06-02-2024T15:09:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+06-02-2024T15:09:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .
+
+06-02-2024T15:09:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/User Management/EK-8513 IS iPhone - Auto Logout" time="74.352" classname="Test Cases/IOS/User Management/EK-8513 IS iPhone - Auto Logout" status="PASSED">
+         <system-out><![CDATA[06-02-2024T15:09:05 - [TEST_CASE][PASSED] - Test Cases/IOS/User Management/EK-8513 IS iPhone - Auto Logout: Test Cases/IOS/User Management/EK-8513 IS iPhone - Auto Logout
+
+06-02-2024T15:09:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+06-02-2024T15:09:05 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+06-02-2024T15:09:05 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8513 IS iPhone - Auto Logout.feature"): Feature file: 'Include/features/EK-8513 IS iPhone - Auto Logout.feature' was passed
+
+06-02-2024T15:09:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8513 IS iPhone - Auto Logout.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240206_150725/IS iPhone/User Management/20240206_150725/cucumber_report/1707228545578'...
+
+06-02-2024T15:09:05 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8513 IS iPhone - Auto Logout.feature' was passed
+
+06-02-2024T15:09:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther"), 30): Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther'
+
+06-02-2024T15:09:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther'
+
+06-02-2024T15:09:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Settings"), 30): Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Settings'
+
+06-02-2024T15:09:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Settings'
+
+06-02-2024T15:09:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Logout time 10 minutes"), 30): Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Logout time 10 minutes'
+
+06-02-2024T15:09:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Logout time 10 minutes'
+
+06-02-2024T15:09:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - 1 minutes"), 30): Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - 1 minutes'
+
+06-02-2024T15:09:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - 1 minutes'
+
+06-02-2024T15:09:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther (2)"), 30): Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther (2)'
+
+06-02-2024T15:09:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther (2)'
+
+06-02-2024T15:09:11 - [TEST_STEP][PASSED] - delay(65): Delayed 65 second(s)
+
+06-02-2024T15:10:16 - [MESSAGE][PASSED] - Delayed 65 second(s)
+
+06-02-2024T15:10:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeImage"), 30): Element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeImage' is exist
+
+06-02-2024T15:10:17 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeImage' is exist
+
+06-02-2024T15:10:19 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/User Management/EK-8513 IS iPhone - Auto Logout' .
+
+06-02-2024T15:10:19 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/User Management/EK-8513 IS iPhone - Auto Logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2024T15:07:28 - [TEST_SUITE][PASSED] - User Management: Test Cases/IOS/User Management/EK-8513 IS iPhone - Auto Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

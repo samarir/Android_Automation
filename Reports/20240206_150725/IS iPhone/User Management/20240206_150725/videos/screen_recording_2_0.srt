@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,014
+1. addDefaultPackages()
+
+2
+00:00:00,014 --> 00:00:00,023
+1. runFeatureFile("Include/features/EK-8513 IS iPhone - Auto Logout.feature")
+
+3
+00:00:00,023 --> 00:00:01,380
+5. tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther"), 30)
+
+4
+00:00:01,380 --> 00:00:03,190
+9. tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Settings"), 30)
+
+5
+00:00:03,190 --> 00:00:04,430
+13. tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - Logout time 10 minutes"), 30)
+
+6
+00:00:04,430 --> 00:00:05,682
+17. tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther - 1 minutes"), 30)
+
+7
+00:00:05,682 --> 00:00:06,358
+21. tap(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther (2)"), 30)
+
+8
+00:00:06,358 --> 00:01:11,373
+25. delay(65)
+
+9
+00:01:11,373 --> 00:01:12,275
+29. verifyElementExist(findTestObject("Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeImage"), 30)
+
