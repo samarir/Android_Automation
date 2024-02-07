@@ -42,7 +42,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 29012024 5M    MRN 111ui No Consent'), 
     30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 29012024 5M    MRN 111ui No Consent'), 
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 29012024 5M    MRN 111ui No Consent (1)'), 
     30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - menu'), 
