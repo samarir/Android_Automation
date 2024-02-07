@@ -23,9 +23,11 @@ Mobile.startApplication(GlobalVariable.LoginCreds, false)
 
 Mobile.setText(findTestObject('Android/Login Page/android.widget.EditText - Username'), GlobalVariable.LoginCreds.get('patient'),
 	30)
+Mobile.pressBack()
 
 Mobile.setText(findTestObject('Android/Login Page/android.widget.EditText - Password'), GlobalVariable.LoginCreds.get('password'),
 	30)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Android/Login Page/Sign in'), 30)
 
@@ -75,6 +77,7 @@ Mobile.tap(findTestObject('Android/IS/Wound Assessment/Patient assessment questi
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Assessment/Patient assessment questionnaire/android.widget.EditText'),
 	'Test note', 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Patient assessment questionnaire/android.widget.TextView - Save (1)'),
 	0)

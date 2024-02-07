@@ -25,12 +25,15 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Edit 
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.EditText - First Name'), 
     'Editt', 30)
+Mobile.pressBack()
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.EditText - Last Name'), 
     'Litee', 30)
+Mobile.pressBack()
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Edit Patient/android.widget.EditText - DOB'), '09/07/2001', 
     30)
+Mobile.pressBack()
 
 Mobile.verifyElementAttributeValue(findTestObject('Android/IS/Patient Management/Edit Patient/android.widget.EditText - MRN'), 'enabled', 
     'false', 30, FailureHandling.STOP_ON_FAILURE)

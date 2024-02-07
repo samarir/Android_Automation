@@ -21,6 +21,7 @@ CucumberKW.runFeatureFile('Include/features/EK-8274 IS Android - Edit Assessment
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Assessment/Edit Assessment/android.widget.EditText - Search by Name, MRN'),
 	'23ui', 30)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Edit Assessment/android.widget.TextView - Current site'),
 	30)

@@ -21,6 +21,7 @@ CucumberKW.runFeatureFile('Include/features/EK-7983 IS Android - Delete Patient.
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Delete Patient/android.widget.EditText - Search by Name, MRN'), 
     '6766', 30)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Delete Patient/android.view.ViewGroup'), 30)
 

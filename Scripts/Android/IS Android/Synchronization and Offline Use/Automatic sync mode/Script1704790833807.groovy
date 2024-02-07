@@ -25,15 +25,19 @@ Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Automatic 
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - First name'), 
     'Test', 30)
+Mobile.pressBack()
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - Last name'), 
     'Sync', 30)
+Mobile.pressBack()
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - Date of birth (ddmmyyyy)'), 
     '01/09/1990', 30)
+Mobile.pressBack()
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.EditText - MRN'), 
     '00ui', 30)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Automatic sync mode/android.widget.TextView - Save'), 
     30)

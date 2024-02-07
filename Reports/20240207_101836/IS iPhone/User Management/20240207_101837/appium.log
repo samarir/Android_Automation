@@ -596,3 +596,10 @@
 [38;5;0m[HTTP][0m {}
 [38;5;0m[HTTP][0m <-- GET /wd/hub/session/29d1cdec-31da-4c4d-b5ca-75e2e7679a27/contexts - - ms - -
 [38;5;0m[HTTP][0m 
+[38;5;32m[XCUITestDriver@9c4d (29d1cdec)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@909a][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@909a][0m Removing session '29d1cdec-31da-4c4d-b5ca-75e2e7679a27' from our master session list
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008110-00112D590CD0201E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:50845"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:50845'
+[38;5;128m[iProxy@00008110:50845][0m The connection has been closed

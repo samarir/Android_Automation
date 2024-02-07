@@ -22,21 +22,21 @@
       <guid>4e1ff89c-8a03-4c06-9443-a65d44510951</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Treatment and WCP/Add Treatment</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Treatment and WCP/EK-8574 Add Treatment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f08d5ee7-38db-402b-b51d-0746eec8f354</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Treatment and WCP/Edit Treatment</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Treatment and WCP/EK-8575 Edit Treatment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>44b84034-b86b-4599-96be-d835173b2a93</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Treatment and WCP/Treatment WCP history</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Treatment and WCP/EK-8576 Treatment and WCP History</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

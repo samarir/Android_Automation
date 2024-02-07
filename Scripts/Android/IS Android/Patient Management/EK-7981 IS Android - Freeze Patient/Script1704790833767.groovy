@@ -21,6 +21,7 @@ CucumberKW.runFeatureFile('Include/features/EK-7981 IS Android - Freeze Patient.
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN'), 
     '6767', 30)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.view.ViewGroup'), 30)
 

@@ -23,6 +23,7 @@ Mobile.delay(30)
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Unfreeze Patient/android.widget.EditText - Search by Name, MRN'), 
     '6768', 30)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Unfreeze Patient/android.widget.TextView - Current site'), 
     30)
