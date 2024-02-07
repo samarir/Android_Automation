@@ -37,6 +37,8 @@ Mobile.verifyElementExist(findTestObject('Object Repository/IOS/User Management/
 Mobile.setText(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeTextField - Search by Name, MRN'), 
     '111ui', 30)
 
+Mobile.tapAtPosition(539, 707)
+
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
@@ -66,7 +68,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - add patient'), 
     30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient 1'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient'), 
     30)
@@ -94,7 +96,7 @@ Mobile.checkElement(findTestObject('IOS/User Management/Login as a user with mul
 Mobile.verifyElementNotExist(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther -'), 
     30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient 1'), 30)
 
 Mobile.verifyElementNotExist(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient'), 
     30)
