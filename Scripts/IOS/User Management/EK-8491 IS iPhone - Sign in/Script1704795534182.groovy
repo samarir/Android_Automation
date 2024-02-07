@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8491 IS iPhone - Sign in.feature')
 
-Mobile.startApplication(GlobalVariable.LoginCreds.get('IPA'), true)
+Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
 
 Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'), GlobalVariable.LoginCreds.get('username'), 30)
 

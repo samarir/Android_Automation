@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8569 IS iPhone - Terms and condition Privacy and Policy.feature')
 
-Mobile.startApplication(GlobalVariable.LoginCreds.get('IPA'), true)
+Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
 
 Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions'),
 	30)
