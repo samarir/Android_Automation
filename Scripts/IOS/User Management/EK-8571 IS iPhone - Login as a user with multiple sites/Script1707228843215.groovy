@@ -39,11 +39,9 @@ Mobile.setText(findTestObject('Object Repository/IOS/User Management/Login as a 
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 29012024 5M    MRN 111ui No Consent'), 
-    30)
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 29012024 5M    MRN 111ui No Consent (1)'), 
-    30)
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - menu'), 
     30)
@@ -68,8 +66,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - add patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Test 20230727 24M    MRN 900ui No Consent'), 
-    30)
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient'), 
     30)
@@ -97,8 +94,7 @@ Mobile.checkElement(findTestObject('IOS/User Management/Login as a user with mul
 Mobile.verifyElementNotExist(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther -'), 
     30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 07022024 33M    MRN 112ui No Consent'), 
-    30)
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.verifyElementNotExist(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient'), 
     30)
