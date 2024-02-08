@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8571 IS iPhone - Login as a user with multiple sites.feature')
 
+Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
+
 Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'), GlobalVariable.LoginCreds.get(
         'siteuser'), 30)
 
@@ -96,7 +98,8 @@ Mobile.checkElement(findTestObject('IOS/User Management/Login as a user with mul
 Mobile.verifyElementNotExist(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther -'), 
     30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient 1'), 30)
+Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 07022024 33M    MRN 112ui No Consent (1)'), 
+    30)
 
 Mobile.verifyElementNotExist(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient'), 
     30)
