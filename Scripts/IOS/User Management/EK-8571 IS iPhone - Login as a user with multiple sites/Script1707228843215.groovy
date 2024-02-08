@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8571 IS iPhone - Login as a user with multiple sites.feature')
 
-Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
-
 Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'), GlobalVariable.LoginCreds.get(
         'siteuser'), 30)
 
