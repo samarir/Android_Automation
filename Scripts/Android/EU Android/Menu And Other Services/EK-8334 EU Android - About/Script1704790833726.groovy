@@ -23,15 +23,16 @@ Mobile.tap(findTestObject('Android/Patient Directory/Left Menu'), 30)
 
 Mobile.tap(findTestObject('Android/Patient Directory/Account Menu (left menu)/About'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon'),
-	'Katalon')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon'), 
+    'Katalon')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon (1)'),
-	'Katalon')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon (1)'), 
+    'Katalon')
 
 Mobile.scrollToText('UDI')
 
-Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/About/android.widget.TextView - 2.1.4'), '2.1.4')
+Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/About/android.widget.TextView - Version'), '2.2')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x'), 
+    30)
 

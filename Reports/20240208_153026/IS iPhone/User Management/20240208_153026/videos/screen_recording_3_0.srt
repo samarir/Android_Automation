@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:00,028
+1. addDefaultPackages()
+
+2
+00:00:00,028 --> 00:00:00,033
+1. runFeatureFile("Include/features/EK-8570 IS iPhone - 10 Times failed login.feature")
+
+3
+00:00:00,033 --> 00:00:10,039
+5. delay(10, STOP_ON_FAILURE)
+
+4
+00:00:10,040 --> 00:00:59,990
+9. setText(findTestObject("IOS/User Management/Sign In/XCUIElementTypeTextField - username"), "Test10times", 30)
+

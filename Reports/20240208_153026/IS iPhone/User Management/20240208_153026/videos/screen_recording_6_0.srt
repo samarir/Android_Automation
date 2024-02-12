@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:00,020
+1. addDefaultPackages()
+
+2
+00:00:00,020 --> 00:00:00,026
+1. runFeatureFile("Include/features/EK-8571 IS iPhone - Login as a user with multiple sites.feature")
+
+3
+00:00:00,026 --> 00:00:02,567
+5. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("siteuser"), 30)
+
+4
+00:00:02,567 --> 00:00:04,287
+9. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30)
+
+5
+00:00:04,287 --> 00:00:06,004
+13. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - SIGN IN"), 30)
+
+6
+00:00:06,004 --> 00:00:07,052
+17. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon"), 30)
+
+7
+00:00:07,052 --> 00:00:09,906
+21. verifyElementExist(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther -"), 30)
+
+8
+00:00:09,906 --> 00:00:12,908
+25. setText(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeTextField - Search by Name, MRN"), "111ui", 30)
+
+9
+00:00:12,908 --> 00:00:13,683
+29. tapAtPosition(539, 707)
+
+10
+00:00:13,683 --> 00:00:18,690
+33. delay(5, STOP_ON_FAILURE)
+
+11
+00:00:18,690 --> 00:00:20,357
+37. tap(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient"), 30)
+
+12
+00:00:20,357 --> 00:00:21,381
+41. tap(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient"), 30)
+
+13
+00:00:21,381 --> 00:00:22,888
+45. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - menu"), 30)
+
+14
+00:00:22,888 --> 00:00:23,893
+49. verifyElementExist(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Delete patient"), 30)
+
+15
+00:00:23,893 --> 00:00:24,643
+53. tapAtPosition(539, 707)
+
+16
+00:00:24,643 --> 00:00:25,715
+57. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Back"), 30)
+
+17
+00:00:25,715 --> 00:00:26,743
+61. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30)
+
+18
+00:00:26,743 --> 00:00:28,361
+65. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Site"), 30)
+
+19
+00:00:28,362 --> 00:00:29,665
+69. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - site user"), 30)
+
+20
+00:00:29,665 --> 00:00:32,597
+73. verifyElementExist(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - add patient"), 30)
+
+21
+00:00:32,597 --> 00:00:33,391
+77. tap(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient 1"), 30)
+
+22
+00:00:33,391 --> 00:00:35,202
+81. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient"), 30)
+
+23
+00:00:35,202 --> 00:00:36,128
+85. verifyElementExist(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Edit patient"), 30)
+
+24
+00:00:36,128 --> 00:01:06,608
+89. verifyElementNotExist(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Delete patient"), 30)
+
+25
+00:01:06,608 --> 00:01:07,364
+93. tapAtPosition(539, 707)
+
+26
+00:01:07,364 --> 00:01:08,427
+97. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Back"), 30)
+
+27
+00:01:08,427 --> 00:01:09,448
+101. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30)
+
+28
+00:01:09,448 --> 00:01:10,645
+105. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Site"), 30)
+
+29
+00:01:10,646 --> 00:01:12,177
+109. checkElement(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Test1"), 30)
+
+30
+00:01:12,177 --> 00:01:42,468
+113. verifyElementNotExist(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther -"), 30)
+
+31
+00:01:42,468 --> 00:01:43,878
+117. tap(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 07022024 33M    MRN 112ui No Consent (1)"), 30)
+
+32
+00:01:43,878 --> 00:02:13,891
+121. verifyElementNotExist(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient"), 30)
+
+33
+00:02:13,892 --> 00:02:15,024
+125. tap(findTestObject("IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Back"), 30)
+

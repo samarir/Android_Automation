@@ -31,7 +31,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and o
 
 Mobile.scrollToText('UDI')
 
-Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/About/android.widget.TextView - 2.1.4'), '2.1.4')
+Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/About/android.widget.TextView - Version'), '2.2')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x'), 
+    30)
 
