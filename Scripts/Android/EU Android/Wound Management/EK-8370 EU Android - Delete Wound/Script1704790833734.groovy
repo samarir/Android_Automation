@@ -33,17 +33,19 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 
+    30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound (1)'), 30)
+Mobile.tap(findTestObject('Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound 2'), 30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.ImageView - menu'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.ImageView - menu'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.ImageView - menu'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Delete wound'), 
     'Delete wound')
