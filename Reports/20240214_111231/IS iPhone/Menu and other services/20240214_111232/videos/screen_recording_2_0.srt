@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:00,015
+1. addDefaultPackages()
+
+2
+00:00:00,015 --> 00:00:00,021
+1. runFeatureFile("Include/features/EK-8591 IS iPhone - Phone general tutorial.feature")
+
+3
+00:00:00,022 --> 00:00:07,263
+5. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30)
+
+4
+00:00:07,263 --> 00:00:09,495
+9. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Help"), 30)
+
+5
+00:00:09,495 --> 00:00:11,861
+13. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - App Intro"), 30)
+
+6
+00:00:11,861 --> 00:00:12,540
+17. verifyElementExist(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeImage"), 30)
+
+7
+00:00:12,541 --> 00:00:13,793
+21. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - To start, add a new patient or select from your list"), "To start, add a new patient or select from your list")
+
+8
+00:00:13,793 --> 00:00:14,795
+25. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - next"), 30)
+
+9
+00:00:14,795 --> 00:00:15,838
+29. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Add new or select an existing wound"), "Add new or select an existing wound.")
+
+10
+00:00:15,838 --> 00:00:16,851
+33. tap(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 30)
+
+11
+00:00:16,851 --> 00:00:18,179
+37. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Measure wound dimensions and color composition"), "Measure wound dimensions and color composition")
+
+12
+00:00:18,180 --> 00:00:19,282
+41. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 30)
+
+13
+00:00:19,282 --> 00:00:20,622
+45. verifyElementText(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Enter clinical information for documentation and reporting"), "Enter clinical information for documentation and reporting")
+
+14
+00:00:20,622 --> 00:00:21,636
+49. tap(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 0)
+
+15
+00:00:21,636 --> 00:00:23,318
+53. checkElement(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Monitor wound and healing progress"), 0)
+
+16
+00:00:23,318 --> 00:00:24,695
+57. tap(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Got it"), 0)
+

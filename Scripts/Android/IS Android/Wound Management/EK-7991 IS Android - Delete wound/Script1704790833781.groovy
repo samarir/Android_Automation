@@ -21,47 +21,49 @@ CucumberKW.runFeatureFile('Include/features/EK-7991 IS Android - Delete wound.fe
 
 Mobile.setText(findTestObject('Android/Patient Directory/Search Bar'), '91ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Current site'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Current site'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Current site (1)'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Current site (1)'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 
+    30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound (1)'), 30)
+Mobile.tap(findTestObject('Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.ImageView - menu'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.ImageView - menu'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.ImageView - menu'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.ImageView - menu'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Delete wound'),
-	'Delete wound')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Delete wound'), 
+    'Delete wound')
 
 Mobile.tap(findTestObject('Android/IS/Wound Management/Delete Wound/android.widget.TextView - Delete wound'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Delete the selected wound All data, including all images and measurements, will be erased'),
-	'Delete the selected wound? All data, including all images and measurements, will be erased.')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Delete the selected wound All data, including all images and measurements, will be erased'), 
+    'Delete the selected wound? All data, including all images and measurements, will be erased.')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.Button - CANCEL'),
-	'CANCEL')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.Button - CANCEL'), 
+    'CANCEL')
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.Button - CONFIRM'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.Button - CONFIRM'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Wound Management/Delete Wound/android.widget.Button - CONFIRM'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Click  above to add a wound'),
-	'Click "+" above to add a wound')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.widget.TextView - Click  above to add a wound'), 
+    'Click "+" above to add a wound')
 
 Mobile.pressBack()
 

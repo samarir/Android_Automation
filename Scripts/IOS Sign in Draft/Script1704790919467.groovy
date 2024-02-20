@@ -105,5 +105,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/1
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 0)
 
+
+
+Mobile.verifyMatch(null, null, false)
 Mobile.closeApplication()
 

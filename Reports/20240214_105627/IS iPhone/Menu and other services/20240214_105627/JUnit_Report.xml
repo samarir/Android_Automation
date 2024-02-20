@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Menu and other services" time="105.037" tests="3" failures="0" errors="0">
+   <testsuite name="Menu and other services" tests="3" failures="0" errors="0" time="105.037" skipped="0" timestamp="14-02-2024T10:56:30" hostname="safaamarir - 192.168.1.4" id="Test Suites/IS iPhone/Menu and other services">
+      <properties>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627"/>
+         <property name="logFiles" value="/Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/execution0.log, /Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/appium_error.log, /Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/appium.log, /Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="safaamarir - 192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;,&quot;git-sha&quot;:&quot;b3751bca8c4a3c76107d5aa3b75b81db93cf4bb6&quot;,&quot;built&quot;:&quot;2024-01-07 16:04:51 -0800&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="2.4.1"/>
+         <property name="deviceModel" value="iPhone14,5"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="00008110-00112D590CD0201E"/>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="deviceOSVersion" value="17.3"/>
+      </properties>
+      <testcase name="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" time="61.39" classname="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" status="PASSED">
+         <system-out><![CDATA[14-02-2024T10:56:30 - [TEST_CASE][PASSED] - Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in: Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in
+
+14-02-2024T10:56:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-02-2024T10:56:30 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-02-2024T10:56:30 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature"): Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+14-02-2024T10:56:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8491 IS iPhone - Sign in.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/cucumber_report/1707904590743'...
+
+14-02-2024T10:56:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+14-02-2024T10:56:30 - [TEST_STEP][PASSED] - startApplication(IPA, true): Started app at: '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa'
+
+14-02-2024T10:56:31 - [MESSAGE][INFO] - User set preference: ['automationName', 'XCUITest']
+
+14-02-2024T10:56:31 - [MESSAGE][INFO] - User set preference: ['deviceId', '00008110-00112D590CD0201E']
+
+14-02-2024T10:56:41 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+14-02-2024T10:56:41 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/21.5.0/bin/node"
+
+14-02-2024T10:56:41 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/21.5.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+14-02-2024T10:56:41 - [MESSAGE][INFO] - APPIUM_HOME: /Users/safaamarir/.appium
+
+14-02-2024T10:56:41 - [MESSAGE][INFO] - appium outlog: /Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/appium.log
+
+14-02-2024T10:56:41 - [MESSAGE][INFO] - appium errlog: /Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/appium_error.log
+
+14-02-2024T10:56:42 - [MESSAGE][INFO] - Appium server started on port 52,249
+
+14-02-2024T10:57:11 - [MESSAGE][PASSED] - Started app at: '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa'
+
+14-02-2024T10:57:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+14-02-2024T10:57:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+14-02-2024T10:57:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+14-02-2024T10:57:15 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+14-02-2024T10:57:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+14-02-2024T10:57:16 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+14-02-2024T10:57:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+14-02-2024T10:57:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+14-02-2024T10:57:18 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+14-02-2024T10:57:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+14-02-2024T10:57:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-02-2024T10:57:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-02-2024T10:57:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .
+
+14-02-2024T10:57:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Menu and other services/EK-8591 IS iPhone - Phone general tutorial" time="20.146" classname="Test Cases/IOS/Menu and other services/EK-8591 IS iPhone - Phone general tutorial" status="PASSED">
+         <system-out><![CDATA[14-02-2024T10:57:31 - [TEST_CASE][PASSED] - Test Cases/IOS/Menu and other services/EK-8591 IS iPhone - Phone general tutorial: Test Cases/IOS/Menu and other services/EK-8591 IS iPhone - Phone general tutorial
+
+14-02-2024T10:57:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-02-2024T10:57:31 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-02-2024T10:57:31 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8591 IS iPhone - Phone general tutorial.feature"): Feature file: 'Include/features/EK-8591 IS iPhone - Phone general tutorial.feature' was passed
+
+14-02-2024T10:57:31 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8591 IS iPhone - Phone general tutorial.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/cucumber_report/1707904651849'...
+
+14-02-2024T10:57:31 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8591 IS iPhone - Phone general tutorial.feature' was passed
+
+14-02-2024T10:57:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30): Tapped on element 'Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'
+
+14-02-2024T10:57:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'
+
+14-02-2024T10:57:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Help"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Help'
+
+14-02-2024T10:57:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Help'
+
+14-02-2024T10:57:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - App Intro"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - App Intro'
+
+14-02-2024T10:57:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - App Intro'
+
+14-02-2024T10:57:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeImage"), 30): Element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeImage' is exist
+
+14-02-2024T10:57:37 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeImage' is exist
+
+14-02-2024T10:57:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - To start, add a new patient or select from your list"), "To start, add a new patient or select from your list"): Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - To start, add a new patient or select from your list' are matched.
+
+14-02-2024T10:57:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - To start, add a new patient or select from your list' are matched.
+
+14-02-2024T10:57:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - next"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - next'
+
+14-02-2024T10:57:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - next'
+
+14-02-2024T10:57:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Add new or select an existing wound"), "Add new or select an existing wound."): Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Add new or select an existing wound' are matched.
+
+14-02-2024T10:57:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Add new or select an existing wound' are matched.
+
+14-02-2024T10:57:41 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'
+
+14-02-2024T10:57:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'
+
+14-02-2024T10:57:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Measure wound dimensions and color composition"), "Measure wound dimensions and color composition"): Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Measure wound dimensions and color composition' are matched.
+
+14-02-2024T10:57:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Measure wound dimensions and color composition' are matched.
+
+14-02-2024T10:57:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'
+
+14-02-2024T10:57:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'
+
+14-02-2024T10:57:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Enter clinical information for documentation and reporting"), "Enter clinical information for documentation and reporting"): Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Enter clinical information for documentation and reporting' are matched.
+
+14-02-2024T10:57:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Enter clinical information for documentation and reporting' are matched.
+
+14-02-2024T10:57:45 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 0): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'
+
+14-02-2024T10:57:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-02-2024T10:57:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'
+
+14-02-2024T10:57:46 - [TEST_STEP][PASSED] - checkElement(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Monitor wound and healing progress"), 0): Element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Monitor wound and healing progress' is checked
+
+14-02-2024T10:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-02-2024T10:57:48 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Monitor wound and healing progress' is checked
+
+14-02-2024T10:57:48 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Got it"), 0): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Got it'
+
+14-02-2024T10:57:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-02-2024T10:57:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Got it'
+
+14-02-2024T10:57:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Menu and other services/EK-8591 IS iPhone - Phone general tutorial' .
+
+14-02-2024T10:57:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Menu and other services/EK-8591 IS iPhone - Phone general tutorial' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Menu and other services/EK-8592 IS iPhone - Language" time="23.437" classname="Test Cases/IOS/Menu and other services/EK-8592 IS iPhone - Language" status="PASSED">
+         <system-out><![CDATA[14-02-2024T10:57:51 - [TEST_CASE][PASSED] - Test Cases/IOS/Menu and other services/EK-8592 IS iPhone - Language: Test Cases/IOS/Menu and other services/EK-8592 IS iPhone - Language
+
+14-02-2024T10:57:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-02-2024T10:57:51 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-02-2024T10:57:51 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8592 IS iPhone - Language.feature"): Feature file: 'Include/features/EK-8592 IS iPhone - Language.feature' was passed
+
+14-02-2024T10:57:51 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8592 IS iPhone - Language.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240214_105627/IS iPhone/Menu and other services/20240214_105627/cucumber_report/1707904671994'...
+
+14-02-2024T10:57:51 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8592 IS iPhone - Language.feature' was passed
+
+14-02-2024T10:57:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30): Tapped on element 'Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'
+
+14-02-2024T10:57:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'
+
+14-02-2024T10:57:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings'
+
+14-02-2024T10:57:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings'
+
+14-02-2024T10:57:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English'
+
+14-02-2024T10:57:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English'
+
+14-02-2024T10:57:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther -"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther -'
+
+14-02-2024T10:57:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther -'
+
+14-02-2024T10:57:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - add wound"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - add wound'
+
+14-02-2024T10:58:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - add wound'
+
+14-02-2024T10:58:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (1)"), "病人记录"): Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (1)' are matched.
+
+14-02-2024T10:58:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (1)' are matched.
+
+14-02-2024T10:58:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (2)"), "添加新患者"): Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (2)' are matched.
+
+14-02-2024T10:58:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (2)' are matched.
+
+14-02-2024T10:58:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (3)"), "保存"): Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (3)' are matched.
+
+14-02-2024T10:58:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (3)' are matched.
+
+14-02-2024T10:58:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Back (1)"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Back (1)'
+
+14-02-2024T10:58:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Back (1)'
+
+14-02-2024T10:58:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30): Tapped on element 'Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'
+
+14-02-2024T10:58:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'
+
+14-02-2024T10:58:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings'
+
+14-02-2024T10:58:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings'
+
+14-02-2024T10:58:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English'
+
+14-02-2024T10:58:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English'
+
+14-02-2024T10:58:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - English"), 30): Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - English'
+
+14-02-2024T10:58:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - English'
+
+14-02-2024T10:58:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Menu and other services/EK-8592 IS iPhone - Language' .
+
+14-02-2024T10:58:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Menu and other services/EK-8592 IS iPhone - Language' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-02-2024T10:56:30 - [TEST_SUITE][PASSED] - Menu and other services: Test Cases/IOS/Menu and other services/EK-8592 IS iPhone - Language]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

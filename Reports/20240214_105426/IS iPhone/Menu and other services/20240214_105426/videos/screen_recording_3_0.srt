@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:00,014
+1. addDefaultPackages()
+
+2
+00:00:00,014 --> 00:00:00,019
+1. runFeatureFile("Include/features/EK-8592 IS iPhone - Language.feature")
+
+3
+00:00:00,019 --> 00:00:01,477
+5. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30)
+
+4
+00:00:01,477 --> 00:00:03,914
+9. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings"), 30)
+
+5
+00:00:03,914 --> 00:00:04,943
+13. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English"), 30)
+
+6
+00:00:04,943 --> 00:00:06,505
+17. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther -"), 30)
+
+7
+00:00:06,505 --> 00:00:10,926
+21. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - add wound"), 30)
+
+8
+00:00:10,926 --> 00:00:12,229
+25. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (1)"), "病人记录")
+
+9
+00:00:12,229 --> 00:00:13,806
+29. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (2)"), "添加新患者")
+
+10
+00:00:13,807 --> 00:00:14,852
+33. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (3)"), "保存")
+
+11
+00:00:14,852 --> 00:00:15,836
+37. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Back (1)"), 30)
+

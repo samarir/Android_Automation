@@ -1,0 +1,32 @@
+1
+00:00:00,027 --> 00:00:00,190
+1. runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature")
+
+2
+00:00:00,193 --> 00:00:41,217
+5. startApplication(IPA, true)
+
+3
+00:00:41,218 --> 00:00:42,810
+9. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30)
+
+4
+00:00:42,810 --> 00:00:44,621
+13. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30)
+
+5
+00:00:44,622 --> 00:00:46,260
+17. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30)
+
+6
+00:00:46,261 --> 00:00:48,187
+21. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30)
+
+7
+00:00:48,187 --> 00:00:49,043
+25. tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30)
+
+8
+00:00:49,043 --> 00:00:59,062
+29. delay(10)
+

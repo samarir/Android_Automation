@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:00,015
+1. addDefaultPackages()
+
+2
+00:00:00,015 --> 00:00:00,021
+1. runFeatureFile("Include/features/EK-8591 IS iPhone - Phone general tutorial.feature")
+
+3
+00:00:00,021 --> 00:00:01,470
+5. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30)
+
+4
+00:00:01,470 --> 00:00:03,713
+9. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Help"), 30)
+
+5
+00:00:03,713 --> 00:00:05,799
+13. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - App Intro"), 30)
+
+6
+00:00:05,799 --> 00:00:06,540
+17. verifyElementExist(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeImage"), 30)
+
+7
+00:00:06,540 --> 00:00:07,960
+21. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - To start, add a new patient or select from your list"), "To start, add a new patient or select from your list")
+
+8
+00:00:07,961 --> 00:00:09,067
+25. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - next"), 30)
+
+9
+00:00:09,067 --> 00:00:10,241
+29. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Add new or select an existing wound"), "Add new or select an existing wound.")
+
+10
+00:00:10,241 --> 00:00:11,330
+33. tap(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 30)
+
+11
+00:00:11,330 --> 00:00:12,619
+37. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Measure wound dimensions and color composition"), "Measure wound dimensions and color composition")
+
+12
+00:00:12,619 --> 00:00:13,709
+41. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)"), 30)
+
+13
+00:00:13,709 --> 00:00:14,842
+45. verifyElementText(findTestObject("IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Enter clinical information for documentation and reporting"), "Enter clinical information for documentation and reporting")
+
