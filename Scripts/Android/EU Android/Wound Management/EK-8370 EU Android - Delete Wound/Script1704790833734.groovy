@@ -36,8 +36,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Man
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - Patient'), 
     30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound'), 
-    30)
+Mobile.verifyElementExist(findTestObject('Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound 2'), 30)
 
 Mobile.tap(findTestObject('Android/IS/Wound Management/Delete Wound/android.view.ViewGroup - wound 2'), 30)
 
