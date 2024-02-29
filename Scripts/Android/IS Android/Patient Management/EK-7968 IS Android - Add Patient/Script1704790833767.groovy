@@ -19,31 +19,40 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7968 IS Android - Add Patient.feature')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - add patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - add patient'), 
+    30)
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - First name'),
-	'Test', 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Add a new patient'), 
+    30)
+
+Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - First name'), 
+    'Test', 30)
+
 Mobile.pressBack()
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - Last name'), 'lite',
-	30)
+Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - Last name'), 
+    'lite', 30)
+
 Mobile.pressBack()
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy) (1)'),
-	'09/12/2001', 30)
+Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - Date of birth (ddmmyyyy) (1)'), 
+    '09/12/2001', 30)
+
 Mobile.pressBack()
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - MRN'), '6766',
-	30)
+Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - MRN'), 
+    '6766', 30)
+
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Save'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Save'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Patient created successfully'),
-	'Patient created successfully')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Patient created successfully'), 
+    'Patient created successfully')
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.Button - OK'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - lite, Test'),
-	'lite, Test')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - lite, Test'), 
+    'lite, Test')
 

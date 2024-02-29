@@ -19,38 +19,42 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7990 IS Android - Change wound status.feature')
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.EditText - Search by Name, MRN'),
-	'87ui', 30)
+Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.EditText - Search by Name, MRN'), 
+    '87ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Current site'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Current site'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Current site (1)'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Current site (1)'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 
+    30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - wound'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - wound'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - Patient'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - wound statues'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - wound statues'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed'),
-	'Healed')
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed (2)'), 
+    30)
 
-Mobile.tap(findTestObject('Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Save'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed (1)'),
-	'Healed')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed (1)'), 
+    'Healed')
 
 Mobile.pressBack()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.ImageView'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.ImageView'), 
+    30)
 

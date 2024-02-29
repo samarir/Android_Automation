@@ -24,6 +24,9 @@ WebUI.callTestCase(findTestCase('Android/EU Android/User Management/EK-8286 EU A
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - add patient'), 
     30)
 
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Add a new patient'),
+	30)
+
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 
     30)
 

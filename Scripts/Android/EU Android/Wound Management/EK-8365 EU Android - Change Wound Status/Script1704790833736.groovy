@@ -42,10 +42,11 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.view.ViewGroup - wound statues'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed'), 
-    'Healed')
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed (2)'), 
+    30)
 
-Mobile.tap(findTestObject('Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Save'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed (1)'), 
     'Healed')
@@ -54,5 +55,6 @@ Mobile.pressBack()
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.ImageView'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.ImageView'), 
+    30)
 
