@@ -22,14 +22,14 @@
       <guid>b0dac444-a073-40a5-b0eb-0768e8a71bc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Synchronization and Offline Use/Automatic sync mode</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Synchronization and Offline Use/EK-8282 IS Android - Automatic Sync Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d7ff82ca-ac8f-4679-b02e-bdd88a47a7e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Synchronization and Offline Use/Online Mode</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Synchronization and Offline Use/EK-8283 IS Android - Online Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

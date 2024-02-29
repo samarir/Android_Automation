@@ -21,18 +21,19 @@ CucumberKW.runFeatureFile('Include/features/EK-8279 IS Android - Assessment Hist
 
 Mobile.scrollToText('MRN: 97ui')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Assessment History/android.widget.TextView - MRN 97ui'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Assessment History/android.widget.TextView - MRN 97ui'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Assessment History/android.view.ViewGroup'), 30)
 
 Mobile.tap(findTestObject('Android/IS/Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Assessment/Assessment History/android.view.ViewGroup (1)'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Assessment/Assessment History/android.view.ViewGroup (1)'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Assessment History/android.widget.ImageView'), 30)
+Mobile.tap(findTestObject('Android/IS/Wound Assessment/Assessment History/android.view.ViewGroup - hisotry date'), 30)
 
-Mobile.tap(findTestObject('Android/IS/Wound Assessment/Assessment History/android.view.ViewGroup (2)'), 30)
+Mobile.tap(findTestObject('Android/IS/Wound Assessment/Assessment History/android.view.ViewGroup - second day'), 30)
 
 Mobile.verifyElementExist(findTestObject('Android/IS/Wound Assessment/Assessment History/android.view.ViewGroup (1)'), 30)
 
