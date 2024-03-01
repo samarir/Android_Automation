@@ -17,18 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/EK-7979 Katalon - Search Patient.feature')
+CucumberKW.runFeatureFile('Include/features/EK-7979 IS Android - Search Patient.feature')
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Search Patient/android.widget.EditText - Search by Name, MRN'),
-	'987', 30)
+Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Search Patient/android.widget.EditText - Search by Name, MRN'), 
+    '987', 30)
+
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Search Patient/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Search Patient/android.widget.TextView - Current site'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Search Patient/android.widget.TextView - Current site'), 
+    30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Patient Management/Search Patient/android.view.ViewGroup (1)'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Patient Management/Search Patient/android.view.ViewGroup (1)'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+

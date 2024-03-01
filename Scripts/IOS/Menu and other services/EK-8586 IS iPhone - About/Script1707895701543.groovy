@@ -18,22 +18,24 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8586 IS iPhone - About.feature')
+
 WebUI.callTestCase(findTestCase('IOS/User Management/EK-8491 IS iPhone - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('IOS/User Management/Auto Logout/XCUIElementTypeOther'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeOther - About'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - Katalon'),
-	'Katalon')
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - Katalon'), 
+    'Katalon')
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - samarirmasaratapp.com'),
-	'samarir@masaratapp.com')
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - samarirmasaratapp.com'), 
+    'samarir@masaratapp.com')
 
-Mobile.scrollToText('UDI', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Admin email', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - 2.1.5'),
-	'2.1.5')
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - 2.1.5'), 
+    '2.1.5')
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - UDI'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - UDI'), 
+    30)
+
