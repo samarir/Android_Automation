@@ -22,9 +22,6 @@ CucumberKW.runFeatureFile('Include/features/EK-7968 IS Android - Add Patient.fea
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - add patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Add a new patient'), 
-    30)
-
 Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.EditText - First name'), 
     'Test', 30)
 

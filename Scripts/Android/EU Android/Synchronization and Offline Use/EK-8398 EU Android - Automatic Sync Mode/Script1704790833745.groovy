@@ -26,9 +26,6 @@ Mobile.toggleWifi('off', FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Automatic sync mode/android.view.ViewGroup - add patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Add Patient/android.widget.TextView - Add a new patient'),
-	30)
-
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - First name'), 'Test', 
     30)
 
