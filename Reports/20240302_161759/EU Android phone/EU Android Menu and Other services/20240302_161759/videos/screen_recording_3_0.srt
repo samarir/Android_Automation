@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,013
+1. addDefaultPackages()
+
+2
+00:00:00,014 --> 00:00:00,020
+1. runFeatureFile("Include/features/EK-8334 EU Android - About.feature")
+
+3
+00:00:00,020 --> 00:00:03,530
+5. tap(findTestObject("Android/Patient Directory/Left Menu"), 30)
+
+4
+00:00:03,531 --> 00:00:05,166
+9. tap(findTestObject("Android/Patient Directory/Account Menu (left menu)/About"), 30)
+
+5
+00:00:05,166 --> 00:00:06,378
+13. verifyElementText(findTestObject("Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon"), "Katalon")
+
+6
+00:00:06,378 --> 00:00:06,564
+17. verifyElementText(findTestObject("Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon (1)"), "Katalon")
+
+7
+00:00:06,564 --> 00:00:11,248
+21. scrollToText("UDI")
+
+8
+00:00:11,249 --> 00:00:12,067
+25. scrollToText("App version")
+
+9
+00:00:12,067 --> 00:00:12,200
+29. verifyElementText(findTestObject("Object Repository/Android/EU/Menu and Other services/About/android.widget.TextView - IS 2.2.0"), "IS 2.2.0")
+
+10
+00:00:12,200 --> 00:00:12,331
+33. verifyElementText(findTestObject("Object Repository/Android/EU/Menu and Other services/About/android.widget.TextView - Measurement Module"), "Measurement Module:")
+
+11
+00:00:12,331 --> 00:00:12,470
+37. verifyElementText(findTestObject("Object Repository/Android/EU/Menu and Other services/About/android.widget.TextView - EK001"), "EK001")
+
+12
+00:00:12,470 --> 00:00:12,642
+41. tap(findTestObject("Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x"), 30)
+

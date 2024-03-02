@@ -29,10 +29,19 @@ Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and o
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon (1)'), 
     'Katalon')
 
-Mobile.scrollToText('UDI')
+Mobile.scrollToText('App version')
 
-Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/About/android.widget.TextView - Version'), '2.2')
+Mobile.verifyElementText(findTestObject('Android/EU/Menu and Other services/About/android.widget.TextView - EU 2.2.0'), 
+    'EU 2.2.0')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Measurement Module'), 
+    'Measurement Module:')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - EK001'), 
+    'EK001')
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x'), 
     30)
+
+Mobile.closeApplication()
 
