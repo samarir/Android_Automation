@@ -3865,3 +3865,21 @@
 [38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
 [38;5;48m[AndroidUiautomator2Driver@a07f (ac8c1c8d)][0m Starting 'com.ekareinc.insight.standard/com.ekareinc.insight.standard.MainActivity and waiting for 'com.ekareinc.insight.standard/*'
 [38;5;16m[AppiumDriver@cc9a][0m New AndroidUiautomator2Driver session created successfully, session ac8c1c8d-4df1-4c69-ad8b-3008c3501e6c added to master session list
+[38;5;48m[AndroidUiautomator2Driver@8c71 (556de155)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@cc9a][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@cc9a][0m Removing session '556de155-8e1b-40c5-94ec-bfcc064c3d24' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@8c71 (556de155)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,dumpsys,activity,services,io.appium.settings/.recorder.RecorderService
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: forward,--remove,tcp:52870
+[38;5;48m[AndroidUiautomator2Driver@a07f (ac8c1c8d)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@cc9a][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@cc9a][0m Removing session 'ac8c1c8d-4df1-4c69-ad8b-3008c3501e6c' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@a07f (ac8c1c8d)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,dumpsys,activity,services,io.appium.settings/.recorder.RecorderService
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: forward,--remove,tcp:52983
+[38;5;48m[AndroidUiautomator2Driver@8c71 (556de155)][0m Unable to remove system port forward: Could not find a connected Android device in 20000ms
+[38;5;48m[AndroidUiautomator2Driver@8c71 (556de155)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
+[38;5;48m[AndroidUiautomator2Driver@a07f (ac8c1c8d)][0m Unable to remove system port forward: Could not find a connected Android device in 20000ms
+[38;5;48m[AndroidUiautomator2Driver@a07f (ac8c1c8d)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy

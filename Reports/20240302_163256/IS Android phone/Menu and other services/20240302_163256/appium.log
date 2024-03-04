@@ -2216,3 +2216,18 @@
 [38;5;0m[HTTP][0m {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]"}
 [38;5;0m[HTTP][0m <-- POST /wd/hub/session/80037a4c-24a8-44aa-b3f7-833c01938265/elements 200 112 ms - 12
 [38;5;0m[HTTP][0m 
+[38;5;48m[AndroidUiautomator2Driver@6e5c (c820e291)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5509][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5509][0m Removing session 'c820e291-d7a9-45cc-adc7-21447ab50862' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@6e5c (c820e291)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: forward,--remove,tcp:52503
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,dumpsys,activity,services,io.appium.settings/.recorder.RecorderService
+[38;5;48m[AndroidUiautomator2Driver@6e5c (c820e291)][0m Unable to remove system port forward: Could not find a connected Android device in 20000ms
+[38;5;48m[AndroidUiautomator2Driver@6e5c (c820e291)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
+[38;5;48m[AndroidUiautomator2Driver@810b (80037a4c)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@5509][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@5509][0m Removing session '80037a4c-24a8-44aa-b3f7-833c01938265' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@810b (80037a4c)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,dumpsys,activity,services,io.appium.settings/.recorder.RecorderService
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: forward,--remove,tcp:52602

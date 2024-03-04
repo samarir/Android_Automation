@@ -1716,3 +1716,16 @@
 [38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'EU 2.2.0' or . = 'EU 2.2.0')]"}
 [38;5;0m[HTTP][0m <-- POST /wd/hub/session/398f5b40-ec69-48b3-8aba-0a3bf3ddc9fe/elements 200 85 ms - 12
 [38;5;0m[HTTP][0m 
+[38;5;48m[AndroidUiautomator2Driver@468f (398f5b40)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@6a6f][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@6a6f][0m Removing session '398f5b40-ec69-48b3-8aba-0a3bf3ddc9fe' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@468f (398f5b40)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,dumpsys,activity,services,io.appium.settings/.recorder.RecorderService
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.ekareinc.insight.standard
+[38;5;48m[AndroidUiautomator2Driver@468f (398f5b40)][0m Unable to force stop app: Could not find a connected Android device in 20000ms
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,pm,path,com.ekareinc.insight.standard
+[38;5;64m[ADB][0m com.ekareinc.insight.standard was not uninstalled, because it was not present on the device
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: forward,--remove,tcp:52115
+[38;5;48m[AndroidUiautomator2Driver@468f (398f5b40)][0m Unable to remove system port forward: Could not find a connected Android device in 20000ms
+[38;5;48m[AndroidUiautomator2Driver@468f (398f5b40)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
