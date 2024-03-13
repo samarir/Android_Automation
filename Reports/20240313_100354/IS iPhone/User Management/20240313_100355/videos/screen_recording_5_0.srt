@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:00,011
+1. addDefaultPackages()
+
+2
+00:00:00,011 --> 00:00:00,016
+1. runFeatureFile("Include/features/EK-8492 IS iPhone - Logout.feature")
+
+3
+00:00:00,016 --> 00:00:01,390
+5. tap(findTestObject("Object Repository/IOS/User Management/Logout/XCUIElementTypeOther"), 30)
+
+4
+00:00:01,390 --> 00:00:03,728
+9. tap(findTestObject("Object Repository/IOS/User Management/Logout/XCUIElementTypeOther - Logout"), 30)
+
+5
+00:00:03,728 --> 00:00:05,386
+13. verifyElementText(findTestObject("Object Repository/IOS/User Management/Logout/XCUIElementTypeStaticText - You want to logout"), "You want to logout ?")
+
+6
+00:00:05,386 --> 00:00:06,735
+17. verifyElementExist(findTestObject("Object Repository/IOS/User Management/Logout/XCUIElementTypeButton - Cancel"), 30)
+
+7
+00:00:06,735 --> 00:00:08,850
+21. tap(findTestObject("Object Repository/IOS/User Management/Logout/XCUIElementTypeButton - Confirm"), 30)
+
+8
+00:00:08,851 --> 00:00:11,640
+25. verifyElementExist(findTestObject("Object Repository/IOS/User Management/Logout/XCUIElementTypeOther (1)"), 30)
+

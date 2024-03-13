@@ -30,7 +30,11 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/Auto Logout/XCU
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeOther (2)'), 30)
 
-WebUI.delay(65)
+WebUI.delay(30)
+
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/User Management/Auto Logout/XCUIElementTypeImage'), 30)
 

@@ -1,0 +1,52 @@
+1
+00:00:00,030 --> 00:00:00,171
+1. runFeatureFile("Include/features/EK-8569 IS iPhone - Terms and condition Privacy and Policy.feature")
+
+2
+00:00:00,173 --> 00:01:26,107
+5. startApplication(IPA, true)
+
+3
+00:01:26,108 --> 00:01:27,740
+9. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30)
+
+4
+00:01:27,740 --> 00:01:28,233
+13. verifyElementExist(findTestObject("IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions"), 30)
+
+5
+00:01:28,233 --> 00:01:29,025
+17. tap(findTestObject("IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions"), 30)
+
+6
+00:01:29,025 --> 00:01:34,045
+21. delay(5)
+
+7
+00:01:34,045 --> 00:01:34,751
+25. tapAtPosition(44, 42)
+
+8
+00:01:34,751 --> 00:01:35,135
+29. verifyElementExist(findTestObject("IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeImage"), 30)
+
+9
+00:01:35,136 --> 00:01:35,587
+33. verifyElementExist(findTestObject("IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Privacy Policy"), 30)
+
+10
+00:01:35,587 --> 00:01:36,345
+37. tap(findTestObject("IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Privacy Policy"), 30)
+
+11
+00:01:36,345 --> 00:01:41,356
+41. delay(5, STOP_ON_FAILURE)
+
+12
+00:01:41,356 --> 00:01:42,348
+45. tapAtPosition(44, 42)
+
+13
+00:01:42,349 --> 00:01:42,750
+49. verifyElementExist(findTestObject("IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeImage"), 30)
+
