@@ -28,7 +28,7 @@ Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOt
 
 Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther -'), 30)
+Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - back'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - add wound'), 30)
 
