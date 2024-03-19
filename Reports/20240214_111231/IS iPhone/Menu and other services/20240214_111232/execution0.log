@@ -4813,3 +4813,571 @@ EK-8593 IS iPhone - Help.run(EK-8593 IS iPhone - Help:20)
   <escapedJava>false</escapedJava>
   <property name="deviceOSVersion">17.3</property>
 </record>
+<record>
+  <date>2024-03-19T11:43:19.439723Z</date>
+  <millis>1710848599439</millis>
+  <nanos>723000</nanos>
+  <sequence>4380</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/21.7.1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:19.443327Z</date>
+  <millis>1710848599443</millis>
+  <nanos>327000</nanos>
+  <sequence>4381</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/21.7.1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:19.443445Z</date>
+  <millis>1710848599443</millis>
+  <nanos>445000</nanos>
+  <sequence>4382</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>APPIUM_HOME: /Users/safaamarir/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:19.443514Z</date>
+  <millis>1710848599443</millis>
+  <nanos>514000</nanos>
+  <sequence>4383</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>appium outlog: /Users/safaamarir/git/Android_Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:19.443568Z</date>
+  <millis>1710848599443</millis>
+  <nanos>568000</nanos>
+  <sequence>4384</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>appium errlog: /Users/safaamarir/git/Android_Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:21.089531Z</date>
+  <millis>1710848601089</millis>
+  <nanos>531000</nanos>
+  <sequence>4385</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>Appium server started on port 61,551</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:21.323489Z</date>
+  <millis>1710848601323</millis>
+  <nanos>489000</nanos>
+  <sequence>4386</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>User set preference: [&amp;apos;automationName&amp;apos;, &amp;apos;XCUITest&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:21.323703Z</date>
+  <millis>1710848601323</millis>
+  <nanos>703000</nanos>
+  <sequence>4387</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;00008110-00112D590CD0201E&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:43:31.332858Z</date>
+  <millis>1710848611332</millis>
+  <nanos>858000</nanos>
+  <sequence>4389</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>Failed to start ios_webkit_debug_proxy on default port 27753</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.kms.katalon.core.appium.exception.IOSWebkitStartException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.appium.exception.IOSWebkitStartException: Failed to start ios_webkit_debug_proxy on default port 27753
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startWebProxyServer(AppiumDriverManager.java:192)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureWebProxyServerStarted(AppiumDriverManager.java:168)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:248)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:535)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:589)
+	at com.kms.katalon.composer.mobile.objectspy.dialog.MobileInspectorController.startMobileApp(MobileInspectorController.java:201)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite.startLocalAppAsNormal(MobileLocalAppComposite.java:561)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite$12$1.call(MobileLocalAppComposite.java:496)
+	at com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.startThreadAndWait(ProgressMonitorDialogWithThread.java:36)
+	at com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.runAndWait(ProgressMonitorDialogWithThread.java:48)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite$12.run(MobileLocalAppComposite.java:488)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+</property>
+  <property name="failed.exception.message">Failed to start ios_webkit_debug_proxy on default port 27753</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:01.994413Z</date>
+  <millis>1710848641994</millis>
+  <nanos>413000</nanos>
+  <sequence>4391</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>appiumVersion = 2.4.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.4.1</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:01.995430Z</date>
+  <millis>1710848641995</millis>
+  <nanos>430000</nanos>
+  <sequence>4392</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.4.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;780fbbc65e90fbe09629aba180a1839e9e7dbaf2&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2024-03-11 16:57:48 +0100&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;,&quot;git-sha&quot;:&quot;780fbbc65e90fbe09629aba180a1839e9e7dbaf2&quot;,&quot;built&quot;:&quot;2024-03-11 16:57:48 +0100&quot;}}}</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:02.000227Z</date>
+  <millis>1710848642000</millis>
+  <nanos>227000</nanos>
+  <sequence>4393</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>deviceId = 00008110-00112D590CD0201E</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">00008110-00112D590CD0201E</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:02.000385Z</date>
+  <millis>1710848642000</millis>
+  <nanos>385000</nanos>
+  <sequence>4394</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>deviceName = Safa’s iPhone</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">Safa’s iPhone</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:02.000486Z</date>
+  <millis>1710848642000</millis>
+  <nanos>486000</nanos>
+  <sequence>4395</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>deviceModel = iPhone14,5</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">iPhone14,5</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:02.000556Z</date>
+  <millis>1710848642000</millis>
+  <nanos>556000</nanos>
+  <sequence>4396</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>deviceManufacturer = Apple</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Apple</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:02.000621Z</date>
+  <millis>1710848642000</millis>
+  <nanos>621000</nanos>
+  <sequence>4397</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>deviceOS = iOS</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">iOS</property>
+</record>
+<record>
+  <date>2024-03-19T11:44:02.000776Z</date>
+  <millis>1710848642000</millis>
+  <nanos>776000</nanos>
+  <sequence>4398</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1436</thread>
+  <message>deviceOSVersion = 17.3</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">17.3</property>
+</record>
+<record>
+  <date>2024-03-19T11:54:30.492590Z</date>
+  <millis>1710849270492</millis>
+  <nanos>590000</nanos>
+  <sequence>4399</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1457</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:55:04.704714Z</date>
+  <millis>1710849304704</millis>
+  <nanos>714000</nanos>
+  <sequence>4400</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1466</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:56:56.717986Z</date>
+  <millis>1710849416717</millis>
+  <nanos>986000</nanos>
+  <sequence>4401</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1475</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:57:04.486565Z</date>
+  <millis>1710849424486</millis>
+  <nanos>565000</nanos>
+  <sequence>4402</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1479</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:58:20.437831Z</date>
+  <millis>1710849500437</millis>
+  <nanos>831000</nanos>
+  <sequence>4403</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1493</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T11:58:53.149501Z</date>
+  <millis>1710849533149</millis>
+  <nanos>501000</nanos>
+  <sequence>4404</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1498</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:07.519872Z</date>
+  <millis>1710850087519</millis>
+  <nanos>872000</nanos>
+  <sequence>4589</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/21.7.1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:07.522299Z</date>
+  <millis>1710850087522</millis>
+  <nanos>299000</nanos>
+  <sequence>4590</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/21.7.1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:07.522433Z</date>
+  <millis>1710850087522</millis>
+  <nanos>433000</nanos>
+  <sequence>4591</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>APPIUM_HOME: /Users/safaamarir/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:07.522493Z</date>
+  <millis>1710850087522</millis>
+  <nanos>493000</nanos>
+  <sequence>4592</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>appium outlog: /Users/safaamarir/git/Android_Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:07.522555Z</date>
+  <millis>1710850087522</millis>
+  <nanos>555000</nanos>
+  <sequence>4593</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>appium errlog: /Users/safaamarir/git/Android_Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:08.835852Z</date>
+  <millis>1710850088835</millis>
+  <nanos>852000</nanos>
+  <sequence>4594</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>Appium server started on port 62,098</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:08.966433Z</date>
+  <millis>1710850088966</millis>
+  <nanos>433000</nanos>
+  <sequence>4595</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>User set preference: [&amp;apos;automationName&amp;apos;, &amp;apos;XCUITest&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:08.966609Z</date>
+  <millis>1710850088966</millis>
+  <nanos>609000</nanos>
+  <sequence>4596</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;00008110-00112D590CD0201E&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-19T12:08:18.974737Z</date>
+  <millis>1710850098974</millis>
+  <nanos>737000</nanos>
+  <sequence>4598</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>Failed to start ios_webkit_debug_proxy on default port 27753</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.kms.katalon.core.appium.exception.IOSWebkitStartException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.appium.exception.IOSWebkitStartException: Failed to start ios_webkit_debug_proxy on default port 27753
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startWebProxyServer(AppiumDriverManager.java:192)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureWebProxyServerStarted(AppiumDriverManager.java:168)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:248)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:535)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:589)
+	at com.kms.katalon.composer.mobile.objectspy.dialog.MobileInspectorController.startMobileApp(MobileInspectorController.java:201)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite.startLocalAppAsNormal(MobileLocalAppComposite.java:561)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite$12$1.call(MobileLocalAppComposite.java:496)
+	at com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.startThreadAndWait(ProgressMonitorDialogWithThread.java:36)
+	at com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.runAndWait(ProgressMonitorDialogWithThread.java:48)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite$12.run(MobileLocalAppComposite.java:488)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+</property>
+  <property name="failed.exception.message">Failed to start ios_webkit_debug_proxy on default port 27753</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.255659Z</date>
+  <millis>1710850128255</millis>
+  <nanos>659000</nanos>
+  <sequence>4600</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>appiumVersion = 2.4.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.4.1</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.256029Z</date>
+  <millis>1710850128256</millis>
+  <nanos>29000</nanos>
+  <sequence>4601</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.4.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;780fbbc65e90fbe09629aba180a1839e9e7dbaf2&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2024-03-11 16:57:48 +0100&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;,&quot;git-sha&quot;:&quot;780fbbc65e90fbe09629aba180a1839e9e7dbaf2&quot;,&quot;built&quot;:&quot;2024-03-11 16:57:48 +0100&quot;}}}</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.260033Z</date>
+  <millis>1710850128260</millis>
+  <nanos>33000</nanos>
+  <sequence>4602</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>deviceId = 00008110-00112D590CD0201E</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">00008110-00112D590CD0201E</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.260156Z</date>
+  <millis>1710850128260</millis>
+  <nanos>156000</nanos>
+  <sequence>4603</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>deviceName = Safa’s iPhone</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">Safa’s iPhone</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.260249Z</date>
+  <millis>1710850128260</millis>
+  <nanos>249000</nanos>
+  <sequence>4604</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>deviceModel = iPhone14,5</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">iPhone14,5</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.260326Z</date>
+  <millis>1710850128260</millis>
+  <nanos>326000</nanos>
+  <sequence>4605</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>deviceManufacturer = Apple</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Apple</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.260401Z</date>
+  <millis>1710850128260</millis>
+  <nanos>401000</nanos>
+  <sequence>4606</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>deviceOS = iOS</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">iOS</property>
+</record>
+<record>
+  <date>2024-03-19T12:08:48.260470Z</date>
+  <millis>1710850128260</millis>
+  <nanos>470000</nanos>
+  <sequence>4607</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1603</thread>
+  <message>deviceOSVersion = 17.3</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">17.3</property>
+</record>

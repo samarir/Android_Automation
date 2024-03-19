@@ -19,13 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8592 IS iPhone - Language.feature')
 
+WebUI.callTestCase(findTestCase('IOS/User Management/EK-8491 IS iPhone - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'), 
     30)
 
 Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English'), 
-    30)
+Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English (1)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther -'), 30)
 
@@ -47,8 +48,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English'), 
-    30)
+Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English (1)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - English'), 30)
 

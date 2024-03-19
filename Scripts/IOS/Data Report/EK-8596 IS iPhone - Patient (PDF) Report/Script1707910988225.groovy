@@ -26,5 +26,19 @@ Mobile.scrollToText('Generate, Report')
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent'), 
-    0)
+    30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - menu'), 30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate Report'), 30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate'), 30)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeImage - eKare logo'), 30)
+
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile'), 
+    'WOUND ASSESSMENT REPORT: 19/03/2024 Patient Profile \n')
+
+Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeButton - QLOverlayDoneButtonAccessibilityIdentifier'), 
+    30)
 
