@@ -19,6 +19,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>d9bd2244-b5fe-4297-a6ce-20a1c9ae2a80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/IOS/Menu and other services/EK-8587 IS iPhone - Switch between sites</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6f552e52-9598-4b00-bfb5-dfdf8f19c164</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -26,10 +33,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9bd2244-b5fe-4297-a6ce-20a1c9ae2a80</guid>
+      <guid>a7f9eeb6-af90-4521-b924-ad346fbf155d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/IOS/Menu and other services/EK-8587 IS iPhone - Switch between sites</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IOS/Menu and other services/EK-8590 IS iPhone - Automatic adjustment of the dates</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

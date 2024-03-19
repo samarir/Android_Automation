@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:00,024
+1. addDefaultPackages()
+
+2
+00:00:00,024 --> 00:00:00,030
+1. runFeatureFile("Include/features/EK-8590 IS iPhone - Automatic adjustment of the dates.feature")
+
+3
+00:00:00,030 --> 00:00:00,096
+5. callTestCase(findTestCase("IOS/User Management/EK-8491 IS iPhone - Sign in"), [:], STOP_ON_FAILURE)
+
+4
+00:00:00,096 --> 00:00:00,102
+1. runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature")
+
+5
+00:00:00,102 --> 00:00:35,450
+5. startApplication(IPA, true)
+
+6
+00:00:35,451 --> 00:00:36,832
+9. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30)
+
+7
+00:00:36,832 --> 00:00:38,663
+13. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30)
+
+8
+00:00:38,664 --> 00:00:40,315
+17. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30)
+
+9
+00:00:40,315 --> 00:00:42,020
+21. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30)
+
+10
+00:00:42,020 --> 00:00:42,972
+25. tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30)
+
+11
+00:00:42,972 --> 00:00:52,982
+29. delay(10)
+
+12
+00:00:52,982 --> 00:00:54,310
+9. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Data Auto adjusment/XCUIElementTypeOther - Menu"), 0)
+
+13
+00:00:54,310 --> 00:00:56,099
+13. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Data Auto adjusment/XCUIElementTypeOther - Site"), 0)
+
+14
+00:00:56,099 --> 00:00:57,926
+17. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Data Auto adjusment/XCUIElementTypeOther - site user"), 0)
+
+15
+00:00:57,926 --> 00:01:01,631
+21. date1 = getText(findTestObject("IOS/Menu and Other Sevices/Data Auto adjusment/XCUIElementTypeOther - Katalon, Test 20230727 24M    MRN 900ui No Consent"), 30)
+
+16
+00:01:01,632 --> 00:01:01,633
+25. regex = "^\w+,\s\w+\s\d{4}/\d{2}/\d{2}"
+
+17
+00:01:01,633 --> 00:01:01,634
+29. pattern = Pattern.compile(regex)
+
+18
+00:01:01,634 --> 00:01:01,635
+33. matcher = pattern.matcher(date1)
+
+19
+00:01:01,635 --> 00:01:01,637
+37. isMatch = matcher.find()
+
+20
+00:01:01,637 --> 00:01:01,637
+41. if (isMatch == true)
+
+21
+00:01:01,637 --> 00:01:02,619
+1. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Data Auto adjusment/XCUIElementTypeOther - Menu"), 0)
+
+22
+00:01:02,620 --> 00:01:04,013
+5. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Data Auto adjusment/XCUIElementTypeOther - Site"), 0)
+
+23
+00:01:04,013 --> 00:01:05,300
+9. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Data Auto adjusment/XCUIElementTypeOther - Katalon"), 0)
+
+24
+00:01:05,300 --> 00:01:06,457
+13. closeApplication()
+

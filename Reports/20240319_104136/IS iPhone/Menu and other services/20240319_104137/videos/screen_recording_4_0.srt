@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:00,014
+1. addDefaultPackages()
+
+2
+00:00:00,015 --> 00:00:00,019
+1. runFeatureFile("Include/features/EK-8592 IS iPhone - Language.feature")
+
+3
+00:00:00,019 --> 00:00:01,347
+5. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30)
+
+4
+00:00:01,348 --> 00:00:03,373
+9. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings"), 30)
+
+5
+00:00:03,373 --> 00:00:04,300
+13. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English"), 30)
+
+6
+00:00:04,300 --> 00:00:05,498
+17. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther -"), 30)
+
+7
+00:00:05,498 --> 00:00:10,200
+21. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - add wound"), 30)
+
+8
+00:00:10,200 --> 00:00:11,513
+25. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (1)"), "病人记录")
+
+9
+00:00:11,513 --> 00:00:12,760
+29. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (2)"), "添加新患者")
+
+10
+00:00:12,760 --> 00:00:13,816
+33. verifyElementText(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (3)"), "保存")
+
+11
+00:00:13,817 --> 00:00:14,913
+37. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Back (1)"), 30)
+
+12
+00:00:14,913 --> 00:00:16,300
+41. tap(findTestObject("Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)"), 30)
+
+13
+00:00:16,301 --> 00:00:18,379
+45. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings"), 30)
+
+14
+00:00:18,380 --> 00:00:19,365
+49. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English"), 30)
+
+15
+00:00:19,365 --> 00:00:20,745
+53. tap(findTestObject("Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - English"), 30)
+

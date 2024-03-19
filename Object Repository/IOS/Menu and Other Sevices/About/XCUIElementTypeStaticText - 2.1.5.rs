@@ -12,7 +12,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>34249d6c-159d-41f0-8c33-26f851f43bf7</webElementGuid>
+      <webElementGuid>5f5c393f-4e2f-4e16-a926-e1a7266f331d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c1acc1fc-56e0-4b39-b53d-bad3da71f6b8</webElementGuid>
+      <webElementGuid>35d217e7-c594-4dfe-95ab-451fd6007f39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d6870471-a31a-47ea-a202-9d08b26683b5</webElementGuid>
+      <webElementGuid>054a14c9-edfd-4744-b43b-0b5cdbeb136c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>height</name>
       <type>Main</type>
       <value>50.0</value>
-      <webElementGuid>289a05d5-0909-4b54-80b4-31e3b581d790</webElementGuid>
+      <webElementGuid>5bc7c85c-e98c-4450-bb1f-31e416e0e49d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>6bbb86fd-8a5d-4109-8b81-e3a8167f03ae</webElementGuid>
+      <webElementGuid>d2db0fb8-cb91-467a-a11e-9ef7c6e80924</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>label</name>
       <type>Main</type>
       <value>2.1.5</value>
-      <webElementGuid>9e43f963-8d5e-4050-b02c-60731525c134</webElementGuid>
+      <webElementGuid>970bd277-479b-418e-a432-880a857970b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>name</name>
       <type>Main</type>
       <value>2.1.5</value>
-      <webElementGuid>22684380-b87f-4810-af19-5f9d751c7f70</webElementGuid>
+      <webElementGuid>9335c8da-8181-47b7-ac89-74d653518749</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>value</name>
       <type>Main</type>
       <value>2.1.5</value>
-      <webElementGuid>43ad81d7-66ee-4978-9204-9d85301e7e54</webElementGuid>
+      <webElementGuid>c872f91d-299e-4ab4-925d-7fc996f8fcb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>width</name>
       <type>Main</type>
       <value>580.0</value>
-      <webElementGuid>deb3a626-5ca6-428b-848b-e9ef4fc7bbf4</webElementGuid>
+      <webElementGuid>fccb2f78-c3db-4fa1-a0c0-50dedd5b4123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>x</name>
       <type>Main</type>
       <value>100.0</value>
-      <webElementGuid>63304e56-5135-4bf2-98ab-e639bfdc0e01</webElementGuid>
+      <webElementGuid>572ee50e-4aaa-4077-9468-74a4a534563c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1260.0</value>
-      <webElementGuid>d6f4ff53-866f-413f-8a8a-193da7e06859</webElementGuid>
+      <webElementGuid>3c092ebe-d993-4417-ade8-8f7665a67f45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[12]/XCUIElementTypeStaticText[2]</value>
-      <webElementGuid>d016913a-0926-457d-b1c1-929e82673f01</webElementGuid>
+      <webElementGuid>d72b1bd8-593a-4cdc-af82-4c348aec037f</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = '2.1.5' and @name = '2.1.5' and @value = '2.1.5']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

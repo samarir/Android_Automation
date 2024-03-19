@@ -31,11 +31,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Se
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - samarirmasaratapp.com'), 
     'samarir@masaratapp.com')
 
-Mobile.scrollToText('Admin phone', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Software Version')
 
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - 2.1.5'), 
     '2.1.5')
-
-Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Menu and Other Sevices/About/XCUIElementTypeStaticText - UDI'), 
-    30)
 

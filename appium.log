@@ -1,13 +1,13 @@
-[35m[Appium][39m Welcome to Appium v2.4.1 (REV c6d959218f143cd17b1fc3e0f10f143cbd273528)
+[35m[Appium][39m Welcome to Appium v2.4.1 (REV 780fbbc65e90fbe09629aba180a1839e9e7dbaf2)
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m52170[39m }
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m57729[39m }
 [35m[Appium][39m Attempting to load driver xcuitest...
 [35m[Appium][39m Attempting to load driver uiautomator2...
-[Appium] Appium REST http interface listener started on http://0.0.0.0:52170/wd/hub
+[Appium] Appium REST http interface listener started on http://0.0.0.0:57729/wd/hub
 [Appium] You can provide the following URLs in your client code to connect to this server:
-[Appium] 	http://127.0.0.1:52170/wd/hub (only accessible from the same host)
-[Appium] 	http://192.168.1.113:52170/wd/hub
-[Appium] 	http://169.254.56.196:52170/wd/hub
+[Appium] 	http://127.0.0.1:57729/wd/hub (only accessible from the same host)
+[Appium] 	http://192.168.1.3:57729/wd/hub
+[Appium] 	http://169.254.64.132:57729/wd/hub
 [Appium] Available drivers:
 [Appium]   - xcuitest@5.12.2 (automationName 'XCUITest')
 [Appium]   - uiautomator2@2.40.0 (automationName 'UiAutomator2')
@@ -21,124 +21,110 @@
 [38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 199
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:automationName":"XCUITest","appium:fullReset":false,"appium:platformVersion":"17.3","appium:deviceId":"00008110-00112D590CD0201E","appium:noReset":true,"appium:udid":"00008110-00112D590CD0201E","appium:wdaLocalPort":52181,"appium:deviceName":"Safa’s iPhone","platformName":"iOS","appium:app":"/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa"},"capabilities":{"firstMatch":[{"appium:app":"/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa","appium:automationName":"XCUITest","appium:deviceId":"00008110-00112D590CD0201E","appium:deviceName":"Safa’s iPhone","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"17.3","appium:udid":"00008110-00112D590CD0201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":52181,"platformName":"ios"}]}}
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:automationName":"XCUITest","appium:fullReset":false,"appium:platformVersion":"17.3","appium:deviceId":"00008110-00112D590CD0201E","appium:noReset":true,"appium:udid":"00008110-00112D590CD0201E","appium:wdaLocalPort":57742,"appium:deviceName":"Safa’s iPhone","platformName":"iOS","appium:app":"/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa"},"capabilities":{"firstMatch":[{"appium:app":"/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa","appium:automationName":"XCUITest","appium:deviceId":"00008110-00112D590CD0201E","appium:deviceName":"Safa’s iPhone","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"17.3","appium:udid":"00008110-00112D590CD0201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":57742,"platformName":"ios"}]}}
 [Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
 [Appium] The 'xcuitest' driver was installed and matched caps.
 [Appium] Will require it at /Users/safaamarir/.appium/node_modules/appium-xcuitest-driver
-[38;5;16m[AppiumDriver@526f][0m Appium v2.4.1 creating new XCUITestDriver (v5.12.2) session
-[38;5;16m[AppiumDriver@526f][0m Checking BaseDriver versions for Appium and XCUITestDriver
-[38;5;16m[AppiumDriver@526f][0m Appium's BaseDriver version is 9.5.0
-[38;5;16m[AppiumDriver@526f][0m XCUITestDriver's BaseDriver version is 9.5.0
-[38;5;32m[XCUITestDriver@f28d][0m The following provided capabilities were not recognized by this driver:
-[38;5;32m[XCUITestDriver@f28d][0m   deviceId
-[38;5;32m[XCUITestDriver@f28d][0m   waitForAppScript
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m Session created with session id: 2b7e6c5b-c70d-49ef-a2cb-aabdf777268a
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m Determining device to run tests on: udid: '00008110-00112D590CD0201E', real device: true
+[38;5;16m[AppiumDriver@7c18][0m Appium v2.4.1 creating new XCUITestDriver (v5.12.2) session
+[38;5;16m[AppiumDriver@7c18][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@7c18][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@7c18][0m XCUITestDriver's BaseDriver version is 9.5.0
+[38;5;32m[XCUITestDriver@bd98][0m The following provided capabilities were not recognized by this driver:
+[38;5;32m[XCUITestDriver@bd98][0m   deviceId
+[38;5;32m[XCUITestDriver@bd98][0m   waitForAppScript
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m Session created with session id: ea65377e-6610-4459-8927-ac862c29b2f8
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m Determining device to run tests on: udid: '00008110-00112D590CD0201E', real device: true
 [38;5;64m[BaseDriver][0m Using local app '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa'
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m 'Payload/eKareApp.app' is the resulting application bundle selected from '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa'
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m Using WDA path: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m Using WDA agent: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m Setting up real device
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m App 'com.ekareinc.insight.healthcare' is already installed
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m noReset is requested. The app will not be be (re)installed
-[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-00112D590CD0201E on local port 52181, device port 52181
-[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-00112D590CD0201E:52181
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m 'Payload/eKareApp.app' is the resulting application bundle selected from '/Users/safaamarir/APK/IOS/IS/IS_PreProd_2.1.5_214.ipa'
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m Using WDA path: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m Using WDA agent: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m Setting up real device
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m App 'com.ekareinc.insight.healthcare' is already installed
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m noReset is requested. The app will not be be (re)installed
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-00112D590CD0201E on local port 57742, device port 57742
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-00112D590CD0201E:57742
 [38;5;112m[WD Proxy][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m Launching WebDriverAgent on the device
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m There is no need to perform the project cleanup. A fresh install has been detected
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m socket hang up
-[38;5;32m[XCUITestDriver@f28d (2b7e6c5b)][0m Determined the downstream protocol as 'W3C'
-[38;5;16m[AppiumDriver@526f][0m New XCUITestDriver session created successfully, session 2b7e6c5b-c70d-49ef-a2cb-aabdf777268a added to master session list
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 30560 ms - 622
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m socket hang up
+[38;5;32m[XCUITestDriver@bd98 (ea65377e)][0m Determined the downstream protocol as 'W3C'
+[38;5;16m[AppiumDriver@7c18][0m New XCUITestDriver session created successfully, session ea65377e-6610-4459-8927-ac862c29b2f8 added to master session list
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 33972 ms - 622
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a 200 2 ms - 358
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8 200 2 ms - 358
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a 200 1 ms - 358
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8 200 1 ms - 358
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [38;5;0m[HTTP][0m {}
 [38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 199
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/timeouts[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/timeouts[39m
 [38;5;0m[HTTP][0m {"implicit":60000}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/timeouts 200 1 ms - 14
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/execute/sync[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/execute/sync[39m
 [38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/execute/sync 200 2906 ms - 137684
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/execute/sync 200 702 ms - 15508
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/screenshot[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/screenshot[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/screenshot 200 261 ms - 914596
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/screenshot 200 240 ms - 1238828
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/context[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/context 200 2 ms - 22
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/contexts[39m
-[38;5;0m[HTTP][0m {}
-[38;5;160m[RemoteDebugger][0m Remote Debugger version 10.2.0
-[38;5;160m[RemoteDebugger][0m Setting communication protocol: using Target-based communication
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/contexts 200 118 ms - 24
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/context[39m
-[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/context 200 1 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/touch/perform[39m
-[38;5;0m[HTTP][0m {"actions":[{"action":"press","options":{"x":292,"y":1364}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"x":289,"y":853}},{"action":"release","options":{}}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/touch/perform 200 1376 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/context[39m
-[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/context 200 2 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/execute/sync[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/execute/sync[39m
 [38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/execute/sync 200 1840 ms - 96541
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/execute/sync 200 853 ms - 29953
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/screenshot[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/screenshot[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a/screenshot 200 167 ms - 506088
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/screenshot 200 165 ms - 371244
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/element[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'Katalon, Test 2023/07/27 24M  /  MRN: 900ui No Consent' and @name = 'Katalon, Test 2023/07/27 24M  /  MRN: 900ui No Consent']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8/element 200 597 ms - 137
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8[39m
 [38;5;0m[HTTP][0m {}
-[38;5;16m[AppiumDriver@526f][0m Removing session 2b7e6c5b-c70d-49ef-a2cb-aabdf777268a from our master session list
+[38;5;16m[AppiumDriver@7c18][0m Removing session ea65377e-6610-4459-8927-ac862c29b2f8 from our master session list
 [38;5;96m[DevCon Factory][0m Releasing connections for 00008110-00112D590CD0201E device on any port number
-[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:52181"]
-[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:52181'
-[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/2b7e6c5b-c70d-49ef-a2cb-aabdf777268a 200 12 ms - 14
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:57742"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:57742'
+[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/ea65377e-6610-4459-8927-ac862c29b2f8 200 10 ms - 14
 [38;5;0m[HTTP][0m 
 [Appium] Received SIGTERM - shutting down
 [38;5;0m[HTTP][0m Waiting until the server is closed
