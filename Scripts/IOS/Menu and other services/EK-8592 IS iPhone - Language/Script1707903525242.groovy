@@ -41,7 +41,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Se
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (3)'), 
     '保存')
 
-Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Back (1)'), 30)
+Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - back (2)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'), 
     30)
