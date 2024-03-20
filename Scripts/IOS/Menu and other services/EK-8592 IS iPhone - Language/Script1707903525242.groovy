@@ -32,14 +32,13 @@ Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOt
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - add wound'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (1)'), 
-    '病人记录')
+Mobile.verifyElementText(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (4)'), '새로운 환자 추가')
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (2)'), 
-    '添加新患者')
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (5)'), 
+    '저장')
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (3)'), 
-    '保存')
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - (6)'), 
+    '환자 기록')
 
 Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - press back small'), 30)
 
@@ -51,4 +50,6 @@ Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language
 Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English (1)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - English'), 30)
+
+Mobile.closeApplication()
 
