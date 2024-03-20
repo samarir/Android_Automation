@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>XCUIElementTypeOther - Back (1)</name>
+   <name>XCUIElementTypeOther - Press Back</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,7 +12,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeOther</value>
-      <webElementGuid>6ec6a5f9-db94-4f49-9533-e5b2d48005da</webElementGuid>
+      <webElementGuid>9318d528-0253-46c1-9ede-d0cab0a14bd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b3c62ac0-77ae-4894-97e9-9d023ae16c08</webElementGuid>
+      <webElementGuid>8943b98a-2341-4378-9a8a-b75484a716c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c684d55b-d19a-4a0e-8a0e-df7f78c1a433</webElementGuid>
+      <webElementGuid>0fb28f54-23d9-46bb-91a7-0ca6b104b858</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>height</name>
       <type>Main</type>
       <value>96.0</value>
-      <webElementGuid>e824fcdb-aac5-4979-831c-18183209990e</webElementGuid>
+      <webElementGuid>163c2e76-6073-422a-bf0e-6bf47fef88bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>31519197-dd97-4d41-be50-a809a002f002</webElementGuid>
+      <webElementGuid>4a6317d6-d35b-4271-8818-f2f927a5d102</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>width</name>
       <type>Main</type>
       <value>170.0</value>
-      <webElementGuid>1f11d113-627c-4519-9ded-cd2443849d85</webElementGuid>
+      <webElementGuid>89587fa1-cd3d-4304-a60e-c98b97384d3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>x</name>
       <type>Main</type>
       <value>28.0</value>
-      <webElementGuid>64dacd7e-8238-4455-837c-48cdb8e69e3d</webElementGuid>
+      <webElementGuid>566e6113-857d-418c-83cd-4c850aada417</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>y</name>
       <type>Main</type>
       <value>94.0</value>
-      <webElementGuid>52a964f5-2a30-4b01-a9b2-2218bd875112</webElementGuid>
+      <webElementGuid>80e9c6e8-9af5-45bd-b03b-f8343b3fd932</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]</value>
-      <webElementGuid>cbea978b-0597-4cf0-872e-a8cbfd3dc287</webElementGuid>
+      <webElementGuid>b524a776-0301-4973-a062-65ff3298aa5e</webElementGuid>
    </webElementProperties>
    <locator>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
