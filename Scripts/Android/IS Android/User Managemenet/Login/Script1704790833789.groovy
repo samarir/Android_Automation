@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.LoginCreds, false)
+Mobile.startApplication('/Users/safaamarir/APK/Android/IS/IS_Preprod_234_2.2.0.apk', false)
 
 Mobile.setText(findTestObject('Android/Login Page/Username input'), GlobalVariable.LoginCreds.get('username'), 30)
 
@@ -30,5 +30,6 @@ Mobile.tap(findTestObject('Android/IS/User Management/Login/android.widget.TextV
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Android/IS/User Management/Login/android.widget.TextView - Patient Directory'), 30)
+Mobile.verifyElementExist(findTestObject('Android/IS/User Management/Login/android.widget.TextView - Patient Directory'), 
+    30)
 

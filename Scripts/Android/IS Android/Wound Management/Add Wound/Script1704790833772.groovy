@@ -16,27 +16,59 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.NoSuchElementException as NoSuchElementException
+
+WebUI.callTestCase(findTestCase('Android/IS Android/User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'), 
     '78ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site (1)'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.ImageView - add wound'), 30)
+Mobile.verifyElementExist(findTestObject('Android/IS/Wound Management/Add Wound/android.widget.TextView - Click  above to add a wound'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Next'), 30)
+// Define the locator strategy and value of the element you want to check
+String locatorStrategy = 'xpath'
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Save'), 30)
+String locatorValue = '//android.widget.TextView[@text=\'Click above to add a wound\']'
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.view.ViewGroup (2)'), 30)
+// Try to interact with the element
+try {
+    // Check if the element exists
+    if (Mobile.verifyElementExist(findTestObject('Android/IS/Wound Management/Add Wound/android.widget.TextView - Click  above to add a wound'), 10)) {
+        // If the element exists, do this
+        println('Element exists. Performing action...')
 
-Mobile.pressBack()
+        // Perform your action here
+        Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.ImageView - add wound'), 
+            30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.ImageView - x'), 30)
+        Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Next'), 
+            30)
+
+        Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Save'), 
+            30)
+
+        Mobile.pressBack()
+
+        Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.ImageView - x'), 
+            30) // If the element does not exist, do this
+        // Perform alternative action or skip
+    } else {
+        println('Element does not exist.')
+    }
+}
+catch (NoSuchElementException e) {
+    println('Element not found.')
+} // If the element is not found, do this
+// Perform alternative action or skip
 
