@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Report" time="196.053" tests="2" failures="1" errors="0">
+   <testsuite name="Data Report" tests="2" failures="1" errors="0" time="196.053" skipped="0" timestamp="16-04-2024T11:00:05" hostname="safaamarir - localhost" id="Test Suites/IS iPhone/Data Report">
+      <properties>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002"/>
+         <property name="logFiles" value="/Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/execution0.log, /Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/appium_error.log, /Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/appium.log, /Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/1713261779959.png, /Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/1713261789776.png"/>
+         <property name="hostName" value="safaamarir - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;,&quot;git-sha&quot;:&quot;0476c2e5e4f02b409084553896340b2f4ab3352e&quot;,&quot;built&quot;:&quot;2024-04-07 06:56:18 +0800&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="2.4.1"/>
+         <property name="deviceModel" value="iPhone14,5"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="00008110-00112D590CD0201E"/>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="deviceOSVersion" value="17.4.1"/>
+      </properties>
+      <testcase name="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" time="95.554" classname="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" status="PASSED">
+         <system-out><![CDATA[16-04-2024T11:00:05 - [TEST_CASE][PASSED] - Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in: Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in
+
+16-04-2024T11:00:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+16-04-2024T11:00:05 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+16-04-2024T11:00:05 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature"): Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+16-04-2024T11:00:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8491 IS iPhone - Sign in.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/cucumber_report/1713261605911'...
+
+16-04-2024T11:00:06 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+16-04-2024T11:00:06 - [TEST_STEP][PASSED] - startApplication(IPA, true): Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+16-04-2024T11:00:06 - [MESSAGE][INFO] - User set preference: ['automationName', 'XCUITest']
+
+16-04-2024T11:00:06 - [MESSAGE][INFO] - User set preference: ['deviceId', '00008110-00112D590CD0201E']
+
+16-04-2024T11:00:16 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+16-04-2024T11:00:16 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/21.7.1/bin/node"
+
+16-04-2024T11:00:16 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/21.7.1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+16-04-2024T11:00:16 - [MESSAGE][INFO] - APPIUM_HOME: /Users/safaamarir/.appium
+
+16-04-2024T11:00:16 - [MESSAGE][INFO] - appium outlog: /Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/appium.log
+
+16-04-2024T11:00:16 - [MESSAGE][INFO] - appium errlog: /Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/appium_error.log
+
+16-04-2024T11:00:18 - [MESSAGE][INFO] - Appium server started on port 62,098
+
+16-04-2024T11:01:22 - [MESSAGE][PASSED] - Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+16-04-2024T11:01:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+16-04-2024T11:01:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+16-04-2024T11:01:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+16-04-2024T11:01:24 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+16-04-2024T11:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+16-04-2024T11:01:26 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+16-04-2024T11:01:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+16-04-2024T11:01:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+16-04-2024T11:01:28 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+16-04-2024T11:01:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+16-04-2024T11:01:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-04-2024T11:01:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-04-2024T11:01:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .
+
+16-04-2024T11:01:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report" time="100.44" classname="Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED.&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)&#xa;	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[16-04-2024T11:01:41 - [TEST_CASE][FAILED] - Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report: Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+
+
+16-04-2024T11:01:41 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+16-04-2024T11:01:41 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+16-04-2024T11:01:41 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8596 IS iPhone - Patient (PDF) Report.feature"): Feature file: 'Include/features/EK-8596 IS iPhone - Patient (PDF) Report.feature' was passed
+
+16-04-2024T11:01:41 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8596 IS iPhone - Patient (PDF) Report.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/cucumber_report/1713261701247'...
+
+16-04-2024T11:01:41 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8596 IS iPhone - Patient (PDF) Report.feature' was passed
+
+16-04-2024T11:01:41 - [TEST_STEP][PASSED] - scrollToText("Generate, Report"): Scrolling to text 'Generate, Report' successfully
+
+16-04-2024T11:01:44 - [MESSAGE][PASSED] - Scrolling to text 'Generate, Report' successfully
+
+16-04-2024T11:01:44 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+16-04-2024T11:01:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+16-04-2024T11:01:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent'
+
+16-04-2024T11:02:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent'
+
+16-04-2024T11:02:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Data Report/XCUIElementTypeOther - menu"), 30): Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - menu'
+
+16-04-2024T11:02:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - menu'
+
+16-04-2024T11:02:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate Report"), 30): Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate Report'
+
+16-04-2024T11:02:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate Report'
+
+16-04-2024T11:02:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate"), 30): Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate'
+
+16-04-2024T11:02:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate'
+
+16-04-2024T11:02:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Data Report/XCUIElementTypeImage - eKare logo"), 30): Element 'Object Repository/IOS/Data Report/XCUIElementTypeImage - eKare logo' is exist
+
+16-04-2024T11:02:29 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Data Report/XCUIElementTypeImage - eKare logo' is exist
+
+16-04-2024T11:02:29 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile"), "WOUND ASSESSMENT REPORT: 19/03/2024 Patient Profile 
+"): Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+)
+
+16-04-2024T11:03:09 - [MESSAGE][FAILED] - Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/1713261779959.png]]
+
+16-04-2024T11:03:19 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+)
+[[ATTACHMENT|/Users/safaamarir/git/Android_Automation/Reports/20240416_110002/IS iPhone/Data Report/20240416_110002/1713261789776.png]]
+
+16-04-2024T11:03:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report' .
+
+16-04-2024T11:03:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report' .]]></system-out>
+         <system-err><![CDATA[16-04-2024T11:01:41 - [TEST_CASE][FAILED] - Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report: Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-04-2024T11:00:05 - [TEST_SUITE][FAILED] - Data Report: Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[16-04-2024T11:00:05 - [TEST_SUITE][FAILED] - Data Report: Test Cases/IOS/Data Report/EK-8596 IS iPhone - Patient (PDF) Report FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' FAILED.
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:61)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at EK-8596 IS iPhone - Patient (PDF) Report.run(EK-8596 IS iPhone - Patient (PDF) Report:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1713261602132.run(TempTestSuite1713261602132.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

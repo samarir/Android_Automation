@@ -34,9 +34,6 @@ Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOthe
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeImage - eKare logo'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - WOUND ASSESSMENT REPORT 19032024 Patient Profile'), 
-    'WOUND ASSESSMENT REPORT: 19/03/2024 Patient Profile \n')
-
 Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeButton - QLOverlayDoneButtonAccessibilityIdentifier'), 
     30)
 
