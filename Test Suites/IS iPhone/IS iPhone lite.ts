@@ -15,7 +15,7 @@
             <runConfigurationData>
                <entry>
                   <key>deviceName</key>
-                  <value>iPhone Safa’s iPhone 17.3</value>
+                  <value>iPhone Safa’s iPhone 17.4.1</value>
                </entry>
                <entry>
                   <key>deviceId</key>
@@ -35,7 +35,7 @@
             <runConfigurationData>
                <entry>
                   <key>deviceName</key>
-                  <value>iPhone Safa’s iPhone 17.3</value>
+                  <value>iPhone Safa’s iPhone 17.4.1</value>
                </entry>
                <entry>
                   <key>deviceId</key>
