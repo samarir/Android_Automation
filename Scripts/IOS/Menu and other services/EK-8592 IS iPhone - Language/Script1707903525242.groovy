@@ -47,9 +47,9 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user
 
 Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Settings'), 30)
 
-Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - Language English (1)'), 30)
+Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - setting korean'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - English'), 30)
+Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - language korean'), 30)
 
 Mobile.closeApplication()
 
