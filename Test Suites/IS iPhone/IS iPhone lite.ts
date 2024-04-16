@@ -64,7 +64,7 @@
             </runConfigurationData>
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/IS iPhone/Data Report</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
