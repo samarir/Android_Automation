@@ -37,6 +37,8 @@ Mobile.verifyElementText(findTestObject('Android/EU/Menu and Other services/Abou
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Measurement Module'), 
     'Measurement Module:')
 
+Mobile.scrollToText('Model Number', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - EK001'), 
     'EK001')
 
