@@ -51,5 +51,3 @@ Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOt
 
 Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Language/XCUIElementTypeOther - language korean'), 30)
 
-Mobile.closeApplication()
-
