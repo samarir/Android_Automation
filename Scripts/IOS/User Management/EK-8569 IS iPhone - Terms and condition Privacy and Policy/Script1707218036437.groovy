@@ -20,32 +20,31 @@ import org.openqa.selenium.Keys as Keys
 CucumberKW.runFeatureFile('Include/features/EK-8569 IS iPhone - Terms and condition Privacy and Policy.feature')
 
 Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
+
 //Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'), 30)
+Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions'), 
+    30)
 
-Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions'),
-	30)
-
-Mobile.tap(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions'),
-	30)
+Mobile.tap(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions'), 
+    30)
 
 WebUI.delay(5)
 
-Mobile.tapAtPosition(44, 42)
-Mobile.tapAtPosition(44, 42)
+Mobile.tapAtPosition(32, 42)
 
-Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeImage'),
-	30)
+Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeImage'), 
+    30)
 
-Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Privacy Policy'),
-	30)
+Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Privacy Policy'), 
+    30)
 
-Mobile.tap(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Privacy Policy'),
-	30)
+Mobile.tap(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Privacy Policy'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(44, 42)
 
-Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeImage'),
-	30)
+Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeImage'), 
+    30)
 
