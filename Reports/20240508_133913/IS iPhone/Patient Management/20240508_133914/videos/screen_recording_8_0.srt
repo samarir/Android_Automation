@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,015
+1. addDefaultPackages()
+
+2
+00:00:00,015 --> 00:00:00,020
+1. runFeatureFile("Include/features/EK-8774 IS iPhone - Delete Patient.feature")
+
+3
+00:00:00,020 --> 00:00:02,731
+5. setText(findTestObject("IOS/Patient Management/Freeze Patient/XCUIElementTypeTextField - Search Bar"), "6766", 30)
+
+4
+00:00:02,731 --> 00:00:05,734
+9. delay(3, STOP_ON_FAILURE)
+
+5
+00:00:05,734 --> 00:00:47,733
+13. startApplication("/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa", true)
+
+6
+00:00:47,734 --> 00:01:28,011
+17. tap(findTestObject("Object Repository/IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 08052024 22M    MRN 6766 No Consent"), 30)
+

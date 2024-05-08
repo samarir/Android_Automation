@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:00,016
+1. addDefaultPackages()
+
+2
+00:00:00,017 --> 00:00:00,023
+1. runFeatureFile("Include/features/EK-8771 IS iPhone - Freeze Patient.feature")
+
+3
+00:00:00,023 --> 00:00:03,089
+5. setText(findTestObject("IOS/Patient Management/Freeze Patient/XCUIElementTypeTextField - Search Bar"), "6767", 30)
+
+4
+00:00:03,090 --> 00:00:06,100
+9. delay(3, STOP_ON_FAILURE)
+
+5
+00:00:06,100 --> 00:00:07,614
+13. tap(findTestObject("IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Freeze, Patient 08052024 26M    MRN 6767 No Consent"), 30)
+

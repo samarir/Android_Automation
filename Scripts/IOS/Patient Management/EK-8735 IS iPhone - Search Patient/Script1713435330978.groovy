@@ -16,14 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 CucumberKW.runFeatureFile('Include/features/EK-8735 IS iPhone - Search Patient.feature')
-
-WebUI.callTestCase(findTestCase('IOS/User Management/EK-8491 IS iPhone - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'), 
     '987', 30)
@@ -31,12 +26,12 @@ Mobile.setText(findTestObject('Object Repository/IOS/Patient Management/Search P
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site'), 
     'Current site')
 
-//Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Litee, Editt 18042024 22M    MRN 987 No Consent'), 30)
-// Define the regular expression pattern
-String regexPattern = ".*MRN: 987.*"
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-// Find all elements matching the regex pattern
-List<TestObject> elements = Mobile.tap(findTestObjects("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Litee, Editt 18042024 22M    MRN 987 No Consent", ConditionType.MATCHES_REGEX, regexPattern, GlobalVariable.DEFAULT_MOBILE_TIMEOUT), 30).
+// this first tap is just to remove the key board since its blocking.
+Mobile.tap(findTestObject('IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - x'), 30)
+Mobile.tap(findTestObject('IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent'), 
+    30)
 

@@ -54,5 +54,3 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Managemen
 
 Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Back'), 30)
 
-Mobile.closeApplication()
-

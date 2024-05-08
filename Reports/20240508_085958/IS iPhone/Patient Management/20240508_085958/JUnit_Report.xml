@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Patient Management" time="122.988" tests="4" failures="0" errors="0">
+   <testsuite name="Patient Management" tests="4" failures="0" errors="0" time="122.988" skipped="0" timestamp="08-05-2024T09:00:00" hostname="safaamarir - 192.168.1.4" id="Test Suites/IS iPhone/Patient Management">
+      <properties>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958"/>
+         <property name="logFiles" value="/Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/execution0.log, /Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/appium_error.log, /Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/appium.log, /Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="safaamarir - 192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;,&quot;git-sha&quot;:&quot;0476c2e5e4f02b409084553896340b2f4ab3352e&quot;,&quot;built&quot;:&quot;2024-04-07 06:56:18 +0800&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="2.4.1"/>
+         <property name="deviceModel" value="iPhone14,5"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="00008110-00112D590CD0201E"/>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="deviceOSVersion" value="17.4.1"/>
+      </properties>
+      <testcase name="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" time="65.795" classname="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" status="PASSED">
+         <system-out><![CDATA[08-05-2024T09:00:01 - [TEST_CASE][PASSED] - Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in: Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in
+
+08-05-2024T09:00:01 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+08-05-2024T09:00:01 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+08-05-2024T09:00:01 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature"): Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+08-05-2024T09:00:01 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8491 IS iPhone - Sign in.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/cucumber_report/1715155201335'...
+
+08-05-2024T09:00:01 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+08-05-2024T09:00:01 - [TEST_STEP][PASSED] - startApplication(IPA, true): Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+08-05-2024T09:00:01 - [MESSAGE][INFO] - User set preference: ['automationName', 'XCUITest']
+
+08-05-2024T09:00:01 - [MESSAGE][INFO] - User set preference: ['deviceId', '00008110-00112D590CD0201E']
+
+08-05-2024T09:00:11 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+08-05-2024T09:00:11 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/21.7.1/bin/node"
+
+08-05-2024T09:00:11 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/21.7.1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+08-05-2024T09:00:11 - [MESSAGE][INFO] - APPIUM_HOME: /Users/safaamarir/.appium
+
+08-05-2024T09:00:11 - [MESSAGE][INFO] - appium outlog: /Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/appium.log
+
+08-05-2024T09:00:11 - [MESSAGE][INFO] - appium errlog: /Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/appium_error.log
+
+08-05-2024T09:00:13 - [MESSAGE][INFO] - Appium server started on port 59,131
+
+08-05-2024T09:00:47 - [MESSAGE][PASSED] - Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+08-05-2024T09:00:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+08-05-2024T09:00:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+08-05-2024T09:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+08-05-2024T09:00:50 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+08-05-2024T09:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+08-05-2024T09:00:52 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+08-05-2024T09:00:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+08-05-2024T09:00:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+08-05-2024T09:00:53 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+08-05-2024T09:00:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+08-05-2024T09:00:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+08-05-2024T09:01:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+08-05-2024T09:01:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .
+
+08-05-2024T09:01:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Patient Management/EK-8733 IS iPhone - Add Patient" time="21.064" classname="Test Cases/IOS/Patient Management/EK-8733 IS iPhone - Add Patient" status="PASSED">
+         <system-out><![CDATA[08-05-2024T09:01:06 - [TEST_CASE][PASSED] - Test Cases/IOS/Patient Management/EK-8733 IS iPhone - Add Patient: Test Cases/IOS/Patient Management/EK-8733 IS iPhone - Add Patient
+
+08-05-2024T09:01:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+08-05-2024T09:01:06 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+08-05-2024T09:01:06 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8733 IS iPhone - Add Patient.feature"): Feature file: 'Include/features/EK-8733 IS iPhone - Add Patient.feature' was passed
+
+08-05-2024T09:01:06 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8733 IS iPhone - Add Patient.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/cucumber_report/1715155266867'...
+
+08-05-2024T09:01:06 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8733 IS iPhone - Add Patient.feature' was passed
+
+08-05-2024T09:01:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeOther - Add Patient"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeOther - Add Patient'
+
+08-05-2024T09:01:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeOther - Add Patient'
+
+08-05-2024T09:01:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - First name"), "Test", 30): Text 'Test' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - First name'
+
+08-05-2024T09:01:11 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - First name'
+
+08-05-2024T09:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - Last name"), "Lite", 30): Text 'Lite' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - Last name'
+
+08-05-2024T09:01:13 - [MESSAGE][PASSED] - Text 'Lite' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - Last name'
+
+08-05-2024T09:01:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - Date of birth (ddmmyyyy)"), "09/12/2001", 30): Text '09/12/2001' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - Date of birth (ddmmyyyy)'
+
+08-05-2024T09:01:16 - [MESSAGE][PASSED] - Text '09/12/2001' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - Date of birth (ddmmyyyy)'
+
+08-05-2024T09:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - MRN"), "6766", 30): Text '6766' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - MRN'
+
+08-05-2024T09:01:19 - [MESSAGE][PASSED] - Text '6766' has been set to element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeTextField - MRN'
+
+08-05-2024T09:01:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeOther - Save"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeOther - Save'
+
+08-05-2024T09:01:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeOther - Save'
+
+08-05-2024T09:01:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeStaticText - Patient created successfully"), "Patient created successfully"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeStaticText - Patient created successfully' are matched.
+
+08-05-2024T09:01:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeStaticText - Patient created successfully' are matched.
+
+08-05-2024T09:01:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeButton - OK"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeButton - OK'
+
+08-05-2024T09:01:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Add Patient/XCUIElementTypeButton - OK'
+
+08-05-2024T09:01:27 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Patient Management/EK-8733 IS iPhone - Add Patient' .
+
+08-05-2024T09:01:27 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Patient Management/EK-8733 IS iPhone - Add Patient' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Patient Management/EK-8735 IS iPhone - Search Patient" time="12.019" classname="Test Cases/IOS/Patient Management/EK-8735 IS iPhone - Search Patient" status="PASSED">
+         <system-out><![CDATA[08-05-2024T09:01:27 - [TEST_CASE][PASSED] - Test Cases/IOS/Patient Management/EK-8735 IS iPhone - Search Patient: Test Cases/IOS/Patient Management/EK-8735 IS iPhone - Search Patient
+
+08-05-2024T09:01:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+08-05-2024T09:01:27 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+08-05-2024T09:01:27 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8735 IS iPhone - Search Patient.feature"): Feature file: 'Include/features/EK-8735 IS iPhone - Search Patient.feature' was passed
+
+08-05-2024T09:01:27 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8735 IS iPhone - Search Patient.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/cucumber_report/1715155287940'...
+
+08-05-2024T09:01:27 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8735 IS iPhone - Search Patient.feature' was passed
+
+08-05-2024T09:01:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "987", 30): Text '987' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+08-05-2024T09:01:31 - [MESSAGE][PASSED] - Text '987' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+08-05-2024T09:01:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+08-05-2024T09:01:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+08-05-2024T09:01:32 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+08-05-2024T09:01:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-05-2024T09:01:35 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent'
+
+08-05-2024T09:01:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent'
+
+08-05-2024T09:01:36 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent'
+
+08-05-2024T09:01:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent'
+
+08-05-2024T09:01:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Patient Management/EK-8735 IS iPhone - Search Patient' .
+
+08-05-2024T09:01:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Patient Management/EK-8735 IS iPhone - Search Patient' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient" time="24.044" classname="Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient" status="PASSED">
+         <system-out><![CDATA[08-05-2024T09:01:39 - [TEST_CASE][PASSED] - Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient: Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient
+
+08-05-2024T09:01:39 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+08-05-2024T09:01:39 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+08-05-2024T09:01:39 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8734 IS iPhone - Edit Patient.feature"): Feature file: 'Include/features/EK-8734 IS iPhone - Edit Patient.feature' was passed
+
+08-05-2024T09:01:39 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8734 IS iPhone - Edit Patient.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240508_085958/IS iPhone/Patient Management/20240508_085958/cucumber_report/1715155299949'...
+
+08-05-2024T09:01:39 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8734 IS iPhone - Edit Patient.feature' was passed
+
+08-05-2024T09:01:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - menu"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - menu'
+
+08-05-2024T09:01:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - menu'
+
+08-05-2024T09:01:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Edit patient"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Edit patient'
+
+08-05-2024T09:01:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Edit patient'
+
+08-05-2024T09:01:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - First Name"), "Editt", 30): Text 'Editt' has been set to element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - First Name'
+
+08-05-2024T09:01:45 - [MESSAGE][PASSED] - Text 'Editt' has been set to element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - First Name'
+
+08-05-2024T09:01:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - Last Name"), "Litee", 30): Text 'Litee' has been set to element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - Last Name'
+
+08-05-2024T09:01:48 - [MESSAGE][PASSED] - Text 'Litee' has been set to element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - Last Name'
+
+08-05-2024T09:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - DOB"), "09/07/2001", 30): Text '09/07/2001' has been set to element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - DOB'
+
+08-05-2024T09:01:51 - [MESSAGE][PASSED] - Text '09/07/2001' has been set to element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - DOB'
+
+08-05-2024T09:01:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Save"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Save'
+
+08-05-2024T09:01:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Save'
+
+08-05-2024T09:01:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - Patient updated successfully"), "Patient updated successfully."): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - Patient updated successfully' are matched.
+
+08-05-2024T09:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - Patient updated successfully' are matched.
+
+08-05-2024T09:01:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeButton - OK"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeButton - OK'
+
+08-05-2024T09:01:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeButton - OK'
+
+08-05-2024T09:01:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Litee, Editt"), "Litee, Editt"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Litee, Editt' are matched.
+
+08-05-2024T09:01:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Litee, Editt' are matched.
+
+08-05-2024T09:01:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 09072001"), "09/07/2001"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 09072001' are matched.
+
+08-05-2024T09:01:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 09072001' are matched.
+
+08-05-2024T09:01:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - 22"), "22"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - 22' are matched.
+
+08-05-2024T09:02:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - 22' are matched.
+
+08-05-2024T09:02:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 987"), "987"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 987' are matched.
+
+08-05-2024T09:02:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 987' are matched.
+
+08-05-2024T09:02:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Back"), 30): Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Back'
+
+08-05-2024T09:02:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Back'
+
+08-05-2024T09:02:03 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient' .
+
+08-05-2024T09:02:03 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-05-2024T09:00:00 - [TEST_SUITE][PASSED] - Patient Management: Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

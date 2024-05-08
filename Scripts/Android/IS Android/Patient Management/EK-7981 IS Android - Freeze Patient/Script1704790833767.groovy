@@ -19,8 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7981 IS Android - Freeze Patient.feature')
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN'), 
+Mobile.setText(findTestObject('Android/IS/Patient Management/Freeze Patient/android.widget.EditText - Search by Name, MRN'), 
     '6767', 30)
+
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.view.ViewGroup'), 30)
@@ -30,7 +31,8 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freez
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.view.ViewGroup (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.view.ViewGroup (1)'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Patient Management/Freeze Patient/android.widget.ImageView - menu'), 30)
 
@@ -40,10 +42,12 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freez
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.TextView - Change patient status to Inactive'), 
     'Change patient status to Inactive ?')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.TextView - Confirm'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.TextView - Confirm'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.TextView - Patient Inactive'), 
     'Patient Inactive')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.ImageView (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Patient Management/Freeze Patient/android.widget.ImageView (1)'), 
+    30)
 

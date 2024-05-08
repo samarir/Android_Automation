@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:00,015
+1. addDefaultPackages()
+
+2
+00:00:00,016 --> 00:00:00,022
+1. runFeatureFile("Include/features/EK-8771 IS iPhone - Freeze Patient.feature")
+
+3
+00:00:00,022 --> 00:00:02,996
+5. setText(findTestObject("IOS/Patient Management/Freeze Patient/XCUIElementTypeTextField - Search Bar"), "6767", 30)
+
+4
+00:00:02,996 --> 00:00:06,006
+9. delay(3, STOP_ON_FAILURE)
+
+5
+00:00:06,006 --> 00:00:07,493
+13. tap(findTestObject("IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Freeze, Patient 08052024 26M    MRN 6767 No Consent"), 30)
+
+6
+00:00:07,494 --> 00:00:08,386
+17. tap(findTestObject("IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Freeze, Patient 08052024 26M    MRN 6767 No Consent"), 30)
+
+7
+00:00:08,386 --> 00:00:09,875
+21. tap(findTestObject("Object Repository/IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Menu"), 30)
+
+8
+00:00:09,875 --> 00:00:11,029
+25. tap(findTestObject("Object Repository/IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Freeze patient"), 30)
+
+9
+00:00:11,029 --> 00:00:12,439
+29. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Change patient status to Inactive"), "Change patient status to Inactive ?")
+
+10
+00:00:12,439 --> 00:00:13,177
+33. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Confirm"), "Confirm")
+
+11
+00:00:13,177 --> 00:00:13,907
+37. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Cancel"), "Cancel")
+
+12
+00:00:13,907 --> 00:00:14,984
+41. tap(findTestObject("Object Repository/IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Confirm"), 30)
+

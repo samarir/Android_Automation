@@ -31,6 +31,7 @@ Mobile.tap(findTestObject('IOS/User Management/Terms and Conditions Privacy and 
 WebUI.delay(5)
 
 Mobile.tapAtPosition(44, 42)
+Mobile.tapAtPosition(44, 42)
 
 Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeImage'),
 	30)

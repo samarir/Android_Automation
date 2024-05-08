@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:00,024
+1. addDefaultPackages()
+
+2
+00:00:00,024 --> 00:00:00,031
+1. runFeatureFile("Include/features/EK-8734 IS iPhone - Edit Patient.feature")
+
+3
+00:00:00,031 --> 00:00:01,036
+5. tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - menu"), 30)
+
+4
+00:00:01,036 --> 00:00:02,291
+9. tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Edit patient"), 30)
+
+5
+00:00:02,291 --> 00:00:05,357
+13. setText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - First Name"), "Editt", 30)
+
+6
+00:00:05,357 --> 00:00:07,863
+17. setText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - Last Name"), "Litee", 30)
+
+7
+00:00:07,863 --> 00:00:10,469
+21. setText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeTextField - DOB"), "09/07/2001", 30)
+
+8
+00:00:10,469 --> 00:00:11,944
+25. tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Save"), 30)
+
+9
+00:00:11,944 --> 00:00:14,413
+29. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - Patient updated successfully"), "Patient updated successfully.")
+
+10
+00:00:14,414 --> 00:00:16,500
+33. tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeButton - OK"), 30)
+
+11
+00:00:16,500 --> 00:00:17,338
+37. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Litee, Editt"), "Litee, Editt")
+
+12
+00:00:17,338 --> 00:00:18,025
+41. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 09072001"), "09/07/2001")
+
+13
+00:00:18,025 --> 00:00:18,692
+45. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - 22"), "22")
+
+14
+00:00:18,692 --> 00:00:19,444
+49. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 987"), "987")
+
+15
+00:00:19,444 --> 00:00:20,215
+53. tap(findTestObject("Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Back"), 30)
+

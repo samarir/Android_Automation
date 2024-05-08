@@ -1,142 +1,1586 @@
-[35m[Appium][39m Welcome to Appium v2.4.1 (REV 0476c2e5e4f02b409084553896340b2f4ab3352e)
+[35m[Appium][39m Welcome to Appium v2.4.1 (REV 82c2e743a5bcea725f9ca1429e3e21c3088ff904)
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m61374[39m }
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m56015[39m }
 [35m[Appium][39m Attempting to load driver xcuitest...
 [35m[Appium][39m Attempting to load driver uiautomator2...
-[Appium] Appium REST http interface listener started on http://0.0.0.0:61374/wd/hub
+[Appium] Appium REST http interface listener started on http://0.0.0.0:56015/wd/hub
 [Appium] You can provide the following URLs in your client code to connect to this server:
-[Appium] 	http://127.0.0.1:61374/wd/hub (only accessible from the same host)
-[Appium] 	http://192.168.1.33:61374/wd/hub
-[Appium] 	http://169.254.27.216:61374/wd/hub
+[Appium] 	http://127.0.0.1:56015/wd/hub (only accessible from the same host)
+[Appium] 	http://192.168.1.4:56015/wd/hub
+[Appium] 	http://169.254.111.83:56015/wd/hub
 [Appium] Available drivers:
 [Appium]   - xcuitest@5.12.2 (automationName 'XCUITest')
 [Appium]   - uiautomator2@2.40.0 (automationName 'UiAutomator2')
 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 4 ms - 199
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 199
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [38;5;0m[HTTP][0m {}
 [38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 199
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:automationName":"XCUITest","appium:fullReset":false,"appium:platformVersion":"17.4.1","appium:deviceId":"00008110-00112D590CD0201E","appium:noReset":true,"appium:udid":"00008110-00112D590CD0201E","appium:wdaLocalPort":61389,"appium:deviceName":"Safa’s iPhone","platformName":"iOS","appium:app":"/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa"},"capabilities":{"firstMatch":[{"appium:app":"/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa","appium:automationName":"XCUITest","appium:deviceId":"00008110-00112D590CD0201E","appium:deviceName":"Safa’s iPhone","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"17.4.1","appium:udid":"00008110-00112D590CD0201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":61389,"platformName":"ios"}]}}
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:automationName":"XCUITest","appium:fullReset":false,"appium:platformVersion":"17.4.1","appium:deviceId":"00008110-00112D590CD0201E","appium:noReset":true,"appium:udid":"00008110-00112D590CD0201E","appium:wdaLocalPort":56025,"appium:deviceName":"Safa’s iPhone","platformName":"iOS","appium:app":"/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa"},"capabilities":{"firstMatch":[{"appium:app":"/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa","appium:automationName":"XCUITest","appium:deviceId":"00008110-00112D590CD0201E","appium:deviceName":"Safa’s iPhone","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"17.4.1","appium:udid":"00008110-00112D590CD0201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":56025,"platformName":"ios"}]}}
 [Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
 [Appium] The 'xcuitest' driver was installed and matched caps.
 [Appium] Will require it at /Users/safaamarir/.appium/node_modules/appium-xcuitest-driver
-[38;5;16m[AppiumDriver@2610][0m Appium v2.4.1 creating new XCUITestDriver (v5.12.2) session
-[38;5;16m[AppiumDriver@2610][0m Checking BaseDriver versions for Appium and XCUITestDriver
-[38;5;16m[AppiumDriver@2610][0m Appium's BaseDriver version is 9.5.0
-[38;5;16m[AppiumDriver@2610][0m XCUITestDriver's BaseDriver version is 9.5.0
-[38;5;32m[XCUITestDriver@7c17][0m The following provided capabilities were not recognized by this driver:
-[38;5;32m[XCUITestDriver@7c17][0m   deviceId
-[38;5;32m[XCUITestDriver@7c17][0m   waitForAppScript
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Session created with session id: b2796d83-3685-41c6-baae-2c262908e367
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Determining device to run tests on: udid: '00008110-00112D590CD0201E', real device: true
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Normalized platformVersion capability value '17.4.1' to '17.4'
+[38;5;16m[AppiumDriver@b7c7][0m Appium v2.4.1 creating new XCUITestDriver (v5.12.2) session
+[38;5;16m[AppiumDriver@b7c7][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@b7c7][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@b7c7][0m XCUITestDriver's BaseDriver version is 9.5.0
+[38;5;32m[XCUITestDriver@ac53][0m The following provided capabilities were not recognized by this driver:
+[38;5;32m[XCUITestDriver@ac53][0m   deviceId
+[38;5;32m[XCUITestDriver@ac53][0m   waitForAppScript
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Session created with session id: 5bda6764-4f2e-406f-9863-0f4d7e3e1bb9
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Determining device to run tests on: udid: '00008110-00112D590CD0201E', real device: true
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Normalized platformVersion capability value '17.4.1' to '17.4'
 [38;5;64m[BaseDriver][0m Using local app '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m 'Payload/eKareApp.app' is the resulting application bundle selected from '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Using WDA path: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Using WDA agent: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Setting up real device
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m App 'com.ekareinc.insight.healthcare' is not installed yet or it has an offload and cannot be detected, which might keep the local data.
-[38;5;48m[XCUITest][0m App installation succeeded after 13148ms
-[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-00112D590CD0201E on local port 61389, device port 61389
-[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-00112D590CD0201E:61389
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m 'Payload/eKareApp.app' is the resulting application bundle selected from '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Using WDA path: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Using WDA agent: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Setting up real device
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m App 'com.ekareinc.insight.healthcare' is already installed
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m noReset is requested. The app will not be be (re)installed
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-00112D590CD0201E on local port 56025, device port 56025
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-00112D590CD0201E:56025
 [38;5;112m[WD Proxy][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Launching WebDriverAgent on the device
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m There is no need to perform the project cleanup. A fresh install has been detected
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m socket hang up
-[38;5;32m[XCUITestDriver@7c17 (b2796d83)][0m Determined the downstream protocol as 'W3C'
-[38;5;16m[AppiumDriver@2610][0m New XCUITestDriver session created successfully, session b2796d83-3685-41c6-baae-2c262908e367 added to master session list
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 68927 ms - 624
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m socket hang up
+[38;5;32m[XCUITestDriver@ac53 (5bda6764)][0m Determined the downstream protocol as 'W3C'
+[38;5;16m[AppiumDriver@b7c7][0m New XCUITestDriver session created successfully, session 5bda6764-4f2e-406f-9863-0f4d7e3e1bb9 added to master session list
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 33620 ms - 624
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367 200 1 ms - 360
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9 200 2 ms - 360
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367 200 0 ms - 360
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9 200 1 ms - 360
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 199
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 199
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/timeouts[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts[39m
 [38;5;0m[HTTP][0m {"implicit":60000}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts 200 1 ms - 14
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/execute/sync[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/execute/sync[39m
 [38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/execute/sync 200 868 ms - 25512
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/execute/sync 200 1949 ms - 102132
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/screenshot[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/screenshot[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/screenshot 200 204 ms - 1017668
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/screenshot 200 260 ms - 540036
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/execute/sync 200 812 ms - 24045
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element 200 632 ms - 137
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/screenshot[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":1000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/elements 200 14196 ms - 22795
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0A000000-0000-0000-3326-000000000000/location[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367/screenshot 200 160 ms - 842480
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0A000000-0000-0000-3326-000000000000/location 200 126 ms - 23
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0A000000-0000-0000-3326-000000000000/size[39m
 [38;5;0m[HTTP][0m {}
-[38;5;16m[AppiumDriver@2610][0m Removing session b2796d83-3685-41c6-baae-2c262908e367 from our master session list
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0A000000-0000-0000-3326-000000000000/size 200 86 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0B000000-0000-0000-3326-000000000000/location 200 92 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0B000000-0000-0000-3326-000000000000/size 200 95 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0C000000-0000-0000-3326-000000000000/location 200 94 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0C000000-0000-0000-3326-000000000000/size 200 100 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0D000000-0000-0000-3326-000000000000/location 200 103 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0D000000-0000-0000-3326-000000000000/size 200 104 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0E000000-0000-0000-3326-000000000000/location 200 110 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0E000000-0000-0000-3326-000000000000/size 200 111 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0F000000-0000-0000-3326-000000000000/location 200 113 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/0F000000-0000-0000-3326-000000000000/size 200 102 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/10000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/10000000-0000-0000-3326-000000000000/location 200 105 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/10000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/10000000-0000-0000-3326-000000000000/size 200 112 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/11000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/11000000-0000-0000-3326-000000000000/location 200 110 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/11000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/11000000-0000-0000-3326-000000000000/size 200 104 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/12000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/12000000-0000-0000-3326-000000000000/location 200 109 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/12000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/12000000-0000-0000-3326-000000000000/size 200 105 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/13000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/13000000-0000-0000-3326-000000000000/location 200 107 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/13000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/13000000-0000-0000-3326-000000000000/size 200 105 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/14000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/14000000-0000-0000-3326-000000000000/location 200 95 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/14000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/14000000-0000-0000-3326-000000000000/size 200 102 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/15000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/15000000-0000-0000-3326-000000000000/location 200 100 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/15000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/15000000-0000-0000-3326-000000000000/size 200 103 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/16000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/16000000-0000-0000-3326-000000000000/location 200 102 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/16000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/16000000-0000-0000-3326-000000000000/size 200 104 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/17000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/17000000-0000-0000-3326-000000000000/location 200 112 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/17000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/17000000-0000-0000-3326-000000000000/size 200 107 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/18000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/18000000-0000-0000-3326-000000000000/location 200 106 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/18000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/18000000-0000-0000-3326-000000000000/size 200 107 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/19000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/19000000-0000-0000-3326-000000000000/location 200 99 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/19000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/19000000-0000-0000-3326-000000000000/size 200 95 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1A000000-0000-0000-3326-000000000000/location 200 100 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1A000000-0000-0000-3326-000000000000/size 200 98 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1B000000-0000-0000-3326-000000000000/location 200 97 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1B000000-0000-0000-3326-000000000000/size 200 102 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1C000000-0000-0000-3326-000000000000/location 200 99 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1C000000-0000-0000-3326-000000000000/size 200 104 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1D000000-0000-0000-3326-000000000000/location 200 98 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1D000000-0000-0000-3326-000000000000/size 200 102 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1E000000-0000-0000-3326-000000000000/location 200 107 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1E000000-0000-0000-3326-000000000000/size 200 104 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1F000000-0000-0000-3326-000000000000/location 200 104 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/1F000000-0000-0000-3326-000000000000/size 200 101 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/20000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/20000000-0000-0000-3326-000000000000/location 200 100 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/20000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/20000000-0000-0000-3326-000000000000/size 200 110 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/22000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/22000000-0000-0000-3326-000000000000/location 200 114 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/22000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/22000000-0000-0000-3326-000000000000/size 200 114 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/23000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/23000000-0000-0000-3326-000000000000/location 200 107 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/23000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/23000000-0000-0000-3326-000000000000/size 200 107 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/24000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/24000000-0000-0000-3326-000000000000/location 200 102 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/24000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/24000000-0000-0000-3326-000000000000/size 200 101 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/25000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/25000000-0000-0000-3326-000000000000/location 200 111 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/25000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/25000000-0000-0000-3326-000000000000/size 200 110 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/26000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/26000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/26000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/26000000-0000-0000-3326-000000000000/size 200 107 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/27000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/27000000-0000-0000-3326-000000000000/location 200 108 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/27000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/27000000-0000-0000-3326-000000000000/size 200 105 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/28000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/28000000-0000-0000-3326-000000000000/location 200 96 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/28000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/28000000-0000-0000-3326-000000000000/size 200 99 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/29000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/29000000-0000-0000-3326-000000000000/location 200 93 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/29000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/29000000-0000-0000-3326-000000000000/size 200 102 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2A000000-0000-0000-3326-000000000000/location 200 100 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2A000000-0000-0000-3326-000000000000/size 200 107 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2B000000-0000-0000-3326-000000000000/location 200 101 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2B000000-0000-0000-3326-000000000000/size 200 110 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2C000000-0000-0000-3326-000000000000/location 200 106 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2C000000-0000-0000-3326-000000000000/size 200 106 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2D000000-0000-0000-3326-000000000000/location 200 107 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2D000000-0000-0000-3326-000000000000/size 200 107 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2E000000-0000-0000-3326-000000000000/location 200 102 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2E000000-0000-0000-3326-000000000000/size 200 96 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2F000000-0000-0000-3326-000000000000/location 200 93 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/2F000000-0000-0000-3326-000000000000/size 200 94 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/30000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/30000000-0000-0000-3326-000000000000/location 200 101 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/30000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/30000000-0000-0000-3326-000000000000/size 200 96 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/31000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/31000000-0000-0000-3326-000000000000/location 200 98 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/31000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/31000000-0000-0000-3326-000000000000/size 200 94 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/32000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/32000000-0000-0000-3326-000000000000/location 200 95 ms - 28
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/32000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/32000000-0000-0000-3326-000000000000/size 200 94 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/33000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/33000000-0000-0000-3326-000000000000/location 200 103 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/33000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/33000000-0000-0000-3326-000000000000/size 200 96 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/34000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/34000000-0000-0000-3326-000000000000/location 200 97 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/34000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/34000000-0000-0000-3326-000000000000/size 200 100 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/35000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/35000000-0000-0000-3326-000000000000/location 200 90 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/35000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/35000000-0000-0000-3326-000000000000/size 200 90 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/37000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/37000000-0000-0000-3326-000000000000/location 200 89 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/37000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/37000000-0000-0000-3326-000000000000/size 200 91 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/38000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/38000000-0000-0000-3326-000000000000/location 200 98 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/38000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/38000000-0000-0000-3326-000000000000/size 200 98 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3A000000-0000-0000-3326-000000000000/location 200 97 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3A000000-0000-0000-3326-000000000000/size 200 101 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3B000000-0000-0000-3326-000000000000/location 200 100 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3B000000-0000-0000-3326-000000000000/size 200 104 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3C000000-0000-0000-3326-000000000000/location 200 106 ms - 27
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3C000000-0000-0000-3326-000000000000/size 200 110 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3D000000-0000-0000-3326-000000000000/location 200 110 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3D000000-0000-0000-3326-000000000000/size 200 109 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3E000000-0000-0000-3326-000000000000/location 200 112 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3E000000-0000-0000-3326-000000000000/size 200 98 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3F000000-0000-0000-3326-000000000000/location 200 67 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/3F000000-0000-0000-3326-000000000000/size 200 78 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/40000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/40000000-0000-0000-3326-000000000000/location 200 68 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/40000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/40000000-0000-0000-3326-000000000000/size 200 73 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/41000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/41000000-0000-0000-3326-000000000000/location 200 76 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/41000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/41000000-0000-0000-3326-000000000000/size 200 83 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/42000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/42000000-0000-0000-3326-000000000000/location 200 87 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/42000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/42000000-0000-0000-3326-000000000000/size 200 88 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/43000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/43000000-0000-0000-3326-000000000000/location 200 93 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/43000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/43000000-0000-0000-3326-000000000000/size 200 92 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/44000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/44000000-0000-0000-3326-000000000000/location 200 96 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/44000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/44000000-0000-0000-3326-000000000000/size 200 98 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/45000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/45000000-0000-0000-3326-000000000000/location 200 100 ms - 23
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/45000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/45000000-0000-0000-3326-000000000000/size 200 101 ms - 36
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/46000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/46000000-0000-0000-3326-000000000000/location 200 97 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/46000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/46000000-0000-0000-3326-000000000000/size 200 100 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/47000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/47000000-0000-0000-3326-000000000000/location 200 100 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/47000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/47000000-0000-0000-3326-000000000000/size 200 101 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/49000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/49000000-0000-0000-3326-000000000000/location 200 97 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/49000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/49000000-0000-0000-3326-000000000000/size 200 99 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4A000000-0000-0000-3326-000000000000/location 200 100 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4A000000-0000-0000-3326-000000000000/size 200 101 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4B000000-0000-0000-3326-000000000000/location 200 102 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4B000000-0000-0000-3326-000000000000/size 200 102 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4C000000-0000-0000-3326-000000000000/location 200 96 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4C000000-0000-0000-3326-000000000000/size 200 99 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4D000000-0000-0000-3326-000000000000/location 200 99 ms - 27
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4D000000-0000-0000-3326-000000000000/size 200 99 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4E000000-0000-0000-3326-000000000000/location 200 109 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4E000000-0000-0000-3326-000000000000/size 200 114 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4F000000-0000-0000-3326-000000000000/location 200 114 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/4F000000-0000-0000-3326-000000000000/size 200 113 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/51000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/51000000-0000-0000-3326-000000000000/location 200 114 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/51000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/51000000-0000-0000-3326-000000000000/size 200 109 ms - 37
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/52000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/52000000-0000-0000-3326-000000000000/location 200 116 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/52000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/52000000-0000-0000-3326-000000000000/size 200 120 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/53000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/53000000-0000-0000-3326-000000000000/location 200 121 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/53000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/53000000-0000-0000-3326-000000000000/size 200 121 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/54000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/54000000-0000-0000-3326-000000000000/location 200 122 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/54000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/54000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/55000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/55000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/55000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/55000000-0000-0000-3326-000000000000/size 200 120 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/56000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/56000000-0000-0000-3326-000000000000/location 200 126 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/56000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/56000000-0000-0000-3326-000000000000/size 200 118 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/57000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/57000000-0000-0000-3326-000000000000/location 200 115 ms - 27
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/57000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/57000000-0000-0000-3326-000000000000/size 200 117 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/58000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/58000000-0000-0000-3326-000000000000/location 200 115 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/58000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/58000000-0000-0000-3326-000000000000/size 200 117 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5A000000-0000-0000-3326-000000000000/location 200 115 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5A000000-0000-0000-3326-000000000000/size 200 116 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5B000000-0000-0000-3326-000000000000/location 200 118 ms - 27
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5B000000-0000-0000-3326-000000000000/size 200 118 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5C000000-0000-0000-3326-000000000000/location 200 118 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5C000000-0000-0000-3326-000000000000/size 200 116 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5D000000-0000-0000-3326-000000000000/location 200 112 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5D000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5E000000-0000-0000-3326-000000000000/location 200 104 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5E000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5F000000-0000-0000-3326-000000000000/location 200 111 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/5F000000-0000-0000-3326-000000000000/size 200 112 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/60000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/60000000-0000-0000-3326-000000000000/location 200 115 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/60000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/60000000-0000-0000-3326-000000000000/size 200 101 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/61000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/61000000-0000-0000-3326-000000000000/location 200 113 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/61000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/61000000-0000-0000-3326-000000000000/size 200 122 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/62000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/62000000-0000-0000-3326-000000000000/location 200 117 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/62000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/62000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/63000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/63000000-0000-0000-3326-000000000000/location 200 124 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/63000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/63000000-0000-0000-3326-000000000000/size 200 123 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/64000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/64000000-0000-0000-3326-000000000000/location 200 118 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/64000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/64000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/65000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/65000000-0000-0000-3326-000000000000/location 200 121 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/65000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/65000000-0000-0000-3326-000000000000/size 200 123 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/66000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/66000000-0000-0000-3326-000000000000/location 200 123 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/66000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/66000000-0000-0000-3326-000000000000/size 200 124 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/67000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/67000000-0000-0000-3326-000000000000/location 200 124 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/67000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/67000000-0000-0000-3326-000000000000/size 200 123 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/68000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/68000000-0000-0000-3326-000000000000/location 200 122 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/68000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/68000000-0000-0000-3326-000000000000/size 200 116 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/69000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/69000000-0000-0000-3326-000000000000/location 200 121 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/69000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/69000000-0000-0000-3326-000000000000/size 200 121 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6A000000-0000-0000-3326-000000000000/location 200 119 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6A000000-0000-0000-3326-000000000000/size 200 124 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6B000000-0000-0000-3326-000000000000/location 200 126 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6B000000-0000-0000-3326-000000000000/size 200 118 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6C000000-0000-0000-3326-000000000000/location 200 114 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6C000000-0000-0000-3326-000000000000/size 200 120 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6D000000-0000-0000-3326-000000000000/location 200 117 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6D000000-0000-0000-3326-000000000000/size 200 128 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6E000000-0000-0000-3326-000000000000/location 200 116 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6E000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6F000000-0000-0000-3326-000000000000/location 200 107 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/6F000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/71000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/71000000-0000-0000-3326-000000000000/location 200 111 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/71000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/71000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/72000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/72000000-0000-0000-3326-000000000000/location 200 110 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/72000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/72000000-0000-0000-3326-000000000000/size 200 118 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/73000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/73000000-0000-0000-3326-000000000000/location 200 111 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/73000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/73000000-0000-0000-3326-000000000000/size 200 118 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/74000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/74000000-0000-0000-3326-000000000000/location 200 120 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/74000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/74000000-0000-0000-3326-000000000000/size 200 120 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/75000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/75000000-0000-0000-3326-000000000000/location 200 111 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/75000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/75000000-0000-0000-3326-000000000000/size 200 111 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/76000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/76000000-0000-0000-3326-000000000000/location 200 118 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/76000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/76000000-0000-0000-3326-000000000000/size 200 122 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/77000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/77000000-0000-0000-3326-000000000000/location 200 128 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/77000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/77000000-0000-0000-3326-000000000000/size 200 119 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/78000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/78000000-0000-0000-3326-000000000000/location 200 121 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/78000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/78000000-0000-0000-3326-000000000000/size 200 120 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/79000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/79000000-0000-0000-3326-000000000000/location 200 123 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/79000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/79000000-0000-0000-3326-000000000000/size 200 120 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7A000000-0000-0000-3326-000000000000/location 200 123 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7A000000-0000-0000-3326-000000000000/size 200 121 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7B000000-0000-0000-3326-000000000000/location 200 117 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7B000000-0000-0000-3326-000000000000/size 200 118 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7C000000-0000-0000-3326-000000000000/location 200 117 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7C000000-0000-0000-3326-000000000000/size 200 122 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7D000000-0000-0000-3326-000000000000/location 200 116 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7D000000-0000-0000-3326-000000000000/size 200 115 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7E000000-0000-0000-3326-000000000000/location 200 112 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7E000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7F000000-0000-0000-3326-000000000000/location 200 121 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/7F000000-0000-0000-3326-000000000000/size 200 122 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/80000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/80000000-0000-0000-3326-000000000000/location 200 120 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/80000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/80000000-0000-0000-3326-000000000000/size 200 127 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/81000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/81000000-0000-0000-3326-000000000000/location 200 119 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/81000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/81000000-0000-0000-3326-000000000000/size 200 119 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/82000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/82000000-0000-0000-3326-000000000000/location 200 113 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/82000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/82000000-0000-0000-3326-000000000000/size 200 111 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/83000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/83000000-0000-0000-3326-000000000000/location 200 114 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/83000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/83000000-0000-0000-3326-000000000000/size 200 114 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/84000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/84000000-0000-0000-3326-000000000000/location 200 118 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/84000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/84000000-0000-0000-3326-000000000000/size 200 67 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/85000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/85000000-0000-0000-3326-000000000000/location 200 64 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/85000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/85000000-0000-0000-3326-000000000000/size 200 71 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/86000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/86000000-0000-0000-3326-000000000000/location 200 71 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/86000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/86000000-0000-0000-3326-000000000000/size 200 82 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/87000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/87000000-0000-0000-3326-000000000000/location 200 94 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/87000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/87000000-0000-0000-3326-000000000000/size 200 88 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/88000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/88000000-0000-0000-3326-000000000000/location 200 95 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/88000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/88000000-0000-0000-3326-000000000000/size 200 100 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/89000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/89000000-0000-0000-3326-000000000000/location 200 106 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/89000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/89000000-0000-0000-3326-000000000000/size 200 110 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8A000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8A000000-0000-0000-3326-000000000000/location 200 115 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8A000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8A000000-0000-0000-3326-000000000000/size 200 109 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8B000000-0000-0000-3326-000000000000/location 200 105 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8B000000-0000-0000-3326-000000000000/size 200 114 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8C000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8C000000-0000-0000-3326-000000000000/size 200 107 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8D000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8D000000-0000-0000-3326-000000000000/size 200 112 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8E000000-0000-0000-3326-000000000000/location 200 109 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8E000000-0000-0000-3326-000000000000/size 200 113 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8F000000-0000-0000-3326-000000000000/location 200 127 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/8F000000-0000-0000-3326-000000000000/size 200 121 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/90000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/90000000-0000-0000-3326-000000000000/location 200 123 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/90000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/90000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/91000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/91000000-0000-0000-3326-000000000000/location 200 118 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/91000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/91000000-0000-0000-3326-000000000000/size 200 116 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/92000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/92000000-0000-0000-3326-000000000000/location 200 114 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/92000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/92000000-0000-0000-3326-000000000000/size 200 108 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/93000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/93000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/93000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/93000000-0000-0000-3326-000000000000/size 200 110 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/94000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/94000000-0000-0000-3326-000000000000/location 200 115 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/94000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/94000000-0000-0000-3326-000000000000/size 200 107 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/95000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/95000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/95000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/95000000-0000-0000-3326-000000000000/size 200 106 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/96000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/96000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/96000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/96000000-0000-0000-3326-000000000000/size 200 105 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/97000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/97000000-0000-0000-3326-000000000000/location 200 105 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/97000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/97000000-0000-0000-3326-000000000000/size 200 107 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/98000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/98000000-0000-0000-3326-000000000000/location 200 104 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/98000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/98000000-0000-0000-3326-000000000000/size 200 106 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/99000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/99000000-0000-0000-3326-000000000000/location 200 101 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/99000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/99000000-0000-0000-3326-000000000000/size 200 109 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/location 200 109 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/size 200 106 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9C000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9C000000-0000-0000-3326-000000000000/location 200 107 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9C000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9C000000-0000-0000-3326-000000000000/size 200 109 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9D000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9D000000-0000-0000-3326-000000000000/location 200 108 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9D000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9D000000-0000-0000-3326-000000000000/size 200 108 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9E000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9E000000-0000-0000-3326-000000000000/location 200 108 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9E000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9E000000-0000-0000-3326-000000000000/size 200 110 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9F000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9F000000-0000-0000-3326-000000000000/location 200 107 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9F000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9F000000-0000-0000-3326-000000000000/size 200 107 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A0000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A0000000-0000-0000-3326-000000000000/location 200 104 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A0000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A0000000-0000-0000-3326-000000000000/size 200 107 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A1000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A1000000-0000-0000-3326-000000000000/location 200 103 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A1000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A1000000-0000-0000-3326-000000000000/size 200 103 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A2000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A2000000-0000-0000-3326-000000000000/location 200 108 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A2000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A2000000-0000-0000-3326-000000000000/size 200 110 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A3000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A3000000-0000-0000-3326-000000000000/location 200 112 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A3000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A3000000-0000-0000-3326-000000000000/size 200 111 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A4000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A4000000-0000-0000-3326-000000000000/location 200 108 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A4000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A4000000-0000-0000-3326-000000000000/size 200 113 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A5000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A5000000-0000-0000-3326-000000000000/location 200 115 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A5000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A5000000-0000-0000-3326-000000000000/size 200 116 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A6000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A6000000-0000-0000-3326-000000000000/location 200 107 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A6000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A6000000-0000-0000-3326-000000000000/size 200 109 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A7000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A7000000-0000-0000-3326-000000000000/location 200 111 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A7000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A7000000-0000-0000-3326-000000000000/size 200 112 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A8000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A8000000-0000-0000-3326-000000000000/location 200 112 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A8000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A8000000-0000-0000-3326-000000000000/size 200 111 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A9000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A9000000-0000-0000-3326-000000000000/location 200 113 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A9000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/A9000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AA000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AA000000-0000-0000-3326-000000000000/location 200 111 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AA000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AA000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AB000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AB000000-0000-0000-3326-000000000000/location 200 111 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AB000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AB000000-0000-0000-3326-000000000000/size 200 122 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AC000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AC000000-0000-0000-3326-000000000000/location 200 123 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AC000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AC000000-0000-0000-3326-000000000000/size 200 119 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AD000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AD000000-0000-0000-3326-000000000000/location 200 112 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AD000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AD000000-0000-0000-3326-000000000000/size 200 111 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AE000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AE000000-0000-0000-3326-000000000000/location 200 114 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AE000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AE000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AF000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AF000000-0000-0000-3326-000000000000/location 200 116 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AF000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/AF000000-0000-0000-3326-000000000000/size 200 116 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B0000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B0000000-0000-0000-3326-000000000000/location 200 112 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B0000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B0000000-0000-0000-3326-000000000000/size 200 110 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B1000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B1000000-0000-0000-3326-000000000000/location 200 116 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B1000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B1000000-0000-0000-3326-000000000000/size 200 117 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B2000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B2000000-0000-0000-3326-000000000000/location 200 115 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B2000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B2000000-0000-0000-3326-000000000000/size 200 113 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B3000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B3000000-0000-0000-3326-000000000000/location 200 102 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B3000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B3000000-0000-0000-3326-000000000000/size 200 90 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B4000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B4000000-0000-0000-3326-000000000000/location 200 96 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B4000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B4000000-0000-0000-3326-000000000000/size 200 94 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B5000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B5000000-0000-0000-3326-000000000000/location 200 96 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B5000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B5000000-0000-0000-3326-000000000000/size 200 100 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B6000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B6000000-0000-0000-3326-000000000000/location 200 101 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B6000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B6000000-0000-0000-3326-000000000000/size 200 103 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B7000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B7000000-0000-0000-3326-000000000000/location 200 110 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B7000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B7000000-0000-0000-3326-000000000000/size 200 113 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B8000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B8000000-0000-0000-3326-000000000000/location 200 110 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B8000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B8000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B9000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B9000000-0000-0000-3326-000000000000/location 200 114 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B9000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/B9000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BA000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BA000000-0000-0000-3326-000000000000/location 200 118 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BA000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BA000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BB000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BB000000-0000-0000-3326-000000000000/location 200 109 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BB000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BB000000-0000-0000-3326-000000000000/size 200 110 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BC000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BC000000-0000-0000-3326-000000000000/location 200 110 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BC000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BC000000-0000-0000-3326-000000000000/size 200 117 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BD000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BD000000-0000-0000-3326-000000000000/location 200 113 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BD000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BD000000-0000-0000-3326-000000000000/size 200 109 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BE000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BE000000-0000-0000-3326-000000000000/location 200 108 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BE000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BE000000-0000-0000-3326-000000000000/size 200 108 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BF000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BF000000-0000-0000-3326-000000000000/location 200 110 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BF000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/BF000000-0000-0000-3326-000000000000/size 200 115 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C0000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C0000000-0000-0000-3326-000000000000/location 200 113 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C0000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C0000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C1000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C1000000-0000-0000-3326-000000000000/location 200 116 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C1000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C1000000-0000-0000-3326-000000000000/size 200 110 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C2000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C2000000-0000-0000-3326-000000000000/location 200 111 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C2000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C2000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C3000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C3000000-0000-0000-3326-000000000000/location 200 121 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C3000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/C3000000-0000-0000-3326-000000000000/size 200 114 ms - 35
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":1000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/elements 200 598 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/location 200 139 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/size 200 98 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":1000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/elements 200 588 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/location 200 110 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/size[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9/element/9B000000-0000-0000-3326-000000000000/size 200 110 ms - 34
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9[39m
+[38;5;0m[HTTP][0m {}
+[38;5;16m[AppiumDriver@b7c7][0m Removing session 5bda6764-4f2e-406f-9863-0f4d7e3e1bb9 from our master session list
 [38;5;96m[DevCon Factory][0m Releasing connections for 00008110-00112D590CD0201E device on any port number
-[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:61389"]
-[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:61389'
-[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/b2796d83-3685-41c6-baae-2c262908e367 200 22 ms - 14
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:56025"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:56025'
+[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/5bda6764-4f2e-406f-9863-0f4d7e3e1bb9 200 6 ms - 14
 [38;5;0m[HTTP][0m 
 [Appium] Received SIGTERM - shutting down
 [38;5;0m[HTTP][0m Waiting until the server is closed

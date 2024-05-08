@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,013
+1. addDefaultPackages()
+
+2
+00:00:00,014 --> 00:00:00,021
+1. runFeatureFile("Include/features/EK-8773 IS iPhone - Filter Patient.feature")
+
+3
+00:00:00,021 --> 00:00:01,311
+5. tap(findTestObject("Object Repository/IOS/Patient Management/Filter Patient/XCUIElementTypeOther - Filter icon"), 30)
+
+4
+00:00:01,311 --> 00:00:02,347
+9. tap(findTestObject("Object Repository/IOS/Patient Management/Filter Patient/XCUIElementTypeSwitch - 1"), 30)
+
+5
+00:00:02,347 --> 00:00:03,612
+13. tap(findTestObject("Object Repository/IOS/Patient Management/Filter Patient/XCUIElementTypeOther - Apply"), 30)
+
+6
+00:00:03,612 --> 00:00:06,360
+17. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Filter Patient/XCUIElementTypeStaticText - All Patients"), "All Patients")
+

@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:00,017
+1. addDefaultPackages()
+
+2
+00:00:00,017 --> 00:00:00,023
+1. runFeatureFile("Include/features/EK-8735 IS iPhone - Search Patient.feature")
+
+3
+00:00:00,023 --> 00:00:00,094
+5. callTestCase(findTestCase("IOS/User Management/EK-8491 IS iPhone - Sign in"), [:], STOP_ON_FAILURE)
+
+4
+00:00:00,094 --> 00:00:00,101
+1. runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature")
+
+5
+00:00:00,101 --> 00:00:42,174
+5. startApplication(IPA, true)
+
+6
+00:00:42,175 --> 00:00:43,590
+9. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30)
+
+7
+00:00:43,590 --> 00:00:45,267
+13. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30)
+
+8
+00:00:45,267 --> 00:00:46,688
+17. setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30)
+
+9
+00:00:46,688 --> 00:00:48,185
+21. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30)
+
+10
+00:00:48,185 --> 00:00:49,111
+25. tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30)
+
+11
+00:00:49,112 --> 00:00:59,118
+29. delay(10)
+
+12
+00:00:59,118 --> 00:01:02,041
+9. setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "987", 30)
+
+13
+00:01:02,042 --> 00:01:03,615
+13. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site")
+
+14
+00:01:03,616 --> 00:01:06,625
+17. delay(3, STOP_ON_FAILURE)
+
+15
+00:01:06,626 --> 00:01:08,049
+21. tap(findTestObject("IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent"), 30)
+
+16
+00:01:08,049 --> 00:01:08,859
+25. tap(findTestObject("IOS/Patient Management/Search Patient/XCUIElementTypeOther - Lite, Edit 06052024 33M    MRN 987 No Consent"), 30)
+

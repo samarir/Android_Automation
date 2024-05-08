@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:00,019
+1. addDefaultPackages()
+
+2
+00:00:00,019 --> 00:00:00,024
+1. runFeatureFile("Include/features/EK-8772 IS iPhone - Unfreeze Patient.feature")
+
+3
+00:00:00,024 --> 00:00:02,749
+5. setText(findTestObject("IOS/Patient Management/Freeze Patient/XCUIElementTypeTextField - Search Bar"), "6768", 30)
+
+4
+00:00:02,749 --> 00:00:05,756
+9. delay(3, STOP_ON_FAILURE)
+
