@@ -23,8 +23,6 @@ Mobile.setText(findTestObject('IOS/Patient Management/Freeze Patient/XCUIElement
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.startApplication('/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa', true)
-
 Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 08052024 22M    MRN 6766 No Consent'), 
     30)
 
