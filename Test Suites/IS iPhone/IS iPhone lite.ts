@@ -44,7 +44,7 @@
             </runConfigurationData>
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/IS iPhone/Menu and other services</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -64,7 +64,7 @@
             </runConfigurationData>
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/IS iPhone/Data Report</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -84,7 +84,7 @@
             </runConfigurationData>
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/IS iPhone/Patient Management</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
