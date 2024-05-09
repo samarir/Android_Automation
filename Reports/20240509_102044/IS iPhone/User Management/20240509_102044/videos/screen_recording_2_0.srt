@@ -1,0 +1,140 @@
+1
+00:00:00,000 --> 00:00:00,022
+1. addDefaultPackages()
+
+2
+00:00:00,022 --> 00:00:00,029
+1. runFeatureFile("Include/features/EK-8570 IS iPhone - 10 Times failed login.feature")
+
+3
+00:00:00,029 --> 00:00:10,040
+5. delay(10, STOP_ON_FAILURE)
+
+4
+00:00:10,041 --> 00:00:11,908
+9. setText(findTestObject("IOS/User Management/Sign In/XCUIElementTypeTextField - username"), "Test10times", 30)
+
+5
+00:00:11,908 --> 00:00:13,486
+13. setText(findTestObject("IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), "123", 30)
+
+6
+00:00:13,487 --> 00:00:15,492
+17. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+7
+00:00:15,492 --> 00:00:16,057
+21. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+8
+00:00:16,057 --> 00:00:17,416
+25. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+9
+00:00:17,417 --> 00:00:18,390
+29. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30, STOP_ON_FAILURE)
+
+10
+00:00:18,390 --> 00:00:18,985
+33. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+11
+00:00:18,985 --> 00:00:20,279
+37. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+12
+00:00:20,280 --> 00:00:21,164
+41. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+13
+00:00:21,164 --> 00:00:21,676
+45. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+14
+00:00:21,676 --> 00:00:22,983
+49. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+15
+00:00:22,983 --> 00:00:23,876
+53. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+16
+00:00:23,876 --> 00:00:24,352
+57. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+17
+00:00:24,352 --> 00:00:25,648
+61. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+18
+00:00:25,648 --> 00:00:26,585
+65. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+19
+00:00:26,585 --> 00:00:27,214
+69. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+20
+00:00:27,215 --> 00:00:28,553
+73. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+21
+00:00:28,553 --> 00:00:29,478
+77. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+22
+00:00:29,478 --> 00:00:29,980
+81. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+23
+00:00:29,980 --> 00:00:31,265
+85. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+24
+00:00:31,266 --> 00:00:32,167
+89. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+25
+00:00:32,168 --> 00:00:32,658
+93. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+26
+00:00:32,658 --> 00:00:33,947
+97. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+27
+00:00:33,948 --> 00:00:34,903
+101. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+28
+00:00:34,903 --> 00:00:35,436
+105. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+29
+00:00:35,436 --> 00:00:36,700
+109. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+30
+00:00:36,700 --> 00:00:37,642
+113. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+31
+00:00:37,642 --> 00:00:38,117
+117. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Login failed. Incorrect credentials !")
+
+32
+00:00:38,117 --> 00:00:39,400
+121. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+
+33
+00:00:39,400 --> 00:00:40,307
+125. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN"), 30)
+
+34
+00:00:40,307 --> 00:00:40,744
+129. verifyElementText(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials"), "Your account has been temporarily disabled due to repeated login failures. Please contact your administrator: samarir@masaratapp.com")
+
+35
+00:00:40,744 --> 00:00:42,035
+133. tap(findTestObject("Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK"), 30)
+

@@ -1,0 +1,32 @@
+1
+00:00:00,027 --> 00:00:00,186
+1. runFeatureFile("Include/features/EK-8493 IS iPhone - Restore Password.feature")
+
+2
+00:00:00,188 --> 00:01:19,212
+5. startApplication(IPA, true)
+
+3
+00:01:19,213 --> 00:01:20,567
+9. tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30)
+
+4
+00:01:20,567 --> 00:01:21,396
+13. tap(findTestObject("Object Repository/IOS/User Management/Restore Password/XCUIElementTypeOther - Forgot your password"), 30)
+
+5
+00:01:21,396 --> 00:01:23,006
+17. setText(findTestObject("Object Repository/IOS/User Management/Restore Password/XCUIElementTypeTextField - Username"), LoginCreds.get("username"), 30)
+
+6
+00:01:23,006 --> 00:01:24,611
+21. setText(findTestObject("Object Repository/IOS/User Management/Restore Password/XCUIElementTypeTextField - Email"), LoginCreds.get("email"), 30)
+
+7
+00:01:24,611 --> 00:01:25,786
+25. tap(findTestObject("IOS/User Management/Restore Password/XCUIElementTypeOther - Restore Password"), 30)
+
+8
+00:01:25,786 --> 00:01:26,389
+29. tap(findTestObject("IOS/Draft/XCUIElementTypeOther - Restore Password"), 30, STOP_ON_FAILURE)
+
