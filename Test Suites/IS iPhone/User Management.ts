@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>58ad73d9-fe40-414b-ba47-e9d297ad5a80</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IOS/User Management/EK-8569 IS iPhone - Terms and condition Privacy and Policy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

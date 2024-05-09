@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8493 IS iPhone - Restore Password.feature')
+Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeOther - Forgot your password'), 
     30)
