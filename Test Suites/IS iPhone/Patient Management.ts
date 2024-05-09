@@ -21,28 +21,28 @@
    <testCaseLink>
       <guid>d897a813-fbe8-4201-bbc5-befd051768c1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Patient Management/EK-8733 IS iPhone - Add Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0cdb006c-35bb-4f1d-ae64-f0895a87ec65</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Patient Management/EK-8735 IS iPhone - Search Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a8d8fba4-ed34-434c-a375-a8d925ca45ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Patient Management/EK-8734 IS iPhone - Edit Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cfa1ffd0-baaf-4c8b-af1f-0e86f2c2dff4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IOS/Patient Management/EK-8771 IS iPhone - Freeze Patient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
