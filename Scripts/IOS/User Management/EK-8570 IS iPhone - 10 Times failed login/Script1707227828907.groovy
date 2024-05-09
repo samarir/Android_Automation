@@ -34,7 +34,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/1
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
-    30)
+    30,FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
     'Login failed. Incorrect credentials !')
