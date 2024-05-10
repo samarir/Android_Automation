@@ -23,10 +23,10 @@ Mobile.setText(findTestObject('IOS/Patient Management/Freeze Patient/XCUIElement
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 08052024 22M    MRN 6766 No Consent'), 
+Mobile.tap(findTestObject('IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 10052024 22M    MRN 6766 No Consent'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 08052024 22M    MRN 6766 No Consent'), 
+Mobile.tap(findTestObject('IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 10052024 22M    MRN 6766 No Consent'), 
     30)
 
 Mobile.tap(findTestObject('IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Menu'), 30)
@@ -49,5 +49,4 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Managemen
     'No content found.')
 
 Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Delete Patient/XCUIElementTypeOther'), 30)
-
 
