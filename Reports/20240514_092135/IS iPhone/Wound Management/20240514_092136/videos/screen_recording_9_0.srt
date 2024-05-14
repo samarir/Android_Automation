@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:00,011
+1. addDefaultPackages()
+
+2
+00:00:00,011 --> 00:00:00,017
+1. runFeatureFile("Include/features/EK-8786 IS iPhone - Wound Summary.feature")
+
+3
+00:00:00,017 --> 00:00:01,224
+5. tap(findTestObject("IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 1 Trauma HeadNeck, Front Test description"), 30)
+
+4
+00:00:01,224 --> 00:00:05,119
+9. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D 26072023"), 30)
+
+5
+00:00:05,120 --> 00:00:06,368
+13. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D"), 30)
+
+6
+00:00:06,368 --> 00:00:07,514
+17. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound 1 Trauma"), 30)
+
+7
+00:00:07,514 --> 00:00:08,480
+21. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound, List Patient"), "Wound, List Patient")
+
+8
+00:00:08,480 --> 00:00:09,463
+25. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 14082023 Onset"), "14/08/2023 Onset")
+
+9
+00:00:09,464 --> 00:00:10,433
+29. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - HeadNeck, Front Test description Location"), "Head/Neck, Front Test description Location")
+
+10
+00:00:10,434 --> 00:00:11,506
+33. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeStaticText - Last assessment"), "Last assessment")
+
+11
+00:00:11,506 --> 00:00:12,447
+37. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - WOUND SIZE"), "WOUND SIZE")
+
+12
+00:00:12,447 --> 00:00:13,396
+41. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - COLOR COMPOSITION"), "COLOR COMPOSITION")
+
+13
+00:00:13,396 --> 00:00:14,314
+45. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Summary"), 30)
+
+14
+00:00:14,314 --> 00:00:15,147
+49. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Assessment"), 30)
+
+15
+00:00:15,147 --> 00:00:16,524
+53. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Treatment"), 30)
+
+16
+00:00:16,525 --> 00:00:17,654
+57. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Messaging"), 30)
+
+17
+00:00:17,654 --> 00:00:18,631
+61. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Active"), "Active")
+
+18
+00:00:18,632 --> 00:00:19,382
+65. verifyElementVisible(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Menu"), 30)
+
+19
+00:00:19,382 --> 00:00:20,036
+69. verifyElementExist(findTestObject("IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement"), 30)
+
+20
+00:00:20,037 --> 00:00:20,931
+73. verifyElementVisible(findTestObject("IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement"), 30)
+

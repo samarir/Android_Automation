@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,015
+1. addDefaultPackages()
+
+2
+00:00:00,015 --> 00:00:00,020
+1. runFeatureFile("Include/features/EK-8783 IS iPhone - Delete Wound.feature")
+
+3
+00:00:00,021 --> 00:00:03,470
+5. setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "91ui", 30)
+
+4
+00:00:03,470 --> 00:00:04,996
+9. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site")
+
+5
+00:00:04,996 --> 00:00:08,004
+13. delay(3, STOP_ON_FAILURE)
+
+6
+00:00:08,004 --> 00:00:09,518
+17. tap(findTestObject("Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent"), 30)
+
+7
+00:00:09,518 --> 00:00:10,433
+21. tap(findTestObject("Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent"), 30)
+
+8
+00:00:10,433 --> 00:00:11,932
+25. tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound"), 30)
+
+9
+00:00:11,933 --> 00:00:12,708
+29. tap(findTestObject("IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu"), 30)
+
+10
+00:00:12,708 --> 00:00:14,769
+33. tap(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeOther - Delete wound"), 0)
+
+11
+00:00:14,769 --> 00:00:17,123
+37. verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased"), "Delete the selected wound? All data, including all images and measurements, will be erased.")
+
+12
+00:00:17,123 --> 00:00:17,999
+41. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel"), 0)
+
+13
+00:00:17,999 --> 00:00:18,828
+45. verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm"), 0)
+
+14
+00:00:18,828 --> 00:00:20,405
+49. tap(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm"), 0)
+
+15
+00:00:20,405 --> 00:00:22,407
+53. delay(2, STOP_ON_FAILURE)
+
+16
+00:00:22,408 --> 00:00:23,460
+57. tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)"), 30)
+
+17
+00:00:23,460 --> 00:00:24,393
+61. tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30)
+

@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:00,023
+1. addDefaultPackages()
+
+2
+00:00:00,023 --> 00:00:00,028
+1. runFeatureFile("Include/features/EK-8778 IS iPhone - Edit Wound.feature")
+
+3
+00:00:00,028 --> 00:00:03,301
+5. setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "86ui", 30)
+
+4
+00:00:03,302 --> 00:00:04,786
+9. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site")
+
+5
+00:00:04,786 --> 00:00:07,794
+13. delay(3, STOP_ON_FAILURE)
+
+6
+00:00:07,794 --> 00:00:09,344
+17. tap(findTestObject("IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)"), 30)
+
+7
+00:00:09,345 --> 00:00:10,252
+21. tap(findTestObject("IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)"), 30)
+
+8
+00:00:10,253 --> 00:00:11,882
+25. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Wound"), 30)
+
+9
+00:00:11,883 --> 00:00:12,730
+29. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Menu"), 30)
+
+10
+00:00:12,730 --> 00:00:14,566
+33. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit wound"), 30)
+
+11
+00:00:14,566 --> 00:00:16,292
+37. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Select"), 30)
+
+12
+00:00:16,292 --> 00:00:17,334
+41. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Katalon Automation"), 30)
+
+13
+00:00:17,334 --> 00:00:18,356
+45. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next"), 30)
+
+14
+00:00:18,356 --> 00:00:19,384
+49. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Additional description (Optional)"), 30)
+
+15
+00:00:19,384 --> 00:00:21,463
+53. setText(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeTextField"), "Test Description", 30)
+
+16
+00:00:21,463 --> 00:00:22,818
+57. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - OK"), 30)
+
+17
+00:00:22,818 --> 00:00:23,710
+61. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next"), 30)
+
+18
+00:00:23,710 --> 00:00:25,165
+65. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back"), 30)
+
+19
+00:00:25,165 --> 00:00:26,228
+69. tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back 2"), 30)
+
+20
+00:00:26,228 --> 00:00:27,164
+73. tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30)
+

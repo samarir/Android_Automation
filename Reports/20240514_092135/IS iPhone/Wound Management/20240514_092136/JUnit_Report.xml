@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Wound Management" time="317.019" tests="9" failures="0" errors="0">
+   <testsuite name="Wound Management" tests="9" failures="0" errors="0" time="317.019" skipped="0" timestamp="14-05-2024T09:21:39" hostname="safaamarir - 192.168.1.53" id="Test Suites/IS iPhone/Wound Management">
+      <properties>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136"/>
+         <property name="logFiles" value="/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/execution0.log, /Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/appium_error.log, /Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/appium.log, /Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/appium-proxy-server.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="safaamarir - 192.168.1.53"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.4.1&quot;,&quot;git-sha&quot;:&quot;82c2e743a5bcea725f9ca1429e3e21c3088ff904&quot;,&quot;built&quot;:&quot;2024-05-06 08:46:28 +0100&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="2.4.1"/>
+         <property name="deviceModel" value="iPhone14,5"/>
+         <property name="hostAddress" value="192.168.1.53"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="00008110-00112D590CD0201E"/>
+         <property name="deviceName" value="Safa’s iPhone"/>
+         <property name="deviceOSVersion" value="17.4.1"/>
+      </properties>
+      <testcase name="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" time="65.341" classname="Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:21:39 - [TEST_CASE][PASSED] - Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in: Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in
+
+14-05-2024T09:21:39 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:21:39 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:21:39 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature"): Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+14-05-2024T09:21:39 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8491 IS iPhone - Sign in.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715674899877'...
+
+14-05-2024T09:21:40 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+14-05-2024T09:21:40 - [TEST_STEP][PASSED] - startApplication(IPA, true): Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+14-05-2024T09:21:40 - [MESSAGE][INFO] - User set preference: ['automationName', 'XCUITest']
+
+14-05-2024T09:21:40 - [MESSAGE][INFO] - User set preference: ['deviceId', '00008110-00112D590CD0201E']
+
+14-05-2024T09:21:50 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+14-05-2024T09:21:50 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/21.7.1/bin/node"
+
+14-05-2024T09:21:50 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/21.7.1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+14-05-2024T09:21:50 - [MESSAGE][INFO] - APPIUM_HOME: /Users/safaamarir/.appium
+
+14-05-2024T09:21:50 - [MESSAGE][INFO] - appium outlog: /Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/appium.log
+
+14-05-2024T09:21:50 - [MESSAGE][INFO] - appium errlog: /Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/appium_error.log
+
+14-05-2024T09:21:51 - [MESSAGE][INFO] - Appium server started on port 50,447
+
+14-05-2024T09:22:25 - [MESSAGE][PASSED] - Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+14-05-2024T09:22:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+14-05-2024T09:22:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+14-05-2024T09:22:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+14-05-2024T09:22:28 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+14-05-2024T09:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+14-05-2024T09:22:30 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+14-05-2024T09:22:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+14-05-2024T09:22:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+14-05-2024T09:22:32 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+14-05-2024T09:22:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+14-05-2024T09:22:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-05-2024T09:22:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-05-2024T09:22:44 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .
+
+14-05-2024T09:22:44 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8777 IS iPhone - Add Wound" time="79.761" classname="Test Cases/IOS/Wound Management/EK-8777 IS iPhone - Add Wound" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:22:44 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8777 IS iPhone - Add Wound: Test Cases/IOS/Wound Management/EK-8777 IS iPhone - Add Wound
+
+14-05-2024T09:22:44 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:22:44 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:22:44 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8777 IS iPhone - Add Wound.feature"): Feature file: 'Include/features/EK-8777 IS iPhone - Add Wound.feature' was passed
+
+14-05-2024T09:22:44 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8777 IS iPhone - Add Wound.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715674964955'...
+
+14-05-2024T09:22:44 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8777 IS iPhone - Add Wound.feature' was passed
+
+14-05-2024T09:22:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IOS/User Management/EK-8491 IS iPhone - Sign in"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' successfully
+
+14-05-2024T09:22:45 - [TEST_CASE][PASSED] - Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in: Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in
+
+14-05-2024T09:22:45 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8491 IS iPhone - Sign in.feature"): Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+14-05-2024T09:22:45 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8491 IS iPhone - Sign in.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715674965026'...
+
+14-05-2024T09:22:45 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8491 IS iPhone - Sign in.feature' was passed
+
+14-05-2024T09:22:45 - [TEST_STEP][PASSED] - startApplication(IPA, true): Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+14-05-2024T09:22:45 - [MESSAGE][INFO] - User set preference: ['automationName', 'XCUITest']
+
+14-05-2024T09:22:45 - [MESSAGE][INFO] - User set preference: ['deviceId', '00008110-00112D590CD0201E']
+
+14-05-2024T09:22:55 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+14-05-2024T09:23:28 - [MESSAGE][PASSED] - Started app at: '/Users/safaamarir/APK/IOS/IS/IS_Preprod_2.2.1_290.ipa'
+
+14-05-2024T09:23:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+14-05-2024T09:23:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'
+
+14-05-2024T09:23:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username"), LoginCreds.get("username"), 30): Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+14-05-2024T09:23:31 - [MESSAGE][PASSED] - Text 'katalon' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'
+
+14-05-2024T09:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode"), LoginCreds.get("password"), 30): Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+14-05-2024T09:23:32 - [MESSAGE][PASSED] - Text 'eKare123@' has been set to element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeSecureTextField - Passcode'
+
+14-05-2024T09:23:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+14-05-2024T09:23:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - SIGN IN'
+
+14-05-2024T09:23:34 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/User Management/Sign In/XCUIElementTypeOther - Katalon"), 30): Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+14-05-2024T09:23:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/User Management/Sign In/XCUIElementTypeOther - Katalon'
+
+14-05-2024T09:23:35 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-05-2024T09:23:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-05-2024T09:23:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IOS/User Management/EK-8491 IS iPhone - Sign in' successfully
+
+14-05-2024T09:23:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "78ui", 30): Text '78ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:23:48 - [MESSAGE][PASSED] - Text '78ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:23:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:23:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:23:50 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+14-05-2024T09:23:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-05-2024T09:23:53 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Add Wound/XCUIElementTypeOther - Add, Wound 13052024 33M    MRN 78ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Add, Wound 13052024 33M    MRN 78ui No Consent'
+
+14-05-2024T09:23:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Add, Wound 13052024 33M    MRN 78ui No Consent'
+
+14-05-2024T09:23:54 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Add Wound/XCUIElementTypeOther - Add, Wound 13052024 33M    MRN 78ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Add, Wound 13052024 33M    MRN 78ui No Consent'
+
+14-05-2024T09:23:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Add, Wound 13052024 33M    MRN 78ui No Consent'
+
+14-05-2024T09:23:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - New wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - New wound'
+
+14-05-2024T09:23:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - New wound'
+
+14-05-2024T09:23:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Next"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:23:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:23:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Next"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:23:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:23:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Wound"), 30): Element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Wound' is exist
+
+14-05-2024T09:24:00 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Wound' is exist
+
+14-05-2024T09:24:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Presss Back"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Presss Back'
+
+14-05-2024T09:24:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - Presss Back'
+
+14-05-2024T09:24:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:24:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:24:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8777 IS iPhone - Add Wound' .
+
+14-05-2024T09:24:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8777 IS iPhone - Add Wound' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8778 IS iPhone - Edit Wound" time="29.191" classname="Test Cases/IOS/Wound Management/EK-8778 IS iPhone - Edit Wound" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:24:04 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8778 IS iPhone - Edit Wound: Test Cases/IOS/Wound Management/EK-8778 IS iPhone - Edit Wound
+
+14-05-2024T09:24:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:24:04 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:24:04 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8778 IS iPhone - Edit Wound.feature"): Feature file: 'Include/features/EK-8778 IS iPhone - Edit Wound.feature' was passed
+
+14-05-2024T09:24:04 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8778 IS iPhone - Edit Wound.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715675044721'...
+
+14-05-2024T09:24:04 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8778 IS iPhone - Edit Wound.feature' was passed
+
+14-05-2024T09:24:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "86ui", 30): Text '86ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:24:07 - [MESSAGE][PASSED] - Text '86ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:24:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:24:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:24:09 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+14-05-2024T09:24:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-05-2024T09:24:12 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)'
+
+14-05-2024T09:24:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)'
+
+14-05-2024T09:24:14 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)'
+
+14-05-2024T09:24:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit, Wound 13052024 26M    MRN 86ui No Consent (1)'
+
+14-05-2024T09:24:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:24:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:24:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Menu"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:24:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:24:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit wound'
+
+14-05-2024T09:24:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Edit wound'
+
+14-05-2024T09:24:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Select"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Select'
+
+14-05-2024T09:24:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Select'
+
+14-05-2024T09:24:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Katalon Automation"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Katalon Automation'
+
+14-05-2024T09:24:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Katalon Automation'
+
+14-05-2024T09:24:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:24:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:24:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Additional description (Optional)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Additional description (Optional)'
+
+14-05-2024T09:24:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Additional description (Optional)'
+
+14-05-2024T09:24:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeTextField"), "Test Description", 30): Text 'Test Description' has been set to element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeTextField'
+
+14-05-2024T09:24:26 - [MESSAGE][PASSED] - Text 'Test Description' has been set to element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeTextField'
+
+14-05-2024T09:24:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - OK"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - OK'
+
+14-05-2024T09:24:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - OK'
+
+14-05-2024T09:24:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:24:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Next'
+
+14-05-2024T09:24:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:24:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:24:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back 2"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back 2'
+
+14-05-2024T09:24:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back 2'
+
+14-05-2024T09:24:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:24:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:24:33 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8778 IS iPhone - Edit Wound' .
+
+14-05-2024T09:24:33 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8778 IS iPhone - Edit Wound' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8783 IS iPhone - Delete Wound" time="26.413" classname="Test Cases/IOS/Wound Management/EK-8783 IS iPhone - Delete Wound" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:24:33 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8783 IS iPhone - Delete Wound: Test Cases/IOS/Wound Management/EK-8783 IS iPhone - Delete Wound
+
+14-05-2024T09:24:33 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:24:33 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:24:33 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8783 IS iPhone - Delete Wound.feature"): Feature file: 'Include/features/EK-8783 IS iPhone - Delete Wound.feature' was passed
+
+14-05-2024T09:24:33 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8783 IS iPhone - Delete Wound.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715675073904'...
+
+14-05-2024T09:24:33 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8783 IS iPhone - Delete Wound.feature' was passed
+
+14-05-2024T09:24:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "91ui", 30): Text '91ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:24:37 - [MESSAGE][PASSED] - Text '91ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:24:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:24:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:24:38 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+14-05-2024T09:24:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-05-2024T09:24:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:24:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:24:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:24:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:24:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:24:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:24:45 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:24:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:24:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeOther - Delete wound"), 0): Tapped on element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeOther - Delete wound'
+
+14-05-2024T09:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-05-2024T09:24:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeOther - Delete wound'
+
+14-05-2024T09:24:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased"), "Delete the selected wound? All data, including all images and measurements, will be erased."): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased' are matched.
+
+14-05-2024T09:24:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased' are matched.
+
+14-05-2024T09:24:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel"), 0): Element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel' is exist
+
+14-05-2024T09:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-05-2024T09:24:51 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel' is exist
+
+14-05-2024T09:24:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm"), 0): Element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm' is exist
+
+14-05-2024T09:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-05-2024T09:24:52 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm' is exist
+
+14-05-2024T09:24:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm"), 0): Tapped on element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm'
+
+14-05-2024T09:24:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-05-2024T09:24:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm'
+
+14-05-2024T09:24:54 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+14-05-2024T09:24:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-05-2024T09:24:56 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:24:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:24:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:24:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:25:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8783 IS iPhone - Delete Wound' .
+
+14-05-2024T09:25:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8783 IS iPhone - Delete Wound' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8782 IS iPhone - Change wound Status" time="25.283" classname="Test Cases/IOS/Wound Management/EK-8782 IS iPhone - Change wound Status" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:25:00 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8782 IS iPhone - Change wound Status: Test Cases/IOS/Wound Management/EK-8782 IS iPhone - Change wound Status
+
+14-05-2024T09:25:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:25:00 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:25:00 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8782 IS iPhone - Change wound Status.feature"): Feature file: 'Include/features/EK-8782 IS iPhone - Change wound Status.feature' was passed
+
+14-05-2024T09:25:00 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8782 IS iPhone - Change wound Status.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715675100325'...
+
+14-05-2024T09:25:00 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8782 IS iPhone - Change wound Status.feature' was passed
+
+14-05-2024T09:25:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "87ui", 30): Text '87ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:25:03 - [MESSAGE][PASSED] - Text '87ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:25:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:25:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:25:05 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+14-05-2024T09:25:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-05-2024T09:25:08 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent'
+
+14-05-2024T09:25:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent'
+
+14-05-2024T09:25:09 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent'
+
+14-05-2024T09:25:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent'
+
+14-05-2024T09:25:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:25:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:25:12 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Active"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Active'
+
+14-05-2024T09:25:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Active'
+
+14-05-2024T09:25:13 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Healed"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Healed'
+
+14-05-2024T09:25:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Healed'
+
+14-05-2024T09:25:15 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Save"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Save'
+
+14-05-2024T09:25:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Change wound status/XCUIElementTypeOther - Save'
+
+14-05-2024T09:25:16 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+14-05-2024T09:25:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-05-2024T09:25:18 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:25:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:25:19 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+14-05-2024T09:25:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-05-2024T09:25:21 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:25:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:25:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:25:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:25:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8782 IS iPhone - Change wound Status' .
+
+14-05-2024T09:25:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8782 IS iPhone - Change wound Status' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8781 IS iPhone - Unlock Wound" time="24.03" classname="Test Cases/IOS/Wound Management/EK-8781 IS iPhone - Unlock Wound" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:25:25 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8781 IS iPhone - Unlock Wound: Test Cases/IOS/Wound Management/EK-8781 IS iPhone - Unlock Wound
+
+14-05-2024T09:25:25 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:25:25 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:25:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8781 IS iPhone - Unlock Wound.feature"): Feature file: 'Include/features/EK-8781 IS iPhone - Unlock Wound.feature' was passed
+
+14-05-2024T09:25:25 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8781 IS iPhone - Unlock Wound.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715675125601'...
+
+14-05-2024T09:25:25 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8781 IS iPhone - Unlock Wound.feature' was passed
+
+14-05-2024T09:25:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "90ui", 30): Text '90ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:25:28 - [MESSAGE][PASSED] - Text '90ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:25:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:25:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:25:30 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+14-05-2024T09:25:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-05-2024T09:25:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:25:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:25:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:25:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock, Wound 25072023 33M    MRN 90ui No Consent'
+
+14-05-2024T09:25:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:25:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:25:37 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:25:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:25:38 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock wound'
+
+14-05-2024T09:25:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Unlock wound'
+
+14-05-2024T09:25:40 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+14-05-2024T09:25:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-05-2024T09:25:42 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:25:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:25:43 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+14-05-2024T09:25:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-05-2024T09:25:45 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:25:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:25:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:25:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:25:49 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8781 IS iPhone - Unlock Wound' .
+
+14-05-2024T09:25:49 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8781 IS iPhone - Unlock Wound' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8780 IS iPhone - Lock Wound" time="24.028" classname="Test Cases/IOS/Wound Management/EK-8780 IS iPhone - Lock Wound" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:25:49 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8780 IS iPhone - Lock Wound: Test Cases/IOS/Wound Management/EK-8780 IS iPhone - Lock Wound
+
+14-05-2024T09:25:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:25:49 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:25:49 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8780 IS iPhone - Lock Wound.feature"): Feature file: 'Include/features/EK-8780 IS iPhone - Lock Wound.feature' was passed
+
+14-05-2024T09:25:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8780 IS iPhone - Lock Wound.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715675149633'...
+
+14-05-2024T09:25:49 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8780 IS iPhone - Lock Wound.feature' was passed
+
+14-05-2024T09:25:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "89ui", 30): Text '89ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:25:52 - [MESSAGE][PASSED] - Text '89ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:25:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:25:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:25:54 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+14-05-2024T09:25:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-05-2024T09:25:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock, Wound 26072023 27M    MRN 89ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock, Wound 26072023 27M    MRN 89ui No Consent'
+
+14-05-2024T09:25:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock, Wound 26072023 27M    MRN 89ui No Consent'
+
+14-05-2024T09:25:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock, Wound 26072023 27M    MRN 89ui No Consent"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock, Wound 26072023 27M    MRN 89ui No Consent'
+
+14-05-2024T09:25:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock, Wound 26072023 27M    MRN 89ui No Consent'
+
+14-05-2024T09:25:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:26:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'
+
+14-05-2024T09:26:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Menu"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:26:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Menu'
+
+14-05-2024T09:26:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock wound"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock wound'
+
+14-05-2024T09:26:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Lock wound'
+
+14-05-2024T09:26:04 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+14-05-2024T09:26:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-05-2024T09:26:06 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:26:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back'
+
+14-05-2024T09:26:07 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+14-05-2024T09:26:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-05-2024T09:26:09 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:26:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'
+
+14-05-2024T09:26:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:26:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'
+
+14-05-2024T09:26:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8780 IS iPhone - Lock Wound' .
+
+14-05-2024T09:26:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8780 IS iPhone - Lock Wound' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8784 IS iPhone - Wound list" time="19.933" classname="Test Cases/IOS/Wound Management/EK-8784 IS iPhone - Wound list" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:26:13 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8784 IS iPhone - Wound list: Test Cases/IOS/Wound Management/EK-8784 IS iPhone - Wound list
+
+14-05-2024T09:26:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:26:13 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:26:13 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8784 IS iPhone - Wound list.feature"): Feature file: 'Include/features/EK-8784 IS iPhone - Wound list.feature' was passed
+
+14-05-2024T09:26:13 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8784 IS iPhone - Wound list.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715675173660'...
+
+14-05-2024T09:26:13 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8784 IS iPhone - Wound list.feature' was passed
+
+14-05-2024T09:26:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "92ui", 30): Text '92ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:26:16 - [MESSAGE][PASSED] - Text '92ui' has been set to element 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'
+
+14-05-2024T09:26:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site"): Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:26:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site' are matched.
+
+14-05-2024T09:26:18 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+14-05-2024T09:26:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-05-2024T09:26:21 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)'
+
+14-05-2024T09:26:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)'
+
+14-05-2024T09:26:23 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)'
+
+14-05-2024T09:26:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)'
+
+14-05-2024T09:26:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List"), "Wound, List"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List' are matched.
+
+14-05-2024T09:26:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List' are matched.
+
+14-05-2024T09:26:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - 92ui"), "92ui"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - 92ui' are matched.
+
+14-05-2024T09:26:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - 92ui' are matched.
+
+14-05-2024T09:26:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - 09091990"), "09/09/1990"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - 09091990' are matched.
+
+14-05-2024T09:26:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - 09091990' are matched.
+
+14-05-2024T09:26:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - Male"), "Male"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - Male' are matched.
+
+14-05-2024T09:26:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - Male' are matched.
+
+14-05-2024T09:26:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - Active"), "Active"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - Active' are matched.
+
+14-05-2024T09:26:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeStaticText - Active' are matched.
+
+14-05-2024T09:26:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 2 Pressure Injury General"), "Wound 2: Pressure Injury General"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 2 Pressure Injury General' are matched.
+
+14-05-2024T09:26:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 2 Pressure Injury General' are matched.
+
+14-05-2024T09:26:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 1 Trauma HeadNeck, Front Test description"), "Wound 1: Trauma Head/Neck, Front Test description"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 1 Trauma HeadNeck, Front Test description' are matched.
+
+14-05-2024T09:26:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 1 Trauma HeadNeck, Front Test description' are matched.
+
+14-05-2024T09:26:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 3 Pressure Injury General"), "Wound 3: Pressure Injury General"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 3 Pressure Injury General' are matched.
+
+14-05-2024T09:26:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 3 Pressure Injury General' are matched.
+
+14-05-2024T09:26:33 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8784 IS iPhone - Wound list' .
+
+14-05-2024T09:26:33 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8784 IS iPhone - Wound list' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IOS/Wound Management/EK-8786 IS iPhone - Wound Summary" time="22.971" classname="Test Cases/IOS/Wound Management/EK-8786 IS iPhone - Wound Summary" status="PASSED">
+         <system-out><![CDATA[14-05-2024T09:26:33 - [TEST_CASE][PASSED] - Test Cases/IOS/Wound Management/EK-8786 IS iPhone - Wound Summary: Test Cases/IOS/Wound Management/EK-8786 IS iPhone - Wound Summary
+
+14-05-2024T09:26:33 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+14-05-2024T09:26:33 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+14-05-2024T09:26:33 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/EK-8786 IS iPhone - Wound Summary.feature"): Feature file: 'Include/features/EK-8786 IS iPhone - Wound Summary.feature' was passed
+
+14-05-2024T09:26:33 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/EK-8786 IS iPhone - Wound Summary.feature' and extract report to folder: '/Users/safaamarir/git/Android_Automation/Reports/20240514_092135/IS iPhone/Wound Management/20240514_092136/cucumber_report/1715675193592'...
+
+14-05-2024T09:26:33 - [MESSAGE][PASSED] - Feature file: 'Include/features/EK-8786 IS iPhone - Wound Summary.feature' was passed
+
+14-05-2024T09:26:33 - [TEST_STEP][PASSED] - tap(findTestObject("IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 1 Trauma HeadNeck, Front Test description"), 30): Tapped on element 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 1 Trauma HeadNeck, Front Test description'
+
+14-05-2024T09:26:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound 1 Trauma HeadNeck, Front Test description'
+
+14-05-2024T09:26:34 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D 26072023"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D 26072023' is exist
+
+14-05-2024T09:26:38 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D 26072023' is exist
+
+14-05-2024T09:26:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D' is exist
+
+14-05-2024T09:26:39 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 3D' is exist
+
+14-05-2024T09:26:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound 1 Trauma"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound 1 Trauma' is exist
+
+14-05-2024T09:26:41 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound 1 Trauma' is exist
+
+14-05-2024T09:26:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound, List Patient"), "Wound, List Patient"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound, List Patient' are matched.
+
+14-05-2024T09:26:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Wound, List Patient' are matched.
+
+14-05-2024T09:26:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 14082023 Onset"), "14/08/2023 Onset"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 14082023 Onset' are matched.
+
+14-05-2024T09:26:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - 14082023 Onset' are matched.
+
+14-05-2024T09:26:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - HeadNeck, Front Test description Location"), "Head/Neck, Front Test description Location"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - HeadNeck, Front Test description Location' are matched.
+
+14-05-2024T09:26:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - HeadNeck, Front Test description Location' are matched.
+
+14-05-2024T09:26:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeStaticText - Last assessment"), "Last assessment"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeStaticText - Last assessment' are matched.
+
+14-05-2024T09:26:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeStaticText - Last assessment' are matched.
+
+14-05-2024T09:26:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - WOUND SIZE"), "WOUND SIZE"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - WOUND SIZE' are matched.
+
+14-05-2024T09:26:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - WOUND SIZE' are matched.
+
+14-05-2024T09:26:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - COLOR COMPOSITION"), "COLOR COMPOSITION"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - COLOR COMPOSITION' are matched.
+
+14-05-2024T09:26:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - COLOR COMPOSITION' are matched.
+
+14-05-2024T09:26:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Summary"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Summary' is exist
+
+14-05-2024T09:26:47 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Summary' is exist
+
+14-05-2024T09:26:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Assessment"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Assessment' is exist
+
+14-05-2024T09:26:48 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Assessment' is exist
+
+14-05-2024T09:26:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Treatment"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Treatment' is exist
+
+14-05-2024T09:26:50 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Treatment' is exist
+
+14-05-2024T09:26:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Messaging"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Messaging' is exist
+
+14-05-2024T09:26:51 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Messaging' is exist
+
+14-05-2024T09:26:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Active"), "Active"): Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Active' are matched.
+
+14-05-2024T09:26:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Active' are matched.
+
+14-05-2024T09:26:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Menu"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Menu' is visible
+
+14-05-2024T09:26:52 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - Menu' is visible
+
+14-05-2024T09:26:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement' is exist
+
+14-05-2024T09:26:53 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement' is exist
+
+14-05-2024T09:26:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement"), 30): Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement' is visible
+
+14-05-2024T09:26:54 - [MESSAGE][PASSED] - Element 'Object Repository/IOS/Wound Management/Wound Summary/XCUIElementTypeOther - New Measurement' is visible
+
+14-05-2024T09:26:56 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/IOS/Wound Management/EK-8786 IS iPhone - Wound Summary' .
+
+14-05-2024T09:26:56 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/IOS/Wound Management/EK-8786 IS iPhone - Wound Summary' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-05-2024T09:21:39 - [TEST_SUITE][PASSED] - Wound Management: Test Cases/IOS/Wound Management/EK-8786 IS iPhone - Wound Summary]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

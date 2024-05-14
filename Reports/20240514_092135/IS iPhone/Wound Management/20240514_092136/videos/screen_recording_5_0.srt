@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:00,018
+1. addDefaultPackages()
+
+2
+00:00:00,018 --> 00:00:00,023
+1. runFeatureFile("Include/features/EK-8782 IS iPhone - Change wound Status.feature")
+
+3
+00:00:00,023 --> 00:00:03,101
+5. setText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN"), "87ui", 30)
+
+4
+00:00:03,101 --> 00:00:05,000
+9. verifyElementText(findTestObject("Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site"), "Current site")
+
+5
+00:00:05,000 --> 00:00:08,007
+13. delay(3, STOP_ON_FAILURE)
+
+6
+00:00:08,007 --> 00:00:09,603
+17. tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent"), 30)
+
+7
+00:00:09,604 --> 00:00:10,507
+21. tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Wound, Statue 25072023 33M    MRN 87ui No Consent"), 30)
+
+8
+00:00:10,507 --> 00:00:12,162
+25. tap(findTestObject("Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound"), 30)
+
+9
+00:00:12,162 --> 00:00:13,132
+29. tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Active"), 30)
+
+10
+00:00:13,132 --> 00:00:14,959
+33. tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Healed"), 30)
+
+11
+00:00:14,959 --> 00:00:16,261
+37. tap(findTestObject("IOS/Wound Management/Change wound status/XCUIElementTypeOther - Save"), 30)
+
+12
+00:00:16,261 --> 00:00:18,268
+41. delay(2, STOP_ON_FAILURE)
+
+13
+00:00:18,268 --> 00:00:19,274
+45. tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back"), 30)
+
+14
+00:00:19,275 --> 00:00:21,281
+49. delay(2, STOP_ON_FAILURE)
+
+15
+00:00:21,282 --> 00:00:22,323
+53. tap(findTestObject("IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)"), 30)
+
+16
+00:00:22,323 --> 00:00:23,238
+57. tap(findTestObject("Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x"), 30)
+
