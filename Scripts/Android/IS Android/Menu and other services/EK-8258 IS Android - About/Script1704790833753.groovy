@@ -32,7 +32,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and o
 Mobile.scrollToText('App version')
 
 Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/About/android.widget.TextView - IS 2.2.1'), 
-    'IS 2.2.1')
+    'IS 2.2.3(3)')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Measurement Module'), 
     'Measurement Module:')
