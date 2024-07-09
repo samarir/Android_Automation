@@ -17,31 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/EK-8258 IS Android - About.feature')
-
-Mobile.tap(findTestObject('Android/Patient Directory/Left Menu'), 30)
-
-Mobile.tap(findTestObject('Android/Patient Directory/Account Menu (left menu)/About'), 30)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon'), 
-    'Katalon')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Katalon (1)'), 
-    'Katalon')
-
-Mobile.scrollToText('App version')
-
-Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/About/android.widget.TextView - IS 2.2.3 (3)'), 
-    'IS 2.2.3 (3)')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Measurement Module'), 
-    'Measurement Module:')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - EK001'), 
-    'EK001')
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x'), 
-    30)
-
-Mobile.closeApplication()
-
+CucumberKW.runFeatureFile('Include/features/EK-8789 IS iPhone - Add Assessement.feature')
