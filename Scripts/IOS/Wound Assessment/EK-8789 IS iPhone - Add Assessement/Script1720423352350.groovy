@@ -18,3 +18,76 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8789 IS iPhone - Add Assessement.feature')
+
+WebUI.callTestCase(findTestCase('IOS/User Management/EK-8491 IS iPhone - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'), 
+    '21ui', 30)
+
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site'), 
+    'Current site')
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Add, Assessment 09072024 34M    MRN 21ui No Consent'), 
+    30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Add, Assessment 09072024 34M    MRN 21ui No Consent'), 
+    30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Wound'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Assessment'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - New Assessment'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - WOUND EDGE'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Attached'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - PERI WOUND SKIN'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Oedema'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - PAIN'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeSlider - 0'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - DRAINAGE'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Minimum'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - ODOR'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Malodorous'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - PRESSURE INJURY STAGING'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Stage 1 i'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Save'), 30)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Wound Edge Attached'), 'Wound Edge Attached')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Peri Wound Skin Oedema'), 'Peri Wound Skin Oedema')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Pain At rest 0 - With movement 0 - At night 0'), 
+    'Pain At rest: 0 - With movement: 0 - At night: 0')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Drainage Minimum  Clear, thin, watery (Serous)'), 
+    'Drainage Minimum / Clear, thin, watery (Serous)')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Odor Malodorous'), 'Odor Malodorous')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Pressure Injury Staging Stage 1'), 
+    'Pressure Injury Staging Stage: 1')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Miscellaneous Was QoL assessment performed NA'), 
+    'Miscellaneous Was QoL assessment performed? N/A')
+
+Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back'), 30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back 2'), 30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'), 30)
+
