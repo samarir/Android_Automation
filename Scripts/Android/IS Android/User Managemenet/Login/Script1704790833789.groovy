@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('/Users/safaamarir/APK/Android/IS/IS_Preprod_234_2.2.0.apk', false)
 
-Mobile.setText(findTestObject('Android/Login Page/Username input'), "safa23", 30)
+Mobile.setText(findTestObject('Android/Login Page/Username input'), "katalon", 30)
 
 Mobile.setText(findTestObject('Android/Login Page/Password input'), "eKare123@", 30)
 
