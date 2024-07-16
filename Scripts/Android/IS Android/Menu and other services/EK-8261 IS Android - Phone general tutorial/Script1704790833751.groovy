@@ -45,3 +45,4 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Menu and 
 //Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Add a wound'),'Add a wound')
 
 Mobile.tap(findTestObject('Android/IS/Menu and other services/Phone General Tuto/android.widget.TextView - Skip'), 30)
+
