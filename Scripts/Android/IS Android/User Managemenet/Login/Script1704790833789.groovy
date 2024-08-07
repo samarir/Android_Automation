@@ -23,12 +23,16 @@ Mobile.setText(findTestObject('Android/Login Page/Username input'), "katalon", 3
 
 Mobile.setText(findTestObject('Android/Login Page/Password input'), "eKare123@", 30)
 
+
+
 Mobile.tap(findTestObject('Android/Login Page/Sign in'), 30)
 
 //Mobile.tap(findTestObject('Object Repository/Android/Draft/android.widget.TextView - OK'), 30)
 //Mobile.tap(findTestObject('Android/IS/User Management/Login/android.widget.TextView - Katalon'), 30)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 
 //Mobile.verifyElementExist(findTestObject('Android/IS/User Management/Login/android.widget.TextView - Patient Directory'), 30)
 
