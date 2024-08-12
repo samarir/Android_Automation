@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.NoSuchElementException as NoSuchElementException
 
-WebUI.callTestCase(findTestCase('Android/IS Android/User Managemenet/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'), 
     '78ui', 30)
