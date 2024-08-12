@@ -21,25 +21,28 @@ CucumberKW.runFeatureFile('Include/features/EK-8576 Treatment and WCP History.fe
 
 Mobile.scrollToText('MRN: 97ui')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.widget.TextView - MRN 97ui'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.widget.TextView - MRN 97ui'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.widget.TextView - Treatment'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.widget.TextView - Treatment'), 
+    30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (1)'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (1)'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Treatment and WCP/Treatment WCP history/android.widget.ImageView'), 30)
+Mobile.tap(findTestObject('Android/IS/Treatment and WCP/Treatment WCP history/android.widget.TextView - 03082023'), 30)
 
 Mobile.tap(findTestObject('Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (2)'), 30)
 
-Mobile.verifyElementExist(findTestObject('Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (1)'), 30)
+Mobile.verifyElementExist(findTestObject('Android/IS/Treatment and WCP/Treatment WCP history/android.view.ViewGroup (1)'), 
+    30)
 
 Mobile.pressBack()
 
 Mobile.pressBack()
 
 Mobile.pressBack()
+
