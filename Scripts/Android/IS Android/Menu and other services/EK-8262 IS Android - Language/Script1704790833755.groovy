@@ -67,7 +67,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and o
     'Einstellungen')
 
 Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/Language/android.widget.TextView - Abmelden'), 
-    'Ausloggen')
+    'Abmelden')
 
 Mobile.tap(findTestObject('Android/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'), 30)
 
