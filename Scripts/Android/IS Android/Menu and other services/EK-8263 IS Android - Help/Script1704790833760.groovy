@@ -18,38 +18,40 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8263 IS Android - Help.feature')
-Mobile.tap(findTestObject('Android/Patient Directory/Left Menu'), 30)
+
+Mobile.tap(findTestObject('Android/IS/Menu and other services/Language/android.widget.ImageView - Menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Help'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Help Center'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Help Center'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Support'),
-	'Support')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Support'), 
+    'Support')
 
-Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/Help/android.widget.TextView - Critical Notifications (2)'),
-	'Critical Notifications')
+Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/Help/android.widget.TextView - Critical Notifications (2)'), 
+    'Critical Notifications')
 
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('Android/IS/Menu and other services/Help/android.widget.TextView - Help'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Send device info'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Send device info'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Device hardware and software information will be sent to eKare for troubleshooting'),
-	'Device hardware and software information will be sent to eKare for troubleshooting')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Device hardware and software information will be sent to eKare for troubleshooting'), 
+    'Device hardware and software information will be sent to eKare for troubleshooting')
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.Button - CANCEL'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.Button - CANCEL'), 
+    30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.Button - PROCEED'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.Button - PROCEED'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Menu and other services/Help/android.widget.Button - PROCEED'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Information sent successfully'),
-	'Information sent successfully')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Information sent successfully'), 
+    'Information sent successfully')
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.Button - OK'), 30)
 
@@ -57,7 +59,9 @@ Mobile.tap(findTestObject('Android/IS/Menu and other services/Help/android.widge
 
 Mobile.tap(findTestObject('Android/IS/Menu and other services/Help/android.widget.TextView - Help'), 30)
 
-Mobile.verifyElementExist(findTestObject('Android/IS/Menu and other services/Help/android.widget.TextView - Send back up'), 30)
+Mobile.verifyElementExist(findTestObject('Android/IS/Menu and other services/Help/android.widget.TextView - Send back up'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Send back up'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Help/android.widget.TextView - Send back up'), 
+    30)
 
