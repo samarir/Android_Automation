@@ -3,8 +3,9 @@
    <description></description>
    <name>XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>5a662c2e-bf63-48a7-b24f-091b691cc7fd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -12,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeOther</value>
-      <webElementGuid>1414703b-5e7b-4db7-90af-30d286cca105</webElementGuid>
+      <webElementGuid>957bee36-d235-4830-bd92-a0d50a9a3c52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>38619390-8415-4b0f-9aeb-b82e641e151c</webElementGuid>
+      <webElementGuid>ef1230c1-a444-4327-a7dc-87d860fc224c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>97191637-71be-4fe1-b1d1-48b1fa28b23a</webElementGuid>
+      <webElementGuid>4aa6d59a-400b-4df5-a376-aaaceeb59087</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>192.0</value>
-      <webElementGuid>d6b9f4e4-07e1-4760-9f7a-d40546bb84d7</webElementGuid>
+      <webElementGuid>d2148f09-1632-4913-9af9-0146e5faef48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>14</value>
-      <webElementGuid>116d5b06-eaa3-4143-9448-70de9ec1d2c6</webElementGuid>
+      <webElementGuid>67b46a78-06f9-48f8-8864-be0f6c117ca6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent</value>
-      <webElementGuid>49a8252a-ab52-41b3-a605-e1f48b698317</webElementGuid>
+      <webElementGuid>5d550742-916d-48e8-9314-dbf69898659c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent</value>
-      <webElementGuid>39ce834d-9acb-4027-9d84-5ebb729e3b4f</webElementGuid>
+      <webElementGuid>4ff14038-e9a2-4725-bfc8-644d80691923</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>780.0</value>
-      <webElementGuid>462a9c24-f2fb-484c-a522-84ed7009956d</webElementGuid>
+      <webElementGuid>2c14bc98-2337-4d76-96a4-adc185394df7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0.0</value>
-      <webElementGuid>768c3de2-1406-4c0e-8581-b17aeba1e0d7</webElementGuid>
+      <webElementGuid>6a809f02-9cb4-46e8-9b01-c8212c57e080</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>680.0</value>
-      <webElementGuid>60917a9d-3431-45b0-8ad2-1a0d34ff2157</webElementGuid>
+      <webElementGuid>396b88fa-69ca-436f-a5ac-f5fe3af93245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,8 +93,59 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[15]</value>
-      <webElementGuid>9139f67d-0ead-458f-975c-8d7e957395de</webElementGuid>
+      <webElementGuid>e36ecae4-4ecf-43a9-8c26-625a1f46bd78</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeOther' and @label = 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent' and @name = 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent']</locator>
+   <locatorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@type = 'XCUIElementTypeOther' and @label = 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent' and @name = 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[15]</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeOther[`enabled == 1 AND label == 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent' AND name == 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent'`]</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().enabled(true).index(14)</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value>Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeOther' AND enabled == 1 AND label == 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent' AND name == 'Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent'</value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeOther</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>Generate, Report 01/08/2023 24M  /  MRN: 11ui No Consent</value>
+      </entry>
+   </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <platform>IOS</platform>
 </MobileElementEntity>

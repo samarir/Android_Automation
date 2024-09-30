@@ -18,52 +18,62 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8262 IS Android - Language.feature')
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Settings'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Settings'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English'), 
+    30)
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.view.ViewGroup'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Geschlecht'),
-	'Geschlecht')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Geschlecht'), 
+    'Geschlecht')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Geburtstag'),
-	'Geburtstag')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Geburtstag'), 
+    'Geburtstag')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Alter'),
-	'Alter')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Alter'), 
+    'Alter')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Zustimmung'),
-	'Zustimmung')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Zustimmung'), 
+    'Zustimmung')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Back'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Back'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu (1)'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Seite'),
-	'Seite')
+Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/Language/android.widget.TextView - Standort'), 
+    'Standort')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Offene Telegesundheit'),
-	'Offene Telegesundheit')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Offene Telegesundheit'), 
+    'Offene Telegesundheit')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Hilfe'),
-	'Hilfe')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Hilfe'), 
+    'Hilfe')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - ber uns'),
-	'Über uns')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - ber uns'), 
+    'Über uns')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'),
-	'Einstellungen')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'), 
+    'Einstellungen')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Ausloggen'),
-	'Ausloggen')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Ausloggen'), 
+    'Ausloggen')
 
 Mobile.tap(findTestObject('Android/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch (1)'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English (1)'), 
+    30)
+
