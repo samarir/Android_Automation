@@ -48,7 +48,7 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Change wound statues/android.widget.TextView - Save'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed'), 
+Mobile.verifyElementText(findTestObject('Android/IS/Wound Management/Change wound statues/android.widget.TextView - Healed (1)'), 
     'Healed')
 
 Mobile.pressBack()
