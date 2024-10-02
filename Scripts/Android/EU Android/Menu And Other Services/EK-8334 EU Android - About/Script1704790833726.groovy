@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8334 EU Android - About.feature')
 
-Mobile.tap(findTestObject('Android/Patient Directory/Left Menu'), 30)
+Mobile.tap(findTestObject('Android/IS/Menu and other services/Language/android.widget.ImageView - Menu'), 30)
 
 Mobile.tap(findTestObject('Android/Patient Directory/Account Menu (left menu)/About'), 30)
 
