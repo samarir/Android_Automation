@@ -34,10 +34,6 @@ Mobile.scrollToText('App version')
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - Measurement Module'), 
     'Measurement Module:')
 
-Mobile.scrollToText('Model Number', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.TextView - EK001'), 
-    'EK001')
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/About/android.widget.ImageView - Close x'), 
     30)

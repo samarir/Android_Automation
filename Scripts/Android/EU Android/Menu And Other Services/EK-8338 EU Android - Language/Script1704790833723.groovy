@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8338 EU Android - Language.feature')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu'),
+	30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Settings'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Settings'),
+	30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English'),
+	30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch'),
+	30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.view.ViewGroup'), 30)
 
@@ -41,12 +45,14 @@ Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and o
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Zustimmung'),
 	'Zustimmung')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Back'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Back'),
+	30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.ImageView - Menu (1)'),
+	30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Seite'),
-	'Seite')
+Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/Language/android.widget.TextView - Standort'),
+	'Standort')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Offene Telegesundheit'),
 	'Offene Telegesundheit')
@@ -60,11 +66,14 @@ Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and o
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'),
 	'Einstellungen')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Ausloggen'),
-	'Ausloggen')
+Mobile.verifyElementText(findTestObject('Android/IS/Menu and other services/Language/android.widget.TextView - Abmelden'),
+	'Abmelden')
 
 Mobile.tap(findTestObject('Android/IS/Menu and other services/Language/android.widget.TextView - Einstellungen'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - Deutsch (1)'),
+	30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Menu and other services/Language/android.widget.TextView - English (1)'),
+	30)
+
