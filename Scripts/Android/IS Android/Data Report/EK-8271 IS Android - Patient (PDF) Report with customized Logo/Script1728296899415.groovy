@@ -17,13 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/EK-8270 IS Android - Patient (PDF) Report with a Date Range.feature')
+CucumberKW.runFeatureFile('Include/features/EK-8271 IS Android - Patient (PDF) Report with customized Logo.feature')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Date Range'), 
-    0)
+Mobile.tap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.view.ViewGroup - logo'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Wounds'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Custom logo On the web, go to Menu  Settings'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 
     'Generate')
@@ -35,7 +34,5 @@ Mobile.doubleTap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/and
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.RelativeLayout'), 30)
-Mobile.pressBack()
-
 Mobile.pressBack()
 
