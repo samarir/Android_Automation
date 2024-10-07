@@ -21,25 +21,28 @@ CucumberKW.runFeatureFile('Include/features/EK-8269 IS Android - Patient (PDF) R
 
 Mobile.scrollToText('MRN: 11ui')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - MRN 11ui'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - MRN 11ui'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.ImageView - Menu'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.ImageView - Menu'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report'),
-	'Generate Report')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report'), 
+    'Generate Report')
 
 Mobile.tap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate Report'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'),
-	'Generate')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 
+    'Generate')
 
 Mobile.tap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 30)
 
 //Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.Button - Allow'), 30)
-Mobile.tap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - PDF reader'), 30)
+Mobile.doubleTap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - PDF reader'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
+

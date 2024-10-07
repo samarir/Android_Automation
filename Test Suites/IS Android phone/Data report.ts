@@ -22,21 +22,21 @@
       <guid>cb4a482b-fa6c-4ce7-b5bd-e3a9d94be714</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Data Report/Pateint (PDF) Report</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Data Report/EK-8269 IS Android - Patient (PDF) Report</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e23ed90b-4698-4429-a288-dae8066f032a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Data Report/PDF report logo customization</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Data Report/EK-8271 IS Android - Patient (PDF) Report with customized Logo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dd2fddb3-ee3e-467b-96e8-a044b396c934</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/IS Android/Data Report/Patient (PDF) report with date range</testCaseId>
+      <testCaseId>Test Cases/Android/IS Android/Data Report/EK-8270 IS Android - Patient (PDF) Report with a Date Range</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
