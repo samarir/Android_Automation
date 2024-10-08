@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8363 EU Android - Edit Wound.feature')
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Search by Name, Patient ID'), 
-    '86ui', 30)
+Mobile.setText(findTestObject('Android/EU/Wound Management/android.widget.EditText - 78ui'), '86ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site (1)'), 
     30)
@@ -38,12 +38,14 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wo
 
 Mobile.tap(findTestObject('Android/IS/Wound Management/Edit Wound/android.widget.ImageView - MENU (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Edit wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Edit wound'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - secondary wound type'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Stage III'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Stage III'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - facility acquired wound'), 
     30)
