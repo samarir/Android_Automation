@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8363 EU Android - Edit Wound.feature')
 
-Mobile.setText(findTestObject('Android/EU/Wound Management/android.widget.EditText - 78ui'), '86ui', 30)
+Mobile.setText(findTestObject('Android/EU/Wound Management/android.widget.EditText - Search by Name, Patient ID'), '86ui', 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site'), 
     30)

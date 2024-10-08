@@ -19,8 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8368 EU Android - Unlock Wound.feature')
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Search by Name, Patient ID'), 
-    '90ui', 30)
+Mobile.setText(findTestObject('Android/EU/Wound Management/android.widget.EditText - Search by Name, Patient ID'), '90ui', 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.widget.TextView - Current site'), 
     30)
@@ -33,14 +33,17 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.view.ViewGroup - Patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.view.ViewGroup - Patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.view.ViewGroup - Patient'), 
+    30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.view.ViewGroup - wound'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.view.ViewGroup - wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.view.ViewGroup - wound'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.widget.ImageView - menu'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.widget.ImageView - menu'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Unlock wound/android.widget.TextView - Unlock wound'), 
     'Unlock wound')
