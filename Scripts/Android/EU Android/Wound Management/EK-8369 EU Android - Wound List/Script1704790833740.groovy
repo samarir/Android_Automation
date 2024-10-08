@@ -22,14 +22,16 @@ CucumberKW.runFeatureFile('Include/features/EK-8369 EU Android - Wound List.feat
 Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Search by Name, Patient ID'), 
     '92ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.widget.TextView - Current site'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.widget.TextView - Current site (1)'), 
     30)
 
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.view.ViewGroup - patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.view.ViewGroup - patient'), 
+    30)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.widget.TextView - 92ui'), 
     '92ui')
@@ -40,7 +42,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Mana
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.widget.TextView - 09091990'), 
     '09/09/1990')
 
-Mobile.verifyElementText(findTestObject('Android/IS/Wound Management/Wound List/android.widget.TextView - 33'), '33')
+Mobile.verifyElementText(findTestObject('Android/IS/Wound Management/Wound List/android.widget.TextView - 34'), '34')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Wound List/android.widget.TextView - Active'), 
     'Active')
