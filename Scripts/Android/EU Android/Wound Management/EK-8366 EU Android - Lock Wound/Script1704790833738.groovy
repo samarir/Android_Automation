@@ -19,10 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8366 EU Android - Lock Wound.feature')
 
-Mobile.setText(findTestObject('Android/EU/Patient Management/Add Patient/android.widget.EditText - Search by Name, Patient ID'), 
-    '89ui', 30)
+Mobile.setText(findTestObject('Android/EU/Wound Management/android.widget.EditText - Search by Name, Patient ID'), '89ui', 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.TextView - Current site'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.TextView - Current site (1)'), 
     30)
@@ -32,7 +33,8 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.view.ViewGroup - Patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.view.ViewGroup - Patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.view.ViewGroup - Patient'), 
+    30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.view.ViewGroup - wound'), 
     30)
@@ -41,7 +43,8 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wo
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.ImageView - menu'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.TextView - Lock wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.TextView - Lock wound'), 
+    30)
 
 Mobile.pressBack()
 
