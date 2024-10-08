@@ -33,12 +33,14 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - Patient'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - Patient'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - Patient'), 
+    30)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - Wound'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - Wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - Wound'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Data Preparation/Wound Assessment/android.view.ViewGroup - Assessment'), 30)
 
@@ -51,49 +53,73 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Ass
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - WOUND EDGE'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Rolled'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Rolled'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Oedema'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Oedema'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PERI WOUND SKIN (1)'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PAIN'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PAIN'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.SeekBar - 0.0'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.SeekBar - 0.0'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PAIN'), 30)
 
 Mobile.tap(findTestObject('Android/EU/Wound Assessment/android.widget.TextView - EXUDATE'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Minimum'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Minimum'), 
+    30)
 
 Mobile.tap(findTestObject('Android/EU/Wound Assessment/android.widget.TextView - EXUDATE'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING'), 
     30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - stage II'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup - stage II'), 
+    30)
 
-Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING'), 30)
+Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - PRESSURE INJURY STAGING'), 
+    30)
 
 Mobile.tap(findTestObject('Android/EU/Wound Assessment/android.widget.TextView - ODOUR'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - None'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - None'), 
+    30)
 
 Mobile.tap(findTestObject('Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Save'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.view.ViewGroup (1)'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Wound Edge (1)'), 
+    'Wound Edge')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Rolled (1)'), 
+    'Rolled')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Peri Wound Skin (2)'), 
+    'Peri Wound Skin')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Oedema (1)'), 
+    'Oedema')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Pressure Injury Staging (1)'), 
+    'Pressure Injury Staging')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.TextView - Stage 1'), 
+    'Stage: 1')
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.ImageView - x'), 
     30)
-
-Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Assessment/Add Assessment/android.widget.ImageView - x'), 30)
 
