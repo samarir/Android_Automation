@@ -45,5 +45,4 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
-Mobile.pressBack()
 
