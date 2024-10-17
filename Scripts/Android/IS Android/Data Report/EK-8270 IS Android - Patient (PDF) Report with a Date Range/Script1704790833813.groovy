@@ -37,5 +37,3 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 //Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.RelativeLayout'), 30)
 Mobile.pressBack()
 
-Mobile.pressBack()
-
