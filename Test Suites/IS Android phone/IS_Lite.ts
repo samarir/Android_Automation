@@ -165,7 +165,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/IS Android phone/Sync</testSuiteEntity>
+         <testSuiteEntity>Test Suites/IS Android phone/Sync and Online mode</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

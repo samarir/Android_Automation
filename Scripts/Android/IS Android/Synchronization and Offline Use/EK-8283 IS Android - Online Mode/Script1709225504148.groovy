@@ -21,133 +21,57 @@ CucumberKW.runFeatureFile('Include/features/EK-8283 IS Android - Online Mode 1.f
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.ImageView - Menu'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.ImageView - Menu'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Settings'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Settings'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Sync Mode'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Sync Mode'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Online only'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Online only'), 
+    30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - No temporary local storage. Cannot use app without internet connection. Proceed'),
-	'No temporary local storage. Cannot use app without internet connection. Proceed?')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - No temporary local storage. Cannot use app without internet connection. Proceed'), 
+    'No temporary local storage. Cannot use app without internet connection. Proceed?')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.Button - CONFIRM'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.Button - CONFIRM'), 
+    30)
 
 Mobile.scrollToText('MRN: 12ui')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - MRN 12ui'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - MRN 12ui'), 
+    30)
 
 Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.toggleWifi('off', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.ImageView'), 30)
+WebUI.delay(5)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Next'),
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.ImageView'), 
+    30)
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Next'), 
+    30)
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Save'), 
+    30)
+
+WebUI.delay(5)
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Wound 2 Pressure Injury'),
 	30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Save'),
-	30)
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Syncing data. Please try again later'),
+	'Syncing data. Please try again later.')
 
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.view.ViewGroup'), 30)
-
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Assessment'), 30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.ImageView (1)'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - DATE'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - WOUND EDGE'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Attached'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - PERI WOUND SKIN'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Oedema'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - PERI WOUND SKIN (1)'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - PAIN'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.SeekBar - 0.0'),
-	30)
-
-Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - PAIN'), 30)
-
-Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - DRAINAGE'), 30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Moderate'),
-	30)
-
-Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - DRAINAGE'), 30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - ODOR'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Malodorous'),
-	30)
-
-Mobile.tap(findTestObject('Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - ODOR'), 30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - PRESSURE INJURY STAGING'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.view.ViewGroup (1)'), 30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Save (1)'),
+Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.Button - OK'),
 	30)
 
 Mobile.pressBack()
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/IS/Hard to find elements/android.view.ViewGroup - Treatment'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.ImageView (2)'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Next (1)'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - CLEANSING'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Acetic Acid'),
-	30)
-
-Mobile.tap(findTestObject('Object Repository/Android/IS/Synchronization and Offline Use/Online mode/android.widget.TextView - Save (2)'),
-	30)
-
-Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.toggleWifi('on', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.pressBack()
-
-Mobile.pressBack()
 
