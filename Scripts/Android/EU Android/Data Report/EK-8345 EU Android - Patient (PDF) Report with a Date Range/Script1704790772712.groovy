@@ -19,22 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8345 EU Android - Patient (PDF) Report with a Date Range.feature')
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Date Range'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Date Range'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Wounds'), 0)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Wounds'), 
+    0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'),
-	'Generate')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 
+    'Generate')
 
 Mobile.tap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - Generate'), 30)
 
-Mobile.tap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - PDF reader'), 30)
+Mobile.doubleTap(findTestObject('Android/IS/Data Report/Patient (PDF) Report/android.widget.TextView - PDF reader'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Data Report/Patient (PDF) Report/android.widget.RelativeLayout'), 30)
 Mobile.pressBack()
 
-Mobile.pressBack()
-
-Mobile.pressBack()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>EU Android Sync</name>
+   <name>EU Android Sync and Online mode</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -26,10 +26,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e46ea8aa-2cdf-4f98-9134-5725806bf455</guid>
+      <guid>7b48dc42-78bd-4c08-98fb-b9676bd82ca1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/EU Android/Synchronization and Offline Use/EK-8283 IS Android - Online Mode</testCaseId>
+      <testCaseId>Test Cases/Android/EU Android/Synchronization and Offline Use/EK-8399 EU Android - Online Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
