@@ -19,48 +19,52 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7986 IS Android - Edit Wound.feature')
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.EditText - Search by Name, MRN'),
-	'86ui', 30)
+Mobile.setText(findTestObject('Android/IS/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'), '86ui', 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site (1)'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - wound'),
-	30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - wound'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - wound'), 30)
 
 Mobile.tap(findTestObject('Android/IS/Wound Management/Edit Wound/android.widget.ImageView - MENU (1)'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Edit wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Edit wound'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - secondary wound type'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - secondary wound type'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Stage III'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Stage III'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - facility acquired wound'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.view.ViewGroup - facility acquired wound'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Next'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Additional description (Optional)'),
-	30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Additional description (Optional)'), 
+    30)
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.EditText - description'), 'Test Description',
-	30)
+Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.EditText - description'), 
+    'Test Description', 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - OK'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Save'), 30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Test Description'),
-	'Test Description')
+Mobile.verifyElementText(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Test Description'), 
+    'Test Description')
 
 Mobile.pressBack()
 
