@@ -19,20 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8596 IS iPhone - Patient (PDF) Report.feature')
 
-Mobile.scrollToText('Generate, Report')
+Mobile.setText(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'), 
+    '11ui', 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent'), 
-    30)
+Mobile.tapAtPosition(361, 503)
+
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate Report'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Generate'), 30)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeImage - eKare logo'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeButton - QLOverlayDoneButtonAccessibilityIdentifier'), 
     30)

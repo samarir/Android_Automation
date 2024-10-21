@@ -21,6 +21,8 @@ CucumberKW.runFeatureFile('Include/features/EK-8491 IS iPhone - Sign in.feature'
 
 Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
 
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'), 0)
+
 Mobile.setText(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeTextField - username'), GlobalVariable.LoginCreds.get(
         'username'), 30)
 
