@@ -19,26 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7985 IS Android - Add Wound.feature')
 
-Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'),
-	'78ui', 30)
+Mobile.setText(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'), 
+    '78ui', 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site'), 
+    30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site (1)'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Current site (1)'), 
+    30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.view.ViewGroup'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.ImageView - add wound'), 30)
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.ImageView - add wound'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Next'), 30)
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.widget.TextView - Save'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.view.ViewGroup (2)'), 30)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/IS/Wound Management/Add Wound/android.view.ViewGroup (2)'), 
+    30)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Lock Wound/android.widget.ImageView - x'), 30)
+Mobile.tap(findTestObject('Android/IS/Patient Management/Edit Patient/android.widget.ImageView - x'), 30)
 
