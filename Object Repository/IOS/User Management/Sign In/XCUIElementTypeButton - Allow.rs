@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeButton</value>
-      <webElementGuid>eb082d5f-5dc7-4457-a9b5-d4993593ba5a</webElementGuid>
+      <webElementGuid>cd3b42e6-c9ee-4863-8b79-28f390ffb45b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>45b877fc-f7e1-4905-9c40-5c00f3644769</webElementGuid>
+      <webElementGuid>698f3808-7a8c-47da-b114-385ea106fcd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>dade931c-a3d9-48a7-8f2b-dc2d57f88c64</webElementGuid>
+      <webElementGuid>cc74cf35-1d89-4770-b76f-032282ae0340</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>90.0</value>
-      <webElementGuid>1c0608fd-e99c-46fb-8cf5-bfde66e8a65a</webElementGuid>
+      <webElementGuid>99dd1348-99be-42f3-8a98-55abe9ea744d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8159409b-5526-4a89-adee-ba48ae444ac0</webElementGuid>
+      <webElementGuid>6cb1123b-e87f-4c89-955e-db482efc2a5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Allow</value>
-      <webElementGuid>4b884dd0-a90e-403e-af15-e8f206ff87cb</webElementGuid>
+      <webElementGuid>397f7c8c-6462-4613-b33e-b685184b1f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Allow</value>
-      <webElementGuid>866c531c-1132-4507-8929-c1d9c5a3725f</webElementGuid>
+      <webElementGuid>55a6a59f-0779-42cc-bee1-18a4e990c7e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>width</name>
       <type>Main</type>
       <value>270.0</value>
-      <webElementGuid>13746fc6-ab18-4e11-a810-b22726e8c8f8</webElementGuid>
+      <webElementGuid>1ecfdb4e-a934-4d43-a2a4-12d18a5bac4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>x</name>
       <type>Main</type>
       <value>390.0</value>
-      <webElementGuid>535640ae-e488-44f1-b29f-e73f9a195579</webElementGuid>
+      <webElementGuid>e73cff16-715a-40a8-9301-d719eac26284</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>y</name>
       <type>Main</type>
       <value>956.0</value>
-      <webElementGuid>fbfdd77c-6143-41be-b615-728dd9ab2ac5</webElementGuid>
+      <webElementGuid>692f88b0-b653-4d2f-ac5c-9a8a6b1a4b1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[12]/XCUIElementTypeOther[3]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]</value>
-      <webElementGuid>d6f86fb7-9b9b-4f26-9c57-c2f37274edb8</webElementGuid>
+      <webElementGuid>e3b3ce86-4d00-4674-acf8-26229bc97b1e</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeButton' and @label = 'Allow' and @name = 'Allow']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
