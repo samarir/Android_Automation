@@ -27,11 +27,16 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Managemen
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)'), 
-    30)
+// this first tap is just to remove the key board since its blocking.
 
-Mobile.tap(findTestObject('IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List 22092023 33M    MRN 92ui No Consent (1)'), 
-    30)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tapAtPosition(361, 503)
+
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Patient'), 30)
+
 
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Wound Management/Wound List/XCUIElementTypeOther - Wound, List'), 
     'Wound, List')

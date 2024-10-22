@@ -32,8 +32,16 @@ Mobile.tap(findTestObject('Object Repository/IOS/Wound Assessment/Assessment His
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Assessment/Assessment History check/XCUIElementTypeOther - All Sites'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Wound Assessment/Assessment History check/XCUIElementTypeOther - History, Check 13052024 34M    MRN 97ui Katalon No Consent'), 
-    0)
+
+// this first tap is just to remove the key board since its blocking.
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tapAtPosition(361, 503)
+
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Assessment/Assessment History check/XCUIElementTypeOther - Wound 1 Pressure Injury General'), 
     0)
