@@ -21,13 +21,14 @@ CucumberKW.runFeatureFile('Include/features/EK-8774 IS iPhone - Delete Patient.f
 
 Mobile.setText(findTestObject('IOS/Patient Management/Freeze Patient/XCUIElementTypeTextField - Search Bar'), '6766', 30)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+// this first tap is just to remove the key board since its blocking.
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 10052024 22M    MRN 6766 No Consent'), 
-    30)
+Mobile.tapAtPosition(361, 503)
 
-Mobile.tap(findTestObject('IOS/Patient Management/Delete Patient/XCUIElementTypeOther - Lite, Test 10052024 22M    MRN 6766 No Consent'), 
-    30)
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.tap(findTestObject('IOS/Patient Management/Freeze Patient/XCUIElementTypeOther - Menu'), 30)
 
