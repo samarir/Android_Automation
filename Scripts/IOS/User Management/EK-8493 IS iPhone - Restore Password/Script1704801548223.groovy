@@ -21,6 +21,8 @@ CucumberKW.runFeatureFile('Include/features/EK-8493 IS iPhone - Restore Password
 
 Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
 
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'), 30)
+
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Restore Password/XCUIElementTypeOther - Forgot your password'), 
     30)
 
