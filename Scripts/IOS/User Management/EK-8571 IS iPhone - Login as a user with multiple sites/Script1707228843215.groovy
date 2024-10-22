@@ -43,8 +43,6 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Patient'), 30)
-
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - menu'), 
     30)
 
@@ -96,8 +94,14 @@ Mobile.checkElement(findTestObject('IOS/User Management/Login as a user with mul
 Mobile.verifyElementNotExist(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther -'), 
     30)
 
-Mobile.tap(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Katalon, Patient 07022024 33M    MRN 112ui No Consent (1)'), 
-    30)
+// this first tap is just to remove the key board since its blocking.
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tapAtPosition(361, 503)
+
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.verifyElementNotExist(findTestObject('IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu Patient'), 
     30)

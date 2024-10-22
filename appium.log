@@ -1,421 +1,107 @@
 [35m[Appium][39m Welcome to Appium v2.4.1 (REV 1c98a33a376e5b35ebc801d0f7d6ba7b9eb118ac)
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m61095[39m }
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m64205[39m }
 [35m[Appium][39m Attempting to load driver xcuitest...
 [35m[Appium][39m Attempting to load driver uiautomator2...
-[Appium] Appium REST http interface listener started on http://0.0.0.0:61095/wd/hub
+[Appium] Appium REST http interface listener started on http://0.0.0.0:64205/wd/hub
 [Appium] You can provide the following URLs in your client code to connect to this server:
-[Appium] 	http://127.0.0.1:61095/wd/hub (only accessible from the same host)
-[Appium] 	http://192.168.1.108:61095/wd/hub
-[Appium] 	http://169.254.208.105:61095/wd/hub
+[Appium] 	http://127.0.0.1:64205/wd/hub (only accessible from the same host)
+[Appium] 	http://192.168.1.108:64205/wd/hub
+[Appium] 	http://169.254.208.105:64205/wd/hub
 [Appium] Available drivers:
 [Appium]   - xcuitest@5.12.2 (automationName 'XCUITest')
 [Appium]   - uiautomator2@2.40.0 (automationName 'UiAutomator2')
 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 199
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 199
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [38;5;0m[HTTP][0m {}
 [38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 199
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:automationName":"XCUITest","appium:fullReset":false,"appium:platformVersion":"18.1","appium:deviceId":"00008110-00112D590CD0201E","appium:noReset":true,"appium:udid":"00008110-00112D590CD0201E","appium:wdaLocalPort":61108,"appium:deviceName":"iPhone 13 (QC SA)","platformName":"iOS","appium:app":"/Users/safaamarir/Downloads/app.ipa"},"capabilities":{"firstMatch":[{"appium:app":"/Users/safaamarir/Downloads/app.ipa","appium:automationName":"XCUITest","appium:deviceId":"00008110-00112D590CD0201E","appium:deviceName":"iPhone 13 (QC SA)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"18.1","appium:udid":"00008110-00112D590CD0201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":61108,"platformName":"ios"}]}}
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:waitForAppScript":"true;","appium:newCommandTimeout":1800,"appium:automationName":"XCUITest","appium:fullReset":false,"appium:platformVersion":"18.1","appium:deviceId":"00008110-00112D590CD0201E","appium:noReset":true,"appium:udid":"00008110-00112D590CD0201E","appium:wdaLocalPort":64216,"appium:deviceName":"iPhone 13 (QC SA)","platformName":"iOS","appium:app":"/Users/safaamarir/Downloads/app.ipa"},"capabilities":{"firstMatch":[{"appium:app":"/Users/safaamarir/Downloads/app.ipa","appium:automationName":"XCUITest","appium:deviceId":"00008110-00112D590CD0201E","appium:deviceName":"iPhone 13 (QC SA)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"18.1","appium:udid":"00008110-00112D590CD0201E","appium:waitForAppScript":"true;","appium:wdaLocalPort":64216,"platformName":"ios"}]}}
 [Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
 [Appium] The 'xcuitest' driver was installed and matched caps.
 [Appium] Will require it at /Users/safaamarir/.appium/node_modules/appium-xcuitest-driver
-[38;5;16m[AppiumDriver@7fb2][0m Appium v2.4.1 creating new XCUITestDriver (v5.12.2) session
-[38;5;16m[AppiumDriver@7fb2][0m Checking BaseDriver versions for Appium and XCUITestDriver
-[38;5;16m[AppiumDriver@7fb2][0m Appium's BaseDriver version is 9.5.0
-[38;5;16m[AppiumDriver@7fb2][0m XCUITestDriver's BaseDriver version is 9.5.0
-[38;5;32m[XCUITestDriver@0090][0m The following provided capabilities were not recognized by this driver:
-[38;5;32m[XCUITestDriver@0090][0m   deviceId
-[38;5;32m[XCUITestDriver@0090][0m   waitForAppScript
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Session created with session id: 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Determining device to run tests on: udid: '00008110-00112D590CD0201E', real device: true
+[38;5;16m[AppiumDriver@63be][0m Appium v2.4.1 creating new XCUITestDriver (v5.12.2) session
+[38;5;16m[AppiumDriver@63be][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@63be][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@63be][0m XCUITestDriver's BaseDriver version is 9.5.0
+[38;5;32m[XCUITestDriver@867b][0m The following provided capabilities were not recognized by this driver:
+[38;5;32m[XCUITestDriver@867b][0m   deviceId
+[38;5;32m[XCUITestDriver@867b][0m   waitForAppScript
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m Session created with session id: f7f3888d-b04f-4c48-8669-d4b2226259cc
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m Determining device to run tests on: udid: '00008110-00112D590CD0201E', real device: true
 [38;5;64m[BaseDriver][0m Using local app '/Users/safaamarir/Downloads/app.ipa'
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m 'Payload/eKareApp.app' is the resulting application bundle selected from '/Users/safaamarir/Downloads/app.ipa'
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Using WDA path: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Using WDA agent: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Setting up real device
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m App 'com.ekareinc.insight.healthcare' is already installed
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m noReset is requested. The app will not be be (re)installed
-[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-00112D590CD0201E on local port 61108, device port 61108
-[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-00112D590CD0201E:61108
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m 'Payload/eKareApp.app' is the resulting application bundle selected from '/Users/safaamarir/Downloads/app.ipa'
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m Using WDA path: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m Using WDA agent: '/Users/safaamarir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m Setting up real device
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m App 'com.ekareinc.insight.healthcare' is already installed
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m noReset is requested. The app will not be be (re)installed
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-00112D590CD0201E on local port 64216, device port 64216
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-00112D590CD0201E:64216
 [38;5;112m[WD Proxy][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Launching WebDriverAgent on the device
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m There is no need to perform the project cleanup. A fresh install has been detected
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m socket hang up
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Determined the downstream protocol as 'W3C'
-[38;5;16m[AppiumDriver@7fb2][0m New XCUITestDriver session created successfully, session 745a28dc-5dbf-4b57-8970-9162a87ce7f1 added to master session list
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 37949 ms - 606
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m socket hang up
+[38;5;32m[XCUITestDriver@867b (f7f3888d)][0m Determined the downstream protocol as 'W3C'
+[38;5;16m[AppiumDriver@63be][0m New XCUITestDriver session created successfully, session f7f3888d-b04f-4c48-8669-d4b2226259cc added to master session list
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 16097 ms - 606
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1 200 1 ms - 342
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc 200 1 ms - 342
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1 200 0 ms - 342
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc 200 1 ms - 342
 [38;5;0m[HTTP][0m 
 [38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [38;5;0m[HTTP][0m {}
 [38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 199
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/timeouts[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/timeouts[39m
 [38;5;0m[HTTP][0m {"implicit":60000}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/timeouts 200 1 ms - 14
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/execute/sync[39m
 [38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 3723 ms - 149327
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/execute/sync 200 778 ms - 17904
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/screenshot[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 245 ms - 520100
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/screenshot 200 257 ms - 1301972
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 177 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 14764 ms - 20363
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/09000000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/09000000-0000-0000-AC08-000000000000/location 200 130 ms - 23
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/09000000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"09000000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/09000000-0000-0000-AC08-000000000000/click 200 526 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/execute/sync[39m
 [38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 3688 ms - 149327
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/execute/sync 200 1481 ms - 67212
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/screenshot[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 198 ms - 520116
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc/screenshot 200 187 ms - 637820
 [38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/timeouts[39m
-[38;5;0m[HTTP][0m {"implicit":1000}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/timeouts 200 2 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 791 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/location[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc[39m
 [38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/location 200 134 ms - 27
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/size[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/size 200 123 ms - 34
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 168 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 764 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/location 200 130 ms - 27
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"65000000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/65000000-0000-0000-AC08-000000000000/click 200 574 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 1627 ms - 99313
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 149 ms - 400416
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 127 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'WOUND EDGE *' and @name = 'WOUND EDGE *']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 846 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/32010000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/32010000-0000-0000-AC08-000000000000/location 200 80 ms - 26
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/32010000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"32010000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/32010000-0000-0000-AC08-000000000000/click 200 472 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 1647 ms - 103430
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 143 ms - 410260
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 120 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'Attached' and @name = 'Attached']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 1033 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/50010000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/50010000-0000-0000-AC08-000000000000/location 200 94 ms - 26
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/50010000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"50010000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/50010000-0000-0000-AC08-000000000000/click 200 505 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 1660 ms - 103430
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 137 ms - 411596
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 120 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'PERI WOUND SKIN *' and @name = 'PERI WOUND SKIN *']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 818 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/34010000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/34010000-0000-0000-AC08-000000000000/location 200 88 ms - 26
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/34010000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"34010000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/34010000-0000-0000-AC08-000000000000/click 200 488 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 2001 ms - 112880
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 141 ms - 445284
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 130 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'Oedema' and @name = 'Oedema']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 965 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/5E010000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/5E010000-0000-0000-AC08-000000000000/location 200 100 ms - 26
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/5E010000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"5E010000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/5E010000-0000-0000-AC08-000000000000/click 200 509 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 1974 ms - 112880
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 136 ms - 446520
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 122 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'Save' and @name = 'Save']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 1214 ms - 267
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/29010000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/29010000-0000-0000-AC08-000000000000/location 200 88 ms - 26
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/29010000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"29010000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/29010000-0000-0000-AC08-000000000000/click 200 501 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 3883 ms - 151216
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 202 ms - 527496
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 170 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'Wound Edge Attached, Rolled' and @name = 'Wound Edge Attached, Rolled']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 1506 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/72000000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/72000000-0000-0000-AC08-000000000000/location 200 124 ms - 26
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/72000000-0000-0000-AC08-000000000000/text[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/72000000-0000-0000-AC08-000000000000/text 200 116 ms - 90
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 3678 ms - 151216
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 181 ms - 527496
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 167 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeOther' and @label = 'Peri Wound Skin Oedema, Dry' and @name = 'Peri Wound Skin Oedema, Dry']"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 1337 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/74000000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/74000000-0000-0000-AC08-000000000000/location 200 117 ms - 26
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/74000000-0000-0000-AC08-000000000000/text[39m
-[38;5;0m[HTTP][0m {}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/74000000-0000-0000-AC08-000000000000/text 200 115 ms - 90
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 3723 ms - 151216
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 186 ms - 527424
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 3748 ms - 151216
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 191 ms - 527424
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/timeouts[39m
-[38;5;0m[HTTP][0m {"implicit":1000}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/timeouts 200 1 ms - 14
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 852 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/location 200 121 ms - 25
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/size[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/size 200 115 ms - 34
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/window/rect 200 172 ms - 48
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements[39m
-[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]"}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/elements 200 734 ms - 139
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/location[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/location 200 114 ms - 25
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/click[39m
-[38;5;0m[HTTP][0m {"id":"4E000000-0000-0000-AC08-000000000000"}
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;32m[XCUITestDriver@0090 (745a28dc)][0m Replacing sessionId C5A366C1-FFF9-4071-A676-5D6CD116005C with 745a28dc-5dbf-4b57-8970-9162a87ce7f1
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/element/4E000000-0000-0000-AC08-000000000000/click 200 532 ms - 65
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync[39m
-[38;5;0m[HTTP][0m {"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}
-[38;5;0m[HTTP][0m <-- POST /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/execute/sync 200 1565 ms - 76656
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot[39m
-[38;5;0m[HTTP][0m {}
-[38;5;0m[HTTP][0m <-- GET /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1/screenshot 200 138 ms - 482768
-[38;5;0m[HTTP][0m 
-[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1[39m
-[38;5;0m[HTTP][0m {}
-[38;5;16m[AppiumDriver@7fb2][0m Removing session 745a28dc-5dbf-4b57-8970-9162a87ce7f1 from our master session list
+[38;5;16m[AppiumDriver@63be][0m Removing session f7f3888d-b04f-4c48-8669-d4b2226259cc from our master session list
 [38;5;96m[DevCon Factory][0m Releasing connections for 00008110-00112D590CD0201E device on any port number
-[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:61108"]
-[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:61108'
-[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/745a28dc-5dbf-4b57-8970-9162a87ce7f1 200 9 ms - 14
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-00112D590CD0201E:64216"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-00112D590CD0201E:64216'
+[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/f7f3888d-b04f-4c48-8669-d4b2226259cc 200 10 ms - 14
 [38;5;0m[HTTP][0m 
 [Appium] Received SIGTERM - shutting down
 [38;5;0m[HTTP][0m Waiting until the server is closed
