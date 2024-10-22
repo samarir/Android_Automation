@@ -86,7 +86,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElement
 Mobile.verifyElementText(findTestObject('Object Repository/Draft 101/XCUIElementTypeOther - Miscellaneous Was QoL assessment performed NA'), 
     'Miscellaneous Was QoL assessment performed? N/A')
 
-Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back'), 30)
+Mobile.tap(findTestObject('IOS/Wound Assessment/Edit assessment/XCUIElementTypeOther - Back'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back 2'), 30)
 

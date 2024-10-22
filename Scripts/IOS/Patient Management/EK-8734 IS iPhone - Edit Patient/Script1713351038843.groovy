@@ -46,11 +46,10 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Managemen
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 09072001'), 
     '09/07/2001')
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - 22'), 
-    '22')
-
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 987'), 
     '987')
+
+Mobile.verifyElementText(findTestObject('IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - 23'), '23')
 
 Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Back'), 30)
 
