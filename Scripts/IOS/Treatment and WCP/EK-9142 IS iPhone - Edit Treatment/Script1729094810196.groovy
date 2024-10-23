@@ -25,13 +25,15 @@ Mobile.setText(findTestObject('Object Repository/IOS/Patient Management/Search P
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeOther - Current site'), 
     'Current site')
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//The first tap is just to remove the key board
 
-Mobile.tap(findTestObject('Object Repository/IOS/Treatment and WCP/Edit Treatment/XCUIElementTypeOther - Edit, Treatement 16102024 29M    MRN 09ui No Consent'), 
-    30)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Treatment and WCP/Edit Treatment/XCUIElementTypeOther - Edit, Treatement 16102024 29M    MRN 09ui No Consent'), 
-    30)
+Mobile.tapAtPosition(361, 503)
+
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Patient'), 30)
 
 Mobile.tap(findTestObject('IOS/Treatment and WCP/Add treatment/XCUIElementTypeOther - Wound'), 30)
 
