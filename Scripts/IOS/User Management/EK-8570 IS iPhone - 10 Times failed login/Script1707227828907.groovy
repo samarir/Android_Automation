@@ -28,23 +28,15 @@ Mobile.setText(findTestObject('IOS/User Management/Sign In/XCUIElementTypeSecure
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
     'Login failed. Incorrect credentials !')
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
-    30,FailureHandling.STOP_ON_FAILURE)
+    30, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
-
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
-
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
-    30)
-
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
     'Login failed. Incorrect credentials !')
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
@@ -52,7 +44,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
     'Login failed. Incorrect credentials !')
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
@@ -60,7 +52,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
     'Login failed. Incorrect credentials !')
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
@@ -68,7 +60,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
     'Login failed. Incorrect credentials !')
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
@@ -76,7 +68,7 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
     'Login failed. Incorrect credentials !')
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
@@ -84,24 +76,32 @@ Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
     30)
 
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
     'Login failed. Incorrect credentials !')
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
-    30)
-
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
-    'Login failed. Incorrect credentials !')
-
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
-
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
-    30)
-
-Mobile.verifyElementText(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials'), 
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Your account has been temporarily disabled due to repeated login failures. Please contact your administrator samarirmasaratapp.com'), 
     'Your account has been temporarily disabled due to repeated login failures. Please contact your administrator: samarir@masaratapp.com')
+
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
+    30)
+
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
+    'Login failed. Incorrect credentials !')
+
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
+    30)
+
+Mobile.verifyElementText(findTestObject('IOS/User Management/10 times failed login/XCUIElementTypeStaticText - Login failed. Incorrect credentials (1)'), 
+    'Login failed. Incorrect credentials !')
+
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
+
+Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeOther - SIGN IN'), 
+    30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/10 times failed login/XCUIElementTypeButton - OK'), 30)
 
