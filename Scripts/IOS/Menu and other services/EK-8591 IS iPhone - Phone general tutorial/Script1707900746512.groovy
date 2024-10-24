@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8591 IS iPhone - Phone general tutorial.feature')
 
+WebUI.callTestCase(findTestCase('IOS/User Management/EK-8491 IS iPhone - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/IOS/User Management/Login as a user with multiple sites/XCUIElementTypeOther - Menu (1)'), 
     30)
 
@@ -32,22 +34,22 @@ Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Menu and Other S
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - To start, add a new patient or select from your list'), 
     'To start, add a new patient or select from your list')
 
-Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - next'), 30)
+Mobile.swipe(650, 702, 106, 702)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Add new or select an existing wound'), 
     'Add new or select an existing wound.')
 
-Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'), 30)
+Mobile.swipe(650, 702, 106, 702)
 
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Measure wound dimensions and color composition'), 
     'Measure wound dimensions and color composition')
 
-Mobile.tap(findTestObject('Object Repository/IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'), 30)
+Mobile.swipe(650, 702, 106, 702)
 
 Mobile.verifyElementText(findTestObject('IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Enter clinical information for documentation and reporting'), 
     'Enter clinical information for documentation and reporting')
 
-Mobile.tap(findTestObject('IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeOther - Next (1)'), 0)
+Mobile.swipe(650, 702, 106, 702)
 
 Mobile.checkElement(findTestObject('IOS/Menu and Other Sevices/Phone tuto/XCUIElementTypeStaticText - Monitor wound and healing progress'), 
     0)
