@@ -28,8 +28,8 @@ Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Generate'), 30
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeImage - Custom Logo'), 30)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Name Dob Agesex Wound 2 Key Facts Etiology Location Status Facility acquired Wound 2 Assessment'), 
-    30)
+Mobile.verifyElementExist(findTestObject('IOS/Data Report/XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent'), 
+    0)
 
 Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeButton - QLOverlayDoneButtonAccessibilityIdentifier'), 30)
 

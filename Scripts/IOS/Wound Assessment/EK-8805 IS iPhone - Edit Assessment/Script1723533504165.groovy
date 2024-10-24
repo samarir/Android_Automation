@@ -58,9 +58,12 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Wound Assessment/
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Wound Assessment/Edit assessment/XCUIElementTypeOther - Peri Wound Skin Oedema, Dry'), 
     'Peri Wound Skin Oedema, Dry')
 
-Mobile.tap(findTestObject('Object Repository/IOS/Wound Assessment/Edit assessment/XCUIElementTypeOther - Back'), 30)
 
-Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Edit Wound/XCUIElementTypeOther - Press Back 2'), 30)
+Mobile.tap(findTestObject('IOS/Wound Assessment/Edit assessment/XCUIElementTypeOther - Back'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Back 2'), 30)
+
+Mobile.tap(findTestObject('IOS/Wound Assessment/Add Assessment/XCUIElementTypeOther - Back 3'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'), 30)
 
