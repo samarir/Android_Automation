@@ -21,7 +21,7 @@ CucumberKW.runFeatureFile('Include/features/EK-8569 IS iPhone - Terms and condit
 
 Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
 
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'), 30)
+//Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'), 30)
 Mobile.verifyElementExist(findTestObject('IOS/User Management/Terms and Conditions Privacy and Policy/XCUIElementTypeOther - Terms  Conditions'), 
     30)
 

@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 CucumberKW.runFeatureFile('Include/features/EK-8807 IS iPhone - Patient Assessment Questionnaire.feature')
 
 Mobile.startApplication(GlobalVariable.LoginCreds.IPA, true)
-Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'), 30)
+//Mobile.tap(findTestObject('Object Repository/IOS/User Management/Sign In/XCUIElementTypeButton - Allow'), 30)
 
 Mobile.setText(findTestObject('Object Repository/IOS/Wound Assessment/Patient Assessment/XCUIElementTypeStaticText - Username'), 
     'samarir+katalonpatient@masaratapp.com', 30)
