@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-7986 IS Android - Edit Wound.feature')
 
+WebUI.callTestCase(findTestCase('Android/IS Android/User Managemenet/EK-7993 IS Android - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.setText(findTestObject('Android/IS/Wound Management/Add Wound/android.widget.EditText - Search by Name, MRN'), '86ui', 
     30)
 
@@ -27,6 +29,8 @@ Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wo
 
 Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.TextView - Current site (1)'), 
     30)
+
+Mobile.tap(findTestObject('Object Repository/Android/IS/Wound Management/Edit Wound/android.widget.ImageView - x'), 30)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
