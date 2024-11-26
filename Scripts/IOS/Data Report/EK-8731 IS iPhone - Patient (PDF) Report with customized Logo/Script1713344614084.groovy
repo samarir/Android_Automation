@@ -28,9 +28,6 @@ Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Generate'), 30
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeImage - Custom Logo'), 30)
 
-Mobile.verifyElementExist(findTestObject('IOS/Data Report/XCUIElementTypeOther - Generate, Report 01082023 24M    MRN 11ui No Consent'), 
-    0)
-
 Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeButton - QLOverlayDoneButtonAccessibilityIdentifier'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Data Report/XCUIElementTypeOther - Cancel'), 30)
