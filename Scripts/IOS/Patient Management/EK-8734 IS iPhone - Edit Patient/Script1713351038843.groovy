@@ -35,8 +35,12 @@ Mobile.setText(findTestObject('Object Repository/IOS/Patient Management/Edit Pat
 
 Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeOther - Save'), 30)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeStaticText - Patient updated successfully'), 
     'Patient updated successfully.')
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Patient Management/Edit Patient/XCUIElementTypeButton - OK'), 30)
 
