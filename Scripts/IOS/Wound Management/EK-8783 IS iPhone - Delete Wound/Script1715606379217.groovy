@@ -26,7 +26,6 @@ Mobile.verifyElementText(findTestObject('Object Repository/IOS/Patient Managemen
     'Current site')
 
 // this first tap is just to remove the key board since its blocking.
-
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(361, 503)
@@ -35,15 +34,18 @@ Mobile.delay(2)
 
 Mobile.tap(findTestObject('IOS/Data Report/XCUIElementTypeOther - Patient'), 30)
 
-
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Wound'), 30)
 
 Mobile.tap(findTestObject('IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeOther - Delete wound'), 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased'), 
     'Delete the selected wound? All data, including all images and measurements, will be erased.')
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel'), 
     0)
