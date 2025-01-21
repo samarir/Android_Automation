@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 CucumberKW.runFeatureFile('Include/features/EK-8783 IS iPhone - Delete Wound.feature')
 
+WebUI.callTestCase(findTestCase('IOS/User Management/EK-8491 IS iPhone - Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.setText(findTestObject('Object Repository/IOS/Patient Management/Search Patient/XCUIElementTypeTextField - Search by Name, MRN'), 
     '91ui', 30)
 
@@ -39,6 +41,8 @@ Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Lock Wound/XCU
 Mobile.tap(findTestObject('IOS/Wound Management/Unlock Wound/XCUIElementTypeOther - Menu'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeOther - Delete wound'), 0)
+
+Mobile.takeScreenshot()
 
 Mobile.verifyElementText(findTestObject('IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased (1)'), 
     'Delete the selected wound? All data, including all images and measurements, will be erased.')
