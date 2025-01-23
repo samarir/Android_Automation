@@ -5,6 +5,7 @@
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -12,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-      <webElementGuid>90d4f74d-ed47-4a98-8fac-5967df7783e7</webElementGuid>
+      <webElementGuid>e2cbbc59-5bef-46a9-a8b8-f0b5e54db99d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bd05bfca-5a08-43b5-be5b-067ddedfa2cd</webElementGuid>
+      <webElementGuid>3dca1aa2-41f8-47ac-b8d2-5a5ac7f14ff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4c8e7ef8-d8a6-445f-8e29-a37f3fa18479</webElementGuid>
+      <webElementGuid>c7cde020-c2af-4f37-bc68-d260b222ad54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>122.0</value>
-      <webElementGuid>e116cb6e-ba45-492f-a430-46ef4e324d7b</webElementGuid>
+      <webElementGuid>bdc453c4-9706-4cb2-8c9b-4938b6e090e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>404f46d4-d5bd-474c-9cbf-09d102e831c0</webElementGuid>
+      <webElementGuid>ff3f6cef-ab8d-46f7-8640-6147f43dbfc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +53,7 @@
       <name>label</name>
       <type>Main</type>
       <value>Delete the selected wound? All data, including all images and measurements, will be erased.</value>
-      <webElementGuid>55523efc-dc8b-420e-bad3-d64316622098</webElementGuid>
+      <webElementGuid>e55ffa93-839c-45f3-ade7-5c652a1f43c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Delete the selected wound? All data, including all images and measurements, will be erased.</value>
-      <webElementGuid>fd401c2a-c4c0-406e-9468-4f51acf1b9a6</webElementGuid>
+      <webElementGuid>a77d2389-8187-4f78-a873-97263d8f8623</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Delete the selected wound? All data, including all images and measurements, will be erased.</value>
-      <webElementGuid>5e55d0e4-6742-4cd5-9b44-51dc6bff50d7</webElementGuid>
+      <webElementGuid>86e36df8-368e-430a-8357-98c5d3730b7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>476.0</value>
-      <webElementGuid>2147ac51-91e6-4559-befe-d6815818f873</webElementGuid>
+      <webElementGuid>778de3c7-fa3a-4c17-96e5-2df473c63af3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +85,7 @@
       <name>x</name>
       <type>Main</type>
       <value>152.0</value>
-      <webElementGuid>715d5e3e-8d1b-4277-954e-23ea0624f1b0</webElementGuid>
+      <webElementGuid>935a4323-43e0-4272-a553-8f45468ab10a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,15 +93,15 @@
       <name>y</name>
       <type>Main</type>
       <value>774.0</value>
-      <webElementGuid>b878c84a-3458-4398-8e8f-276f9b942133</webElementGuid>
+      <webElementGuid>a1404b7b-c448-421d-8ed1-3060ec4643c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]</value>
-      <webElementGuid>6a947a64-f96c-41da-b9a1-16c36d224d49</webElementGuid>
+      <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[4]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]</value>
+      <webElementGuid>161a3a03-ee09-4070-a491-83abaa6de525</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Delete the selected wound? All data, including all images and measurements, will be erased.' and @name = 'Delete the selected wound? All data, including all images and measurements, will be erased.' and @value = 'Delete the selected wound? All data, including all images and measurements, will be erased.']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
