@@ -44,20 +44,20 @@ Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/X
 
 Mobile.takeScreenshot()
 
-Mobile.verifyElementText(findTestObject('IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased (1)'), 
+Mobile.verifyElementText(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased'), 
     'Delete the selected wound? All data, including all images and measurements, will be erased.')
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel'), 
+Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel (1)'), 
     0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm'), 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm'), 0)
+Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Confirm (1)'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('IOS/Wound Management/Lock Wound/XCUIElementTypeOther - Press Back 2 (1)'), 30)
 
 Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Add Wound/XCUIElementTypeOther - x'), 30)
+
+
+
 
