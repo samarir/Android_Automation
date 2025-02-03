@@ -44,8 +44,11 @@ Mobile.tap(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/X
 
 Mobile.takeScreenshot()
 
+
+Mobile.delay(10)
 Mobile.verifyElementText(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeStaticText - Delete the selected wound All data, including all images and measurements, will be erased'), 
-    'Delete the selected wound? All data, including all images and measurements, will be erased.')
+    'Delete the selected wound? All data, including all images and measurements, will be erased.',FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/IOS/Wound Management/Delete Wound/XCUIElementTypeButton - Cancel (1)'), 
     0)
